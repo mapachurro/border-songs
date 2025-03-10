@@ -1,4 +1,28 @@
-## Songs of the limit; Cantar al...?
+# Border Songs
+
+This repository is a book of poetry. I'm not kidding, that's not a metaphor, that's literally what I'm doing here.
+
+This is a long-standing project in my head, and I'm finally ripping off the band-aid, *tira*ndome a la piscina, during Kernel Block X.
+
+There is a theme that is threaded through popular music, a very old theme in fact, which I find becomes much clearer in translation. When I've worked on this enough to explain it succinctly, I'll update this. Maybe. Or you'll have to read the book, idk, *but*:
+
+>
+> **it has to do with the limit, the border: the lines we can cross, and the lines we can't.**
+>
+
+## What is wrong with you, why is nodejs involved
+
+Because I'm incorrigible? Maybe, but also because I have an idea about how I want this text to be visually represented, and stored (IMMUTABLY !!!1!1), and iterated upon (MERKLE TRIES!!1!!), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
+
+## Full track listing
+
+There's a structure and organization to this work which follows the logic of the theme itself. This is recursive, deconstructive logic, take it or leave it. Each section in the [binder](./binder/) will have an individual track listing inside it, `track-list-{number}.md`. 
+
+# TODO 
+
+Make the section below a TOC that updates based on the individual sections' track listings.
+
+### Songs of the limit; Cantar al... limite?
 
 #### Reach the pass
 - (Wasn't born to follow)
