@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npm run start",
     "build": "npm run build",
-    "build:tracklist": "node scripts/update-tracklist.js"    
+    "build:tracklist": "node scripts/update-tracklist.js"
   },
   "repository": {
     "type": "git",
@@ -28,4 +28,8 @@
     "url": "https://github.com/mapachurro/border-songs/issues"
   },
   "homepage": "https://github.com/mapachurro/border-songs#readme",
+  "devDependencies": {
+    "doctoc": "^2.2.1",
+    "glob": "^11.0.1"
+  }
 }
