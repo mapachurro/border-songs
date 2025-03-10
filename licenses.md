@@ -1,13 +1,54 @@
-# TODO
+# Licenses applicable to this repository
 
-1. Code: DBAD
+This project includes a mix of code, translated text, and referenced copyrighted works. This document outlines the licensing approach for each part.
 
-2. Source content (songs being translated): All songs should be properly attributed, by mapachurro, to their original authors and current copyright holders. Any error in those attributions are purely accidental and corrections are welcome
+---
 
-3. Translations (mapachurro's translations of those songs): All rights reserved, copyrighted 2025 and onward by Oliver JL Renwick under US and any other applicable jurisdictions' copyright laws. No reproduction, use, etc., permitted without express permission, except that which falls under known exceptions and usages of copyrighted materials.
+## 1. Code license
 
-Also, if for some reason you like my translations and *want* to use them or cite them or whatever, please do, and again, see these provisions of DBAD:
+All original code in this repository (scripts, utilities, frontend components, etc.) is provided under the **[Don't Be A Dick License (DBAD)](https://dbad-license.org/)**.
 
-```txt
-cite the DBAD provisions about attribution and compensation
-```
+> TL;DR: You are free to use, modify, and distribute this code, provided you are not a jerk about it. See the full DBAD license for attribution and fair use provisions.
+
+---
+
+## 2. Referenced source material
+
+This project references, quotes, and translates lyrics and themes from a variety of **existing copyrighted songs**. All such content is:
+
+- Fully attributed to the original authors and/or performers
+- Used under the principle of **scholarly, transformative, and non-commercial use**
+- Provided with no intention of commercial reproduction or distribution
+
+If any attribution is incorrect or incomplete, corrections are **welcome and appreciated** — please open an issue or pull request.
+
+---
+
+## 3. Translations and commentary
+
+All translations, commentary, or derivative interpretations written by **Oliver JL Renwick (mapachurro)** are copyrighted individually as original works under:
+
+> © 2025–present Oliver JL Renwick. All rights reserved.
+
+These translations are **not licensed for reproduction, modification, or redistribution without explicit written permission**, except where fair use, quotation, or citation clearly applies.
+
+If you'd like to use these translations for any purpose, you are encouraged to do so **respectfully** — and to consider attribution, reciprocity, and good vibes in keeping with the spirit of DBAD.
+
+---
+
+## 4. Third-party dependencies
+
+This project may include frontend or build tooling such as:
+
+- [Bootstrap](https://getbootstrap.com) – licensed under the [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
+
+See the `licenses/` directory or individual license files in `/vendor` or `/public` as appropriate.
+
+---
+
+## 5. wat, speak plainly plz
+
+The goal of this project is to add to the global Body of Literature. As such, it's embedded in context, and I endeavour to cite that in a way that is factual, helpful, clear, and in compliance with legal regulation.
+
+If you are inspired or want to use the code, go ahead; if you are inspired or want to use the translations, please do so in compliance with copyright rules, and let me know :heart:
+
