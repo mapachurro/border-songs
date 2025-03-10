@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/mapachurro/border-songs/issues"
   },
-  "homepage": "https://github.com/mapachurro/border-songs#readme"
+  "homepage": "https://github.com/mapachurro/border-songs#readme",
+  "devDependencies": {
+    "doctoc": "^2.2.1"
+  }
 }

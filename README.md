@@ -10,6 +10,21 @@ There is a theme that is threaded through popular music, a very old theme in fac
 > **it has to do with the limit, the border: the lines we can cross, and the lines we can't.**
 >
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+  - [What is wrong with you, why is nodejs involved](#what-is-wrong-with-you-why-is-nodejs-involved)
+  - [Full track listing](#full-track-listing)
+- [TODO](#todo)
+    - [Songs of the limit; Cantar al... limite?](#songs-of-the-limit-cantar-al-limite)
+      - [Reach the pass](#reach-the-pass)
+      - [Behold the valley beyond](#behold-the-valley-beyond)
+      - [Alcanzar la ribera](#alcanzar-la-ribera)
+      - [Desde la otra costa](#desde-la-otra-costa)
+      - [Not sure what to do with these yet:](#not-sure-what-to-do-with-these-yet)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## What is wrong with you, why is nodejs involved
 
 Because I'm incorrigible? Maybe, but also because I have an idea about how I want this text to be visually represented, and stored (IMMUTABLY !!!1!1), and iterated upon (MERKLE TRIES!!1!!), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
