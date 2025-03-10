@@ -1,0 +1,35 @@
+{
+  "name": "border-songs",
+  "version": "0.2.0",
+  "description": "Static frontend generator for mapachurro's Border Songs project.",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run start",
+    "build": "npm run build",
+    "build:tracklist": "node scripts/update-tracklist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapachurro/border-songs.git"
+  },
+  "keywords": [
+    "translation",
+    "i18n",
+    "l10n",
+    "poetry",
+    "baladas",
+    "frontera",
+    "western"
+  ],
+  "author": "mapachurro",
+  "license": "SEE LICENSE IN ./licenses",
+  "bugs": {
+    "url": "https://github.com/mapachurro/border-songs/issues"
+  },
+  "homepage": "https://github.com/mapachurro/border-songs#readme",
+  "devDependencies": {
+    "doctoc": "^2.2.1",
+    "glob": "^11.0.1"
+  }
+}
