@@ -46,46 +46,46 @@ Mas me vale andar errante
 Donde arde el diamante menguante  
 Correr lo largo de la valle  
 Ante la montaña sagrada  
-<br />  
+<br />
 Y vagar por aquel bosque  
 Donde cosechan los arboles hojas de prismas  
 Y destellan a la luz en colores  
 Cuyos nombres se desconocen  
-<br />  
+<br />
 Y cuando llegue la hora iré a esperar  
 Al lado de la fuente de la leyenda  
 Hasta ver tu figura reflejada  
 En sus aguas nítidas enjoyadas  
-<br />  
+<br />
 Y si tu ya ves que me preparé  
 Que me lleves al abismo  
 Adonde los corriente de nuestra vista  
 Se entremezclen y se unan  
-<br />  
+<br />
 > [!NOTE]  
 > *Las estrofas siguientes no serán parte de mi traducción "definitiva", creo. Creo que la versión de McGuinn es la mas apta para este proyecto, aunque la diferencia entre las dos forma buen fundamento para el comentario.*  
 > Y me quedaré otro rato ponderando  
 > Sobre la neblina que hayan creado  
 > Y me perderé entre ella  
 > Limpiarme mente y cuerpo  
-> <br />  
+> <br />
 > Y yo sé en aquel momento  
 > Al pararme en aquel catedral  
 >  
-<br />  
+<br />
 Voy a querer sumergirme bajo  
 las blancas aguas en cascada  
-<br />  
+<br />
 Que ella me ruega, que me suplique,  
 que me lo discuta con su lógica  
 Y mencionar todas aquellas cosas que perderé  
 Que realmente carecen de valor  
-<br />  
+<br />
 > [!NOTE]  
 > Aunque dude que ella nunca  
 > llegase a entender lo que me significa  
 >  
-<br />  
+<br />
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás  
 
@@ -110,37 +110,37 @@ No, I'd rather go and journey
 Where the diamond crescents flowing  
 And run across the valley  
 Beneath the sacred mountain  
-<br />  
+<br />
 And wander through the forest  
 Where the trees have leaves of prisms  
 That break the light up into colours  
 That no one know the names of  
-<br />  
+<br />
 And when it's time I'll go and wait  
 Beside the legendary fountain  
 'Til I see her form reflected  
 In its clear and jewelled waters  
-<br />  
+<br />
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
 Flow into one another  
-<br />  
+<br />
 And I'll stay awhile and wonder  
 At the mist that they've created  
 And lose myself within it  
 Cleanse my mind and body  
-<br />  
+<br />
 And I know at that moment  
 As I stand in that cathedral  
 I will want to dive  
 Beneath the white cascading water  
-<br />  
+<br />
 She may beg and she may plead  
 And she may argue with her logic  
 Mention all the things I'll lose  
 That really have no value  
-<br />  
+<br />
 Though I doubt that she will ever  
 Come to understand my meaning  
 In the end she'll surely know  
@@ -151,27 +151,27 @@ No I'd rather go and journey
 Where the diamond crescent's glowing  
 And run across the valley  
 Beneath the sacred mountain  
-<br />  
+<br />
 And wander through the forest  
 Where the trees have leaves of prisms  
 And break the light in colors  
 That no one know the names of  
-<br />  
+<br />
 And when it's time I'll go and wait  
 Beside the legendary fountain  
 'Till I see your form reflected  
 In its clear and jewelled waters  
-<br />  
+<br />
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
 Flow into one another  
-<br />  
+<br />
 I will want to dive beneath the white cascading waters  
 She may beg, she may plead, she may argue with her logic  
 And mention all the things I'll lose  
 That really have no value in the end she will surely know  
-<br />  
+<br />
 I wasn't born to follow  
 
 ## mapachurro's attempt at reconciliation  
@@ -179,38 +179,38 @@ No I'd rather go and journey
 Where the diamond crescent's glowing  
 And run across the valley  
 Beneath the sacred mountain  
-<br />  
+<br />
 And wander through the forest  
 Where the trees have leaves of prisms  
 And break the light in colors  
 That no one know the names of  
-<br />  
+<br />
 And when it's time I'll go and lay  
 Beside the legendary fountain  
 'Till I see her form reflected  
 In its clear and jewelled waters  
-<br />  
+<br />
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
 Flow into one another  
-<br />  
+<br />
 **And I'll stay awhile and wonder  
 At the mist that they've created  
 And lose myself within it  
 Cleanse my mind and body  
-<br />  
+<br />
 And I know at that moment  
 As I stand in that cathedral**  
 I will want to dive beneath the white cascading waters  
-<br />  
+<br />
 She may beg, she may plead, she may argue with her logic  
 And mention all the things I'll lose  
 That really have no value   
-<br />  
+<br />
 **Though I doubt that she will ever  
 Come to understand my meaning  
 In the end she** will **surely know  
 I wasn**'**t born to follow**  
-<br />  
+<br />
 I wasn't born to follow  
