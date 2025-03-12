@@ -42,6 +42,45 @@ In the end she will (she'll) surely know
 I wasn't (was not) born to follow**
 
 # Target
+Mas me vale andar errante
+Donde arde el diamante menguante
+Correr lo largo de la valle
+Ante la montaña sagrada
+<br />
+Y vagar por aquel bosque
+Donde cosechan los arboles hojas de prismas
+Y le rompen la luz en colores
+Cuyos nombres se desconocen
+<br />
+Y cuando llegue la hora ire a esperar
+Al lado de la fuente de la leyenda
+Hasta ver tu figura reflejada
+Entre sus aguas nítidas enjoyadas
+<br />
+Y si tu ya ves que me preparé
+Que me lleves al abismo
+Adonde los corriente de nuestra vista
+Se entremezclen y se unan
+<br />
+Y me quedaré otro rato ponderando
+Sobre la neblina que hayan creado
+Y me perderé entre ella
+Limpiarme mente y cuerpo
+<br />
+Y yo sé en aquel momento
+Al pararme en aquel catedral
+Voy a querer sumergirme bajo
+las blancas aguas en cascada
+<br />
+Que ella me ruega, que me suplique,
+que me lo discuta con su lógica
+Y mencionar todas aquellas cosas que perderé
+Que realmente carecen de valor
+<br />
+Aunque dude que ella nunca 
+llegase a entender lo que me significa
+Al final, seguramente ella sabrá
+No nací yo para andar detrás
 
 # Commentary
 
