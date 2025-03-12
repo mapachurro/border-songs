@@ -13,7 +13,7 @@ That no one know the names of
 <br />
 And when it's time I'll go and wait   
 Beside the legendary fountain  
-'Till I see your (her) form reflected  
+'Till I see your **(her)** form reflected  
 In its clear and jewelled waters  
 <br />
 And if you think I'm ready  
@@ -39,7 +39,7 @@ That really have no value
 **(Though I doubt that she will ever  
 Come to understand my meaning)**  
 In the end she will **(she'll)** surely know  
-I was not **(was not)** born to follow**  
+I was not **(was not)** born to follow
 
 # Target
 Mas me vale andar errante  
