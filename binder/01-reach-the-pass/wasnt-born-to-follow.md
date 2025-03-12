@@ -38,8 +38,8 @@ That really have no value
 <br />
 **(Though I doubt that she will ever  
 Come to understand my meaning)**  
-In the end she will (she'll) surely know  
-I wasn't (was not) born to follow**  
+In the end she will **(she'll)** surely know  
+I was not **(was not)** born to follow**  
 
 # Target
 Mas me vale andar errante  
