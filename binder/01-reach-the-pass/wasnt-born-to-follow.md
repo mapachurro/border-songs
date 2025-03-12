@@ -1,45 +1,45 @@
 # Title: Wasn't born to follow
 
 # Source
-No I'd rather go and journey
-Where the diamond crescent's glowing
-And run across the valley
-Beneath the sacred mountain
-<br />
-And wander through the forest
-Where the trees have leaves of prisms
-And break the light in colors
-That no one know the names of
-<br />
-And when it's time I'll go and wait 
-Beside the legendary fountain
-'Till I see your (her) form reflected
-In its clear and jewelled waters
-<br />
-And if you think I'm ready
-You may lead me to the chasm
-Where the rivers of our visions
-Flow into one another
-<br />
-**(And I'll stay awhile and wonder
-At the mist that they've created
-And lose myself within it
-Cleanse my mind and body)**
-<br />
-**(And I know at that moment
-As I stand in that cathedral)**
-I will want to dive beneath 
-the white cascading waters
-<br />
-She may beg, she may plead, 
-She may argue with her logic
-And mention all the things I'll lose
-That really have no value 
-<br />
-**(Though I doubt that she will ever
-Come to understand my meaning)**
-In the end she will (she'll) surely know
-I wasn't (was not) born to follow**
+No I'd rather go and journey 
+Where the diamond crescent's glowing 
+And run across the valley 
+Beneath the sacred mountain 
+<br /> 
+And wander through the forest 
+Where the trees have leaves of prisms 
+And break the light in colors 
+That no one know the names of 
+<br /> 
+And when it's time I'll go and wait  
+Beside the legendary fountain 
+'Till I see your (her) form reflected 
+In its clear and jewelled waters 
+<br /> 
+And if you think I'm ready 
+You may lead me to the chasm 
+Where the rivers of our visions 
+Flow into one another 
+<br /> 
+**(And I'll stay awhile and wonder 
+At the mist that they've created 
+And lose myself within it 
+Cleanse my mind and body)** 
+<br /> 
+**(And I know at that moment 
+As I stand in that cathedral)** 
+I will want to dive beneath  
+the white cascading waters 
+<br /> 
+She may beg, she may plead,  
+She may argue with her logic 
+And mention all the things I'll lose 
+That really have no value  
+<br /> 
+**(Though I doubt that she will ever 
+Come to understand my meaning)** 
+In the end she will (she'll) surely know 
+I wasn't (was not) born to follow** 
 
 # Target
 Mas me vale andar errante
