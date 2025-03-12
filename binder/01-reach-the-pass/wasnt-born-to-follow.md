@@ -49,13 +49,13 @@ Ante la montaña sagrada
 <br />
 Y vagar por aquel bosque
 Donde cosechan los arboles hojas de prismas
-Y le rompen la luz en colores
+Y le rompen a la luz en colores
 Cuyos nombres se desconocen
 <br />
-Y cuando llegue la hora ire a esperar
+Y cuando llegue la hora iré a esperar
 Al lado de la fuente de la leyenda
 Hasta ver tu figura reflejada
-Entre sus aguas nítidas enjoyadas
+En sus aguas nítidas enjoyadas
 <br />
 Y si tu ya ves que me preparé
 Que me lleves al abismo
