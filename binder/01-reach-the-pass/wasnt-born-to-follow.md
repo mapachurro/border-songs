@@ -85,7 +85,6 @@ Que realmente carecen de valor
 > Aunque dude que ella nunca  
 > llegase a entender lo que me significa  
 
-<br />  
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás  
 <br />
