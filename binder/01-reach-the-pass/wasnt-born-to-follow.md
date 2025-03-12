@@ -72,7 +72,7 @@ Se entremezclen y se unan
 > Y yo sé en aquel momento  
 > Al pararme en aquel catedral  
 >  
-<br />
+<br />  
 Voy a querer sumergirme bajo  
 las blancas aguas en cascada  
 <br />
@@ -85,7 +85,7 @@ Que realmente carecen de valor
 > Aunque dude que ella nunca  
 > llegase a entender lo que me significa  
 >  
-<br />
+<br />  
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás  
 
