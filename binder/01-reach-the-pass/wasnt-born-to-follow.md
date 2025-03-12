@@ -61,7 +61,7 @@ Y si tu ya ves que me preparé
 Que me lleves al abismo  
 Adonde los corriente de nuestra vista  
 Se entremezclen y se unan  
-<br />
+
 > [!NOTE]  
 > *Las estrofas siguientes no serán parte de mi traducción "definitiva", creo. Creo que la versión de McGuinn es la más apta para este proyecto, aunque la diferencia entre las dos forma buen fundamento para el comentario.*  
 >
@@ -79,13 +79,11 @@ las blancas aguas en cascada
 Que ella me ruega, que me suplique,  
 que me lo discuta con su lógica  
 Y mencionar todas aquellas cosas que perderé  
-Que realmente carecen de valor
-<br />
->
+Que realmente carecen de valor  
+
 > [!NOTE]  
 > Aunque dude que ella nunca  
 > llegase a entender lo que me significa  
->  
 
 <br />  
 Al final, seguramente ella sabrá  
