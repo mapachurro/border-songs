@@ -91,10 +91,13 @@ No nací yo para andar detrás
 
 # Commentary
 
->
 > The difference between Goffin-King and McGuinn here is between `her` and `your` form  
+>
 > This small change opens up the story. This is not necessarily a love song or a traditional 'romance' in the medieval sense.  
-> This may be a love triangle situation. Or a conversation with something that is not human. This may be a conversation with a higher power, a god, Nature, or even some part of yourself you're looking for. Given that, at the time, McGuinn was trying to write the soundtrack for Easy Rider -- They went looking for America, and couldn't find it anywhere -- the implication that he is, in fact, Buscando America is a tantalizing one.  
+>
+> This may be a love triangle situation. Or a conversation with something that is not human. This may be a conversation with a higher power, a god, Nature, or even some part of yourself you're looking for. 
+>
+> Given that, at the time, McGuinn was trying to write the soundtrack for Easy Rider -- They went looking for America, and couldn't find it anywhere -- the implication that he is, in fact, *Buscando America* is a tantalizing one.  
 >   
 
 # Notes
