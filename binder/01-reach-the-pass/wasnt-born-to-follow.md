@@ -81,10 +81,12 @@ que me lo discuta con su lógica
 Y mencionar todas aquellas cosas que perderé  
 Que realmente carecen de valor
 <br />
+>
 > [!NOTE]  
 > Aunque dude que ella nunca  
 > llegase a entender lo que me significa  
 >  
+
 <br />  
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás  
