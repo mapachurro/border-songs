@@ -63,23 +63,23 @@ Adonde los corriente de nuestra vista
 Se entremezclen y se unan  
 <br />
 > [!NOTE]  
-> *Las estrofas siguientes no serán parte de mi traducción "definitiva", creo. Creo que la versión de McGuinn es la mas apta para este proyecto, aunque la diferencia entre las dos forma buen fundamento para el comentario.*  
+> *Las estrofas siguientes no serán parte de mi traducción "definitiva", creo. Creo que la versión de McGuinn es la más apta para este proyecto, aunque la diferencia entre las dos forma buen fundamento para el comentario.*  
+>
 > Y me quedaré otro rato ponderando  
 > Sobre la neblina que hayan creado  
 > Y me perderé entre ella  
 > Limpiarme mente y cuerpo  
-> <br />
+>   
 > Y yo sé en aquel momento  
 > Al pararme en aquel catedral  
->  
-<br />  
+
 Voy a querer sumergirme bajo  
 las blancas aguas en cascada  
 <br />
 Que ella me ruega, que me suplique,  
 que me lo discuta con su lógica  
 Y mencionar todas aquellas cosas que perderé  
-Que realmente carecen de valor  
+Que realmente carecen de valor
 <br />
 > [!NOTE]  
 > Aunque dude que ella nunca  
@@ -88,6 +88,7 @@ Que realmente carecen de valor
 <br />  
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás  
+<br />
 
 # Commentary
 
