@@ -1,5 +1,5 @@
 #### Behold the valley beyond
-- (Crossing The Bar, Alfred, Lord Tennyson)
+- Set the theme: Crossing The Bar, Alfred, Lord Tennyson
 
 - Boulder to Birmingham - Emmylou Harris
 - Farther Along - Traditional (?), The Byrds

@@ -1,5 +1,5 @@
 #### Reach the pass
-- (Wasn't born to follow)
+- Set the theme: Wasn't born to follow - Gerry Goffin, Carole King, Roger McGuinn
 
 - Return of the Grievous Angel - Gram Parsons
 - Free Mexican Air Force - NRPS?
