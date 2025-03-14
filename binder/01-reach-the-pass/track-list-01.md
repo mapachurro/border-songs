@@ -7,3 +7,4 @@
 - Mexicali Blues (?) - Robert Hunter  
 - Romance in Durango - Bob Dylan, his psychiatrist  
 - El Paso - Traditional (?), Robert Hunter?  
+- Cielito Lindo
