@@ -1,18 +1,15 @@
 // scripts/update-tracklist.js
 import fs from 'fs/promises';
 import path from 'path';
-import { glob } from 'glob';
 import { fileURLToPath } from 'url';
+import { getTrackLists } from './toc-helpers.js';
 
-// ESM __dirname replacement
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const README_PATH = path.resolve(__dirname, '../README.md');
 const START_TAG = '<!-- BEGIN FULL TRACKLIST -->';
 const END_TAG = '<!-- END FULL TRACKLIST -->';
-
-import { getTrackLists } from './toc-helpers.js';
 
 async function injectTrackListsIntoReadme() {
   const readme = await fs.readFile(README_PATH, 'utf-8');

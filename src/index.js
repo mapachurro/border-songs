@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { marked } from 'marked';
 import { fileURLToPath } from 'url';
+import { getTrackLists } from '../scripts/toc-helpers.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -17,7 +18,6 @@ async function ensureBuildDir() {
   await fs.mkdir(buildDir, { recursive: true });
 }
 
-// Utility to load and inject content into a template
 async function renderTemplate(templatePath, replacements) {
   const template = await fs.readFile(templatePath, 'utf-8');
   return Object.entries(replacements).reduce(
@@ -83,21 +83,19 @@ async function buildTitlePage() {
   await fs.writeFile(path.join(buildDir, 'index.html'), titleHtml);
 }
 
-import { getTrackLists } from '../scripts/toc-helpers.js';
-
 async function buildTOCPage() {
-  const tracklistsMarkdown = await getTrackLists(true); // enable TOC link mode
+  const tocMd = await getTrackLists(true); // markdownLinkStyle = true
   const tocHtml = await renderTemplate(tocTemplate, {
-    TOC_CONTENT: marked.parse(tracklistsMarkdown),
+    TOC_CONTENT: marked.parse(tocMd),
   });
   await fs.writeFile(path.join(buildDir, 'toc.html'), tocHtml);
 }
 
 async function copyAssets() {
-  // Copy styles.css
+  // Copy JS frontend scripts to build
+  await fs.cp(path.join(__dirname, 'js'), path.join(buildDir, 'js'), { recursive: true });
+  // Copy CSS assets to build
   await fs.copyFile(path.join(__dirname, 'styles.css'), path.join(buildDir, 'styles.css'));
-
-  // Optionally: copy selected bootstrap files
   await fs.copyFile(path.join(__dirname, 'bootstrap/bootstrap.min.css'), path.join(buildDir, 'bootstrap.min.css'));
   await fs.copyFile(path.join(__dirname, 'bootstrap/custom.css'), path.join(buildDir, 'custom.css'));
 }
