@@ -1,3 +1,9 @@
+# Title: Te dejo Madrid
+
+# Authority: Shakira
+
+# Source:
+
 Sí, ya es hora de esconder
 Del mundo el dolor bajo la piel
 Mas sé que estaré bien
@@ -21,3 +27,12 @@ Y mis labios se ven muertos de sed
 No quiero dejarlo todo al azar
 Entiendo que he comenzado a estorbar
 Pronto estaré de ti muy, muy lejos
+
+# Target:  
+
+# Commentary:  
+
+# Notes:  
+
+# Versions:  
+

@@ -1,6 +1,6 @@
-# Title:
+# Title: Why you'd want to live here
 
-# Authority: 
+# Authority: Ben Gibbard / Death Cab for Cutie
 
 # Source
 I'm in Los Angeles today  

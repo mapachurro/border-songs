@@ -1,5 +1,7 @@
 # Title: Wasn't born to follow
 
+# Authority: Carole King, George Goffin, Roger McGuinn
+
 # Source
 No I'd rather go and journey  
 Where the diamond crescent's glowing  

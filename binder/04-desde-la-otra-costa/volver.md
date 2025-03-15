@@ -1,6 +1,8 @@
-# Volver
+# Title: Volver
 
-## Carlos Gardel
+# Authority: Carlos Gardel
+
+# Source:
 
 Yo adivino el parpadeo
 I foresee the twinkling

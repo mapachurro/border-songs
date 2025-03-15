@@ -14,13 +14,17 @@ There is a theme that is threaded through popular music, a very old theme in fac
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
   - [What is wrong with you, why is nodejs involved](#what-is-wrong-with-you-why-is-nodejs-involved)
-  - [Full track listing](#full-track-listing)
-- [TODO](#todo)
-    - [Songs of the limit; Cantar al... limite?](#songs-of-the-limit-cantar-al-limite)
+- [Full track listing](#full-track-listing)
+  - [Songs of the limit; Cantar al... limite?](#songs-of-the-limit-cantar-al-limite)
+    - [Full track listing](#full-track-listing-1)
+      - [Tracklist 01 (01-reach-the-pass)](#tracklist-01-01-reach-the-pass)
       - [Reach the pass](#reach-the-pass)
+      - [Tracklist 02 (02-behold-the-valley-beyond)](#tracklist-02-02-behold-the-valley-beyond)
       - [Behold the valley beyond](#behold-the-valley-beyond)
+      - [Tracklist 03 (03-alcanzar-la-ribera)](#tracklist-03-03-alcanzar-la-ribera)
       - [Alcanzar la ribera](#alcanzar-la-ribera)
-      - [Desde la otra costa](#desde-la-otra-costa)
+      - [Tracklist 04 (04-desde-la-otra-costa)](#tracklist-04-04-desde-la-otra-costa)
+- [Desde la otra costa](#desde-la-otra-costa)
       - [Not sure what to do with these yet:](#not-sure-what-to-do-with-these-yet)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -42,30 +46,31 @@ There's a structure and organization to this work which follows the logic of the
 #### Tracklist 01 ([01-reach-the-pass](./binder/01-reach-the-pass))
 
 #### Reach the pass
-- (Wasn't born to follow)
+- Set the theme: Wasn't born to follow - Gerry Goffin, Carole King, Roger McGuinn
 
-- Return of the Grievous Angel - Gram Parsons
-- Free Mexican Air Force - NRPS?
-- Viva las Vegas - ?, Emmylou / Gram Parsons
-- Mexicali Blues (?) - Robert Hunter 
-- Romance in Durango - Bob Dylan, his psychiatrist
-- El Paso - Traditional (?), Robert Hunter?
+- Return of the Grievous Angel - Gram Parsons  
+- Free Mexican Air Force - NRPS?  
+- Viva las Vegas - ?, Emmylou / Gram Parsons  
+- Mexicali Blues (?) - Robert Hunter  
+- Romance in Durango - Bob Dylan, his psychiatrist  
+- El Paso - Traditional (?), Robert Hunter?  
+- Cielito Lindo
 
 ---
 
 #### Tracklist 02 ([02-behold-the-valley-beyond](./binder/02-behold-the-valley-beyond))
 
 #### Behold the valley beyond
-- (Crossing The Bar, Alfred, Lord Tennyson)
+- Set the theme: Crossing The Bar, Alfred, Lord Tennyson
 
-- Boulder to Birmingham - Emmylou Harris
-- Farther Along - Traditional (?), The Byrds
-- At the dark end of the street - ?, Flying Burrito Brothers
-- Wild Horses - Gram Parsons, Keith Richards (?)
-- Waylon Jennings Live! - John Darnielle
-- Fast Car - Tracy Chapman vs. that other guy
-- Landslide - Fleetwood Mac
-- Just a Season - The Byrds
+- Boulder to Birmingham - Emmylou Harris  
+- Farther Along - Traditional (?), The Byrds  
+- At the dark end of the street - ?, Flying Burrito Brothers  
+- Wild Horses - Gram Parsons, Keith Richards (?)  
+- Waylon Jennings Live! - John Darnielle  
+- Fast Car - Tracy Chapman vs. that other guy  
+- Landslide - Fleetwood Mac  
+- Just a Season - The Byrds  
 - The Road - Emmylou Harris
 
 ---
@@ -75,10 +80,10 @@ There's a structure and organization to this work which follows the logic of the
 #### Alcanzar la ribera
 - (Visa para un sueño - Juan Luis Guerra)
 
-- Buscando América - Ruben Blades
-- Malagueña salerosa - Traditional, Chingón
-- Sandinista - The Clash
-- Caminos Verdes - Ruben Blades
+- Buscando América - Ruben Blades  
+- Malagueña salerosa - Traditional, Chingón  
+- Sandinista - The Clash  
+- Caminos Verdes - Ruben Blades  
 - Pa'l Norte - Calle 13-
 
 ---
@@ -88,12 +93,14 @@ There's a structure and organization to this work which follows the logic of the
 # Desde la otra costa
 - Intro / set the theme: Clandestino - Manu Chao
 
-- Tierra del olvido - Carlos Vives
-- Frijolero - Molotov
-- Hotel California - The Eagles vs. the Gipsy Kings
-- Dancing in the Dark - Springsteen v. Juanes
-- Y nos dieron las diez - Joaquin Sabina
-- Latinoamerica - Calle 13
+- Tierra del olvido - Carlos Vives  
+- Frijolero - Molotov  
+- Hotel California - The Eagles vs. the Gipsy Kings  
+- Why you'd want to live here - Ben Gibbard / Death Cab For Cutie
+- Te dejo Madrid - Shakira  
+- Dancing in the Dark - Springsteen v. Juanes  
+- Y nos dieron las diez - Joaquin Sabina  
+- Latinoamerica - Calle 13  
 - Volver - Carlos Gardel
 
 <!-- END FULL TRACKLIST -->
