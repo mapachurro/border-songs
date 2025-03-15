@@ -1,6 +1,6 @@
 # Border songs / Canciones del límite
 
-## Oliver JL Renwick / mapachurro :raccoon:
+## Oliver JL Renwick / mapachurro 🦝
 
 ## This is a work made up of translations of popular songs and commentary.
 

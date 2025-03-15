@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { marked } from 'marked';
 import { fileURLToPath } from 'url';
-import { getTrackLists } from '../scripts/toc-helpers.js';
+import { getTrackLists, getOrderedSongPages } from '../scripts/toc-helpers.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -47,31 +47,33 @@ function splitMarkdownSections(md) {
 }
 
 async function buildContentPages() {
-  const folders = await fs.readdir(binderDir);
-  for (const folder of folders) {
-    const sectionPath = path.join(binderDir, folder);
-    const stat = await fs.stat(sectionPath);
-    if (!stat.isDirectory()) continue;
+  const songPages = await getOrderedSongPages();
 
-    const files = await fs.readdir(sectionPath);
-    for (const file of files) {
-      if (!file.endsWith('.md') || file.startsWith('track-list')) continue;
+  for (let i = 0; i < songPages.length; i++) {
+    const { folder, filename, outputPath, title } = songPages[i];
+    const filePath = path.join(binderDir, folder, filename.replace('.html', '.md'));
 
-      const filePath = path.join(sectionPath, file);
-      const raw = await fs.readFile(filePath, 'utf-8');
-      const sections = splitMarkdownSections(raw);
+    const exists = await fs.stat(filePath).then(() => true).catch(() => false);
+    if (!exists) continue;
 
-      const outputHtml = await renderTemplate(contentTemplate, {
-        TITLE: sections.title || file.replace('.md', ''),
-        TRANSLATION_HTML: marked.parse(sections.target),
-        SOURCE_HTML: marked.parse(sections.source),
-        COMMENTARY_HTML: marked.parse(sections.commentary + '\n\n' + sections.notes),
-      });
+    const raw = await fs.readFile(filePath, 'utf-8');
+    const sections = splitMarkdownSections(raw);
 
-      const outputDir = path.join(buildDir, folder);
-      await fs.mkdir(outputDir, { recursive: true });
-      await fs.writeFile(path.join(outputDir, file.replace('.md', '.html')), outputHtml);
-    }
+    const prevLink = i > 0 ? `./${songPages[i - 1].outputPath}` : '';
+    const nextLink = i < songPages.length - 1 ? `./${songPages[i + 1].outputPath}` : '';
+
+    const outputHtml = await renderTemplate(contentTemplate, {
+      TITLE: sections.title || title,
+      TRANSLATION_HTML: marked.parse(sections.target),
+      SOURCE_HTML: marked.parse(sections.source),
+      COMMENTARY_HTML: marked.parse(sections.commentary + '\n\n' + sections.notes),
+      PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href="${prevLink}">← Previous</a>` : '',
+      NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}">Next →</a>` : '',
+    });
+
+    const outputDir = path.join(buildDir, folder);
+    await fs.mkdir(outputDir, { recursive: true });
+    await fs.writeFile(path.join(outputDir, filename), outputHtml);
   }
 }
 
