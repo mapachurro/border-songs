@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+  }
+  
+  .page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+  }
+  
+  .translation {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  
+  .source {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  
+  .commentary {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+  
