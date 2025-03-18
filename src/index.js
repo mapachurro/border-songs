@@ -46,17 +46,40 @@ function splitMarkdownSections(md) {
   return sections;
 }
 
+async function getOrderedSongPagesFromFilenames() {
+  const songPages = [];
+
+  const folders = await fs.readdir(binderDir);
+  for (const folder of folders) {
+    const sectionPath = path.join(binderDir, folder);
+    const stat = await fs.stat(sectionPath);
+    if (!stat.isDirectory()) continue;
+
+    const files = (await fs.readdir(sectionPath))
+      .filter(f => f.endsWith('.md') && !f.startsWith('track-list') && /^\d+-/.test(f))
+      .sort(); // ensures 01-foo.md, 02-bar.md, etc.
+
+    for (const file of files) {
+      songPages.push({
+        title: file.replace(/^\d+-/, '').replace(/\.md$/, '').replace(/-/g, ' '),
+        folder,
+        filename: file.replace('.md', '.html'),
+        outputPath: `${folder}/${file.replace('.md', '.html')}`,
+        mdFile: path.join(sectionPath, file)
+      });
+    }
+  }
+
+  return songPages;
+}
+
 async function buildContentPages() {
-  const songPages = await getOrderedSongPages();
+  const songPages = await getOrderedSongPagesFromFilenames();
 
   for (let i = 0; i < songPages.length; i++) {
-    const { folder, filename, outputPath, title } = songPages[i];
-    const filePath = path.join(binderDir, folder, filename.replace('.html', '.md'));
+    const { folder, filename, outputPath, title, mdFile } = songPages[i];
 
-    const exists = await fs.stat(filePath).then(() => true).catch(() => false);
-    if (!exists) continue;
-
-    const raw = await fs.readFile(filePath, 'utf-8');
+    const raw = await fs.readFile(mdFile, 'utf-8');
     const sections = splitMarkdownSections(raw);
 
     const prevLink = i > 0 ? `./${songPages[i - 1].outputPath}` : '';
