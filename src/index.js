@@ -82,8 +82,12 @@ async function buildContentPages() {
     const raw = await fs.readFile(mdFile, 'utf-8');
     const sections = splitMarkdownSections(raw);
 
-    const prevLink = i > 0 ? `./${songPages[i - 1].outputPath}` : '';
-    const nextLink = i < songPages.length - 1 ? `./${songPages[i + 1].outputPath}` : '';
+    const prevLink = i > 0 ? `/${songPages[i - 1].outputPath}` : '';
+    const nextLink = i < songPages.length - 1 ? `/${songPages[i + 1].outputPath}` : '';
+    
+    console.log(`Building page ${i+1}/${songPages.length}: ${outputPath}`);
+    console.log(`  Prev link: ${prevLink || 'none'}`);
+    console.log(`  Next link: ${nextLink || 'none'}`);
 
     const outputHtml = await renderTemplate(contentTemplate, {
       TITLE: sections.title || title,
@@ -102,18 +106,92 @@ async function buildContentPages() {
 
 async function buildTitlePage() {
   const titleMd = await fs.readFile(path.join(binderDir, 'title-page.md'), 'utf-8');
+  
+  const nextLink = '/toc.html';
+  
+  console.log(`Building title page`);
+  console.log(`  Next link: ${nextLink}`);
+  
   const titleHtml = await renderTemplate(titleTemplate, {
     TITLE_CONTENT: marked.parse(titleMd),
+    PREV_BUTTON: '',
+    NEXT_BUTTON: `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>`,
   });
   await fs.writeFile(path.join(buildDir, 'index.html'), titleHtml);
 }
 
 async function buildTOCPage() {
   const tocMd = await getTrackLists(true); // markdownLinkStyle = true
+  
+  const songPages = await getOrderedSongPagesFromFilenames();
+  const nextLink = songPages.length > 0 ? `/${songPages[0].outputPath}` : '';
+  
+  console.log(`Building TOC page`);
+  console.log(`  Prev link: /index.html`);
+  console.log(`  Next link: ${nextLink || 'none'}`);
+  
   const tocHtml = await renderTemplate(tocTemplate, {
     TOC_CONTENT: marked.parse(tocMd),
+    PREV_BUTTON: '<a class="btn btn-outline-secondary" href="/index.html" data-prev="/index.html">← Title Page</a>',
+    NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
   });
   await fs.writeFile(path.join(buildDir, 'toc.html'), tocHtml);
+}
+
+async function buildTrackListPages() {
+  try {
+    console.log('Building track list pages...');
+    
+    const folders = await fs.readdir(binderDir);
+    for (const folder of folders) {
+      const sectionPath = path.join(binderDir, folder);
+      const stat = await fs.stat(sectionPath);
+      if (!stat.isDirectory()) continue;
+      
+      // Look for track-list files in each section folder
+      const files = (await fs.readdir(sectionPath))
+        .filter(f => f.startsWith('track-list') && f.endsWith('.md'));
+      
+      for (const file of files) {
+        const trackListPath = path.join(sectionPath, file);
+        const trackListContent = await fs.readFile(trackListPath, 'utf-8');
+        const outputFilename = file.replace('.md', '.html');
+        const outputPath = `${folder}/${outputFilename}`;
+        
+        console.log(`  Building track list page: ${outputPath}`);
+        
+        // Get the first song in this section for the "Next" button
+        const songsInSection = (await fs.readdir(sectionPath))
+          .filter(f => f.endsWith('.md') && !f.startsWith('track-list') && /^\d+-/.test(f))
+          .sort();
+        
+        const nextLink = songsInSection.length > 0 
+          ? `/${folder}/${songsInSection[0].replace('.md', '.html')}` 
+          : '';
+        
+        // For "Prev" button, link back to main TOC
+        const prevLink = '/toc.html';
+        
+        console.log(`    Prev link: ${prevLink}`);
+        console.log(`    Next link: ${nextLink || 'none'}`);
+        
+        // Use a simplified template for track list pages
+        const trackListHtml = await renderTemplate(tocTemplate, {
+          TOC_CONTENT: marked.parse(trackListContent),
+          PREV_BUTTON: `<a class="btn btn-outline-secondary" href="${prevLink}" data-prev="${prevLink}">← Back to TOC</a>`,
+          NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
+        });
+        
+        const outputDir = path.join(buildDir, folder);
+        await fs.mkdir(outputDir, { recursive: true });
+        await fs.writeFile(path.join(outputDir, outputFilename), trackListHtml);
+      }
+    }
+    
+    console.log('✅ Track list pages built successfully');
+  } catch (error) {
+    console.error('Error building track list pages:', error);
+  }
 }
 
 async function copyAssets() {
@@ -130,6 +208,7 @@ async function buildAll() {
   await buildContentPages();
   await buildTitlePage();
   await buildTOCPage();
+  await buildTrackListPages();
   await copyAssets();
   console.log('✅ Build complete!');
 }
