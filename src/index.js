@@ -195,12 +195,63 @@ async function buildTrackListPages() {
 }
 
 async function copyAssets() {
-  // Copy JS frontend scripts to build
-  await fs.cp(path.join(__dirname, 'js'), path.join(buildDir, 'js'), { recursive: true });
-  // Copy CSS assets to build
-  await fs.copyFile(path.join(__dirname, 'styles.css'), path.join(buildDir, 'styles.css'));
-  await fs.copyFile(path.join(__dirname, 'bootstrap/bootstrap.min.css'), path.join(buildDir, 'bootstrap.min.css'));
-  await fs.copyFile(path.join(__dirname, 'bootstrap/custom.css'), path.join(buildDir, 'custom.css'));
+  try {
+    console.log('Copying assets to build directory...');
+    
+    // Create js directory if it doesn't exist
+    await fs.mkdir(path.join(buildDir, 'js'), { recursive: true });
+    
+    // Copy JS frontend scripts to build
+    const jsFiles = await fs.readdir(path.join(__dirname, 'js'));
+    for (const file of jsFiles) {
+      console.log(`  Copying JS file: ${file}`);
+      await fs.copyFile(
+        path.join(__dirname, 'js', file), 
+        path.join(buildDir, 'js', file)
+      );
+    }
+    
+    // Copy CSS assets to build
+    console.log('  Copying styles.css');
+    await fs.copyFile(path.join(__dirname, 'styles.css'), path.join(buildDir, 'styles.css'));
+    
+    // Copy Bootstrap files
+    const bootstrapDir = path.join(__dirname, 'bootstrap');
+    if (await fs.stat(bootstrapDir).then(() => true).catch(() => false)) {
+      console.log('  Copying Bootstrap files');
+      
+      // Copy bootstrap.min.css
+      const bootstrapMinCss = path.join(bootstrapDir, 'bootstrap.min.css');
+      if (await fs.stat(bootstrapMinCss).then(() => true).catch(() => false)) {
+        console.log('    Copying bootstrap.min.css');
+        await fs.copyFile(bootstrapMinCss, path.join(buildDir, 'bootstrap.min.css'));
+      } else {
+        console.error('    bootstrap.min.css not found in bootstrap directory');
+      }
+      
+      // Copy custom.css if it exists
+      const customCss = path.join(bootstrapDir, 'custom.css');
+      if (await fs.stat(customCss).then(() => true).catch(() => false)) {
+        console.log('    Copying custom.css');
+        await fs.copyFile(customCss, path.join(buildDir, 'custom.css'));
+      }
+    } else {
+      console.error('  Bootstrap directory not found at:', bootstrapDir);
+      
+      // Fallback: Try to find bootstrap files in node_modules
+      const nodeModulesBootstrap = path.join(__dirname, '../node_modules/bootstrap/dist/css/bootstrap.min.css');
+      if (await fs.stat(nodeModulesBootstrap).then(() => true).catch(() => false)) {
+        console.log('  Using bootstrap from node_modules');
+        await fs.copyFile(nodeModulesBootstrap, path.join(buildDir, 'bootstrap.min.css'));
+      } else {
+        console.error('  Bootstrap not found in node_modules either. Please install bootstrap or provide the CSS files.');
+      }
+    }
+    
+    console.log('✅ Assets copied successfully');
+  } catch (error) {
+    console.error('Error copying assets:', error);
+  }
 }
 
 async function buildAll() {
