@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "npm run start",
-    "build": "node src/index.js, node scripts/update-tracklist.js",
+    "build": "node src/index.js && node scripts/update-tracklist.js",
     "build:tracklist": "node scripts/update-tracklist.js",
     "build:html": "node src/index.js",
     "clear": "rm -rf ./build",
