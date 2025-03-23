@@ -46,62 +46,62 @@ There's a structure and organization to this work which follows the logic of the
 #### Tracklist 01 ([01-reach-the-pass](./binder/01-reach-the-pass))
 
 #### Reach the pass
-- Set the theme: Wasn't born to follow - Gerry Goffin, Carole King, Roger McGuinn
+00 - Wasn't born to follow - Gerry Goffin, Carole  King, Roger McGuinn
 
-- Return of the Grievous Angel - Gram Parsons  
-- Free Mexican Air Force - NRPS?  
-- Viva las Vegas - ?, Emmylou / Gram Parsons  
-- Mexicali Blues (?) - Robert Hunter  
-- Romance in Durango - Bob Dylan, his psychiatrist  
-- El Paso - Traditional (?), Robert Hunter?  
-- Cielito Lindo
+01 - El Paso - Traditional (?), Robert Hunter?  
+02 - Viva las Vegas - Jello Biafra / The Dead Kennedys  
+03 - Waylon Jennings Live! - John Darnielle  
+04 - Cielito Lindo  
+05 - Free Mexican Air Force - Peter Rowan  
+06 - Mexicali Blues - Bob Weir  
+07 - Romance in Durango - Bob Dylan, his psychiatrist  
+08 - Return of the Grievous Angel - Gram Parsons
 
 ---
 
 #### Tracklist 02 ([02-behold-the-valley-beyond](./binder/02-behold-the-valley-beyond))
 
 #### Behold the valley beyond
-- Set the theme: Crossing The Bar, Alfred, Lord Tennyson
+00 - Crossing The Bar, Alfred, Lord Tennyson
 
-- Boulder to Birmingham - Emmylou Harris  
-- Farther Along - Traditional (?), The Byrds  
-- At the dark end of the street - ?, Flying Burrito Brothers  
-- Wild Horses - Gram Parsons, Keith Richards (?)  
-- Waylon Jennings Live! - John Darnielle  
-- Fast Car - Tracy Chapman vs. that other guy  
-- Landslide - Fleetwood Mac  
-- Just a Season - The Byrds  
-- The Road - Emmylou Harris
+01 - Boulder to Birmingham - Emmylou Harris  
+02 - Farther Along - Traditional (?), The Byrds  
+03 - Tierra del olvido - Carlos Vives  
+04 - Y nos dieron las diez - Joaquin Sabina  
+05 - Wild Horses - Gram Parsons, Keith Richards (?)  
+06 - Landslide - Stevie Nicks  
+07 - Just a Season - Roger McGuinn, Jacques Levy  
+08 - The Road - Emmylou Harris
 
 ---
 
 #### Tracklist 03 ([03-alcanzar-la-ribera](./binder/03-alcanzar-la-ribera))
 
 #### Alcanzar la ribera
-- (Visa para un sueño - Juan Luis Guerra)
+00 - Mama dame cien pesetas - Rafaella Carrà  
 
-- Buscando América - Ruben Blades  
-- Malagueña salerosa - Traditional, Chingón  
-- Sandinista - The Clash  
-- Caminos Verdes - Ruben Blades  
-- Pa'l Norte - Calle 13-
+01 - Malagueña salerosa - Traditional, Chingón  
+02 - Buscando América - Ruben Blades  
+03 - Fast Car - Tracy Chapman v. Eric Combs  
+04 - Visa para un sueño - Juan Luis Guerra  
+05 - Caminos Verdes - Ruben Blades  
+06 - Sandinista - The Clash  
+07 - Pa'l Norte - Calle 13
 
 ---
 
 #### Tracklist 04 ([04-desde-la-otra-costa](./binder/04-desde-la-otra-costa))
 
 # Desde la otra costa
-- Intro / set the theme: Clandestino - Manu Chao
-
-- Tierra del olvido - Carlos Vives  
-- Frijolero - Molotov  
-- Hotel California - The Eagles vs. the Gipsy Kings  
-- Why you'd want to live here - Ben Gibbard / Death Cab For Cutie
-- Te dejo Madrid - Shakira  
-- Dancing in the Dark - Springsteen v. Juanes  
-- Y nos dieron las diez - Joaquin Sabina  
-- Latinoamerica - Calle 13  
-- Volver - Carlos Gardel
+00 - Clandestino - Manu Chao
+ 
+01 - Hotel California - The Eagles v. the Gipsy Kings  
+02 - Why you'd want to live here - Ben Gibbard  
+03 - Juan Luis Guerra - El costo de la vida  
+04 - La hormiguera - Calle 13  
+05 - Frijolero - Molotov  
+06 - Dancing in the Dark - Springsteen v. Juanes  
+07 - Volver - Carlos Gardel
 
 <!-- END FULL TRACKLIST -->
 

@@ -1,12 +1,11 @@
 #### Behold the valley beyond
-- Set the theme: Crossing The Bar, Alfred, Lord Tennyson
+00 - Crossing The Bar, Alfred, Lord Tennyson
 
-- Boulder to Birmingham - Emmylou Harris  
-- Farther Along - Traditional (?), The Byrds  
-- At the dark end of the street - ?, Flying Burrito Brothers  
-- Wild Horses - Gram Parsons, Keith Richards (?)  
-- Waylon Jennings Live! - John Darnielle  
-- Fast Car - Tracy Chapman vs. that other guy  
-- Landslide - Fleetwood Mac  
-- Just a Season - The Byrds  
-- The Road - Emmylou Harris  
+01 - Boulder to Birmingham - Emmylou Harris  
+02 - Farther Along - Traditional (?), The Byrds  
+03 - Tierra del olvido - Carlos Vives  
+04 - Y nos dieron las diez - Joaquin Sabina  
+05 - Wild Horses - Gram Parsons, Keith Richards (?)  
+06 - Landslide - Stevie Nicks  
+07 - Just a Season - Roger McGuinn, Jacques Levy  
+08 - The Road - Emmylou Harris  
