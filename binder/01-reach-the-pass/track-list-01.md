@@ -3,7 +3,7 @@
 
 - Return of the Grievous Angel - Gram Parsons  
 - Free Mexican Air Force - NRPS?  
-- Viva las Vegas - ?, Emmylou / Gram Parsons  
+- Viva las Vegas - Jello Biafra / The Dead Kennedys
 - Mexicali Blues (?) - Robert Hunter  
 - Romance in Durango - Bob Dylan, his psychiatrist  
 - El Paso - Traditional (?), Robert Hunter?  
