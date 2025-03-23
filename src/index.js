@@ -90,6 +90,7 @@ async function buildContentPages() {
     console.log(`  Next link: ${nextLink || 'none'}`);
 
     const outputHtml = await renderTemplate(contentTemplate, {
+      ASSET_PATH: '../',
       TITLE: sections.title || title,
       TRANSLATION_HTML: marked.parse(sections.target),
       SOURCE_HTML: marked.parse(sections.source),
@@ -113,6 +114,7 @@ async function buildTitlePage() {
   console.log(`  Next link: ${nextLink}`);
   
   const titleHtml = await renderTemplate(titleTemplate, {
+    ASSET_PATH: '',
     TITLE_CONTENT: marked.parse(titleMd),
     PREV_BUTTON: '',
     NEXT_BUTTON: `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>`,
@@ -131,6 +133,7 @@ async function buildTOCPage() {
   console.log(`  Next link: ${nextLink || 'none'}`);
   
   const tocHtml = await renderTemplate(tocTemplate, {
+    ASSET_PATH: '',
     TOC_CONTENT: marked.parse(tocMd),
     PREV_BUTTON: '<a class="btn btn-outline-secondary" href="/index.html" data-prev="/index.html">← Title Page</a>',
     NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
@@ -177,10 +180,11 @@ async function buildTrackListPages() {
         
         // Use a simplified template for track list pages
         const trackListHtml = await renderTemplate(tocTemplate, {
+          ASSET_PATH: '../',
           TOC_CONTENT: marked.parse(trackListContent),
           PREV_BUTTON: `<a class="btn btn-outline-secondary" href="${prevLink}" data-prev="${prevLink}">← Back to TOC</a>`,
           NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
-        });
+        });        
         
         const outputDir = path.join(buildDir, folder);
         await fs.mkdir(outputDir, { recursive: true });
