@@ -82,8 +82,8 @@ async function buildContentPages() {
     const raw = await fs.readFile(mdFile, 'utf-8');
     const sections = splitMarkdownSections(raw);
 
-    const prevLink = i > 0 ? `/${songPages[i - 1].outputPath}` : '';
-    const nextLink = i < songPages.length - 1 ? `/${songPages[i + 1].outputPath}` : '';
+    const prevLink = i > 0 ? `${songPages[i - 1].outputPath}` : '';
+    const nextLink = i < songPages.length - 1 ? `${songPages[i + 1].outputPath}` : '';
     
     console.log(`Building page ${i+1}/${songPages.length}: ${outputPath}`);
     console.log(`  Prev link: ${prevLink || 'none'}`);
@@ -95,8 +95,8 @@ async function buildContentPages() {
       TRANSLATION_HTML: marked.parse(sections.target),
       SOURCE_HTML: marked.parse(sections.source),
       COMMENTARY_HTML: marked.parse(sections.commentary + '\n\n' + sections.notes),
-      PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href="${prevLink}">← Previous</a>` : '',
-      NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}">Next →</a>` : '',
+      NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
+      PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href="${prevLink}" data-prev="${prevLink}">← Previous</a>` : '',
     });
 
     const outputDir = path.join(buildDir, folder);
@@ -108,7 +108,7 @@ async function buildContentPages() {
 async function buildTitlePage() {
   const titleMd = await fs.readFile(path.join(binderDir, 'title-page.md'), 'utf-8');
   
-  const nextLink = '/toc.html';
+  const nextLink = 'toc.html';
   
   console.log(`Building title page`);
   console.log(`  Next link: ${nextLink}`);
@@ -126,7 +126,7 @@ async function buildTOCPage() {
   const tocMd = await getTrackLists(true); // markdownLinkStyle = true
   
   const songPages = await getOrderedSongPagesFromFilenames();
-  const nextLink = songPages.length > 0 ? `/${songPages[0].outputPath}` : '';
+  const nextLink = songPages.length > 0 ? `${songPages[0].outputPath}` : '';
   
   console.log(`Building TOC page`);
   console.log(`  Prev link: /index.html`);
@@ -135,7 +135,7 @@ async function buildTOCPage() {
   const tocHtml = await renderTemplate(tocTemplate, {
     ASSET_PATH: '',
     TOC_CONTENT: marked.parse(tocMd),
-    PREV_BUTTON: '<a class="btn btn-outline-secondary" href="/index.html" data-prev="/index.html">← Title Page</a>',
+    PREV_BUTTON: '<a class="btn btn-outline-secondary" href="index.html" data-prev="index.html">← Title Page</a>',
     NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
   });
   await fs.writeFile(path.join(buildDir, 'toc.html'), tocHtml);
@@ -169,11 +169,11 @@ async function buildTrackListPages() {
           .sort();
         
         const nextLink = songsInSection.length > 0 
-          ? `/${folder}/${songsInSection[0].replace('.md', '.html')}` 
+          ? `${folder}/${songsInSection[0].replace('.md', '.html')}` 
           : '';
         
         // For "Prev" button, link back to main TOC
-        const prevLink = '/toc.html';
+        const prevLink = 'toc.html';
         
         console.log(`    Prev link: ${prevLink}`);
         console.log(`    Next link: ${nextLink || 'none'}`);
@@ -182,8 +182,8 @@ async function buildTrackListPages() {
         const trackListHtml = await renderTemplate(tocTemplate, {
           ASSET_PATH: '../',
           TOC_CONTENT: marked.parse(trackListContent),
-          PREV_BUTTON: `<a class="btn btn-outline-secondary" href="${prevLink}" data-prev="${prevLink}">← Back to TOC</a>`,
-          NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
+          NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href=".${nextLink}" data-next=".${nextLink}">Next →</a>` : '',
+          PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href=".${prevLink}" data-prev=".${prevLink}">← Previous</a>` : '',
         });        
         
         const outputDir = path.join(buildDir, folder);
@@ -202,6 +202,9 @@ async function copyAssets() {
   try {
     console.log('Copying assets to build directory...');
     
+    // Ensure there's a nojekyll file for GH Pages deployment
+    await fs.writeFile(path.join(buildDir, '.nojekyll'), '');
+
     // Create js directory if it doesn't exist
     await fs.mkdir(path.join(buildDir, 'js'), { recursive: true });
     
