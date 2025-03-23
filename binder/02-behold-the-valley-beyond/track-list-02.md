@@ -5,7 +5,6 @@
 - Farther Along - Traditional (?), The Byrds  
 - At the dark end of the street - ?, Flying Burrito Brothers  
 - Wild Horses - Gram Parsons, Keith Richards (?)  
-- Waylon Jennings Live! - John Darnielle  
 - Fast Car - Tracy Chapman vs. that other guy  
 - Landslide - Fleetwood Mac  
 - Just a Season - The Byrds  

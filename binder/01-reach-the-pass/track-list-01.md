@@ -1,10 +1,11 @@
 #### Reach the pass
 - Set the theme: Wasn't born to follow - Gerry Goffin, Carole King, Roger McGuinn
 
-- Return of the Grievous Angel - Gram Parsons  
-- Free Mexican Air Force - NRPS?  
+- El Paso - Traditional (?), Robert Hunter? 
 - Viva las Vegas - Jello Biafra / The Dead Kennedys
-- Mexicali Blues (?) - Robert Hunter  
+- Cielito Lindo  
+- Free Mexican Air Force - Peter Rowan
+- Mexicali Blues - Bob Weir  
+- Waylon Jennings Live! - John Darnielle  
 - Romance in Durango - Bob Dylan, his psychiatrist  
-- El Paso - Traditional (?), Robert Hunter?  
-- Cielito Lindo
+- Return of the Grievous Angel - Gram Parsons 
