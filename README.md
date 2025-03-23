@@ -48,11 +48,11 @@ There's a structure and organization to this work which follows the logic of the
 #### Reach the pass
 00 - Wasn't born to follow - Gerry Goffin, Carole  King, Roger McGuinn
 
-01 - El Paso - Traditional (?), Robert Hunter? 
-02 - Viva las Vegas - Jello Biafra / The Dead Kennedys
-03 - Waylon Jennings Live! - John Darnielle 
-04 - Cielito Lindo
-05 - Free Mexican Air Force - Peter Rowan
+01 - El Paso - Traditional (?), Robert Hunter?  
+02 - Viva las Vegas - Jello Biafra / The Dead Kennedys  
+03 - Waylon Jennings Live! - John Darnielle  
+04 - Cielito Lindo  
+05 - Free Mexican Air Force - Peter Rowan  
 06 - Mexicali Blues - Bob Weir  
 07 - Romance in Durango - Bob Dylan, his psychiatrist  
 08 - Return of the Grievous Angel - Gram Parsons
@@ -70,7 +70,7 @@ There's a structure and organization to this work which follows the logic of the
 04 - Y nos dieron las diez - Joaquin Sabina  
 05 - Wild Horses - Gram Parsons, Keith Richards (?)  
 06 - Landslide - Stevie Nicks  
-07 - Just a Season - Roger McGuinn, Jacques Levy
+07 - Just a Season - Roger McGuinn, Jacques Levy  
 08 - The Road - Emmylou Harris
 
 ---
@@ -78,15 +78,15 @@ There's a structure and organization to this work which follows the logic of the
 #### Tracklist 03 ([03-alcanzar-la-ribera](./binder/03-alcanzar-la-ribera))
 
 #### Alcanzar la ribera
-00: Mama dame cien pesetas - Rafaella Carrà
+00 - Mama dame cien pesetas - Rafaella Carrà  
 
-01: Malagueña salerosa - Traditional, Chingón 
-02: Buscando América - Ruben Blades  
-03: Fast Car - Tracy Chapman v. Eric Combs 
-04: Visa para un sueño - Juan Luis Guerra
-05: Caminos Verdes - Ruben Blades 
-06: Sandinista - The Clash  
-07: Pa'l Norte - Calle 13
+01 - Malagueña salerosa - Traditional, Chingón  
+02 - Buscando América - Ruben Blades  
+03 - Fast Car - Tracy Chapman v. Eric Combs  
+04 - Visa para un sueño - Juan Luis Guerra  
+05 - Caminos Verdes - Ruben Blades  
+06 - Sandinista - The Clash  
+07 - Pa'l Norte - Calle 13
 
 ---
 
@@ -96,10 +96,10 @@ There's a structure and organization to this work which follows the logic of the
 00 - Clandestino - Manu Chao
  
 01 - Hotel California - The Eagles v. the Gipsy Kings  
-02 - Why you'd want to live here - Ben Gibbard
-03 - Juan Luis Guerra - El costo de la vida
-04 - La hormiguera - Calle 13
-05 - Frijolero - Molotov 
+02 - Why you'd want to live here - Ben Gibbard  
+03 - Juan Luis Guerra - El costo de la vida  
+04 - La hormiguera - Calle 13  
+05 - Frijolero - Molotov  
 06 - Dancing in the Dark - Springsteen v. Juanes  
 07 - Volver - Carlos Gardel
 
