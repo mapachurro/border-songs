@@ -95,8 +95,8 @@ async function buildContentPages() {
       TRANSLATION_HTML: marked.parse(sections.target),
       SOURCE_HTML: marked.parse(sections.source),
       COMMENTARY_HTML: marked.parse(sections.commentary + '\n\n' + sections.notes),
-      PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href="${prevLink}">← Previous</a>` : '',
-      NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}">Next →</a>` : '',
+      NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
+      PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href="${prevLink}" data-prev="${prevLink}">← Previous</a>` : '',
     });
 
     const outputDir = path.join(buildDir, folder);
@@ -182,8 +182,8 @@ async function buildTrackListPages() {
         const trackListHtml = await renderTemplate(tocTemplate, {
           ASSET_PATH: '../',
           TOC_CONTENT: marked.parse(trackListContent),
-          PREV_BUTTON: `<a class="btn btn-outline-secondary" href="${prevLink}" data-prev="${prevLink}">← Back to TOC</a>`,
-          NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href="${nextLink}" data-next="${nextLink}">Next →</a>` : '',
+          NEXT_BUTTON: nextLink ? `<a class="btn btn-outline-secondary" href=".${nextLink}" data-next=".${nextLink}">Next →</a>` : '',
+          PREV_BUTTON: prevLink ? `<a class="btn btn-outline-secondary" href=".${prevLink}" data-prev=".${prevLink}">← Previous</a>` : '',
         });        
         
         const outputDir = path.join(buildDir, folder);
