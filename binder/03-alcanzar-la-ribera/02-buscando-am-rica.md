@@ -70,6 +70,24 @@ Hoy ponerte en libertad
 
 # Target:  
 
+I search for you, America  
+And I fear that I won't find you
+Your trail has been lost
+In the darkness
+
+I call for you, America,
+But you don't respond  
+Those that fear the truth
+Have disappeared you  
+
+Shrouded in shadow 
+We deny what is true
+As long as there is no justice
+We will never have peace
+
+Living in dictatorships
+I search for you and can't find you 
+
 # Commentary:  
 
 # Notes:  
