@@ -197,7 +197,7 @@ async function buildTrackListPages() {
 async function copyAssets() {
   try {
     console.log('Copying assets to build directory...');
-    
+
     // Create js directory if it doesn't exist
     await fs.mkdir(path.join(buildDir, 'js'), { recursive: true });
     
