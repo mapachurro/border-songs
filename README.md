@@ -43,7 +43,8 @@ There's a structure and organization to this work which follows the logic of the
 
 ### Full track listing
 
-#### Tracklist 01 ([01-reach-the-pass](./binder/01-reach-the-pass))
+<details>
+<summary><strong>Tracklist 01 – 01-reach-the-pass</strong></summary>
 
 #### Reach the pass
 00 - Wasn't born to follow - Gerry Goffin, Carole  King, Roger McGuinn
@@ -56,10 +57,10 @@ There's a structure and organization to this work which follows the logic of the
 06 - Mexicali Blues - Bob Weir  
 07 - Romance in Durango - Bob Dylan, his psychiatrist  
 08 - Return of the Grievous Angel - Gram Parsons
+</details>
 
----
-
-#### Tracklist 02 ([02-behold-the-valley-beyond](./binder/02-behold-the-valley-beyond))
+<details>
+<summary><strong>Tracklist 02 – 02-behold-the-valley-beyond</strong></summary>
 
 #### Behold the valley beyond
 00 - Crossing The Bar, Alfred, Lord Tennyson
@@ -72,10 +73,10 @@ There's a structure and organization to this work which follows the logic of the
 06 - Landslide - Stevie Nicks  
 07 - Just a Season - Roger McGuinn, Jacques Levy  
 08 - The Road - Emmylou Harris
+</details>
 
----
-
-#### Tracklist 03 ([03-alcanzar-la-ribera](./binder/03-alcanzar-la-ribera))
+<details>
+<summary><strong>Tracklist 03 – 03-alcanzar-la-ribera</strong></summary>
 
 #### Alcanzar la ribera
 00 - Mama dame cien pesetas - Rafaella Carrà  
@@ -87,10 +88,10 @@ There's a structure and organization to this work which follows the logic of the
 05 - Caminos Verdes - Ruben Blades  
 06 - Sandinista - The Clash  
 07 - Pa'l Norte - Calle 13
+</details>
 
----
-
-#### Tracklist 04 ([04-desde-la-otra-costa](./binder/04-desde-la-otra-costa))
+<details>
+<summary><strong>Tracklist 04 – 04-desde-la-otra-costa</strong></summary>
 
 # Desde la otra costa
 00 - Clandestino - Manu Chao
@@ -102,6 +103,7 @@ There's a structure and organization to this work which follows the logic of the
 05 - Frijolero - Molotov  
 06 - Dancing in the Dark - Springsteen v. Juanes  
 07 - Volver - Carlos Gardel
+</details>
 
 <!-- END FULL TRACKLIST -->
 

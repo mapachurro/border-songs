@@ -7,58 +7,58 @@ No I'd rather go and journey
 Where the diamond crescent's glowing  
 And run across the valley  
 Beneath the sacred mountain  
-<br />
+<br />  
 And wander through the forest  
 Where the trees have leaves of prisms  
 And break the light in colors  
 That no one know the names of  
-<br />
+<br />  
 And when it's time I'll go and wait   
 Beside the legendary fountain  
 'Till I see your **(her)** form reflected  
 In its clear and jewelled waters  
-<br />
+<br />  
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
 Flow into one another  
-<br />
+<br />  
 **(And I'll stay awhile and wonder  
 At the mist that they've created  
 And lose myself within it  
 Cleanse my mind and body)**  
-<br />
+<br />  
 **(And I know at that moment  
 As I stand in that cathedral)**  
 I will want to dive beneath   
 the white cascading waters  
-<br />
+<br />  
 She may beg, she may plead,   
 She may argue with her logic  
 And mention all the things I'll lose  
 That really have no value   
-<br />
+<br />  
 **(Though I doubt that she will ever  
 Come to understand my meaning)**  
 In the end she will **(she'll)** surely know  
-I was not **(was not)** born to follow
+I was not **(was not)** born to follow  
 
 # Target
 Mas me vale andar errante  
 Donde arde el diamante menguante  
 Correr lo largo de la valle  
 Ante la montaña sagrada  
-<br />
+<br />  
 Y vagar por aquel bosque  
 Donde cosechan los arboles hojas de prismas  
 Y destellan a la luz en colores  
 Cuyos nombres se desconocen  
-<br />
+<br />  
 Y cuando llegue la hora iré a esperar  
 Al lado de la fuente de la leyenda  
 Hasta ver tu figura reflejada  
 En sus aguas nítidas enjoyadas  
-<br />
+<br />  
 Y si tu ya ves que me preparé  
 Que me lleves al abismo  
 Adonde los corriente de nuestra vista  
@@ -66,7 +66,7 @@ Se entremezclen y se unan
 
 > [!NOTE]  
 > *Las estrofas siguientes no serán parte de mi traducción "definitiva", creo. Creo que la versión de McGuinn es la más apta para este proyecto, aunque la diferencia entre las dos forma buen fundamento para el comentario.*  
->
+>  
 > Y me quedaré otro rato ponderando  
 > Sobre la neblina que hayan creado  
 > Y me perderé entre ella  
@@ -77,7 +77,7 @@ Se entremezclen y se unan
 
 Voy a querer sumergirme bajo  
 las blancas aguas en cascada  
-<br />
+<br />  
 Que ella me ruega, que me suplique,  
 que me lo discuta con su lógica  
 Y mencionar todas aquellas cosas que perderé  
@@ -89,7 +89,7 @@ Que realmente carecen de valor
 
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás  
-<br />
+<br />  
 
 # Commentary
 
