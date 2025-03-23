@@ -164,4 +164,21 @@ De aqui vuelo
 
 # Notes:  
 
+This piece is heavily intertextual in several dimensions.
+
+Emmylou's relationship to Gram took on a legendary dimension over the decades, inclduing that bizarre piece of work by First Aid Kit. This song was ranked by Rolling Stone as one of the greatest country songs of all time. Emmylou covered a number of Gram's pieces on albums, mainly in the seventies, as well as covers by a lot of other artists. In fact, some of her albums include almost no original songwriting.
+
+So the predecessor to this song, "Boulder to Birmingham", was never just another Emmylou track. On the album on which it was released, it stands out, in a class of its own. And it's notable, as a piece of her own writing.
+
+Over the years, she started doing more of her own writing, but she notably never wrote about Gram again on this level, until "The Road". So there are several motifs and specific word choices present in both songs, which tie the two together at the lyrical and lexical levels, and in translation, must be acknowledged, and the connection should be maintained. For example:
+
+-wilderness
+-coming down from the mountain
+
+However, "coming down from the mountain" is a longstanding country western - bluegrass - Scots traditional ballad trope, and has meaning of its own.
+
+And immediately *on the heels* of that, we have "walking in your shoes"; there are Biblical references, "To everything there is a season", which also echoes the Byrds' cover of "Turn, Turn, Turn"; after all, Gram himself was tightly tied to the Byrds. As tight as he could be tied to anything.
+
+So: Getting the translation of this *right*, in addition to Emmylou's difficult syllabic structure and, IIRC, shifting rhyme scheme, is challenging.
+
 # Versions:  
