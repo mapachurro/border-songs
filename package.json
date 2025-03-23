@@ -1,11 +1,12 @@
 {
   "name": "border-songs",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "test": "npm run start",
+    "prebuild": "npm run scripts/add-linebreaks.js",
     "build": "node src/index.js && node scripts/update-tracklist.js",
     "build:tracklist": "node scripts/update-tracklist.js",
     "build:html": "node src/index.js",
