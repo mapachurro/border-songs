@@ -50,5 +50,5 @@ See the `licenses/` directory or individual license files in `/vendor` or `/publ
 
 The goal of this project is to add to the global Body of Literature. As such, it's embedded in context, and I endeavour to cite that in a way that is factual, helpful, clear, and in compliance with legal regulation.
 
-If you are inspired or want to use the code, go ahead; if you are inspired or want to use the translations, please do so in compliance with copyright rules, and let me know :heart:
+If you are inspired or want to use the code, go ahead; if you are inspired by or want to use the translations, please do so in compliance with copyright rules, and let me know :heart:
 

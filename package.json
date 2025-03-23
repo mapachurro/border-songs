@@ -1,13 +1,18 @@
 {
   "name": "border-songs",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "test": "npm run start",
-    "build": "npm run build",
-    "build:tracklist": "node scripts/update-tracklist.js"
+    "build": "node src/index.js",
+    "build:tracklist": "node scripts/update-tracklist.js",
+    "build:html": "node src/index.js",
+    "clear": "rm -rf ./build",
+    "clean-slate": "rm -rf ./build ./node_modules package-lock.json && npm install",
+    "rebuild": "npm run clear && npm run build",
+    "serve": "serve ./build"
   },
   "repository": {
     "type": "git",
@@ -30,6 +35,10 @@
   "homepage": "https://github.com/mapachurro/border-songs#readme",
   "devDependencies": {
     "doctoc": "^2.2.1",
-    "glob": "^11.0.1"
+    "glob": "^11.0.1",
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "marked": "^15.0.7"
   }
 }
