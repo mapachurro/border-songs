@@ -56,3 +56,13 @@ h2 {
     width: 100%;
   }
 }
+
+.toc-card summary {
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.toc-card details {
+  margin-bottom: 1rem;
+}

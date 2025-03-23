@@ -15,14 +15,19 @@ export async function getTrackLists(markdownLinkStyle = false) {
       const raw = await fs.readFile(filePath, 'utf-8');
       const filename = path.basename(filePath, '.md');
       const folder = path.basename(path.dirname(filePath));
-      const header = markdownLinkStyle
-        ? `### [Tracklist ${filename.replace('track-list-', '')} – ${folder}](./${folder}/${filename}.html)`
-        : `#### Tracklist ${filename.replace('track-list-', '')} ([${folder}](./binder/${folder}))`;
-      return `${header}\n\n${raw.trim()}`;
+
+      const headerText = `Tracklist ${filename.replace('track-list-', '')} – ${folder}`;
+      const linkPath = `./${folder}/${filename}.html`;
+
+      const summaryLine = markdownLinkStyle
+        ? `<summary><strong><a href="${linkPath}">${headerText}</a></strong></summary>`
+        : `<summary><strong>${headerText}</strong></summary>`;
+
+      return `<details>\n${summaryLine}\n\n${raw.trim()}\n</details>`;
     })
   );
 
-  return contentBlocks.join('\n\n---\n\n');
+  return contentBlocks.join('\n\n');
 }
 
 export async function getOrderedSongPages() {
