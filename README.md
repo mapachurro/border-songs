@@ -101,8 +101,9 @@ There's a structure and organization to this work which follows the logic of the
 03 - Juan Luis Guerra - El costo de la vida  
 04 - La hormiguera - Calle 13  
 05 - Frijolero - Molotov  
-06 - Dancing in the Dark - Springsteen v. Juanes  
-07 - Volver - Carlos Gardel
+06 - Desaparecido - Manu Chao  
+07 - Dancing in the Dark - Springsteen v. Juanes  
+08 - Volver - Carlos Gardel
 </details>
 
 <!-- END FULL TRACKLIST -->

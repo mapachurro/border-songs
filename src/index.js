@@ -179,13 +179,62 @@ async function copyAssets() {
   }
 }
 
+async function buildIntroductionPage() {
+  try {
+    console.log('Building introduction page...');
+    const introMd = await fs.readFile(path.join(binderDir, '00-introduction.md'), 'utf-8');
+    const sections = splitMarkdownSections(introMd);
+    
+    const introHtml = await renderTemplate(path.resolve(__dirname, 'intro-template.html'), {
+      ASSET_PATH: '',
+      TITLE: sections.title || 'Introduction',
+      CONTENT: marked.parse(introMd),
+      PREV_BUTTON: '',
+      NEXT_BUTTON: '',
+    });
+    
+    await fs.writeFile(path.join(buildDir, 'introduction.html'), introHtml);
+    console.log('✅ Introduction page built successfully');
+    
+    // Add to navigation index in the correct position (after TOC)
+    const tocIndex = navIndex.indexOf('toc.html');
+    if (tocIndex !== -1) {
+      navIndex.splice(tocIndex + 1, 0, 'introduction.html');
+    } else {
+      navIndex.push('introduction.html');
+    }
+  } catch (error) {
+    console.error('Error building introduction page:', error);
+  }
+}
+
 async function buildAll() {
   await ensureBuildDir();
+  // Clear the navigation index before building
+  navIndex.length = 0;
+  
   await buildTitlePage();
   await buildTOCPage();
+  await buildIntroductionPage();
   await buildContentPages();
   await buildTrackListPages();
   await copyAssets();
+  
+  // Sort the navigation index to ensure proper order
+  // This ensures title page, TOC, and introduction come first
+  navIndex.sort((a, b) => {
+    // Special handling for key pages
+    if (a === 'index.html') return -1;
+    if (b === 'index.html') return 1;
+    if (a === 'toc.html') return b === 'index.html' ? 1 : -1;
+    if (b === 'toc.html') return a === 'index.html' ? -1 : 1;
+    if (a === 'introduction.html') return (b === 'index.html' || b === 'toc.html') ? 1 : -1;
+    if (b === 'introduction.html') return (a === 'index.html' || a === 'toc.html') ? -1 : 1;
+    
+    // For other pages, sort alphabetically
+    return a.localeCompare(b);
+  });
+  
   await fs.writeFile(
     path.join(buildDir, 'nav-index.json'),
     JSON.stringify(navIndex, null, 2),
