@@ -208,6 +208,71 @@ async function buildIntroductionPage() {
   }
 }
 
+async function generateSectionData() {
+  try {
+    console.log('Generating section data...');
+    
+    // Get all track lists and song pages
+    const songPages = await getOrderedSongPages();
+    
+    // Group pages by section
+    const sections = {};
+    
+    for (const page of songPages) {
+      const sectionId = page.folder;
+      
+      if (!sections[sectionId]) {
+        // Create new section
+        sections[sectionId] = {
+          id: sectionId,
+          title: formatSectionTitle(sectionId),
+          pages: []
+        };
+        
+        // Add track list page as first page
+        sections[sectionId].pages.push({
+          title: "Track List",
+          path: `${sectionId}/track-list-${sectionId.match(/\d+/)[0]}.html`
+        });
+        
+        // Add introduction page as second page
+        sections[sectionId].pages.push({
+          title: "Introduction",
+          path: `${sectionId}/00-introduction.html`
+        });
+      }
+      
+      // Add the page to the section
+      sections[sectionId].pages.push({
+        title: page.title,
+        path: `${sectionId}/${page.filename}`
+      });
+    }
+    
+    // Write the section data to a JSON file
+    await fs.writeFile(
+      path.join(buildDir, 'section-data.json'),
+      JSON.stringify(sections, null, 2),
+      'utf-8'
+    );
+    
+    console.log('✅ section-data.json written');
+  } catch (error) {
+    console.error('Error generating section data:', error);
+  }
+}
+
+function formatSectionTitle(sectionId) {
+  const sectionMap = {
+    '01-reach-the-pass': 'Side 1: Reach the Pass',
+    '02-behold-the-valley-beyond': 'Side 2: Behold the Valley Beyond',
+    '03-alcanzar-la-ribera': 'Side 3: Alcanzar la Ribera',
+    '04-desde-la-otra-costa': 'Side 4: Desde la Otra Costa'
+  };
+  
+  return sectionMap[sectionId] || sectionId;
+}
+
 async function buildAll() {
   await ensureBuildDir();
   // Clear the navigation index before building
@@ -221,9 +286,8 @@ async function buildAll() {
   await copyAssets();
   
   // Sort the navigation index to ensure proper order
-  // This ensures title page, TOC, and introduction come first
   navIndex.sort((a, b) => {
-    // Special handling for key pages
+    // Special handling for key pages at the root level
     if (a === 'index.html') return -1;
     if (b === 'index.html') return 1;
     if (a === 'toc.html') return b === 'index.html' ? 1 : -1;
@@ -231,8 +295,32 @@ async function buildAll() {
     if (a === 'introduction.html') return (b === 'index.html' || b === 'toc.html') ? 1 : -1;
     if (b === 'introduction.html') return (a === 'index.html' || a === 'toc.html') ? -1 : 1;
     
-    // For other pages, sort alphabetically
-    return a.localeCompare(b);
+    // Get section IDs for both paths
+    const aSection = a.split('/')[0];
+    const bSection = b.split('/')[0];
+    
+    // If they're in different sections, sort by section ID
+    if (aSection !== bSection) {
+      return aSection.localeCompare(bSection);
+    }
+    
+    // If they're in the same section, handle special ordering
+    const aFile = a.split('/')[1];
+    const bFile = b.split('/')[1];
+    
+    // Track list should come first in each section
+    if (aFile.startsWith('track-list')) return -1;
+    if (bFile.startsWith('track-list')) return 1;
+    
+    // Introduction should come second
+    if (aFile.startsWith('00-introduction')) return -1;
+    if (bFile.startsWith('00-introduction')) return 1;
+    
+    // For other files, sort numerically by the prefix
+    const aNum = parseInt(aFile.match(/^(\d+)-/) ? aFile.match(/^(\d+)-/)[1] : '999', 10);
+    const bNum = parseInt(bFile.match(/^(\d+)-/) ? bFile.match(/^(\d+)-/)[1] : '999', 10);
+    
+    return aNum - bNum;
   });
   
   await fs.writeFile(
@@ -241,6 +329,10 @@ async function buildAll() {
     'utf-8'
   );
   console.log('✅ nav-index.json written');
+  
+  // Generate section data
+  await generateSectionData();
+  
   console.log('✅ Build complete!');
 }
 
