@@ -1,6 +1,6 @@
 {
   "name": "border-songs",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "main": "./src/index.js",
   "type": "module",
