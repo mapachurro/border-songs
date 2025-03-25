@@ -13,6 +13,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Get the current path
     let currentPath = window.location.pathname;
+    
+    // Handle GitHub Pages paths which might include the repo name
+    const repoName = "border-songs";
+    if (currentPath.includes(repoName)) {
+      currentPath = currentPath.split(repoName)[1] || "";
+    }
+    
     // Remove leading and trailing slashes
     currentPath = currentPath.replace(/^\/+|\/+$/g, "");
 
@@ -32,6 +39,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       "./nav-index.json",
       "../nav-index.json",
       "nav-index.json",
+      `/${repoName}/nav-index.json`,
+      `https://mapachurro.github.io/${repoName}/nav-index.json`
     ];
 
     let successPath;
@@ -90,13 +99,17 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
 
-    // Special case for toc.html
-    if (currentPath === "toc" || currentPath.endsWith("/toc")) {
-      const tocIndex = navList.indexOf("toc.html");
-      if (tocIndex !== -1) {
-        currentIndex = tocIndex;
-        currentPath = "toc.html";
-        console.log("Matched special case for toc.html");
+    // If still not found, try matching just the filename part
+    if (currentIndex === -1) {
+      const currentFilename = currentPath.split('/').pop();
+      for (let i = 0; i < navList.length; i++) {
+        const navFilename = navList[i].split('/').pop();
+        if (currentFilename === navFilename) {
+          currentIndex = i;
+          currentPath = navList[i];
+          console.log(`Found matching filename: ${currentPath}`);
+          break;
+        }
       }
     }
 
@@ -117,11 +130,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.log("Next link:", nextLink);
 
     // Determine base path for links
-    const basePath = successPath.startsWith("/")
-      ? ""
-      : successPath.includes("../")
-        ? "../"
-        : "./";
+    let basePath = "";
+    
+    // Check if we're on GitHub Pages
+    if (window.location.hostname.includes("github.io")) {
+      // For GitHub Pages, use absolute path with repo name
+      basePath = `/${repoName}/`;
+    } else {
+      // For local development
+      basePath = successPath.startsWith("/")
+        ? ""
+        : successPath.includes("../")
+          ? "../"
+          : "./";
+    }
 
     console.log("Using base path for links:", basePath);
 
