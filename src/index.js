@@ -31,6 +31,7 @@ async function renderTemplate(templatePath, replacements) {
 function splitMarkdownSections(md) {
   const sections = {
     title: '',
+    authority: '',
     source: '',
     target: '',
     commentary: '',
@@ -39,11 +40,24 @@ function splitMarkdownSections(md) {
   const blocks = md.split(/^# /gm);
   for (const block of blocks) {
     const trimmed = block.trim();
-    if (trimmed.startsWith('Title:')) sections.title = trimmed.replace(/^Title:\s*/, '').trim();
-    else if (trimmed.startsWith('Source')) sections.source = trimmed.slice('Source'.length).trim();
-    else if (trimmed.startsWith('Target')) sections.target = trimmed.slice('Target'.length).trim();
-    else if (trimmed.startsWith('Commentary')) sections.commentary = trimmed.slice('Commentary'.length).trim();
-    else if (trimmed.startsWith('Notes')) sections.notes = trimmed.slice('Notes'.length).trim();
+    if (trimmed.startsWith('Title:')) {
+      sections.title = trimmed.replace(/^Title:\s*/, '').trim();
+    }
+    else if (trimmed.startsWith('Authority:')) {
+      sections.authority = trimmed.replace(/^Authority:\s*/, '').trim();
+    }
+    else if (trimmed.startsWith('Source:')) {
+      sections.source = trimmed.replace(/^Source:\s*/, '').trim();
+    }
+    else if (trimmed.startsWith('Target:')) {
+      sections.target = trimmed.replace(/^Target:\s*/, '').trim();
+    }
+    else if (trimmed.startsWith('Commentary:')) {
+      sections.commentary = trimmed.replace(/^Commentary:\s*/, '').trim();
+    }
+    else if (trimmed.startsWith('Notes:')) {
+      sections.notes = trimmed.replace(/^Notes:\s*/, '').trim();
+    }
   }
   return sections;
 }
