@@ -1,4 +1,4 @@
-# Title: Intro / set the theme: Clandestino
+# Title: Clandestino
 
 # Authority: 
 

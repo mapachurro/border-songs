@@ -40,6 +40,41 @@ If I thought I could see, I could see your face
 
 # Target:  
 
+No quiero canciones al amor
+Subí a este avión solo para volar
+Y yo sé que ahí debajo hay vida
+Pero lo único que me muestras son los llanos y el cielo
+
+Y tampoco quiero historias tristes
+Llenas de anhelos y deseos
+La última vez que me sentía así
+Yo andaba en el monte y el cañón se quemaba
+
+Y me paré sobre la montaña
+En la noche y lo vi arder
+Lo vi arder, lo vi arder
+
+Yo mecía mi alma en el pecho de Abraham
+Encargaba mi vida en su gracia salvadora
+Andaba todo el camino desde Boulder a Birmingham
+Si creía que pudiese ver, pudiese ver tu cara
+
+Pues esta vez si me clavaste
+Y la parte más dificil, saber que seguiré
+Y llego a escuchar para el sonido
+De los camiones bajando alla en la 95
+
+Y fingir que sea el océano
+Que baje a lavarme, a limpiarme
+Amor, ¿sabes lo que intento decir?
+
+Yo mecía mi alma en el pecho de Abraham
+Encargaba mi vida en su gracia salvadora
+Andaba todo el camino desde Boulder a Birmingham
+Si creía que pudiese ver, pudiese ver tu cara
+Si creía que pudiese ver, pudiese ver tu cara
+
+
 # Commentary:  
 
 # Notes:  

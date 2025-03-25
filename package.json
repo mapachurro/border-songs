@@ -1,6 +1,6 @@
 {
   "name": "border-songs",
-  "version": "0.5.3",
+  "version": "0.5.2",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "main": "./src/index.js",
   "type": "module",
@@ -13,7 +13,8 @@
     "clear": "rm -rf ./build",
     "clean-slate": "rm -rf ./build ./node_modules package-lock.json && npm install",
     "rebuild": "npm run clear && npm run build",
-    "serve": "serve ./build"
+    "serve": "serve ./build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -33,9 +34,10 @@
   "bugs": {
     "url": "https://github.com/mapachurro/border-songs/issues"
   },
-  "homepage": "https://github.com/mapachurro/border-songs#readme",
+  "homepage": "https://mapachurro.github.io/border-songs/",
   "devDependencies": {
     "doctoc": "^2.2.1",
+    "gh-pages": "^6.3.0",
     "glob": "^11.0.1",
     "serve": "^14.2.4"
   },
