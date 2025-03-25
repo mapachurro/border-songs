@@ -1,6 +1,8 @@
 [
   "index.html",
   "toc.html",
+  "introduction.html",
+  "01-reach-the-pass/track-list-01.html",
   "01-reach-the-pass/00-introduction.html",
   "01-reach-the-pass/01-wasnt-born-to-follow.html",
   "01-reach-the-pass/02-return-of-the-grievous-angel.html",
@@ -11,6 +13,7 @@
   "01-reach-the-pass/06-waylon-jennings-live.html",
   "01-reach-the-pass/07-el-paso.html",
   "01-reach-the-pass/08-cielito-lindo.html",
+  "02-behold-the-valley-beyond/track-list-02.html",
   "02-behold-the-valley-beyond/00-introduction.html",
   "02-behold-the-valley-beyond/02-boulder-to-birmingham.html",
   "02-behold-the-valley-beyond/03-farther-along.html",
@@ -20,6 +23,7 @@
   "02-behold-the-valley-beyond/08-landslide.html",
   "02-behold-the-valley-beyond/09-just-a-season.html",
   "02-behold-the-valley-beyond/10-the-road.html",
+  "03-alcanzar-la-ribera/track-list-03.html",
   "03-alcanzar-la-ribera/00-introduction.html",
   "03-alcanzar-la-ribera/01-visa-para-un-sue-o.html",
   "03-alcanzar-la-ribera/02-buscando-am-rica.html",
@@ -28,6 +32,7 @@
   "03-alcanzar-la-ribera/05-sandinista.html",
   "03-alcanzar-la-ribera/06-caminos-verdes.html",
   "03-alcanzar-la-ribera/07-pa-l-norte.html",
+  "04-desde-la-otra-costa/track-list-04.html",
   "04-desde-la-otra-costa/00-introduction.html",
   "04-desde-la-otra-costa/01-intro-set-the-theme-clandestino.html",
   "04-desde-la-otra-costa/02-tierra-del-olvido.html",
@@ -36,9 +41,5 @@
   "04-desde-la-otra-costa/05-why-youd-want-to-live-here.html",
   "04-desde-la-otra-costa/06-desaparecido.html",
   "04-desde-la-otra-costa/07-dancing-in-the-dark.html",
-  "04-desde-la-otra-costa/10-volver.html",
-  "01-reach-the-pass/track-list-01.html",
-  "02-behold-the-valley-beyond/track-list-02.html",
-  "03-alcanzar-la-ribera/track-list-03.html",
-  "04-desde-la-otra-costa/track-list-04.html"
+  "04-desde-la-otra-costa/10-volver.html"
 ]
