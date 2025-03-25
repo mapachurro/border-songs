@@ -1,4 +1,5 @@
 body {
+  padding-top: 60px; /* Adjust based on navbar height */
   font-family: sans-serif;
   margin: 2rem;
   background-color: #f8f9fa;
@@ -65,4 +66,95 @@ h2 {
 
 .toc-card details {
   margin-bottom: 1rem;
+}
+
+/* Fixed Navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 0.5rem 0;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-section {
+  font-weight: bold;
+  margin-right: 1rem;
+  white-space: nowrap;
+  color: #343a40;
+}
+
+.breadcrumb-pages {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.breadcrumb-page {
+  position: relative;
+  white-space: nowrap;
+}
+
+.breadcrumb-page:not(:last-child)::after {
+  content: "›";
+  margin-left: 0.5rem;
+  color: #6c757d;
+}
+
+.breadcrumb-page.active {
+  font-weight: 500;
+  color: #495057;
+}
+
+.breadcrumb-page a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb-page a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .breadcrumb-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .breadcrumb-section {
+    margin-bottom: 0.5rem;
+  }
+  
+  .breadcrumb-pages {
+    flex-direction: row;
+    align-items: flex-start;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+  
+  body {
+    padding-top: 80px; /* Increase for mobile */
+  }
 }

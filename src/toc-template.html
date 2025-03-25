@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Border Songs – Table of Contents</title>
+  <title>Table of Contents</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🏜️</text></svg>">
   <base href="{{ASSET_PATH}}">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="js/nav.js"></script>
 </head>
-<body class="container py-5">
-  <nav class="navigation d-flex justify-content-between mt-5"></nav>
-  <div class="row justify-content-center">
-    <div class="col-md-10 col-lg-8">
-      <div class="card p-4 shadow-sm">
-        <section>
-          <h1>Table of Contents</h1>
-          {{TOC_CONTENT}}
-        </section>
+<body>
+  <div class="container py-5">
+    <div class="row justify-content-center">
+    <div class="card mx-auto" style="max-width: 800px;">
+      <div class="card-body">
+        <h1 class="text-center mb-4">Table of Contents</h1>
+        {{TOC_CONTENT}}
       </div>
     </div>
+  </div>
+    <nav class="navigation d-flex justify-content-between mt-4"></nav>
   </div>
 </body>
 </html>
