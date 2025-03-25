@@ -158,3 +158,19 @@ h2 {
     padding-top: 80px; /* Increase for mobile */
   }
 }
+
+.title-card {
+  width: 100%;
+  max-width: none;
+  margin-bottom: 2rem;
+}
+
+.title-card .card-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.title-card .card-subtitle {
+  font-size: 1.25rem;
+  color: #6c757d;
+}

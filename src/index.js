@@ -21,16 +21,43 @@ async function ensureBuildDir() {
 }
 
 async function renderTemplate(templatePath, replacements) {
-  const template = await fs.readFile(templatePath, 'utf-8');
-  return Object.entries(replacements).reduce(
-    (html, [key, value]) => html.replaceAll(`{{${key}}}`, value),
-    template
-  );
+  let template = await fs.readFile(templatePath, 'utf-8');
+  
+  // Handle conditional sections
+  for (const key in replacements) {
+    if (key.startsWith('#')) {
+      const actualKey = key.substring(1);
+      const value = replacements[key];
+      
+      // If value exists, replace the conditional section with its content
+      if (value) {
+        template = template.replace(
+          new RegExp(`{{#${actualKey}}}(.*?){{/${actualKey}}}`, 's'),
+          (_, content) => content.replace(`{{${actualKey}}}`, value)
+        );
+      } else {
+        // If value doesn't exist, remove the conditional section
+        template = template.replace(
+          new RegExp(`{{#${actualKey}}}.*?{{/${actualKey}}}`, 's'),
+          ''
+        );
+      }
+    }
+  }
+  
+  // Replace regular placeholders
+  return Object.entries(replacements)
+    .filter(([key]) => !key.startsWith('#'))
+    .reduce(
+      (html, [key, value]) => html.replaceAll(`{{${key}}}`, value),
+      template
+    );
 }
 
 function splitMarkdownSections(md) {
   const sections = {
     title: '',
+    authority: '',
     source: '',
     target: '',
     commentary: '',
@@ -40,6 +67,7 @@ function splitMarkdownSections(md) {
   for (const block of blocks) {
     const trimmed = block.trim();
     if (trimmed.startsWith('Title:')) sections.title = trimmed.replace(/^Title:\s*/, '').trim();
+    else if (trimmed.startsWith('Authority:')) sections.authority = trimmed.replace(/^Authority:\s*/, '').trim();
     else if (trimmed.startsWith('Source')) sections.source = trimmed.slice('Source'.length).trim();
     else if (trimmed.startsWith('Target')) sections.target = trimmed.slice('Target'.length).trim();
     else if (trimmed.startsWith('Commentary')) sections.commentary = trimmed.slice('Commentary'.length).trim();
@@ -82,6 +110,8 @@ async function buildContentPages() {
     const outputHtml = await renderTemplate(contentTemplate, {
       ASSET_PATH: '../',
       TITLE: sections.title || title,
+      SONG_TITLE: sections.title || title,
+      '#AUTHORITY': sections.authority,
       TRANSLATION_HTML: marked.parse(sections.target),
       SOURCE_HTML: marked.parse(sections.source),
       COMMENTARY_HTML: marked.parse(sections.commentary + '\n\n' + sections.notes),
