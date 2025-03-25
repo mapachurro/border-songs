@@ -10,6 +10,10 @@ There is a theme that is threaded through popular music, a very old theme in fac
 > **it has to do with the limit, the border: the lines we can cross, and the lines we can't.**
 >
 
+## Live Demo
+
+You can see a staging version of the book [here](https://mapachurro.github.io/border-songs/).
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
