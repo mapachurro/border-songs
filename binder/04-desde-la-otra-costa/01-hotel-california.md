@@ -2,6 +2,8 @@
 
 # Authority: Glenn Lewis Frey, Don Felder, Donald Hugh Henley
 
+# Video source: 
+
 # Source:
 
 On a dark desert highway, cool wind in my hair  

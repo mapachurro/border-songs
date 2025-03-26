@@ -2,6 +2,8 @@
 
 # Authority: John Darnielle
 
+# Video source: 
+
 # Source:
 Drunk at the Meskwaki casino  
 Right where God intended me to be  

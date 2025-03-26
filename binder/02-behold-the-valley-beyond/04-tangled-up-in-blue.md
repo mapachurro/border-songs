@@ -2,6 +2,8 @@
 
 # Authority: Bob Dylan
 
+# Video source: 
+
 # Source:
 
 Early one mornin’ the sun was shinin’  
