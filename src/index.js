@@ -54,38 +54,95 @@ async function renderTemplate(templatePath, replacements) {
     );
 }
 
-function splitMarkdownSections(md) {
+function splitMarkdownSections(markdown) {
+  console.log('Splitting markdown sections...');
+  
   const sections = {
     title: '',
-    authority: '',
     authority: '',
     source: '',
     target: '',
     commentary: '',
-    notes: ''
+    notes: '',
+    versions: ''
   };
-  const blocks = md.split(/^# /gm);
-  for (const block of blocks) {
-    const trimmed = block.trim();
-    if (trimmed.startsWith('Title:')) {
-      sections.title = trimmed.replace(/^Title:\s*/, '').trim();
+
+  // Log the first 100 characters to debug
+  console.log('Markdown preview:', markdown.substring(0, 100) + '...');
+  
+  const lines = markdown.split('\n');
+  let currentSection = null;
+  
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    
+    // Check for section headers
+    if (line.startsWith('# Title:')) {
+      sections.title = line.replace('# Title:', '').trim();
+      console.log('Found title:', sections.title);
+      continue;
     }
-    else if (trimmed.startsWith('Authority:')) {
-      sections.authority = trimmed.replace(/^Authority:\s*/, '').trim();
+    
+    if (line.startsWith('# Authority:')) {
+      sections.authority = line.replace('# Authority:', '').trim();
+      console.log('Found authority:', sections.authority);
+      continue;
     }
-    else if (trimmed.startsWith('Source:')) {
-      sections.source = trimmed.replace(/^Source:\s*/, '').trim();
+    
+    if (line.startsWith('# Source')) {
+      currentSection = 'source';
+      console.log('Starting source section');
+      continue;
     }
-    else if (trimmed.startsWith('Target:')) {
-      sections.target = trimmed.replace(/^Target:\s*/, '').trim();
+    
+    if (line.startsWith('# Target')) {
+      currentSection = 'target';
+      console.log('Starting target section');
+      continue;
     }
-    else if (trimmed.startsWith('Commentary:')) {
-      sections.commentary = trimmed.replace(/^Commentary:\s*/, '').trim();
+    
+    if (line.startsWith('# Commentary')) {
+      currentSection = 'commentary';
+      console.log('Starting commentary section');
+      continue;
     }
-    else if (trimmed.startsWith('Notes:')) {
-      sections.notes = trimmed.replace(/^Notes:\s*/, '').trim();
+    
+    if (line.startsWith('# Notes')) {
+      currentSection = 'notes';
+      console.log('Starting notes section');
+      continue;
+    }
+    
+    if (line.startsWith('# Versions')) {
+      currentSection = 'versions';
+      console.log('Starting versions section');
+      continue;
+    }
+    
+    // Add content to the current section
+    if (currentSection && sections[currentSection] !== undefined) {
+      sections[currentSection] += line + '\n';
     }
   }
+  
+  // Trim whitespace from all sections
+  for (const key in sections) {
+    if (typeof sections[key] === 'string') {
+      sections[key] = sections[key].trim();
+    }
+  }
+  
+  // Log section lengths to debug
+  console.log('Section lengths:', {
+    title: sections.title.length,
+    authority: sections.authority.length,
+    source: sections.source.length,
+    target: sections.target.length,
+    commentary: sections.commentary.length,
+    notes: sections.notes.length,
+    versions: sections.versions.length
+  });
+  
   return sections;
 }
 
@@ -98,7 +155,7 @@ async function getOrderedSongPagesFromFilenames() {
     if (!stat.isDirectory()) continue;
 
     const files = (await fs.readdir(sectionPath))
-      .filter(f => f.endsWith('.md') && !f.startsWith('track-list') && /^\d+-/.test(f))
+      .filter(f => f.endsWith('.md') && !f.startsWith('track-list') && !f.startsWith('introduction') && /^\d+-/.test(f))
       .sort();
 
     for (const file of files) {
@@ -115,28 +172,46 @@ async function getOrderedSongPagesFromFilenames() {
 }
 
 async function buildContentPages() {
+  console.log('Building content pages...');
   const songPages = await getOrderedSongPagesFromFilenames();
   for (let i = 0; i < songPages.length; i++) {
-    const { folder, filename, outputPath, title, mdFile } = songPages[i];
-    const raw = await fs.readFile(mdFile, 'utf-8');
-    const sections = splitMarkdownSections(raw);
-    const outputHtml = await renderTemplate(contentTemplate, {
-      ASSET_PATH: '../',
-      TITLE: sections.title || title,
-      SONG_TITLE: sections.title || title,
-      '#AUTHORITY': sections.authority,
-      TRANSLATION_HTML: marked.parse(sections.target),
-      SOURCE_HTML: marked.parse(sections.source),
-      COMMENTARY_HTML: marked.parse(sections.commentary + '\n\n' + sections.notes),
-      PREV_BUTTON: '',
-      NEXT_BUTTON: '',
-    });
-    const outputDir = path.join(buildDir, folder);
-    await fs.mkdir(outputDir, { recursive: true });
-    const filePath = path.join(outputDir, filename);
-    await fs.writeFile(filePath, outputHtml);
-    navIndex.push(`${folder}/${filename}`);
+    try {
+      const { folder, filename, outputPath, title, mdFile } = songPages[i];
+      console.log(`Building content page: ${outputPath}`);
+      
+      const raw = await fs.readFile(mdFile, 'utf-8');
+      console.log(`Read ${raw.length} bytes from ${mdFile}`);
+      
+      const sections = splitMarkdownSections(raw);
+      
+      // Check if sections are empty and log warning
+      if (!sections.source || !sections.target) {
+        console.warn(`Warning: Empty source or target section in ${mdFile}`);
+      }
+      
+      const outputHtml = await renderTemplate(contentTemplate, {
+        ASSET_PATH: '../',
+        TITLE: sections.title || title,
+        SONG_TITLE: sections.title || title,
+        '#AUTHORITY': sections.authority,
+        TRANSLATION_HTML: sections.target ? marked.parse(sections.target) : '<p>Translation content missing</p>',
+        SOURCE_HTML: sections.source ? marked.parse(sections.source) : '<p>Source content missing</p>',
+        COMMENTARY_HTML: marked.parse((sections.commentary || '') + '\n\n' + (sections.notes || '')),
+        PREV_BUTTON: '',
+        NEXT_BUTTON: '',
+      });
+      
+      const outputDir = path.join(buildDir, folder);
+      await fs.mkdir(outputDir, { recursive: true });
+      const filePath = path.join(outputDir, filename);
+      await fs.writeFile(filePath, outputHtml);
+      navIndex.push(`${folder}/${filename}`);
+      console.log(`✅ Built content page: ${outputPath}`);
+    } catch (error) {
+      console.error(`Error building content page ${songPages[i]?.outputPath || 'unknown'}:`, error);
+    }
   }
+  console.log('✅ All content pages built successfully');
 }
 
 async function buildTitlePage() {
@@ -225,7 +300,7 @@ async function copyAssets() {
 async function buildIntroductionPage() {
   try {
     console.log('Building introduction page...');
-    const introMd = await fs.readFile(path.join(binderDir, '00-introduction.md'), 'utf-8');
+    const introMd = await fs.readFile(path.join(binderDir, 'introduction.md'), 'utf-8');
     
     // Don't use splitMarkdownSections here since the introduction format is different
     const introHtml = await renderTemplate(path.resolve(__dirname, 'intro-template.html'), {
@@ -262,7 +337,7 @@ async function buildSectionIntroductions() {
       if (!stat.isDirectory()) continue;
       
       // Look for introduction file in this section
-      const introPath = path.join(sectionPath, '00-introduction.md');
+      const introPath = path.join(sectionPath, 'introduction.md');
       try {
         const introExists = await fs.stat(introPath).then(() => true).catch(() => false);
         if (!introExists) continue;
@@ -281,12 +356,12 @@ async function buildSectionIntroductions() {
         
         const outputDir = path.join(buildDir, folder);
         await fs.mkdir(outputDir, { recursive: true });
-        await fs.writeFile(path.join(outputDir, '00-introduction.html'), introHtml);
+        await fs.writeFile(path.join(outputDir, 'introduction.html'), introHtml);
         
         console.log(`✅ Introduction for ${folder} built successfully`);
         
         // Add to navigation index (will be sorted later)
-        navIndex.push(`${folder}/00-introduction.html`);
+        navIndex.push(`${folder}/introduction.html`);
       } catch (error) {
         console.error(`Error building introduction for section ${folder}:`, error);
       }
@@ -326,7 +401,7 @@ async function generateSectionData() {
         // Add introduction page as second page
         sections[sectionId].pages.push({
           title: "Introduction",
-          path: `${sectionId}/00-introduction.html`
+          path: `${sectionId}/introduction.html`
         });
       }
       
@@ -402,8 +477,8 @@ async function buildAll() {
     if (bFile.startsWith('track-list')) return 1;
     
     // Introduction should come second
-    if (aFile.startsWith('00-introduction')) return -1;
-    if (bFile.startsWith('00-introduction')) return 1;
+    if (aFile.startsWith('introduction')) return -1;
+    if (bFile.startsWith('introduction')) return 1;
     
     // For other files, sort numerically by the prefix
     const aNum = parseInt(aFile.match(/^(\d+)-/) ? aFile.match(/^(\d+)-/)[1] : '999', 10);
