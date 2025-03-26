@@ -4,199 +4,199 @@
 
 # Source:
 
-Early one mornin’ the sun was shinin’
+Early one mornin’ the sun was shinin’  
 
-I was layin’ in bed
+I was layin’ in bed  
 
-Wond’rin’ if she’d changed at all
+Wond’rin’ if she’d changed at all  
 
-If her hair was still red
+If her hair was still red  
 
-Her folks they said our lives together
+Her folks they said our lives together  
 
-Sure was gonna be rough
+Sure was gonna be rough  
 
-They never did like Mama’s homemade dress
+They never did like Mama’s homemade dress  
 
-Papa’s bankbook wasn’t big enough
+Papa’s bankbook wasn’t big enough  
 
-And I was standin’ on the side of the road
+And I was standin’ on the side of the road  
 
-Rain fallin’ on my shoes
+Rain fallin’ on my shoes  
 
-Heading out for the East Coast
+Heading out for the East Coast  
 
-Lord knows I’ve paid some dues gettin’ through
+Lord knows I’ve paid some dues gettin’ through  
 
-Tangled up in blue
+Tangled up in blue  
 
 
 
-She was married when we first met
+She was married when we first met  
 
-Soon to be divorced
+Soon to be divorced  
 
-I helped her out of a jam, I guess
+I helped her out of a jam, I guess  
 
-But I used a little too much force
+But I used a little too much force  
 
-We drove that car as far as we could
+We drove that car as far as we could  
 
-Abandoned it out West
+Abandoned it out West  
 
-Split up on a dark sad night
+Split up on a dark sad night  
 
-Both agreeing it was best
+Both agreeing it was best  
 
-She turned around to look at me
+She turned around to look at me  
 
-As I was walkin’ away
+As I was walkin’ away  
 
-I heard her say over my shoulder
+I heard her say over my shoulder  
 
-“We’ll meet again someday on the avenue”
+“We’ll meet again someday on the avenue”  
 
-Tangled up in blue
+Tangled up in blue  
 
 
 
-I had a job in the great north woods
+I had a job in the great north woods  
 
-Working as a cook for a spell
+Working as a cook for a spell  
 
-But I never did like it all that much
+But I never did like it all that much  
 
-And one day the ax just fell
+And one day the ax just fell  
 
-So I drifted down to New Orleans
+So I drifted down to New Orleans  
 
-Where I happened to be employed
+Where I happened to be employed  
 
-Workin’ for a while on a fishin’ boat
+Workin’ for a while on a fishin’ boat  
 
-Right outside of Delacroix
+Right outside of Delacroix  
 
-But all the while I was alone
+But all the while I was alone  
 
-The past was close behind
+The past was close behind  
 
-I seen a lot of women
+I seen a lot of women  
 
-But she never escaped my mind, and I just grew
+But she never escaped my mind, and I just grew  
 
-Tangled up in blue
+Tangled up in blue  
 
 
 
-She was workin’ in a topless place
+She was workin’ in a topless place  
 
-And I stopped in for a beer
+And I stopped in for a beer  
 
-I just kept lookin’ at the side of her face
+I just kept lookin’ at the side of her face  
 
-In the spotlight so clear
+In the spotlight so clear  
 
-And later on as the crowd thinned out
+And later on as the crowd thinned out  
 
-I’s just about to do the same
+I’s just about to do the same  
 
-She was standing there in back of my chair
+She was standing there in back of my chair  
 
-Said to me, “Don’t I know your name?”
+Said to me, “Don’t I know your name?”  
 
-I muttered somethin’ underneath my breath
+I muttered somethin’ underneath my breath  
 
-She studied the lines on my face
+She studied the lines on my face  
 
-I must admit I felt a little uneasy
+I must admit I felt a little uneasy  
 
-When she bent down to tie the laces of my shoe
+When she bent down to tie the laces of my shoe  
 
-Tangled up in blue
+Tangled up in blue  
 
 
 
-She lit a burner on the stove
+She lit a burner on the stove  
 
-And offered me a pipe
+And offered me a pipe  
 
-“I thought you’d never say hello,” she said
+“I thought you’d never say hello,” she said  
 
-“You look like the silent type”
+“You look like the silent type”  
 
-Then she opened up a book of poems
+Then she opened up a book of poems  
 
-And handed it to me
+And handed it to me  
 
-Written by an Italian poet
+Written by an Italian poet  
 
-From the thirteenth century
+From the thirteenth century  
 
-And every one of them words rang true
+And every one of them words rang true  
 
-And glowed like burnin’ coal
+And glowed like burnin’ coal  
 
-Pourin’ off of every page
+Pourin’ off of every page  
 
-Like it was written in my soul from me to you
+Like it was written in my soul from me to you  
 
-Tangled up in blue
+Tangled up in blue  
 
 
 
-I lived with them on Montague Street
+I lived with them on Montague Street  
 
-In a basement down the stairs
+In a basement down the stairs  
 
-There was music in the cafés at night
+There was music in the cafés at night  
 
-And revolution in the air
+And revolution in the air  
 
-Then he started into dealing with slaves
+Then he started into dealing with slaves  
 
-And something inside of him died
+And something inside of him died  
 
-She had to sell everything she owned
+She had to sell everything she owned  
 
-And froze up inside
+And froze up inside  
 
-And when finally the bottom fell out
+And when finally the bottom fell out  
 
-I became withdrawn
+I became withdrawn  
 
-The only thing I knew how to do
+The only thing I knew how to do  
 
-Was to keep on keepin’ on like a bird that flew
+Was to keep on keepin’ on like a bird that flew  
 
-Tangled up in blue
+Tangled up in blue  
 
 
 
-So now I’m goin’ back again
+So now I’m goin’ back again  
 
-I got to get to her somehow
+I got to get to her somehow  
 
-All the people we used to know
+All the people we used to know  
 
-They’re an illusion to me now
+They’re an illusion to me now  
 
-Some are mathematicians
+Some are mathematicians  
 
-Some are carpenters’ wives
+Some are carpenters’ wives  
 
-Don’t know how it all got started
+Don’t know how it all got started  
 
-I don’t know what they’re doin’ with their lives
+I don’t know what they’re doin’ with their lives  
 
-But me, I’m still on the road
+But me, I’m still on the road  
 
-Headin’ for another joint
+Headin’ for another joint  
 
-We always did feel the same
+We always did feel the same  
 
-We just saw it from a different point of view
+We just saw it from a different point of view  
 
-Tangled up in blue
+Tangled up in blue  
 
 # Target:  
 

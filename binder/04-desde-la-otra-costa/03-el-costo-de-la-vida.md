@@ -1,6 +1,6 @@
-# Title: (Visa para un sueño
+# Title: El costo de la vida
 
-# Authority: 
+# Authority: Juan Luis Guerra
 
 # Source:
 
