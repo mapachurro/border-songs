@@ -24,6 +24,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     // Get the current path
     let currentPath = window.location.pathname.replace(/^\/+|\/+$/g, "");
+    
+    // Extract repo name from path if on GitHub Pages
+    const repoName = "border-songs"; // Default repo name
+    const isGitHubPages = window.location.hostname.includes("github.io");
+    
+    if (isGitHubPages) {
+      const pathParts = currentPath.split('/');
+      if (pathParts[0] === repoName) {
+        // Remove repo name from the path for consistent processing
+        currentPath = pathParts.slice(1).join('/');
+      }
+    }
+    
+    console.log("Current path for breadcrumbs:", currentPath);
+    
     if (currentPath === "" || currentPath === "/") {
       currentPath = "index.html";
       // For main page, just show the title
@@ -35,8 +50,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
     
-    console.log("Current path for breadcrumbs:", currentPath);
-    
     // Extract section from path
     const pathParts = currentPath.split('/');
     if (pathParts.length < 2) {
@@ -46,7 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           <div class="breadcrumb-section">Border Songs</div>
           <ol class="breadcrumb-pages">
             <li class="breadcrumb-page">
-              <a href="/index.html">Home</a>
+              <a href="${isGitHubPages ? `/${repoName}` : ''}/index.html">Home</a>
             </li>
             <li class="breadcrumb-page active">
               ${formatPageTitle(pathParts[0])}
@@ -73,19 +86,37 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     const sectionTitle = sectionTitles[sectionId] || sectionId;
     
-    // Try to load the nav-index.json to get the list of pages
+    // Try to load the nav-index.json from multiple possible locations
     let navList;
-    try {
-      const response = await fetch('/nav-index.json');
-      if (!response.ok) {
-        throw new Error(`Failed to fetch nav-index.json: ${response.status}`);
+    const possiblePaths = [
+      "/nav-index.json",
+      "./nav-index.json",
+      "../nav-index.json",
+      "nav-index.json",
+      `/${repoName}/nav-index.json`,
+      `https://mapachurro.github.io/${repoName}/nav-index.json`
+    ];
+    
+    for (const navPath of possiblePaths) {
+      try {
+        console.log(`Trying to load navigation index from: ${navPath}`);
+        const response = await fetch(navPath);
+        if (response.ok) {
+          navList = await response.json();
+          console.log(`Successfully loaded navigation index from: ${navPath}`);
+          break;
+        }
+      } catch (error) {
+        console.log(`Failed to load from ${navPath}:`, error.message);
       }
-      navList = await response.json();
-      console.log("Navigation index loaded for breadcrumbs");
-    } catch (error) {
-      console.error("Error loading navigation index:", error);
+    }
+    
+    if (!navList) {
+      console.error("Error: Could not load navigation index from any location");
       return;
     }
+    
+    console.log("Navigation index loaded for breadcrumbs");
     
     // Filter pages that belong to this section
     const sectionPages = navList.filter(path => path.startsWith(sectionId + '/'));
@@ -100,19 +131,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     const breadcrumbHTML = `
       <div class="breadcrumb-container">
         <div class="breadcrumb-section">
-          <a href="/index.html" style="color: inherit; text-decoration: none;">Border Songs</a> › ${sectionTitle}
+          <a href="${isGitHubPages ? `/${repoName}` : ''}/index.html" style="color: inherit; text-decoration: none;">Border Songs</a> › ${sectionTitle}
         </div>
         <ol class="breadcrumb-pages">
           ${sectionPages.map(page => {
             const pageName = page.split('/')[1];
             const isActive = page === currentPath;
             const pageTitle = formatPageTitle(pageName);
+            const pageUrl = isGitHubPages ? `/${repoName}/${page}` : `/${page}`;
             
             return `
               <li class="breadcrumb-page${isActive ? ' active' : ''}">
                 ${isActive 
                   ? pageTitle 
-                  : `<a href="/${page}">${pageTitle}</a>`}
+                  : `<a href="${pageUrl}">${pageTitle}</a>`}
               </li>
             `;
           }).join('')}
