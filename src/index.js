@@ -226,11 +226,11 @@ async function buildIntroductionPage() {
   try {
     console.log('Building introduction page...');
     const introMd = await fs.readFile(path.join(binderDir, '00-introduction.md'), 'utf-8');
-    const sections = splitMarkdownSections(introMd);
     
+    // Don't use splitMarkdownSections here since the introduction format is different
     const introHtml = await renderTemplate(path.resolve(__dirname, 'intro-template.html'), {
       ASSET_PATH: '',
-      TITLE: sections.title || 'Introduction',
+      TITLE: 'Introduction',
       CONTENT: marked.parse(introMd),
       PREV_BUTTON: '',
       NEXT_BUTTON: '',
@@ -248,6 +248,51 @@ async function buildIntroductionPage() {
     }
   } catch (error) {
     console.error('Error building introduction page:', error);
+  }
+}
+
+async function buildSectionIntroductions() {
+  try {
+    console.log('Building section introduction pages...');
+    const folders = await fs.readdir(binderDir);
+    
+    for (const folder of folders) {
+      const sectionPath = path.join(binderDir, folder);
+      const stat = await fs.stat(sectionPath);
+      if (!stat.isDirectory()) continue;
+      
+      // Look for introduction file in this section
+      const introPath = path.join(sectionPath, '00-introduction.md');
+      try {
+        const introExists = await fs.stat(introPath).then(() => true).catch(() => false);
+        if (!introExists) continue;
+        
+        console.log(`Building introduction for section ${folder}...`);
+        const introMd = await fs.readFile(introPath, 'utf-8');
+        
+        // Use the intro-template.html instead of contentTemplate
+        const introHtml = await renderTemplate(path.resolve(__dirname, 'intro-template.html'), {
+          ASSET_PATH: '../',
+          TITLE: `Introduction - ${formatSectionTitle(folder)}`,
+          CONTENT: marked.parse(introMd),
+          PREV_BUTTON: '',
+          NEXT_BUTTON: '',
+        });
+        
+        const outputDir = path.join(buildDir, folder);
+        await fs.mkdir(outputDir, { recursive: true });
+        await fs.writeFile(path.join(outputDir, '00-introduction.html'), introHtml);
+        
+        console.log(`✅ Introduction for ${folder} built successfully`);
+        
+        // Add to navigation index (will be sorted later)
+        navIndex.push(`${folder}/00-introduction.html`);
+      } catch (error) {
+        console.error(`Error building introduction for section ${folder}:`, error);
+      }
+    }
+  } catch (error) {
+    console.error('Error building section introductions:', error);
   }
 }
 
@@ -325,6 +370,7 @@ async function buildAll() {
   await buildTOCPage();
   await buildIntroductionPage();
   await buildContentPages();
+  await buildSectionIntroductions();
   await buildTrackListPages();
   await copyAssets();
   
