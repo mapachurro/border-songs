@@ -1,8 +1,8 @@
 # Title: Clandestino
 
-# Authority: 
+# Authority: Manu Chao
 
-# Video source: 
+# Video source: https://www.youtube.com/watch?v=7AzimrAgWbA
 
 # Source:
 

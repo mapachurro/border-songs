@@ -1,8 +1,8 @@
 # Title: Caminos Verdes
 
-# Authority: 
+# Authority: Ruben Blades
 
-# Video source: 
+# Video source: https://www.youtube.com/watch?v=v9la5umehiw
 
 # Source:
 
