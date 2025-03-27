@@ -2,7 +2,7 @@
 
 # Authority: Bob Dylan
 
-# Video source: 
+# Video source: https://www.youtube.com/watch?v=fPBmJSNSiFY
 
 # Source:
 
@@ -205,6 +205,12 @@ Tangled up in blue
 # Commentary:  
 
 # Notes:  
+
+The video linked in this article is not to the album version. Dylan notably played with the lyrics of this song, probably partially because he was unsatisfied with the direction and feel of where his art was going at the time; the performance from the Rolling Thunder Revue, linked here, is of particular interest.
+
+He was playing with Emmy Lou Harris and Roger McGuinn on this tour; the name of the tour was an explicit reference to the Nixon-era carpetbombing of Laos; his performances of 'Hurricane' on this tour were passionate, and simultaneously carried on his reputation of "protest songs", despite that being clearly something he felt he was trying to get rid of.
+
+Point being: this tour, in some ways, was maybe the last concerted effort to play Cosmic American Music, as such.
 
 # Versions:  
 

@@ -2,7 +2,7 @@
 
 # Authority: 
 
-# Video source: 
+# Video source: https://www.youtube.com/watch?v=WM7-PYtXtJM
 
 # Source:
 
@@ -10,6 +10,7 @@
 
 # Commentary:  
 
-# Notes:  
+# Notes:
+This version is the best version.
 
 # Versions:  
