@@ -2,7 +2,7 @@
 
 # Authority: John Darnielle
 
-# Video source: 
+# Video source: https://www.youtube.com/watch?v=9o3WZK4QDA4
 
 # Source:
 Drunk at the Meskwaki casino  

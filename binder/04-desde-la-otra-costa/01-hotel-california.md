@@ -43,71 +43,71 @@ I had to find the passage back to the place I was before
 "Relax, " said the night man, "We are programmed to receive  
 You can check out any time you like, but you can never leave"  
 
-Por el camino del desierto
-El viento me despeina
-Sube el aroma de colita
-Luna, luna de nadie
-Ella a lo lejos
-Una luz centela
-La idea de mi estar
-Quedar por la noche
-Alli estaba a la entrada
-Y las campanas a sonar
-Y me di con llamarme mismo
-Que es puerta del cielo
-Ella enciende una vela
-En muestra del camino
-Suenan voces en el corredor
-Y lo que indican diciendo
+Por el camino del desierto  
+El viento me despeina  
+Sube el aroma de colita  
+Luna, luna de nadie  
+Ella a lo lejos  
+Una luz centela  
+La idea de mi estar  
+Quedar por la noche  
+Alli estaba a la entrada  
+Y las campanas a sonar  
+Y me di con llamarme mismo  
+Que es puerta del cielo  
+Ella enciende una vela  
+En muestra del camino  
+Suenan voces en el corredor  
+Y lo que indican diciendo  
 
-Welcome to the Hotel California
-Such a lovely place
-Such a lovely place
-Welcome to the Hotel California
-Such a lovely place
-Such a lovely place
+Welcome to the Hotel California  
+Such a lovely place  
+Such a lovely place  
+Welcome to the Hotel California  
+Such a lovely place  
+Such a lovely place  
 
-Ella al lado que brillaba
-Tenia una Mercedes
-Rodeada de chicos guapos
-Ella llamaba amigos
-Cuando viene despacio
-Del tumba de verano
-Aquel era pa'recordar
-Y otro pa' olvidar
-Le pedi al capitan
-Que sirve el vino
-Y pedi con un amor
-Tenido este alcohol
-De este sesenta y nueve
-Famosa y que llamando
-Pues me va a despertar
-La noche para decir
+Ella al lado que brillaba  
+Tenia una Mercedes  
+Rodeada de chicos guapos  
+Ella llamaba amigos  
+Cuando viene despacio  
+Del tumba de verano  
+Aquel era pa'recordar  
+Y otro pa' olvidar  
+Le pedi al capitan  
+Que sirve el vino  
+Y pedi con un amor  
+Tenido este alcohol  
+De este sesenta y nueve  
+Famosa y que llamando  
+Pues me va a despertar  
+La noche para decir  
 
-Welcome to the Hotel California
-Such a lovely place
-Such a lovely place
-Welcome to the Hotel California
-Such a lovely place
-Such a lovely place
+Welcome to the Hotel California  
+Such a lovely place  
+Such a lovely place  
+Welcome to the Hotel California  
+Such a lovely place  
+Such a lovely place  
 
-El espejo en el techo
-Champana en el hielo
-Y ella dijo somos todos prisioneros
-De propia voluntad
-Y en los cuartos principales
-Hacen sucias esta
-Hasta aca a la bestia
-Pero no la logra a matar
+El espejo en el techo  
+Champana en el hielo  
+Y ella dijo somos todos prisioneros  
+De propia voluntad  
+Y en los cuartos principales  
+Hacen sucias esta  
+Hasta aca a la bestia  
+Pero no la logra a matar  
 
-Mi ultimo recuerdo
-Corria hacia la puerta
-Ver una candela en el camino
-Por donde habia llegado
-Relax dijo el portero
-Por mi es honor recibir
-Puede salir cuando quiere
-Pero nunca yo partir
+Mi ultimo recuerdo  
+Corria hacia la puerta  
+Ver una candela en el camino  
+Por donde habia llegado  
+Relax dijo el portero  
+Por mi es honor recibir  
+Puede salir cuando quiere  
+Pero nunca yo partir  
 
 # Target:  
 
