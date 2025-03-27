@@ -2,6 +2,8 @@
 
 # Authority: Tom Brown, Gram Parsons
 
+# Video source: https://www.youtube.com/watch?v=h_Iz0iVvhEc
+
 # Source:  
 Won't you scratch my itch, sweet Annie Rich  
 And welcome me back to town?  

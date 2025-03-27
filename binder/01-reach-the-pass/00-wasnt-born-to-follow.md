@@ -2,6 +2,8 @@
 
 # Authority: Carole King, George Goffin, Roger McGuinn
 
+# Video source: https://www.youtube.com/watch?v=PrU9iI2VxPE
+
 # Source
 No I'd rather go and journey  
 Where the diamond crescent's glowing  

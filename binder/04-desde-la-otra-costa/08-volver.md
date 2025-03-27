@@ -2,6 +2,8 @@
 
 # Authority: Carlos Gardel
 
+# Video source: https://www.youtube.com/watch?v=3PJiNOJsK8E
+
 # Source:
 
 Yo adivino el parpadeo  

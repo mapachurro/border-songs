@@ -60,6 +60,7 @@ function splitMarkdownSections(markdown) {
   const sections = {
     title: '',
     authority: '',
+    videoSource: '',
     source: '',
     target: '',
     commentary: '',
@@ -86,6 +87,12 @@ function splitMarkdownSections(markdown) {
     if (line.startsWith('# Authority:')) {
       sections.authority = line.replace('# Authority:', '').trim();
       console.log('Found authority:', sections.authority);
+      continue;
+    }
+    
+    if (line.startsWith('# Video source:')) {
+      sections.videoSource = line.replace('# Video source:', '').trim();
+      console.log('Found video source:', sections.videoSource);
       continue;
     }
     
@@ -136,6 +143,7 @@ function splitMarkdownSections(markdown) {
   console.log('Section lengths:', {
     title: sections.title.length,
     authority: sections.authority.length,
+    videoSource: sections.videoSource.length,
     source: sections.source.length,
     target: sections.target.length,
     commentary: sections.commentary.length,
@@ -189,11 +197,34 @@ async function buildContentPages() {
         console.warn(`Warning: Empty source or target section in ${mdFile}`);
       }
       
+      // Process video source if available
+      let videoEmbed = '';
+      if (sections.videoSource) {
+        console.log(`Processing video source: ${sections.videoSource}`);
+        
+        // Extract YouTube video ID
+        let videoId = '';
+        if (sections.videoSource.includes('youtube.com')) {
+          const url = new URL(sections.videoSource);
+          videoId = url.searchParams.get('v');
+        } else if (sections.videoSource.includes('youtu.be')) {
+          videoId = sections.videoSource.split('/').pop();
+        }
+        
+        if (videoId) {
+          videoEmbed = `<iframe src="https://www.youtube.com/embed/${videoId}" title="${sections.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+          console.log(`Created video embed for ID: ${videoId}`);
+        } else {
+          console.warn(`Could not extract YouTube video ID from: ${sections.videoSource}`);
+        }
+      }
+      
       const outputHtml = await renderTemplate(contentTemplate, {
         ASSET_PATH: '../',
         TITLE: sections.title || title,
         SONG_TITLE: sections.title || title,
         '#AUTHORITY': sections.authority,
+        '#VIDEO_EMBED': videoEmbed,
         TRANSLATION_HTML: sections.target ? marked.parse(sections.target) : '<p>Translation content missing</p>',
         SOURCE_HTML: sections.source ? marked.parse(sections.source) : '<p>Source content missing</p>',
         COMMENTARY_HTML: marked.parse((sections.commentary || '') + '\n\n' + (sections.notes || '')),

@@ -2,6 +2,8 @@
 
 # Authority: Trini Lopez
 
+# Video source: https://www.youtube.com/watch?v=g0oMEd3-Oyg
+
 # Source:
 De la Sierra Morena  
 Cielito lindo, vienen bajando  

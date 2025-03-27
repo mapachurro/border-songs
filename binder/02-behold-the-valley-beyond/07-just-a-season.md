@@ -2,6 +2,8 @@
 
 # Authority: Roger McGuinn, Jacques Levy
 
+# Video source: https://www.youtube.com/watch?v=7CekMoTerEM
+
 # Source:
 
 If all my days was hills to climb and circles without reason  

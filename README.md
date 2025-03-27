@@ -90,7 +90,7 @@ There's a structure and organization to this work which follows the logic of the
 03 - Fast Car - Tracy Chapman v. Eric Combs  
 04 - Visa para un sueño - Juan Luis Guerra  
 05 - Caminos Verdes - Ruben Blades  
-06 - Sandinista - The Clash  
+06 - Washington Bullets - The Clash  
 07 - Pa'l Norte - Calle 13
 </details>
 
@@ -103,7 +103,7 @@ There's a structure and organization to this work which follows the logic of the
 01 - Hotel California - The Eagles v. the Gipsy Kings  
 02 - Why you'd want to live here - Ben Gibbard  
 03 - Juan Luis Guerra - El costo de la vida  
-04 - La hormiguera - Calle 13  
+04 - El hormiguero - Calle 13  
 05 - Frijolero - Molotov  
 06 - Desaparecido - Manu Chao  
 07 - Dancing in the Dark - Springsteen v. Juanes  

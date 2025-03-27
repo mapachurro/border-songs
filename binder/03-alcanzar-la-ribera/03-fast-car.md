@@ -1,6 +1,8 @@
-# Title: Romance in Durango
+# Title: Fast Car
 
-# Authority: Bob Dylan, Jacques Levy
+# Authority: Tracy Chapman
+
+# Video source: https://www.youtube.com/watch?v=AIOAlaACuv4
 
 # Source
 You got a fast car  

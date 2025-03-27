@@ -2,6 +2,8 @@
 
 # Authority: Ben Gibbard / Death Cab for Cutie
 
+# Video source: https://www.youtube.com/watch?v=lrI1_FwTmtg
+
 # Source
 I'm in Los Angeles today  
 It smells like an airport runway  

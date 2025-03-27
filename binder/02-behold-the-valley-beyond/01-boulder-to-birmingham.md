@@ -2,6 +2,8 @@
 
 # Authority: Bill Danoff, Emmylou Harris
 
+# Video source: https://www.youtube.com/watch?v=JjLx7ESHRcA
+
 # Source:
 
 I don't want to hear a love song  
