@@ -8,7 +8,7 @@
 Drunk at the Meskwaki casino  
 Right where God intended me to be  
 Looking up at the one man in this room  
-Who's handled more cocaine then me  
+Who's handled more cocaine than me  
 
 Think back on the good times just an hour or so ago  
 Before I got myself this drunk  
