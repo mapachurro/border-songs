@@ -1,10 +1,8 @@
-# Border songs / Canciones del límite
+# Border songs / Canciones limítrofes
 
 ## Oliver JL Renwick / mapachurro 🦝
 
-## This is a work made up of translations of popular songs and commentary.
-
-There will be descriptions here
+## A journey across borders and limits, of languages, people and places, memories of what was and dreams of what could be.
 
 ---
 copyright 2025, all rights reserved

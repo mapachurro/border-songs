@@ -41,7 +41,7 @@ Because I'm incorrigible? Maybe, but also because I have an idea about how I wan
 
 There's a structure and organization to this work which follows the logic of the theme itself. This is recursive, deconstructive logic, take it or leave it. Each section in the [binder](./binder/) will have an individual track listing inside it, `track-list-{number}.md`. 
 
-## Songs of the limit; Cantar al... limite?
+## Songs of the limit; Canciones limítrofes
 
 <!-- BEGIN FULL TRACKLIST -->
 
