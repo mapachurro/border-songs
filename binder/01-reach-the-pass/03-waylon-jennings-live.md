@@ -8,11 +8,11 @@
 Drunk at the Meskwaki casino  
 Right where God intended me to be  
 Looking up at the one man in this room  
-Who's handled more cocaine then me  
+Who's handled more cocaine than me  
 
 Think back on the good times just an hour or so ago  
 Before I got myself this drunk  
-When the valet parked my rented Mitsubishi  
+When the valet parked my rented Mitsubishi Galan  
 With a beat up old brown suitcase in the trunk  
 
 Full of firearms and flash drives  
@@ -36,6 +36,35 @@ And international money orders
 For just in case I make it cross the border  
 
 # Target:  
+Ando ebrio en el casino Meskwaki
+Justo donde Dios me mandó a parar
+Mirandole allá al único hombre en esta sala
+Que ha manejado más coca que yo
+
+Pienso en los buenos tiempos de hace como una hora
+Antes de ponerme así de borracho
+Cuando el aparcacoches estacionó mi Mitsubishi Galan de alquiler
+Con una vieja desgastada maleta marrón en el baúl
+
+Llena de armas de fuego y pendrives
+Llena de pasaportes
+y giros postales internacionales
+Para por si acaso llego a cruzar la frontera
+
+Agarro un postal de la tienda de regalos
+A avisar a mi familia que ando bien
+Mirandome a un mapa que hay en el techo
+Buscando el lugar donde todos nos encontraremos más adelante en el camino
+
+Me diijo a mi mesa
+Pido otro scotch con soda para llevar
+La banda que toca realmente va poniendo pilas
+Cierro los ojos, tiro la cabeza atrás, me pongo a soñar un sueñito
+
+Lleno de armas de fuego y pendrives
+Lleno de pasaportes
+y giros postales internacionales
+Para por si acaso logro a pasar la frontera
 
 # Commentary:  
 
