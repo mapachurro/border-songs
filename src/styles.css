@@ -185,3 +185,34 @@ h2 {
   border-radius: 0.25rem;
   overflow: hidden;
 }
+
+/* Background image for special pages */
+.bg-image-page {
+  background-image: url('img/el-paso.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.bg-image-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white overlay */
+  z-index: -1;
+}
+
+.bg-image-page .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Adjust card styling for pages with background */
+.bg-image-page .card {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

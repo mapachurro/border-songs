@@ -300,31 +300,100 @@ async function buildTrackListPages() {
 }
 
 async function copyAssets() {
-  await fs.writeFile(path.join(buildDir, '.nojekyll'), '');
-  await fs.mkdir(path.join(buildDir, 'js'), { recursive: true });
-  const jsFiles = await fs.readdir(path.join(__dirname, 'js'));
-  for (const file of jsFiles) {
-    await fs.copyFile(
-      path.join(__dirname, 'js', file),
-      path.join(buildDir, 'js', file)
-    );
-  }
-  await fs.copyFile(path.join(__dirname, 'styles.css'), path.join(buildDir, 'styles.css'));
-  const bootstrapDir = path.join(__dirname, 'bootstrap');
-  if (await fs.stat(bootstrapDir).then(() => true).catch(() => false)) {
-    const bootstrapMinCss = path.join(bootstrapDir, 'bootstrap.min.css');
-    if (await fs.stat(bootstrapMinCss).then(() => true).catch(() => false)) {
-      await fs.copyFile(bootstrapMinCss, path.join(buildDir, 'bootstrap.min.css'));
+  try {
+    console.log('Copying assets...');
+    
+    // Copy CSS
+    try {
+      await fs.copyFile(
+        path.resolve(__dirname, 'styles.css'),
+        path.join(buildDir, 'styles.css')
+      );
+      console.log('✅ Copied styles.css');
+    } catch (error) {
+      console.error('Error copying styles.css:', error);
     }
-    const customCss = path.join(bootstrapDir, 'custom.css');
-    if (await fs.stat(customCss).then(() => true).catch(() => false)) {
-      await fs.copyFile(customCss, path.join(buildDir, 'custom.css'));
+    
+    // Copy Bootstrap from the correct location
+    try {
+      const bootstrapPath = path.resolve(__dirname, 'bootstrap', 'bootstrap.min.css');
+      await fs.copyFile(
+        bootstrapPath,
+        path.join(buildDir, 'bootstrap.min.css')
+      );
+      console.log('✅ Copied bootstrap.min.css');
+    } catch (error) {
+      console.error('Error copying bootstrap.min.css:', error);
     }
-  } else {
-    const fallback = path.join(__dirname, '../node_modules/bootstrap/dist/css/bootstrap.min.css');
-    if (await fs.stat(fallback).then(() => true).catch(() => false)) {
-      await fs.copyFile(fallback, path.join(buildDir, 'bootstrap.min.css'));
+    
+    // Copy JavaScript files
+    const jsDir = path.join(buildDir, 'js');
+    await fs.mkdir(jsDir, { recursive: true });
+    console.log(`Created JS directory: ${jsDir}`);
+    
+    // Get all JS files from the source directory
+    const srcJsDir = path.resolve(__dirname, 'js');
+    try {
+      const jsFiles = await fs.readdir(srcJsDir);
+      console.log(`Found ${jsFiles.length} JS files to copy`);
+      
+      for (const file of jsFiles) {
+        const srcPath = path.join(srcJsDir, file);
+        const destPath = path.join(jsDir, file);
+        
+        // Check if it's a file (not a directory)
+        const stat = await fs.stat(srcPath);
+        if (stat.isFile()) {
+          await fs.copyFile(srcPath, destPath);
+          console.log(`Copied JS file: ${file}`);
+        }
+      }
+    } catch (error) {
+      console.error('Error copying JS files:', error);
     }
+    
+    // Copy images directory
+    const srcImgDir = path.resolve(__dirname, 'img');
+    const buildImgDir = path.join(buildDir, 'img');
+    
+    try {
+      // Check if source img directory exists
+      await fs.access(srcImgDir);
+      console.log(`Found image directory: ${srcImgDir}`);
+      
+      // Create destination img directory
+      await fs.mkdir(buildImgDir, { recursive: true });
+      console.log(`Created image directory: ${buildImgDir}`);
+      
+      // Get all files in the img directory
+      const imgFiles = await fs.readdir(srcImgDir);
+      console.log(`Found ${imgFiles.length} image files to copy`);
+      
+      // Copy each file
+      for (const file of imgFiles) {
+        const srcPath = path.join(srcImgDir, file);
+        const destPath = path.join(buildImgDir, file);
+        
+        // Check if it's a file (not a directory)
+        const stat = await fs.stat(srcPath);
+        if (stat.isFile()) {
+          await fs.copyFile(srcPath, destPath);
+          console.log(`Copied image: ${file}`);
+        }
+      }
+      
+      console.log('✅ Images copied successfully');
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        console.warn(`No img directory found at ${srcImgDir}, skipping image copy`);
+      } else {
+        console.error('Error copying images:', error);
+      }
+    }
+    
+    console.log('✅ All assets copied successfully');
+  } catch (error) {
+    console.error('Error in copyAssets function:', error);
   }
 }
 
