@@ -86,9 +86,9 @@ From the thirteenth century
 And every one of them words rang true  
 And glowed like burnin’ coal  
 Pourin’ off of every page  
-Like it was written in my soul from me to you   -->
-<!-- 
-Tangled up in blue   -->
+Like it was written in my soul from me to you   -->  
+<!--   
+Tangled up in blue   -->  
 
 I lived with them on Montague Street  
 In a basement down the stairs  
