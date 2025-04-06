@@ -3,6 +3,7 @@ import fs from 'fs/promises';
 import { marked } from 'marked';
 import { renderTemplate } from '../utils/renderTemplate.js';
 import { splitMarkdownSections } from '../utils/splitMarkdownSections.js';
+import { getOrderedSongPagesFromFilenames } from '../utils/getOrderedSongPages.js';
 
 export async function buildContentPages({ binderDir, buildDir, contentTemplate, navIndex }) {
 
