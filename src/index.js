@@ -279,18 +279,38 @@ async function buildTrackListPages() {
     const files = (await fs.readdir(sectionPath))
       .filter(f => f.startsWith('track-list') && f.endsWith('.md'));
 
+    // Grab matching song files in this section
+    const songFiles = (await fs.readdir(sectionPath))
+      .filter(f => /^\d+-.*\.md$/.test(f))
+      .sort();
+
     for (const file of files) {
       const trackListPath = path.join(sectionPath, file);
-      const trackListContent = await fs.readFile(trackListPath, 'utf-8');
+      const rawTrackList = await fs.readFile(trackListPath, 'utf-8');
+
+      // Generate HTML links for each track
+      const trackLinks = songFiles.map((filename) => {
+        const displayText = filename
+          .replace(/\.md$/, '')
+          .replace(/-/g, ' ')
+          .replace(/^\d+ /, (m) => m.trim() + ' -');
+        const htmlFile = filename.replace('.md', '.html');
+        return `<li><a href="${htmlFile}">${displayText}</a></li>`;
+      }).join('\n');
+
+      // Combine original Markdown with generated links
+      const combinedContent = `${rawTrackList}\n\n<ul>\n${trackLinks}\n</ul>`;
+
       const outputFilename = file.replace('.md', '.html');
       const outputPath = `${folder}/${outputFilename}`;
 
       const trackListHtml = await renderTemplate(tocTemplate, {
         ASSET_PATH: '../',
-        TOC_CONTENT: marked.parse(trackListContent),
+        TOC_CONTENT: marked.parse(combinedContent),
         PREV_BUTTON: '',
         NEXT_BUTTON: '',
       });
+
       const outputDir = path.join(buildDir, folder);
       await fs.mkdir(outputDir, { recursive: true });
       await fs.writeFile(path.join(outputDir, outputFilename), trackListHtml);
