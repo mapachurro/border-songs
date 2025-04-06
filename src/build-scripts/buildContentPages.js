@@ -3,12 +3,10 @@ import fs from 'fs/promises';
 import { marked } from 'marked';
 import { renderTemplate } from '../utils/renderTemplate.js';
 import { splitMarkdownSections } from '../utils/splitMarkdownSections.js';
-import { getOrderedSongPagesFromFilenames } from '../utils/getOrderedSongPages.js';
 
-export async function buildContentPages({ binderDir, buildDir, contentTemplate, navIndex }) {
-
+export async function buildContentPages({ binderDir, buildDir, contentTemplate, navIndex, songPages }) {
   console.log('Building content pages...');
-  const songPages = await getOrderedSongPagesFromFilenames(binderDir);
+
   for (let i = 0; i < songPages.length; i++) {
     try {
       const { folder, filename, outputPath, title, mdFile } = songPages[i];

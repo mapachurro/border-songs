@@ -15,6 +15,7 @@ import { buildIntroductionPage } from './build-scripts/buildIntroductionPage.js'
 import { buildTrackListPages } from './build-scripts/buildTrackListPages.js';
 import { copyAssets } from './build-scripts/copyAssets.js';
 import { generateSectionData } from './build-scripts/generateSectionData.js';
+import { getOrderedSongPagesFromFilenames } from './utils/getOrderedSongPages.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -31,16 +32,20 @@ const navIndex = [];
 
 async function buildAll() {
   await ensureBuildDir(buildDir);
+
+  const songPages = await getOrderedSongPagesFromFilenames(binderDir);
+
   await buildTitlePage({ binderDir, buildDir, titleTemplate, navIndex });
   await buildTOCPage({ buildDir, tocTemplate, navIndex });
   await buildIntroductionPage({ binderDir, buildDir, navIndex, introTemplate });
-  await buildContentPages({ binderDir, buildDir, contentTemplate, navIndex });
+
+  await buildContentPages({ binderDir, buildDir, contentTemplate, navIndex, songPages });
+
   await buildSectionIntroductions({ binderDir, buildDir, introTemplate, navIndex });
   await buildTrackListPages({ binderDir, buildDir, tocTemplate, navIndex });
   await copyAssets({ __dirname, buildDir });
 
-  // Sort navIndex (move to a utility if you want)
-  navIndex.sort(/* ... same sort logic ... */);
+  navIndex.sort(/* ... */);
 
   await fs.writeFile(
     path.join(buildDir, 'nav-index.json'),
