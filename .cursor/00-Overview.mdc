@@ -1,0 +1,98 @@
+# Explanation
+The files in this directory are to be used by Cursor as both a guide to the codebase, and guidelines when asked to carry out tasks.
+
+## Rules
+
+The files in this directory should be numbered in the order of priority or importance.
+Rules whose number is lower should be followed before rules whose number is higher.
+
+## List of rule files
+
+00-overview.mdc (This file)
+01-config-and-versions.mdc
+02-conventions.mdc
+
+## Project overview
+
+This project is a digital book of translations.
+
+There is some information available in the [README.md](./README.md) file.
+
+The intention is to create a static site that has a specific structure and order, like a book.
+
+## Project structure
+
+The project is structured as follows:
+
+./binder/ contains the source content for the book. In each of the subdirectories inside binder, there are:
+- an introduction.md file
+- a track-list-<number like 01>.md file
+- a number of song files, which are named like 01-song-name.md, 02-song-name.md, etc.
+
+./build/ contains the built site.
+
+./src/ contains the source code for the build process.
+- index.js is the entry point for the build process.
+- build-scripts/ contains the source code for the build scripts, as well as .html templates for the pages.
+- utils/ contains utility functions for the build process.
+
+### Built site structure
+
+The build pipeline should create a site which is navigable, e.g., using the functionality in ./src/js/nav.js and ./src/js/navbar.js, according to the following order:
+
+index.html
+introduction.html
+toc.html
+
+And then, for each section:
+track-list-XX.html
+introduction.html (the introduction.md file present in the corresponding section)
+01-song-name.html
+02-song-name.html
+
+When the reader reaches the last song page in a section, the next page should be:
+track-list-XX.html (the track-list-XX.md file present in the following section in numerical order)
+
+There will likely be an "epilogue" page at the end, which is yet to be built. This would go after the last song page in the fourth section of binder.
+
+...
+
+## Persistent context
+
+For any task, it is likely that you will need to refer to the following files. For this reason, please keep them in context, regardless of whether the user has added them to the cursor editor or composer window:
+
+### Rules
+- [.cursor/00-overview.mdc](./.cursor/00-overview.mdc)
+- [.cursor/01-config-and-versions.mdc](./.cursor/01-config-and-versions.mdc)
+- [.cursor/02-conventions.mdc](./.cursor/02-conventions.mdc)
+- [.cursor/03-script-best-practices.mdc](./.cursor/03-script-best-practices.mdc)
+
+### Project config
+./package.json
+./nvmrc
+
+### Build process
+./src/index.js
+
+#### js files
+./src/js/nav.js
+./src/js/navbar.js
+
+#### build-scripts files
+./src/build-scripts/buildTrackListPages.js
+./src/build-scripts/buildSongPages.js
+./src/build-scripts/buildTocPage.js
+./src/build-scripts/buildIndexPage.js
+./src/build-scripts/buildIntroductionPages.js
+./src/build-scripts/buildEpiloguePage.js
+
+#### utils files
+./src/utils/formatSectionTitle.js
+./src/utils/renderTemplate.js
+./src/utils/escapeHtml.js
+
+#### templates
+./src/intro-template.html - template for the introduction pages
+./src/template.html - template for the song pages
+./src/toc-template.html - template for the toc / track listing pages
+./src/title-template.html - template for the title page, ie index.html

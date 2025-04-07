@@ -11,7 +11,7 @@ function escapeHtml(str) {
   );
 }
 
-export async function buildTrackListPages({ binderDir, buildDir, tocTemplate, navIndex }) {
+export async function buildTrackListPages({ binderDir, buildDir, tocTemplate, navIndex, songPages }) {
   const folders = await fs.readdir(binderDir);
   for (const folder of folders) {
     const sectionPath = path.join(binderDir, folder);
@@ -21,14 +21,14 @@ export async function buildTrackListPages({ binderDir, buildDir, tocTemplate, na
     const files = (await fs.readdir(sectionPath))
       .filter(f => f.startsWith('track-list') && f.endsWith('.md'));
 
-    const songFiles = (await fs.readdir(sectionPath))
-      .filter(f => /^\d+-.*\.md$/.test(f))
-      .sort();
+      const songsInSection = songPages.filter(song => song.folder === folder);
 
-    const songMap = Object.fromEntries(songFiles.map(file => {
-      const base = file.replace('.md', '');
-      return [base, `${base}.html`];
-    }));
+      const songMap = Object.fromEntries(
+        songsInSection.map(song => [
+          song.filename.replace('.html', ''),
+          song.filename
+        ])
+      );  
 
     for (const file of files) {
       const trackListPath = path.join(sectionPath, file);

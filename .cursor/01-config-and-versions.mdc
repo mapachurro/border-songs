@@ -1,0 +1,7 @@
+# Config and versions
+
+Node version: see [.nvmrc](./.nvmrc).
+
+JS type: ES Module. 
+- Please default to ES Module syntax when writing new scripts.
+

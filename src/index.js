@@ -1,6 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
+import { orderNavigationItems, logNavigationOrder } from './utils/orderNavigationItems.js';
 
 async function ensureBuildDir(buildDir) {
   await fs.mkdir(buildDir, { recursive: true });
@@ -42,14 +43,20 @@ async function buildAll() {
   await buildContentPages({ binderDir, buildDir, contentTemplate, navIndex, songPages });
 
   await buildSectionIntroductions({ binderDir, buildDir, introTemplate, navIndex });
-  await buildTrackListPages({ binderDir, buildDir, tocTemplate, navIndex });
+  await buildTrackListPages({ binderDir, buildDir, tocTemplate, navIndex, songPages });
+
   await copyAssets({ __dirname, buildDir });
 
-  navIndex.sort(/* ... */);
+  const orderedNavIndex = orderNavigationItems(navIndex);
+  
+  await logNavigationOrder(orderedNavIndex, { 
+    writeToFile: true, 
+    filePath: path.join(buildDir, 'nav-order-debug.txt') 
+  });
 
   await fs.writeFile(
     path.join(buildDir, 'nav-index.json'),
-    JSON.stringify(navIndex, null, 2),
+    JSON.stringify(orderedNavIndex, null, 2),
     'utf-8'
   );
 
