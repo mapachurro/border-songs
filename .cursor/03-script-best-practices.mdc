@@ -1,0 +1,13 @@
+# Script best practices
+
+## Overall guidelines
+1. We prefer nodeJS-based scripts, in case we want to make them part of the package.
+2. However, for tasks that require e.g. parsing JSON, we have found Python to be much more reliable and faster to a working solution.
+
+
+## Best practices
+When writing scripts, please follow these best practices:
+1. We will always prefer scripts that, from the beginning, have 
+- Graceful failure fallbacks (e.g. try/catch blocks) and corresponding error handling.
+- Human-readable logging to the console. 
+- If the output is large, suggest the option of saving it to a file.
