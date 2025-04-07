@@ -80,16 +80,20 @@ For any task, it is likely that you will need to refer to the following files. F
 
 #### build-scripts files
 ./src/build-scripts/buildTrackListPages.js
-./src/build-scripts/buildSongPages.js
-./src/build-scripts/buildTocPage.js
-./src/build-scripts/buildIndexPage.js
-./src/build-scripts/buildIntroductionPages.js
-./src/build-scripts/buildEpiloguePage.js
+./src/build-scripts/buildContentPages.js
+./src/build-scripts/buildTOCPage.js
+./src/build-scripts/buildTitlePage.js
+./src/build-scripts/buildIntroductionPage.js
+./src/build-scripts/buildSectionIntroductions.js
+./src/build-scripts/copyAssets.js
+./src/build-scripts/generateSectionData.js
 
 #### utils files
 ./src/utils/formatSectionTitle.js
 ./src/utils/renderTemplate.js
-./src/utils/escapeHtml.js
+./src/utils/orderNavigationItems.js
+./src/utils/splitMarkdownSections.js
+./src/utils/createSongLinks.js
 
 #### templates
 ./src/intro-template.html - template for the introduction pages

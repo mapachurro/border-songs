@@ -37,7 +37,12 @@ async function buildAll() {
   const songPages = await getOrderedSongPagesFromFilenames(binderDir);
 
   await buildTitlePage({ binderDir, buildDir, titleTemplate, navIndex });
-  await buildTOCPage({ buildDir, tocTemplate, navIndex });
+  await buildTOCPage({ 
+    buildDir, 
+    tocTemplate, 
+    navIndex,
+    songPages  // Make sure to pass this parameter
+  });
   await buildIntroductionPage({ binderDir, buildDir, navIndex, introTemplate });
 
   await buildContentPages({ binderDir, buildDir, contentTemplate, navIndex, songPages });
