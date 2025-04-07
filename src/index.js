@@ -21,7 +21,11 @@ async function ensureBuildDir() {
 }
 
 async function renderTemplate(templatePath, replacements) {
+  console.log(`Rendering template: ${templatePath}`);
+  console.log('Replacements:', JSON.stringify(replacements, null, 2));
+  
   let template = await fs.readFile(templatePath, 'utf-8');
+  console.log(`Template loaded, length: ${template.length} characters`);
   
   // Handle conditional sections
   for (const key in replacements) {
@@ -31,12 +35,14 @@ async function renderTemplate(templatePath, replacements) {
       
       // If value exists, replace the conditional section with its content
       if (value) {
+        console.log(`Replacing conditional section: {{#${actualKey}}}`);
         template = template.replace(
           new RegExp(`{{#${actualKey}}}(.*?){{/${actualKey}}}`, 's'),
           (_, content) => content.replace(`{{${actualKey}}}`, value)
         );
       } else {
         // If value doesn't exist, remove the conditional section
+        console.log(`Removing conditional section: {{#${actualKey}}}`);
         template = template.replace(
           new RegExp(`{{#${actualKey}}}.*?{{/${actualKey}}}`, 's'),
           ''
@@ -46,12 +52,18 @@ async function renderTemplate(templatePath, replacements) {
   }
   
   // Replace regular placeholders
-  return Object.entries(replacements)
+  const result = Object.entries(replacements)
     .filter(([key]) => !key.startsWith('#'))
     .reduce(
-      (html, [key, value]) => html.replaceAll(`{{${key}}}`, value),
+      (html, [key, value]) => {
+        console.log(`Replacing {{${key}}} with ${value.substring ? value.substring(0, 30) + '...' : value}`);
+        return html.replaceAll(`{{${key}}}`, value);
+      },
       template
     );
+  
+  console.log(`Template rendering complete, length: ${result.length} characters`);
+  return result;
 }
 
 function splitMarkdownSections(markdown) {
@@ -246,27 +258,41 @@ async function buildContentPages() {
 }
 
 async function buildTitlePage() {
-  const titleMd = await fs.readFile(path.join(binderDir, 'title-page.md'), 'utf-8');
-  const titleHtml = await renderTemplate(titleTemplate, {
-    ASSET_PATH: '',
-    TITLE_CONTENT: marked.parse(titleMd),
-    PREV_BUTTON: '',
-    NEXT_BUTTON: '',
-  });
-  await fs.writeFile(path.join(buildDir, 'index.html'), titleHtml);
-  navIndex.unshift('index.html');
+  try {
+    console.log('Building title page...');
+    
+    const outputHtml = await renderTemplate(titleTemplate, {
+      ASSET_PATH: './',
+      TITLE: 'Border Songs',
+      PREV_BUTTON: '',
+      NEXT_BUTTON: '',
+    });
+    
+    await fs.writeFile(path.join(buildDir, 'index.html'), outputHtml);
+    navIndex.push('index.html');
+    console.log('✅ Built title page');
+  } catch (error) {
+    console.error('Error building title page:', error);
+  }
 }
 
 async function buildTOCPage() {
-  const tocMd = await getTrackLists(true);
-  const tocHtml = await renderTemplate(tocTemplate, {
-    ASSET_PATH: '',
-    TOC_CONTENT: marked.parse(tocMd),
-    PREV_BUTTON: '',
-    NEXT_BUTTON: '',
-  });
-  await fs.writeFile(path.join(buildDir, 'toc.html'), tocHtml);
-  navIndex.push('toc.html');
+  try {
+    console.log('Building table of contents page...');
+    
+    const outputHtml = await renderTemplate(tocTemplate, {
+      ASSET_PATH: './',
+      TITLE: 'Table of Contents',
+      PREV_BUTTON: '',
+      NEXT_BUTTON: '',
+    });
+    
+    await fs.writeFile(path.join(buildDir, 'toc.html'), outputHtml);
+    navIndex.push('toc.html');
+    console.log('✅ Built table of contents page');
+  } catch (error) {
+    console.error('Error building table of contents page:', error);
+  }
 }
 
 async function buildTrackListPages() {
