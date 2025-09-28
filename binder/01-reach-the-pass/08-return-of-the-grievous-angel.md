@@ -58,9 +58,11 @@ And they all lead me straight back home to you
 Twenty thousand roads I went down, down, down  
 And they all lead me straight back home to you  
 
-
 # Target
+<!--Good Christ, that intro line is a doozy -->
+<!-- ...fuck. Well, fuck. Please contrast 'porch' and 'parlor' and match the register and historical vibe.-->
 
+<!-- fuck me, this is untranslatable-->
 # Commentary
 
 # Notes
