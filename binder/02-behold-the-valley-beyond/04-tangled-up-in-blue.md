@@ -126,19 +126,19 @@ Tangled up in blue
 
 # Target:  
 
-Tempranito de una mañanita, con el sol brillante
-Ella recostada en la cama
-Será que haya cambiado en algo
-Si aún iba de pelirroja
+Tempranito de una mañanita, con el sol brillante  
+Ella recostada en la cama  
+Será que haya cambiado en algo  
+Si aún iba de pelirroja  
 
-Dijo la familia de ella, que sus vidas juntos
-Seguro sería difícil
-<!-- They never did like mama's homemade dress. Ten syllables. Get rekt-->
-Y la billetera de papá muy escasa quedaba
+Dijo la familia de ella, que sus vidas juntos  
+Seguro sería difícil  
+<!-- They never did like mama's homemade dress. Ten syllables. Get rekt-->  
+Y la billetera de papá muy escasa quedaba  
 
-Y ahí estuvo parado al lado de la carretera
-Caía la lluvia sobre sus zapatos
-De camino para la costa del Este
+Y ahí estuvo parado al lado de la carretera  
+Caía la lluvia sobre sus zapatos  
+De camino para la costa del Este  
 
 
 # Commentary:  
