@@ -55,8 +55,7 @@ And I'll be damned if it did not come true
 Twenty thousand roads I went down, down, down  
 And they all led me straight back home to you  
 Twenty thousand roads I went down, down, down  
-And they all led me straight back home to you  
-
+And they all led me straight back home to you
 
 # Target
 
