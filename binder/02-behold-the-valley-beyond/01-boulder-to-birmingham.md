@@ -27,7 +27,7 @@ If I thought I could see, I could see your face
 
 Well, you really got me this time  
 And the hardest part is knowing I'll survive  
-And I come to listen for the sound  
+And I come (I've come?) to listen for the sound  
 Of the trucks as they move down out on 95  
 
 And pretend that it's the ocean  
