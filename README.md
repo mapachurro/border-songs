@@ -2,7 +2,7 @@
 
 This repository is a book of poetry. I'm not kidding, that's not a metaphor, that's literally what I'm doing here.
 
-This is a long-standing project in my head, and I'm finally ripping off the band-aid, *tira*ndome a la piscina, during Kernel Block X.
+This is a long-standing project in my head. I had the privilege of participating in [Kernel](https://www.kernel.community) Block X, and I took advantage of that framework to finally rip off the band-aid, *tira*ndome a la piscina.
 
 There is a theme that is threaded through popular music, a very old theme in fact, which I find becomes much clearer in translation. When I've worked on this enough to explain it succinctly, I'll update this. Maybe. Or you'll have to read the book, idk, *but*:
 
