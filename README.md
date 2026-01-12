@@ -33,9 +33,9 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## What is wrong with you, why is nodejs involved
+## What is wrong with you, why is nodejs involved in writing a book
 
-Because I'm incorrigible? Maybe, but also because I have an idea about how I want this text to be visually represented, and stored (IMMUTABLY !!!1!1), and iterated upon (MERKLE TRIES!!1!!), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
+I have an idea about how I want this text to be visually represented, and stored (*immutably?*), and iterated upon (*how many writers have wanted the experience of merkle tries for their drafts, and just didn't know they could?*), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
 
 # Full track listing
 
