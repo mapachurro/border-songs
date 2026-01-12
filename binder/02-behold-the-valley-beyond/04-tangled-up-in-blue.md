@@ -11,12 +11,12 @@ She was lyin’ in bed
 Wond’rin’ if she’d changed at all  
 If her hair was still red  
 
-Her folks they said our lives together  
+Her folks they said their lives together  
 Sure was gonna be rough  
 They never did like Mama’s homemade dress  
 Papa’s bankbook wasn’t big enough  
 
-He was standin’ on the side of the road  
+And he was standin’ on the side of the road  
 Rain fallin’ on his shoes  
 Heading out for the East Coast  
 Lord knows he'd paid some dues gettin’ through  
@@ -29,7 +29,7 @@ He helped her out of a jam, I guess
 But he used a little too much force  
 
 And they drove that car as far as they could  
-Abandoned it out West  
+Abandoned it out west  
 Splitting up on a dark sad night  
 Both agreeing it was best  
 
@@ -125,6 +125,21 @@ We just saw it from a different point of view
 Tangled up in blue  
 
 # Target:  
+
+Tempranito de una mañanita, con el sol brillante  
+Ella recostada en la cama  
+Será que haya cambiado en algo  
+Si aún iba de pelirroja  
+
+Dijo la familia de ella, que sus vidas juntos  
+Seguro sería difícil  
+<!-- They never did like mama's homemade dress. Ten syllables. Get rekt-->  
+Y la billetera de papá muy escasa quedaba  
+
+Y ahí estuvo parado al lado de la carretera  
+Caía la lluvia sobre sus zapatos  
+De camino para la costa del Este  
+
 
 # Commentary:  
 
