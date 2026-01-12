@@ -52,11 +52,11 @@ y giros postales internacionales
 Para por si acaso llego a cruzar la frontera  
 
 Agarro un postal de la tienda de regalos  
-A avisar a mi familia que ando bien  
+Pa' avisar a mi familia que ando bien  
 Mirandome a un mapa que hay en el techo  
 Buscando el lugar donde todos nos encontraremos más adelante en el camino  
 
-Me diijo a mi mesa  
+Me dirijo a mi mesa  
 Pido otro scotch con soda para llevar  
 La banda que toca realmente va poniendo pilas  
 Cierro los ojos, tiro la cabeza atrás, me pongo a soñar un sueñito  
