@@ -108,7 +108,7 @@ Aquel forastero galante cayó muerto al suelo
 Quedé un momento, parado en silencio
 Con horror al hecho terrible que cometí
 Tantos pensamientos corrían mientras paraba ahí
-Me quedo solo la chance de correr
+Nomás me quedaba la chance de correr
 <!-- verify that chance is Mexican dialect -->
 
 Corrí por la puerta trasera donde Rosa
