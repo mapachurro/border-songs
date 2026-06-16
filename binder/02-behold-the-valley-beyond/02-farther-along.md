@@ -6,25 +6,25 @@
 
 # Source:
 
-Tempted and tried we're oft' made to wonder
-Why it should be thus all the day long
-While there are others living about us
-Never molested, though in the wrong
+Tempted and tried we're oft' made to wonder  
+Why it should be thus all the day long  
+While there are others living about us  
+Never molested, though in the wrong  
 
-Farther along we'll know more about it
-Farther along we'll understand why
-Cheer up my brother live in the sunshine
-We'll understand it all by and by
+Farther along we'll know more about it  
+Farther along we'll understand why  
+Cheer up my brother live in the sunshine  
+We'll understand it all by and by  
 
-When death has come and taken our loved ones
-Leaving our home so lonely and drear
-Then do we wonder how others prosper
-Living so wicked year after year
+When death has come and taken our loved ones  
+Leaving our home so lonely and drear  
+Then do we wonder how others prosper  
+Living so wicked year after year  
 
-Farther along we'll know more about it
-Farther along we'll understand why
-Cheer up my brother live in the sunshine
-We'll understand it all by and by
+Farther along we'll know more about it  
+Farther along we'll understand why  
+Cheer up my brother live in the sunshine  
+We'll understand it all by and by  
 
 # Target:  
 

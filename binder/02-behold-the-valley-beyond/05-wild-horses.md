@@ -6,51 +6,51 @@
 
 # Source:
 
-Childhood living 
+Childhood living   
     is easy to do  
-The things you wanted 
+The things you wanted   
     I bought them for you  
-Graceless lady 
+Graceless lady   
     you know who I am  
-You know I can't let you 
+You know I can't let you   
     slide through my hands  
 
-Wild horses 
+Wild horses   
     couldn't drag me away  
-Wild, wild horses
+Wild, wild horses  
     couldn't drag me away  
 
-I watched you suffer 
+I watched you suffer   
     a dull aching pain  
-Now you decided 
+Now you decided   
     to show me the same  
-No sweeping exits 
+No sweeping exits   
     or offstage lines  
-Could make me feel bitter 
+Could make me feel bitter   
     or treat you unkind  
 
-Wild horses 
+Wild horses   
     couldn't drag me away  
-Wild, wild horses
+Wild, wild horses  
     couldn't drag me away  
 
-I know I dreamed you 
+I know I dreamed you   
     a sin and a lie  
-I have my freedom 
+I have my freedom   
     but I don't have much time  
-Faith has been broken
+Faith has been broken  
     tears must be cried  
-Let's do some living 
+Let's do some living   
     after we (we'll?) die  
 
-Wild horses
+Wild horses  
     couldn't drag me away  
-Wild, wild horses
+Wild, wild horses  
     we'll ride them some day  
 
-Wild horses
+Wild horses  
     couldn't drag me away  
-Wild, wild horses
+Wild, wild horses  
     we'll ride them some day  
 
 # Target:  

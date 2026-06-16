@@ -144,7 +144,7 @@ Me pregunto dónde andarás
 más alla entre las estrellas?  
 
 Pero acá debajo del cielo  
-Nunca ha habido una carta*
+Nunca ha habido una carta*  
 Que nos guiara el camino  
 En esta carretera chueca del corazón  
 
