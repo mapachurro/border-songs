@@ -2,7 +2,7 @@
 
 This repository is a book of poetry. I'm not kidding, that's not a metaphor, that's literally what I'm doing here.
 
-This is a long-standing project in my head, and I'm finally ripping off the band-aid, *tira*ndome a la piscina, during Kernel Block X.
+This is a long-standing project in my head. I had the privilege of participating in [Kernel](https://www.kernel.community) Block X, and I took advantage of that framework to finally rip off the band-aid, *tira*ndome a la piscina.
 
 There is a theme that is threaded through popular music, a very old theme in fact, which I find becomes much clearer in translation. When I've worked on this enough to explain it succinctly, I'll update this. Maybe. Or you'll have to read the book, idk, *but*:
 
@@ -33,9 +33,9 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## What is wrong with you, why is nodejs involved
+## What is wrong with you, why is nodejs involved in writing a book
 
-Because I'm incorrigible? Maybe, but also because I have an idea about how I want this text to be visually represented, and stored (IMMUTABLY !!!1!1), and iterated upon (MERKLE TRIES!!1!!), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
+I have an idea about how I want this text to be visually represented, and stored (*immutably?*), and iterated upon (*how many writers have wanted the experience of merkle tries for their drafts, and just didn't know they could?*), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
 
 # Full track listing
 

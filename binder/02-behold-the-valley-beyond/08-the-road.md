@@ -124,6 +124,7 @@ Me bajo de la montaña
 Bajo caminando en tus zapatos  
 Me creían jugar al azar  
 Pero no me quedó mas que perder  
+Pero no me quedó mas que perder  
 
 Pues en aquel camino me pusiste  
 ¿Cómo te lo iba a negar?  

@@ -17,7 +17,10 @@ And I'll be damned if it did not come true
 <br />  
 Twenty thousand roads I went down, down, down  
 And they all led me straight back home to you  
+And they all led me straight back home to you  
 <br />  
+'Cause I headed west to grow up with the country  
+Across those prairies with those waves of grain  
 'Cause I headed west to grow up with the country  
 Across those prairies with those waves of grain  
 <br />  
@@ -36,6 +39,7 @@ And now I know just what I have to do
 <br />  
 And the man on the radio won't leave me alone  
 He wants to take my money for something that I've never been shown  
+He wants to take my money for something that I've never been shown  
 <br />  
 And I saw my devil  
 And I saw my deep blue sea  
@@ -53,6 +57,7 @@ Oh, but I remembered something you once told me
 And I'll be damned if it did not come true  
 <br />  
 Twenty thousand roads I went down, down, down  
+And they all led me straight back home to you  
 And they all led me straight back home to you  
 Twenty thousand roads I went down, down, down  
 And they all led me straight back home to you  
