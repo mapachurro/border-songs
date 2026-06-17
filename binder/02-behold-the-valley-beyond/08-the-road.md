@@ -124,6 +124,7 @@ Me bajo de la montaña
 Bajo caminando en tus zapatos  
 Me creían jugar al azar  
 Pero no me quedó mas que perder  
+Pero no me quedó mas que perder  
 
 Pues en aquel camino me pusiste  
 ¿Cómo te lo iba a negar?  
@@ -144,7 +145,7 @@ Me pregunto dónde andarás
 más alla entre las estrellas?  
 
 Pero acá debajo del cielo  
-Nunca ha habido una carta*
+Nunca ha habido una carta*  
 Que nos guiara el camino  
 En esta carretera chueca del corazón  
 

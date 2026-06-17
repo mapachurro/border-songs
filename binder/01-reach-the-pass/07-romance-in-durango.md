@@ -8,7 +8,7 @@
 Hot chili peppers in the blistering sun  
 Dust on my face and my cape  
 Me and Magdalena on the run  
-I think this time we shall escape 
+I think this time we shall escape   
 
 Sold my guitar to the baker's son  
 For a few crumbs and a place to hide  
@@ -52,7 +52,7 @@ You'll shine with diamonds in your wedding gown
 The way it (the wait?) is long but the end is near  
 Already the fiesta has begun  
 (In the streets) The face of God will appear  
-With his serpent eyes of obsidian (But the serpent's eyes are of obsidian?)
+With his serpent eyes of obsidian (But the serpent's eyes are of obsidian?)  
 
 No llores, mi querida  
 Dios nos vigila  
