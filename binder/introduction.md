@@ -1,3 +1,11 @@
+When you cross the line, you always end up losing something.
+
+So, the title of this work, in English, is `Border Songs`; in Spanish, it's `Canciones limítrofes`: `Borderline songs`. 
+
+What are you willing to lose to cross the line?
+
+It's more about what you don't know you'll lose. And what happens after you do.
+
 ## Introduction
 
 If any of the verses from Edward FitzGerald's 1859 translation, "The Rubáiyát of Omar Khayyam", sound familiar to you, they're probably these: 
