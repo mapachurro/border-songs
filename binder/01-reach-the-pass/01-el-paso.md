@@ -79,85 +79,85 @@ One little kiss and Felina, goodbye
 
 # Target:  
 
-Por ahí, oeste de Tejas, villa de El Paso
-Me enamoré de una mejicanita
-La noche me encontraba donde la cantina de Rosa
-Música tocaban y vueltas daba Felina
+Por ahí, oeste de Tejas, villa de El Paso  
+Me enamoré de una mejicanita  
+La noche me encontraba donde la cantina de Rosa  
+Música tocaban y vueltas daba Felina  
 
-Más negros que la noche, los ojos de Felina
-Malvados y crueles echando hechizas
-Profundo amaba esta doncella mejicana
-Enamorado, pero en vano me lo sabía
+Más negros que la noche, los ojos de Felina  
+Malvados y crueles echando hechizas  
+Profundo amaba esta doncella mejicana  
+Enamorado, pero en vano me lo sabía  
 
-Otra noche entró un joven vaquero loco 
-<!-- not sure about loco; I wish I could use 'bien cabron'; there's another mexican word on the tip of my tongue. Makes me think of 'rudo y cursi' -->
+Otra noche entró un joven vaquero loco   
+<!-- not sure about loco; I wish I could use 'bien cabron'; there's another mexican word on the tip of my tongue. Makes me think of 'rudo y cursi' -->  
 
-Descontrolado como el viento de Tejas oeste
-<!-- put oeste at the end for the grito -->
-Atrevido y bien galante, una copa compartía
-Con la malvada Felina, a la que yo amaba
+Descontrolado como el viento de Tejas oeste  
+<!-- put oeste at the end for the grito -->  
+Atrevido y bien galante, una copa compartía  
+Con la malvada Felina, a la que yo amaba  
 
-Así que con ira
+Así que con ira  
 
-Le demandé el derecho al amor de la doncella
-<!-- do research on this archaic language -->
-Bajó la mano a por la pistola que llevaba
-Le contesté mi reto en menos que un latido
-Aquel forastero galante cayó muerto al suelo
+Le demandé el derecho al amor de la doncella  
+<!-- do research on this archaic language -->  
+Bajó la mano a por la pistola que llevaba  
+Le contesté mi reto en menos que un latido  
+Aquel forastero galante cayó muerto al suelo  
 
-Quedé un momento, parado en silencio
-Con horror al hecho terrible que cometí
-Tantos pensamientos corrían mientras paraba ahí
-Nomás me quedaba la chance de correr
-<!-- verify that chance is Mexican dialect -->
+Quedé un momento, parado en silencio  
+Con horror al hecho terrible que cometí  
+Tantos pensamientos corrían mientras paraba ahí  
+Nomás me quedaba la chance de correr  
+<!-- verify that chance is Mexican dialect -->  
 
-Corrí por la puerta trasera donde Rosa
-<!-- anything about 'atras' makes me nervous with Mexican -->
-Allá donde ataban los caballos
-<!-- dale bien fuerte con el grito cabrón -->
-Agarré uno bueno, con pinta que sí corría
-Salto a su espalda y allá cabalgué
+Corrí por la puerta trasera donde Rosa  
+<!-- anything about 'atras' makes me nervous with Mexican -->  
+Allá donde ataban los caballos  
+<!-- dale bien fuerte con el grito cabrón -->  
+Agarré uno bueno, con pinta que sí corría  
+Salto a su espalda y allá cabalgué  
 
-Tan rapido como yo
-Pude del oeste de Tejas, villa de El Paso
-Allá hasta el monte de Nuevo Mexico
+Tan rapido como yo  
+Pude del oeste de Tejas, villa de El Paso  
+Allá hasta el monte de Nuevo Mexico  
 
-Ahí en El Paso, mi vida valdría nada
-Se me fue la vida entera, no queda nada
-Hace tanto tiempo desde que vi la doncella
-Mi amor es más fuerte que mi temor a la muerte
+Ahí en El Paso, mi vida valdría nada  
+Se me fue la vida entera, no queda nada  
+Hace tanto tiempo desde que vi la doncella  
+Mi amor es más fuerte que mi temor a la muerte  
 
-Me ensillé y prendí camino
-Andando a solas, a oscuras
-<!-- grito grito -->
-Capaz que mañana me tope una bala
-Esta noche no hay peor que el dolor de mi corazón
+Me ensillé y prendí camino  
+Andando a solas, a oscuras  
+<!-- grito grito -->  
+Capaz que mañana me tope una bala  
+Esta noche no hay peor que el dolor de mi corazón  
 
-Y por fin aqui estoy sobre la colina, mirador de El Paso
-Veo la cantina de Rosa abajo
-Mi amor es fuerte, me impulsa hacia adelante
-Bajando la colina a por Felina voy yo
+Y por fin aqui estoy sobre la colina, mirador de El Paso  
+Veo la cantina de Rosa abajo  
+Mi amor es fuerte, me impulsa hacia adelante  
+Bajando la colina a por Felina voy yo  
 
-A la derecha veo cinco vaqueros montados
-A la izquierda cabalgan una docena o más
-Gritan y disparan, que no me alcancen
-Tengo que llegar a la puerta de Rosa
-<!-- Rosa's back door. Very unfortunate phrase in terms of syllable length and threading the connotations, in Spanish more so than English. I think? -->
+A la derecha veo cinco vaqueros montados  
+A la izquierda cabalgan una docena o más  
+Gritan y disparan, que no me alcancen  
+Tengo que llegar a la puerta de Rosa  
+<!-- Rosa's back door. Very unfortunate phrase in terms of syllable length and threading the connotations, in Spanish more so than English. I think? -->  
 
-Hay algo que va muy mal, pos siento
-Un dolor profundo ardiendo mi costilla
-Aunque intente seguir ensillado
-Siento un cansancio, no puedo andar
+Hay algo que va muy mal, pos siento  
+Un dolor profundo ardiendo mi costilla  
+Aunque intente seguir ensillado  
+Siento un cansancio, no puedo andar  
 
-Pero mi amor a Felina es fuerte, me levanto de donde caí
-Aunque me canse, no paro a descansar
-Veo soplar el humo blanco del rifle
-Siento entrar la bala profundo en mi pecho
+Pero mi amor a Felina es fuerte, me levanto de donde caí  
+Aunque me canse, no paro a descansar  
+Veo soplar el humo blanco del rifle  
+Siento entrar la bala profundo en mi pecho  
 
-Ahí de la nada, me ha encontrado Felina
-Besandome la cara arrodillada a mi lado
-Acunado entre estos dos brazos para que valen morirse
-Un besito más y Felina, adiós
+Ahí de la nada, me ha encontrado Felina  
+Besandome la cara arrodillada a mi lado  
+Acunado entre estos dos brazos para que valen morirse  
+Un besito más y Felina, adiós  
 
 
 # Commentary:  
