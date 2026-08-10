@@ -79,6 +79,41 @@ Soon the desert will be gone
 Soon you will be dancing the fandango  
 
 # Target:  
+Chile picante bajo el sol arrasador
+Polvo sobre mi cara y mi capa
+Magdalena y yo andamos huyendo
+Esta vez creo que nos escapamos
+
+Al hijo del panadero vendí mi guitarra
+A cambio de unas migas y donde escondernos
+Pero ya conseguiré otra
+Y toco para mi Magdalena al cabalgarnos
+
+Don't cry my darling
+God is watching over us
+Pronto el caballo nos llevará hasta Durango
+Hold on to me, beloved
+Pronto ya pasará el desierto
+Pronto bailarás el fandango
+
+Pasamos las ruinas Aztecas y los fantasmas de nuestro pueblo
+Tocan las pezuñas como castañuelas sobre la piedra
+De noche sueño con las campanadas en la torre del pueblo
+Luego veo la cara sangrienta de Ramón
+
+Fui yo quien lo disparo en la cantina
+Fue mi mano que sujetó al arma?
+Anda, corramos ya mi Magdalena
+Ladran los perros y lo hecho está hecho
+
+Don't cry my darling
+God is watching over us
+Pronto el caballo nos llevará hasta Durango
+Hold on to me, beloved
+Pronto ya pasará el desierto
+Pronto bailarás el fandango
+
+
 
 # Commentary:  
 
