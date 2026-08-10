@@ -31,7 +31,7 @@ Some dance to remember, some dance to forget
 So I called up the Captain, "Please bring me my wine"  
 He said, "We haven't had that spirit here since 1969"  
 And still, those voices are calling from far away  
-Wake you up in the middle of the night just to hear them say 
+Wake you up in the middle of the night just to hear them say   
 
 "Welcome to the Hotel California  
 Such a lovely place (such a lovely place)  

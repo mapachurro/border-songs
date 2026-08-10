@@ -36,7 +36,7 @@ No llores, mi querida
 Dios nos vigila  
 Soon the horse will take us to Durango  
 Agarrame, mi vida  
-Soon the desert will be gone
+Soon the desert will be gone  
 Soon you will be dancing the fandango  
 
 At the corrida we'll sit in the shade  
@@ -79,79 +79,79 @@ Soon the desert will be gone
 Soon you will be dancing the fandango  
 
 # Target:  
-Chile picante bajo el sol arrasador
-Polvo sobre mi cara y mi capa
-Magdalena y yo andamos huyendo
-Esta vez creo que nos escapamos
+Chile picante bajo el sol arrasador  
+Polvo sobre mi cara y mi capa  
+Magdalena y yo andamos huyendo  
+Esta vez creo que nos escapamos  
 
-Al hijo del panadero vendí mi guitarra
-A cambio de unas migas y donde escondernos
-Pero ya conseguiré otra
-Y toco para mi Magdalena al cabalgarnos
+Al hijo del panadero vendí mi guitarra  
+A cambio de unas migas y donde escondernos  
+Pero ya conseguiré otra  
+Y toco para mi Magdalena al cabalgarnos  
 
-Don't cry my darling
-God is watching over us
-Pronto el caballo nos llevará hasta Durango
-Hold on to me, beloved
-Pronto ya pasará el desierto
-Pronto bailarás el fandango
+Don't cry my darling  
+God is watching over us  
+Pronto el caballo nos llevará hasta Durango  
+Hold on to me, beloved  
+Pronto ya pasará el desierto  
+Pronto bailarás el fandango  
 
-Pasamos las ruinas Aztecas y los fantasmas de nuestro pueblo
-Tocan las pezuñas como castañuelas sobre la piedra
-De noche sueño con las campanadas en la torre del pueblo
-Luego veo la cara sangrienta de Ramón
+Pasamos las ruinas Aztecas y los fantasmas de nuestro pueblo  
+Tocan las pezuñas como castañuelas sobre la piedra  
+De noche sueño con las campanadas en la torre del pueblo  
+Luego veo la cara sangrienta de Ramón  
 
-Fui yo quien lo disparo en la cantina
-Fue mi mano que sujetó al arma?
-Anda, corramos ya mi Magdalena
-Ladran los perros y lo hecho está hecho
+Fui yo quien lo disparo en la cantina  
+Fue mi mano que sujetó al arma?  
+Anda, corramos ya mi Magdalena  
+Ladran los perros y lo hecho está hecho  
 
-Don't cry my darling
-God is watching over us
-Pronto el caballo nos llevará hasta Durango
-Hold on to me, beloved
-Pronto ya pasará el desierto
-Pronto bailarás el fandango
+Don't cry my darling  
+God is watching over us  
+Pronto el caballo nos llevará hasta Durango  
+Hold on to me, beloved  
+Pronto ya pasará el desierto  
+Pronto bailarás el fandango  
 
-En la corrida nos sentaremos bajo la sombra
-Y ver como el joven torero se para solo
-Tomaremos tequila donde se quedaban nuestros abuelos
-Cuando entraron cabalgando a Torreon
+En la corrida nos sentaremos bajo la sombra  
+Y ver como el joven torero se para solo  
+Tomaremos tequila donde se quedaban nuestros abuelos  
+Cuando entraron cabalgando a Torreon  
 
-Luego el padre recitará las oraciones antiguas
-En la capilla chiquita al otro lado del pueblo
-Me pondré botas nuevas y un arete de oro
-Y brillarás con diamantes en tu vestido de novia
+Luego el padre recitará las oraciones antiguas  
+En la capilla chiquita al otro lado del pueblo  
+Me pondré botas nuevas y un arete de oro  
+Y brillarás con diamantes en tu vestido de novia  
 
-La espera es larga pero el final ya se acerca
-Ya comenzaron las festividades
-En las calles aparecerá la cara de Dios
-Con sus ojos de serpiente de obsidiana
+La espera es larga pero el final ya se acerca  
+Ya comenzaron las festividades  
+En las calles aparecerá la cara de Dios  
+Con sus ojos de serpiente de obsidiana  
 
-Don't cry my darling
-God is watching over us
-Pronto el caballo nos llevará hasta Durango
-Hold on to me, beloved
-Pronto ya pasará el desierto
-Pronto bailarás el fandango
+Don't cry my darling  
+God is watching over us  
+Pronto el caballo nos llevará hasta Durango  
+Hold on to me, beloved  
+Pronto ya pasará el desierto  
+Pronto bailarás el fandango  
 
-Ha sido trueno que escuché
-Me vibra la cabeza, siento un dolor agudo
-Ven sientate a mi lado, no digas ni palabra
-Oh, será que me han matado?
+Ha sido trueno que escuché  
+Me vibra la cabeza, siento un dolor agudo  
+Ven sientate a mi lado, no digas ni palabra  
+Oh, será que me han matado?  
 
-Rapido, Magdalena, agarra mi arma
-Arriba en el monte, mira el fogonazo
-Apunta bien, mi queridita
-Acaso no alcanzamos al amanecer
-<!-- There are multiple ways to say this. Investigate which is the most frequently collocated? -->
+Rapido, Magdalena, agarra mi arma  
+Arriba en el monte, mira el fogonazo  
+Apunta bien, mi queridita  
+Acaso no alcanzamos al amanecer  
+<!-- There are multiple ways to say this. Investigate which is the most frequently collocated? -->  
 
-Don't cry my darling
-God is watching over us
-Pronto el caballo nos llevará hasta Durango
-Hold on to me, beloved
-Pronto ya pasará el desierto
-Pronto bailarás el fandango
+Don't cry my darling  
+God is watching over us  
+Pronto el caballo nos llevará hasta Durango  
+Hold on to me, beloved  
+Pronto ya pasará el desierto  
+Pronto bailarás el fandango  
 
 # Commentary:  
 This song, written by Jacques Levy and Bob Dylan, has an inherently simple A/B/A/B rhyme for the verses. Levy-Dylan collaborations are often full of vivid imagery, and this song is certainly exemplary in that regard. For the most part, the rhyme is enforced directly (people / steeple; cape / escape), or with words that are close enough for the delivery style (gun / done). 
