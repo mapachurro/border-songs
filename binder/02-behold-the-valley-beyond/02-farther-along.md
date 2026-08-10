@@ -30,9 +30,7 @@ We'll understand it all by and by
 
 # Commentary:  
 Reading this in January 2026, I'm not sure this song, of all the Byrds' oeuvre, belongs here, especially as, IIRC, it's not actually by the Byrds; I believe it's a traditional hymn. Which... I know why I included it here. Because of its resonance with the horizon, the future, the other side. 
-Reading this in January 2026, I'm not sure this song, of all the Byrds' oeuvre, belongs here, especially as, IIRC, it's not actually by the Byrds; I believe it's a traditional hymn. Which... I know why I included it here. Because of its resonance with the horizon, the future, the other side. 
 
-I suppose this is "un caso limitrofe", pun 110% intended.
 I suppose this is "un caso limitrofe", pun 110% intended.
 # Notes:  
 
