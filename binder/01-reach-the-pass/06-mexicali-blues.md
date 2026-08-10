@@ -64,6 +64,12 @@ Pos pensar y beber son todo lo que tengo hoy
 Ella dijo que se llamaba Billie Jean, recién llego al pueblo
 No sabía que su 
 <!-- Well, shit. "stage line". This refers to "stage coach line", in other words, a regular route taken by horse-drawn stagecoaches ('diligencias') from one place to another. Big echoes of Omar Khayyam here, a la caravanserai. This is some deep Western embedded poetics. Not sure how to render it, yet, other than 'linea de diligencia' which is clumsy AF -->
+De pelo negro, vestido erizado, un collar hecho de oro
+Cuanto perfume francés que quieras inhalar
+Me subió a su cuarto y me susurró al oído
+Vente mi amigo, haz todo lo que quieras
+Ahora pago el costo de esas horas felices que pasé entre sus brazos
+Toda una vida de los blues de Mexicali
 
 
 
