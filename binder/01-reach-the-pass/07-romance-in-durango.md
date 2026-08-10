@@ -36,7 +36,7 @@ No llores, mi querida
 Dios nos vigila  
 Soon the horse will take us to Durango  
 Agarrame, mi vida  
-Soon the desert will be gone  
+Soon the desert will be gone
 Soon you will be dancing the fandango  
 
 At the corrida we'll sit in the shade  
@@ -113,9 +113,74 @@ Hold on to me, beloved
 Pronto ya pasará el desierto
 Pronto bailarás el fandango
 
+En la corrida nos sentaremos bajo la sombra
+Y ver como el joven torero se para solo
+Tomaremos tequila donde se quedaban nuestros abuelos
+Cuando entraron cabalgando a Torreon
 
+Luego el padre recitará las oraciones antiguas
+En la capilla chiquita al otro lado del pueblo
+Me pondré botas nuevas y un arete de oro
+Y brillarás con diamantes en tu vestido de novia
+
+La espera es larga pero el final ya se acerca
+Ya comenzaron las festividades
+En las calles aparecerá la cara de Dios
+Con sus ojos de serpiente de obsidiana
+
+Don't cry my darling
+God is watching over us
+Pronto el caballo nos llevará hasta Durango
+Hold on to me, beloved
+Pronto ya pasará el desierto
+Pronto bailarás el fandango
+
+Ha sido trueno que escuché
+Me vibra la cabeza, siento un dolor agudo
+Ven sientate a mi lado, no digas ni palabra
+Oh, será que me han matado?
+
+Rapido, Magdalena, agarra mi arma
+Arriba en el monte, mira el fogonazo
+Apunta bien, mi queridita
+Acaso no alcanzamos al amanecer
+<!-- There are multiple ways to say this. Investigate which is the most frequently collocated? -->
+
+Don't cry my darling
+God is watching over us
+Pronto el caballo nos llevará hasta Durango
+Hold on to me, beloved
+Pronto ya pasará el desierto
+Pronto bailarás el fandango
 
 # Commentary:  
+This song, written by Jacques Levy and Bob Dylan, has an inherently simple A/B/A/B rhyme for the verses. Levy-Dylan collaborations are often full of vivid imagery, and this song is certainly exemplary in that regard. For the most part, the rhyme is enforced directly (people / steeple; cape / escape), or with words that are close enough for the delivery style (gun / done). 
+
+Throughout both the verses and the chorus, the song is salt-and-peppered (salpimentado) with either Spanish words in an exoticizing strategy (cantina, fiesta, padre), or in what Levy and Dylan thought would be culturally appropriate, but, uh... are a bit weird (the castanets, the corrida, the cape, the... *fandango?*). Overall, there seems to be a strange mix of cultural elements that gringos often associate with "any Spanish speaking country", but within the Hispanic world, are more tightly associated with Spain itself: the castanets, the bullfighting, the "cape", whatever that is. Only bullfighters wear those?
+
+But credit where credit is due, Levy and Dylan go pretty deep and hard with their country-specific references. Their mentions of Villa and Torreon, their nod to the cultural blend of the Mexican people, both explicitly mentioning the Aztecs as well as the blending of Christianity with indigenous beliefs; the little detail of "new boots" for the wedding, what's more Mexican than that?
+
+Perhaps, fifty years on, the lyrics slap a bit of `cultural appropriation` and maybe, like, *trying too hard*, but Levy-Dylan collaborations never set their sights low.
+
+The chorus is where it gets properly interesting; the rhyme scheme gets a bit chaotic. It's A/A/B/A/C/B, and switches back and forth between Spanish sentences, properly formed, grammatical, and dialectially appropriate (`Agarrame, mi vida`). 
+
+## Translation difficulties
+
+### ghosts
+bruh. So much here idk.
+
+### hoofbeats
+
+### steeple
+Steeple is more specific than torre. Hm.
+
+### rode with Villa into Torreon
+On its face, straightforward--but this is a case of matching connotation, specifically war and battle.
+
+### the serpent's eyes of obsidian / his serpent eyes of obsidian
+
+### that flash of light
+This is muzzle flash. So -- fogonazo?
 
 # Notes:  
 These lyrics appear to be canonical / album version. The Rolling Thunder Revue version may differ slightly, or in the noise of that live performance, certain lines are slurred enough that they begin to have multiple readings. I have indicated these in parentheses ().
