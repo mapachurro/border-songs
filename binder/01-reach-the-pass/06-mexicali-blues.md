@@ -62,7 +62,7 @@ Aprecia bien tus pensamientos, agarra bien a tu licor
 Pos pensar y beber son todo lo que tengo hoy
 
 Ella dijo que se llamaba Billie Jean, recién llego al pueblo
-No sabía que su 
+No sabía que su diligencia venía en ruta desde el infierno
 <!-- Well, shit. "stage line". This refers to "stage coach line", in other words, a regular route taken by horse-drawn stagecoaches ('diligencias') from one place to another. Big echoes of Omar Khayyam here, a la caravanserai. This is some deep Western embedded poetics. Not sure how to render it, yet, other than 'linea de diligencia' which is clumsy AF -->
 De pelo negro, vestido erizado, un collar hecho de oro
 Cuanto perfume francés que quieras inhalar
@@ -71,7 +71,19 @@ Vente mi amigo, haz todo lo que quieras
 Ahora pago el costo de esas horas felices que pasé entre sus brazos
 Toda una vida de los blues de Mexicali
 
+Luego llegó un hombre al pueblo, algunos creían que el era de la ley
+Billie Jean ya anticipaba su llegada
+Ella me dijo que él le llevaría si yo no usaba a mi arma
+Y no llevaría nadie la culpa salvo yo mismo
+Me bajé a esas calles de polvo, pensando en la sangre
+Será que aquel forastero no se había enterado
+Pos que yo disparé primero y lo maté, y sálvame que ni logró sacar la suya
+Ahora me paso la vida huyendo con los blues de Mexicali
 
+Habrá algo que un hombre no pueda perder
+Cuando deja que una mujer lo tenga entre sus manos
+Puede que te encuentres allá cabalgando por la oscuridad
+Andando y corriendo sobre las arenas desiertas
 
 # Commentary:  
 
