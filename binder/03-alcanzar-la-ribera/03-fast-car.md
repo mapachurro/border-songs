@@ -129,7 +129,7 @@ Y trabajo en un mercado como chica de la caja
 Yo sé que las cosas van a mejorar
 Encontrarás trabajo y me subirán de puesto
 Saldremos del albergue
-Compraremos una casa grande, vivir en los suburbios
+Compraremos una casa grande, vivir en las colonias
 
 Sí me acuerdo que ibamos manejando, manejando en tu carro
 Velocidad tan rapida, sentí que me emborrachó
@@ -140,9 +140,9 @@ Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien
 
 Tú tienes un carro recio
 Tengo un trabajo pago todos nuestros costos
-Tú sales hasta tarde, tomando en el bar
+Tú andas por ahí de noche, tomado en el bar
 Ves más a los amigos que a tus hijos
-Siempre esperaba que me saldría mejor
+Siempre esperaba que se me saldría mejor
 Pensé que juntos tu y yo lo encontraríamos
 No tengo planes, no voy a ninguna parte
 Así que agárrate tu carro recio y sigue recto
@@ -155,11 +155,15 @@ Y yo, yo sentía que tenía lugar para mí
 Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien
 
 Tú tienes un carro recio
-¿Va tan recio para que salgas volando?
+¿Tan recio para que te vuelas de aqui?
 Tienes que tomarte la decisión
-Vete esta noche o vivir y morir así
+Vete esta noche o vives y mueres así
 
 # Notes
+At a certain point in this translation, I stopped thinking about it -- because this translation has been living rent-free in my head for *years*. I knew the words in Spanish before having to think about it, once I got to the chorus.
+
+The thing about the original of this song is that Chapman sings so softly and melodically that the *brutality* of the song gets lost. But it builds; it builds, and by the time we get to the last half verse, the Spanish needs to be just as harsh. Luckily, Spanish can do that.
+
 ## translation
 
 ### convenience store
@@ -187,13 +191,11 @@ para verse asi
 para el estado que tiene
 ...??
 
-###
-###
-###
-###
-###
-###
-###
+### pays all our bills
+Can't remember the mexican word for this. `biles` is pocho, I think.
+
+### the suburbs
+las colonias, cabrón.
 
 - analysis
 - the fact that Combs didn't change the gender
