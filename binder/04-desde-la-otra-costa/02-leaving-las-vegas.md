@@ -28,6 +28,7 @@ I'm leaving Las Vegas
 Lights so bright  
 Palm sweat  
 Blackjack on a Saturday night  
+
 Leaving Las Vegas  
 Leaving for good, for good  
 I'm leaving for good  
@@ -38,19 +39,12 @@ Used to be I could drive up to Barstow for the night
 Find some crossroad trucker to demonstrate his might  
 But these days it seems that, nowhere is far enough away  
 So I'm leaving Las Vegas today  
-See Sheryl Crow Live  
-Get tickets as low as $34  
-You might also like  
-If It Makes You Happy  
-Sheryl Crow  
-The Twelve Days of Christmas  
-Christmas Songs  
-BLEED  
-The Kid LAROI  
+
 [Chorus]  
 I'm leaving Las Vegas, oh  
 The lights so bright  
 Blackjack on a Saturday night  
+
 I'm leaving Las Vegas  
 I'm leaving for good  
 I'm leaving for good  
@@ -74,6 +68,7 @@ At the Lido des Girls
 And they're dealin' blackjack until one or two  
 Such a muddy line between the things you want  
 And the things you have to do, oh  
+
 [Chorus]  
 Leaving Las Vegas  
 Lights so bright  
@@ -82,13 +77,16 @@ Blackjack on a Saturday night
 Leaving Las Vegas  
 I'm leaving for good  
 I'm leaving for good  
+
 Oh, I'm leaving Las Vegas  
 The lights so bright  
-Palms sweat  
+Palm sweat  
 Blackjack on a Saturday night  
+
 I'm leaving Las Vegas  
 I'm leaving for good  
 I'm leaving for good  
+
 Oh, I'm leaving Las Vegas  
 Lights so bright  
 On a Saturday night  
@@ -114,6 +112,35 @@ Reviso las probabilidades
 Y yo, hago mi apuesta
 
 Me echo un trago
+Y cierro las persianas
+Qué será lo que encuentro
+
+Adiós a Las Vegas 
+Luces tan brillantes
+Palmas sudadas
+Blackjack una noche de Sábado
+Adiós a Las Vegas
+Me voy para siempre, para siempre
+Voy para siempre
+Voy para siempre
+
+Antes podía manejar hasta Barstow a pasar la noche
+Encontrarme un camionero andante pa' que me demuestre su valor
+Pero estos días, es como que, ningún lugar sea suficiente lejano
+Así que me voy de Las Vegas hoy
+
+Adiós a Las Vegas 
+Luces tan brillantes
+Blackjack una noche de Sábado
+
+Adiós a Las Vegas
+Me voy para siempre
+Me voy para siempre
+Pa' siempre
+
+Ando parada en medio del desierto
+Esperando a que me llegue mi barco
+Pero ya ningún 
 
 
 
@@ -147,7 +174,52 @@ fuck it I'm making a Quijote joke, yolo
 ### I place my bet
 I really, *really* need to learn Spanish gambling terminology better
 
+### Leaving Las Vegas
+This is used as a verbal phrase. However, it is absolutely a reference to, you know, the movie. About the people. Who die from alcoholism in Las Vegas? Or something, I haven't seen it.
+
+But that's the connotative / intertextual meaning. 
+
+The movie in Spanish was called `Adiós a Las Vegas`.
+
+### palm sweat
+
+### lights so bright
+
+### blackjack
+Looks like that's what it's called. Again, I need to go gambling in Spanish?? I guess.
+
+### The entire second verse
+fuck. well, fuck.
+
+#### drive up... for the night
+fucking English phrasal verbs fuck
+
+#### crossroad + trucker
+`crossroad` is bad enough
+- viajero?
+- oooh **andante** lol
+`trucker`. ugh. `cAmIoNeRo` sigh
+
+`demonstrate his might` is trickier than I thought. The correct subjunctive both prescriptively and stylistically is hard to pin down. I keep changing it.
+
+#### nowhere is far enough away
+subjunctive like whoa
+
+### waiting for my ship to come in
+something something zarpar
+barco
+buque
+navio
+
+### joker, jack, nor king
+Not sure how to make card rank allusions work in Spanish tbh. They don't use those kinds of cards in most Spanish language-cultural regions. `ningun palo, copa, o moneda` doesn't sound as sexy as jokers, jacks, and kings. 
+
+Not that that sounds sexy, per se, but like, that's the point. 
+
+I mean unless you're into that. idk.
+
 ###
+
 
 # Versions:  
 
