@@ -72,12 +72,12 @@ Hoy ponerte en libertad
 
 # Target:  
 
-I search for you, America  
+I'm searching for you, America  
 And I fear that I won't find you  
 Your trail has been lost  
 In the darkness  
 
-I call for you, America,  
+I'm calling you America
 But you don't respond  
 Those that fear the truth  
 Have disappeared you  
@@ -88,9 +88,63 @@ As long as there is no justice
 We will never have peace  
 
 Living in dictatorships  
-I search for you and can't find you   
+I search for you and don't find you  
+Your tortured body
+Cannot be found 
+
+If the dream of one
+Is the dream of all
+Break the chain
+And we begin to move
+
+Let us have faith
+Onward my people
+We will make time
+For what is to come
+
+Play it, Frank!
+
+They've kidnapped you America
+And gagged your mouth
+And now it's down to us
+To release you
+
+I'm calling you America
+Our future awaits
+And before it dies for us
+We're going to find you
+
+All right, Raffy!
+
+I'm searching for you America
+I'm calling you America
+Those that fear the truth  
+Have disappeared you 
+
+I'm searching for you America
+I'm calling you America
+And it's down to us
+Today, to release you
 
 # Commentary:  
+
+viviendo dictaduras - this is not living `in` or, particularly, `through` dictatorships. In English we might say something like `living a dictatorship`, in the way we say `she's living a nightmare`. Unclear how to resolve.
+
+No saben dónde está - OK. This is next-level Spanish poetics, I'm going to have to do some textual analysis
+
+mi raza - lol
+
+A salvar el tiempo - uh. in what sense.
+
+amordazao tu boca - so, this is a `gag`. In English, we collocate it with `bound and gagged`, especially in this kind of language. But that's not what it says. A more poetic translation might be `They bound you and gagged you`. TBD.
+
+ponerte en libertad - release. Not let go. Not free. This collocates with legal language. Maybe even `give you your freedom`, idk.
+
+te estoy llamando america - Double meaning at least: `I'm naming you America`, `I'm calling for you`, `I'm calling you (on the phone)`. I think a literal, direct translation lands this plane, but that has implications for `Te estoy buscando America`, as well
+
+Te han desaparecido  
+Los que temen la verdad  - Should the syntax of this be reversed?
+
 
 # Notes:  
 
