@@ -1,4 +1,4 @@
-# Title: Hotel California
+# Title: Leaving Las Vegas
 
 # Authority: Sheryl Crow
 
@@ -65,7 +65,7 @@ For good
 [Bridge]  
 I quit my job as a dancer  
 At the Lido des Girls  
-And they're dealin' blackjack until one or two  
+And they're `(I've been?)` dealin' blackjack until one or two  
 Such a muddy line between the things you want  
 And the things you have to do, oh  
 
@@ -118,7 +118,7 @@ Qué será lo que encuentro
 Adiós a Las Vegas 
 Luces tan brillantes
 Palmas sudadas
-Blackjack una noche de Sábado
+Blackjack una noche de sábado
 Adiós a Las Vegas
 Me voy para siempre, para siempre
 Voy para siempre
@@ -131,7 +131,7 @@ Así que me voy de Las Vegas hoy
 
 Adiós a Las Vegas 
 Luces tan brillantes
-Blackjack una noche de Sábado
+Blackjack una noche de sábado
 
 Adiós a Las Vegas
 Me voy para siempre
@@ -140,9 +140,38 @@ Pa' siempre
 
 Ando parada en medio del desierto
 Esperando a que me llegue mi barco
-Pero ya ningún 
+Pero ya ningún comodín, ni jota, ni rey
+Podrán con esta mano perdedora, a hacerla ganar
 
+Adiós a Las Vegas, oh
+Me voy de Las Vegas
+De plano
+De plano
 
+Dejé mi trabajo de bailadora
+Allá donde Lido des Girls
+Y ando repartiendo blackjack hasta la una o dos
+Una línea tan turbia entre las cosas que uno quiera
+Y las cosas que hay que hacer, oh
+
+Adiós a Las Vegas
+Luces tan brillantes
+Palmas sudadas
+Blackjack una noche de sábado
+
+Me voy da Las Vegas
+Me voy para siempre
+Me voy para siempre
+
+Adiós a Las Vegas
+Luces tan brillantes
+Una noche de sábado
+
+Adiós a Las Vegas
+Y no vuelvo más
+No, no
+No, ya no vuelvo más
+Esta vez no
 
 # Commentary:  
 
@@ -218,8 +247,29 @@ Not that that sounds sexy, per se, but like, that's the point.
 
 I mean unless you're into that. idk.
 
-###
+Anyway, `joker` = `comodín`; `jack` = `jota`; `king` = `rey` 
 
+### losing hand
+The difficulty with this term (please take as a blanket statement my failure to know how to gamble in Spanish) is that in English, you can have a `hand` in a number of different games. Of course there are `rounds` and `tricks` etc. However, the saying is `winning hand`, `losing hand`, and in American poetics, simply put, that's because of **poker**.
+
+Poker is an American game. So, unlike many other card games whose origins may come from European traditions and therefore have older, native terms for aspects of the game mechanics such as `hands`, well -- poker is poker. It's American. So it would appear that the term for a hand in poker is quite simply `mano`.
+
+### make it win
+I will not be satisfied with my options, I suspect.
+
+### quit my job
+for some reason I don't like the immediate options, `dejar` and `renunciar`
+
+### dealing blackjack
+so is this `repartiendo`? `barajando`? I think it's repartir, but... idk. What's the word for `dealer`?
+
+### a muddy line
+confuso
+enredar
+turbio
+complicar, complicado
+
+Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is about. Fuck. Well, fuck.
 
 # Versions:  
 
