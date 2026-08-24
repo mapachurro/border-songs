@@ -177,6 +177,19 @@ Esta vez no
 
 Let's be real. This song was always the point / counterpoint that Hotel California was looking for.
 
+There is a canon of songs --not a very extensive one, perhaps, but quite culturally consequential and present in a broad subset of the American consciousness-- in which this piece, Leaving Las Vegas, enjoys honorable status. That canon, naturally Cultural Productions About Las Vegas, overlaps significantly with Border Songs.
+
+Las Vegas is, without doubt, a *borderline place*. It is categorically and canonically *other*: mainstream US culture has firmly established the standard of `what happens in Vegas, stays in Vegas`. 
+
+Modern American culture is not one that makes broad allowances for deviance. Many cultures have enshrined holidays or practices wherein the normal societal rules and expectations do not apply; as US society has developed, a curious, contradictory combination of circumstances has arisen, and become somewhat entrenched, pulling in sometimes opposite, sometimes complementary, directions.
+
+On the one hand: American society collectively values reliability, hard work, and success, and *doing it right*, the legal way. Despite its arguable claim to being a meritocracy, and its demonstrably provable claim to being a place where rags-to-riches stories can and do come true, American society values *status*. 
+
+Please note: *all of these things are defined by, or denominated in, money.* If you're a good, diligent, hard worker who strives to improve over time and advance professionally, society deems you should be rewarded; and that reward should be in the form of money: more money. This is the story we tell and the expectation we collectively set, regardless of whether it's equally applied. Rags-to-riches, the shorthand for one of the prominent definitions of the American dream, is *literally* defined by money as the goal and the desirable outcome. The question of status is somewhat more complex, as it cuts across other existing lines, most notably race.
+
+Boiling it down, though: 
+On the other: Despite what we may have been taught, and what may *also* be true, American society is founded on, and depends on, the
+
 # Notes:  
 ## Translation
 
@@ -300,3 +313,16 @@ Te dejo Las Vegas
 v1, Part 2: November 28th, 2025; Cleveland, OH.
 
 <!--The translation continues, in a different, this time indelible, black ink, twelve pages later. There are a few legible dates in the intervening pages, including an entry dated November 28th, 2025. This is headed in blue ball point ink; the first page and a half of the entry is in pencil, and then it switches to a thick black ballpoint ink. A subsequent entry, December 5th, 2025, is written in water-soluble fountain pen ink, and little more than the date is legible. It's two pages later that we find the second half of the translation, also written in the same thick black ballpoint ink. For some reason, I remember looking for a page in this notebook that wasn't a fully blank, two-page fold, but rather already had something on the facing page. I think I was trying to leave larger spans of open pages for longer entries. And because of that, I chose to write the second half of the translation on the left hand page, facing a diagram I had made of the dimensions of the underside of a Singer Model 15 sewing machine. This would lead me to conclude that the second half of this translation, such as it is, was written on November 28th, 2025, or at the very least, between that date and December 5th, by which point I had found my fountain pen again. I hesitate to say more in this forum, but: the lapse of time between the first and second halves of this translation comprises one of the most severe life changes and mental health events of my adult life. I suspect that I came back to this translation in an attempt to cling to something familiar: the act of translation.  -->
+
+Antes era que iba a Barstow por una noche
+Me encontraba cualquier camionero autopistero
+<!-- I put an asterisk at the end of this line, and at the bottom of the page: `cross roads`. Clearly I was struggling with this one then, too. -->
+Para que me demostrara su valor
+Pero hoy en día es como que
+Ningún lugar sea suficiente lejos
+Así es que hoy de Las Vegas me voy
+        (coro)
+Aquí parada en medio del desierto
+Esperando a que llegue mi embarcadero
+<!-- Double asterisk here, and at the bottom of the page: `"my ship to come in"` -->
+<!-- The translation ends here. It's possible that I saw the next line, `no joker, no jack, no king`, became overwhelmed, and gave up. -->
