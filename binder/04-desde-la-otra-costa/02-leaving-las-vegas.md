@@ -6,7 +6,6 @@
 
 # Source:
 
-[Verse 1]  
 Life springs eternal  
 On a gaudy neon street  
 Not that I care at all  
@@ -23,7 +22,6 @@ I pour a drink
 And I pull the blinds  
 I wonder what I'll find  
 
-[Chorus]  
 I'm leaving Las Vegas  
 Lights so bright  
 Palm sweat  
@@ -34,13 +32,11 @@ Leaving for good, for good
 I'm leaving for good  
 I'm leaving for good  
 
-[Verse 2]  
 Used to be I could drive up to Barstow for the night  
 Find some crossroad trucker to demonstrate his might  
 But these days it seems that, nowhere is far enough away  
 So I'm leaving Las Vegas today  
-
-[Chorus]  
+ 
 I'm leaving Las Vegas, oh  
 The lights so bright  
 Blackjack on a Saturday night  
@@ -50,26 +46,22 @@ I'm leaving for good
 I'm leaving for good  
 For good  
 
-[Verse 3]  
 I'm standin' in the middle of the desert  
 Waitin' for my ship to come in  
 But now no joker, no jack, no king  
 Can take this losing hand and, and make it win  
 
-[Chorus]  
 I'm leaving Las Vegas, oh  
 I'm leaving Las Vegas  
 For good  
 For good  
-
-[Bridge]  
+ 
 I quit my job as a dancer  
 At the Lido des Girls  
 And they're `(I've been?)` dealin' blackjack until one or two  
 Such a muddy line between the things you want  
 And the things you have to do, oh  
-
-[Chorus]  
+ 
 Leaving Las Vegas  
 Lights so bright  
 Palm sweat  
@@ -91,7 +83,6 @@ Oh, I'm leaving Las Vegas
 Lights so bright  
 On a Saturday night  
 
-[Outro]  
 Leaving Las Vegas  
 And I won't be back  
 No, no  
