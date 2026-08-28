@@ -59,6 +59,7 @@ For good
 I quit my job as a dancer  
 At the Lido des Girls  
 And they're `(I've been?)` dealin' blackjack until one or two  
+<!-- This line is difficult to decipher clearly. I'm still looking for an authoritative source on Crow's version of her lyrics. It sounds like "They had me dealing...", but it could also be "Now I've been dealing...", or even "And they're dealing..." -->
 Such a muddy line between the things you want  
 And the things you have to do, oh  
  
