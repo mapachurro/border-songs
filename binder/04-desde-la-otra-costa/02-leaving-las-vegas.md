@@ -2,7 +2,7 @@
 
 # Authority: Sheryl Crow
 
-# Video source: https://www.youtube.com/watch?v=6sEgBV0zMoQ
+# Video source: https://youtu.be/Xkc-en0_LGY
 
 # Source:
 
