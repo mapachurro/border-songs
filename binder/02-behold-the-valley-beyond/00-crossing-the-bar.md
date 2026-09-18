@@ -27,25 +27,25 @@ I hope to see my Pilot face to face
 
 # Target:  
 
-Ocaso y estrella tardía,
-      Y un son claro para mí!
-Y que no suene un gemido de la barra,
-      Cuando prenda camino mar adentro,
+Ocaso y estrella tardía,  
+      Y un son claro para mí!  
+Y que no suene un gemido de la barra,  
+      Cuando prenda camino mar adentro,  
 
-Pero tal marea que moviendose parece dormida,
-      Demasiada llena para el sonido y la espuma,
-Cuando aquello que sacó de las profundiades sin fondo
-      Torna de nuevo hacia el hogar.
+Pero tal marea que moviendose parece dormida,  
+      Demasiada llena para el sonido y la espuma,  
+Cuando aquello que sacó de las profundiades sin fondo  
+      Torna de nuevo hacia el hogar.  
 
-La penumbra y campanada del atardecer,
-      Y luego eso la oscuridad!
-Y que no haya tristeza de despedida,
-      Cuando yo embarco;
+La penumbra y campanada del atardecer,  
+      Y luego eso la oscuridad!  
+Y que no haya tristeza de despedida,  
+      Cuando yo embarco;  
 
-Pues aun desde nuestra orilla de Tiempo y Lugar
-      El diluvio me llevará lejos,
-Espero verle a mi Piloto cara a cara
-      Una vez que cruce yo la barra.
+Pues aun desde nuestra orilla de Tiempo y Lugar  
+      El diluvio me llevará lejos,  
+Espero verle a mi Piloto cara a cara  
+      Una vez que cruce yo la barra.  
 
 # Commentary:  
 

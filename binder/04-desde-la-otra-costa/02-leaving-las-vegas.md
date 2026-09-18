@@ -59,7 +59,7 @@ For good
 I quit my job as a dancer  
 At the Lido des Girls  
 And they're `(I've been?)` dealin' blackjack until one or two  
-<!-- This line is difficult to decipher clearly. I'm still looking for an authoritative source on Crow's version of her lyrics. It sounds like "They had me dealing...", but it could also be "Now I've been dealing...", or even "And they're dealing..." -->
+<!-- This line is difficult to decipher clearly. I'm still looking for an authoritative source on Crow's version of her lyrics. It sounds like "They had me dealing...", but it could also be "Now I've been dealing...", or even "And they're dealing..." -->  
 Such a muddy line between the things you want  
 And the things you have to do, oh  
  
@@ -91,79 +91,79 @@ No, I won't be back
 Not this time  
 
 # Target:  
-La vida siempre brota
-En una calle colorida de neon
-Ya, que me da igual
+La vida siempre brota  
+En una calle colorida de neon  
+Ya, que me da igual  
 
-Pasé la mayor parte de mi racha perdedora
-En un jeep militar
-Para qué, no quiero recordarme
+Pasé la mayor parte de mi racha perdedora  
+En un jeep militar  
+Para qué, no quiero recordarme  
 
-Ay, ando pegandole al televisor
-Reviso las probabilidades
-Y yo, hago mi apuesta
+Ay, ando pegandole al televisor  
+Reviso las probabilidades  
+Y yo, hago mi apuesta  
 
-Me echo un trago
-Y cierro las persianas
-Qué será lo que encuentro
+Me echo un trago  
+Y cierro las persianas  
+Qué será lo que encuentro  
 
-Adiós a Las Vegas 
-Luces tan brillantes
-Palmas sudadas
-Blackjack una noche de sábado
-Adiós a Las Vegas
-Me voy para siempre, para siempre
-Voy para siempre
-Voy para siempre
+Adiós a Las Vegas   
+Luces tan brillantes  
+Palmas sudadas  
+Blackjack una noche de sábado  
+Adiós a Las Vegas  
+Me voy para siempre, para siempre  
+Voy para siempre  
+Voy para siempre  
 
-Antes podía manejar hasta Barstow a pasar la noche
-Encontrarme un camionero andante pa' que me demuestre su valor
-Pero estos días, es como que, ningún lugar sea suficiente lejano
-Así que me voy de Las Vegas hoy
+Antes podía manejar hasta Barstow a pasar la noche  
+Encontrarme un camionero andante pa' que me demuestre su valor  
+Pero estos días, es como que, ningún lugar sea suficiente lejano  
+Así que me voy de Las Vegas hoy  
 
-Adiós a Las Vegas 
-Luces tan brillantes
-Blackjack una noche de sábado
+Adiós a Las Vegas   
+Luces tan brillantes  
+Blackjack una noche de sábado  
 
-Adiós a Las Vegas
-Me voy para siempre
-Me voy para siempre
-Pa' siempre
+Adiós a Las Vegas  
+Me voy para siempre  
+Me voy para siempre  
+Pa' siempre  
 
-Ando parada en medio del desierto
-Esperando a que me llegue mi barco
-Pero ya ningún comodín, ni jota, ni rey
-Podrán con esta mano perdedora, a hacerla ganar
+Ando parada en medio del desierto  
+Esperando a que me llegue mi barco  
+Pero ya ningún comodín, ni jota, ni rey  
+Podrán con esta mano perdedora, a hacerla ganar  
 
-Adiós a Las Vegas, oh
-Me voy de Las Vegas
-De plano
-De plano
+Adiós a Las Vegas, oh  
+Me voy de Las Vegas  
+De plano  
+De plano  
 
-Dejé mi trabajo de bailadora
-Allá donde Lido des Girls
-Y ando repartiendo blackjack hasta la una o dos
-Una línea tan turbia entre las cosas que uno quiera
-Y las cosas que hay que hacer, oh
+Dejé mi trabajo de bailadora  
+Allá donde Lido des Girls  
+Y ando repartiendo blackjack hasta la una o dos  
+Una línea tan turbia entre las cosas que uno quiera  
+Y las cosas que hay que hacer, oh  
 
-Adiós a Las Vegas
-Luces tan brillantes
-Palmas sudadas
-Blackjack una noche de sábado
+Adiós a Las Vegas  
+Luces tan brillantes  
+Palmas sudadas  
+Blackjack una noche de sábado  
 
-Me voy da Las Vegas
-Me voy para siempre
-Me voy para siempre
+Me voy da Las Vegas  
+Me voy para siempre  
+Me voy para siempre  
 
-Adiós a Las Vegas
-Luces tan brillantes
-Una noche de sábado
+Adiós a Las Vegas  
+Luces tan brillantes  
+Una noche de sábado  
 
-Adiós a Las Vegas
-Y no vuelvo más
-No, no
-No, ya no vuelvo más
-Esta vez no
+Adiós a Las Vegas  
+Y no vuelvo más  
+No, no  
+No, ya no vuelvo más  
+Esta vez no  
 
 # Commentary:  
 

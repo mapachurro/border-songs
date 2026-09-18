@@ -32,12 +32,12 @@ You always end up back at your first love
 
 La vieja calle donde el eco dijo  
 That old street where the echo said  
-const sections = defineCollection({
-  loader: glob({
-    base: './binder',
-    pattern: '**/introduction.md',
-  }),
-});
+const sections = defineCollection({  
+  loader: glob({  
+    base: './binder',  
+    pattern: '**/introduction.md',  
+  }),  
+});  
 Tuya es su vida, tuyo es su querer  
 Their life is for you, their love is for you  
 

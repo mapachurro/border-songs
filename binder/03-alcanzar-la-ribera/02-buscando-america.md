@@ -76,7 +76,7 @@ And I fear that I won't find you
 Your trail has been lost  
 In the darkness  
 
-I'm calling you America
+I'm calling you America  
 But you don't respond  
 Those that fear the truth  
 Have disappeared you  
@@ -88,42 +88,42 @@ We will never have peace
 
 Living in dictatorships  
 I search for you and don't find you  
-Your tortured body
-Cannot be found 
+Your tortured body  
+Cannot be found   
 
-If the dream of one
-Is the dream of all
-Break the chain
-And we begin to move
+If the dream of one  
+Is the dream of all  
+Break the chain  
+And we begin to move  
 
-Let us have faith
-Onward my people
-We will make time
-For what is to come
+Let us have faith  
+Onward my people  
+We will make time  
+For what is to come  
 
-Play it, Frank!
+Play it, Frank!  
 
-They've kidnapped you America
-And gagged your mouth
-And now it's down to us
-To release you
+They've kidnapped you America  
+And gagged your mouth  
+And now it's down to us  
+To release you  
 
-I'm calling you America
-Our future awaits
-And before it dies for us
-We're going to find you
+I'm calling you America  
+Our future awaits  
+And before it dies for us  
+We're going to find you  
 
-All right, Raffy!
+All right, Raffy!  
 
-I'm searching for you America
-I'm calling you America
+I'm searching for you America  
+I'm calling you America  
 Those that fear the truth  
-Have disappeared you 
+Have disappeared you   
 
-I'm searching for you America
-I'm calling you America
-And it's down to us
-Today, to release you
+I'm searching for you America  
+I'm calling you America  
+And it's down to us  
+Today, to release you  
 
 # Commentary:  
 

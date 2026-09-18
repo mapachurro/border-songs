@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PrevNext from '../../components/PrevNext.astro';
+import { getReadingOrder } from '../../utils/getReadingOrder.js';
 
 export async function getStaticPaths() {
   const songs = await getCollection('songs');
@@ -22,6 +24,23 @@ export async function getStaticPaths() {
 
 const { song } = Astro.props;
 const { Content } = await render(song);
+const sections = await getCollection('sections');
+const songs = await getCollection('songs');
+
+const readingOrder = getReadingOrder(sections, songs);
+const currentHref = `/${song.id}/`;
+
+const currentIndex = readingOrder.findIndex(
+  (page) => page.href === currentHref
+);
+
+const prev = currentIndex > 0
+  ? readingOrder[currentIndex - 1]
+  : null;
+
+const next = currentIndex < readingOrder.length - 1
+  ? readingOrder[currentIndex + 1]
+  : null;
 ---
 
 <BaseLayout title={song.data.title ?? 'Border Songs'}>
@@ -34,5 +53,6 @@ const { Content } = await render(song);
         <Content />
       </div>
     </div>
+    <PrevNext prev={prev} next={next} />
   </div>
 </BaseLayout>

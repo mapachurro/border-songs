@@ -83,81 +83,81 @@ Leave tonight or live and die this way
 
 # Target
 
-Tú tienes un carro recio
-Yo quiero un boleto a donde sea
-Puede que hagamos un trato
-Quizás juntos llegamos a parte alguna
-Cualquier sitio será mejor
-Comenzamos de cero, sin nada que perder
-Quizás haremos algo
-Yo, por mi, sin nada que probar
+Tú tienes un carro recio  
+Yo quiero un boleto a donde sea  
+Puede que hagamos un trato  
+Quizás juntos llegamos a parte alguna  
+Cualquier sitio será mejor  
+Comenzamos de cero, sin nada que perder  
+Quizás haremos algo  
+Yo, por mi, sin nada que probar  
 
-Tú tienes un carro recio
-Yo tengo un plan para sacarnos de aquí
-Ando trabajando en la pulpería
-Logré ahorrar así un poco de dinero
-No habrá que manejar tan lejos
-Na' más cruzar la frontera y dentro de la ciudad
-Que los dos encontremos chamba
-Por fin veremos lo que quiere decir vivir
+Tú tienes un carro recio  
+Yo tengo un plan para sacarnos de aquí  
+Ando trabajando en la pulpería  
+Logré ahorrar así un poco de dinero  
+No habrá que manejar tan lejos  
+Na' más cruzar la frontera y dentro de la ciudad  
+Que los dos encontremos chamba  
+Por fin veremos lo que quiere decir vivir  
 
-Ves, mi papá tiene un problema
-Vive con la botella, no hay más
-Dice que su cuerpo es muy viejo para trabajar
-Su cuerpo es muy joven para verse así
-Mi mamá se fue y lo dejó
-Que quería más de la vida que lo que el le podía dar
-Dije que alguien tiene que hacer cargo de él
-Así que dejé la escuela y es lo que hice
+Ves, mi papá tiene un problema  
+Vive con la botella, no hay más  
+Dice que su cuerpo es muy viejo para trabajar  
+Su cuerpo es muy joven para verse así  
+Mi mamá se fue y lo dejó  
+Que quería más de la vida que lo que el le podía dar  
+Dije que alguien tiene que hacer cargo de él  
+Así que dejé la escuela y es lo que hice  
 
-Tú tienes un carro recio
-¿Tan recio que podamos volar de aquí?
-Tenemos que hacer la decisión
-Irnos esta noche o vivir y morir así
+Tú tienes un carro recio  
+¿Tan recio que podamos volar de aquí?  
+Tenemos que hacer la decisión  
+Irnos esta noche o vivir y morir así  
 
-Sí me acuerdo que ibamos manejando, manejando en tu carro
-Velocidad tan rapida, sentí que me emborrachó
-Luces de la ciudad tiradas ahí delante nosotros
-Y tu brazo cayó bien encogiendome los hombros
-Y yo, yo sentía que tenía lugar para mí
-Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien
+Sí me acuerdo que ibamos manejando, manejando en tu carro  
+Velocidad tan rapida, sentí que me emborrachó  
+Luces de la ciudad tiradas ahí delante nosotros  
+Y tu brazo cayó bien encogiendome los hombros  
+Y yo, yo sentía que tenía lugar para mí  
+Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien  
 
-Tú tienes un carro recio
-Andamos paseando para entretenernos 
-Tú sigues sin trabajar
-Y trabajo en un mercado como chica de la caja
-Yo sé que las cosas van a mejorar
-Encontrarás trabajo y me subirán de puesto
-Saldremos del albergue
-Compraremos una casa grande, vivir en las colonias
+Tú tienes un carro recio  
+Andamos paseando para entretenernos   
+Tú sigues sin trabajar  
+Y trabajo en un mercado como chica de la caja  
+Yo sé que las cosas van a mejorar  
+Encontrarás trabajo y me subirán de puesto  
+Saldremos del albergue  
+Compraremos una casa grande, vivir en las colonias  
 
-Sí me acuerdo que ibamos manejando, manejando en tu carro
-Velocidad tan rapida, sentí que me emborrachó
-Luces de la ciudad tiradas ahí delante nosotros
-Y tu brazo cayó bien encogiendome los hombros
-Y yo, yo sentía que tenía lugar para mí
-Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien
+Sí me acuerdo que ibamos manejando, manejando en tu carro  
+Velocidad tan rapida, sentí que me emborrachó  
+Luces de la ciudad tiradas ahí delante nosotros  
+Y tu brazo cayó bien encogiendome los hombros  
+Y yo, yo sentía que tenía lugar para mí  
+Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien  
 
-Tú tienes un carro recio
-Tengo un trabajo pago todos nuestros costos
-Tú andas por ahí de noche, tomado en el bar
-Ves más a los amigos que a tus hijos
-Siempre esperaba que se me saldría mejor
-Pensé que juntos tu y yo lo encontraríamos
-No tengo planes, no voy a ninguna parte
-Así que agárrate tu carro recio y sigue recto
+Tú tienes un carro recio  
+Tengo un trabajo pago todos nuestros costos  
+Tú andas por ahí de noche, tomado en el bar  
+Ves más a los amigos que a tus hijos  
+Siempre esperaba que se me saldría mejor  
+Pensé que juntos tu y yo lo encontraríamos  
+No tengo planes, no voy a ninguna parte  
+Así que agárrate tu carro recio y sigue recto  
 
-Sí me acuerdo que ibamos manejando, manejando en tu carro
-Velocidad tan rapida, sentí que me emborrachó
-Luces de la ciudad tiradas ahí delante nosotros
-Y tu brazo cayó bien encogiendome los hombros
-Y yo, yo sentía que tenía lugar para mí
-Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien
+Sí me acuerdo que ibamos manejando, manejando en tu carro  
+Velocidad tan rapida, sentí que me emborrachó  
+Luces de la ciudad tiradas ahí delante nosotros  
+Y tu brazo cayó bien encogiendome los hombros  
+Y yo, yo sentía que tenía lugar para mí  
+Yo, yo sentía que podría llegar a ser alguien, ser alguien, ser alguien  
 
-Tú tienes un carro recio
-¿Tan recio para que te vuelas de aqui?
-Tienes que tomarte la decisión
-Vete esta noche o vives y mueres así
+Tú tienes un carro recio  
+¿Tan recio para que te vuelas de aqui?  
+Tienes que tomarte la decisión  
+Vete esta noche o vives y mueres así  
 
 # Notes
 At a certain point in this translation, I stopped thinking about it -- because this translation has been living rent-free in my head for *years*. I knew the words in Spanish before having to think about it, once I got to the chorus.
