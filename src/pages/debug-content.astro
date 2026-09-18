@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const songs = await getCollection('songs');
+const sections = await getCollection('sections');
+---
+
+<BaseLayout title="Content Debug">
+  <div class="container py-5">
+    <h1>Border Songs Content</h1>
+
+    <h2>Sections ({sections.length})</h2>
+
+    <ul>
+      {sections.map((section) => (
+        <li>
+          <code>{section.id}</code>
+        </li>
+      ))}
+    </ul>
+
+    <h2>Songs ({songs.length})</h2>
+
+    <ul>
+      {songs.map((song) => (
+        <li>
+          <code>{song.id}</code>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
