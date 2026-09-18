@@ -14,7 +14,10 @@
     "clean-slate": "rm -rf ./build ./node_modules package-lock.json && npm install",
     "rebuild": "npm run clear && npm run build",
     "serve": "serve ./build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "dev:astro": "astro dev",
+    "build:astro": "astro build",
+    "preview:astro": "astro preview"
   },
   "repository": {
     "type": "git",
