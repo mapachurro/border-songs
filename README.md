@@ -36,9 +36,13 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
     - [Inter-thematic neural network](#inter-thematic-neural-network)
 - [Meta-structures](#meta-structures)
   - [Straight analysis](#straight-analysis)
+    - [Format](#format)
   - [Translation analysis](#translation-analysis)
+    - [Format](#format-1)
   - [Gonzo](#gonzo)
+    - [Format](#format-2)
   - [Legal briefing](#legal-briefing)
+    - [Format](#format-3)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -177,11 +181,20 @@ These are songs about risk; about gambling; about failure and **rags-to-riches d
 ## Straight analysis
 This work does require a straight, fact-based analysis of what's going on here. This structure will include English or Spanish-language contextual information, e.g. authorage, publication, well-known versions, close reading and comparisons between prominent versions.
 
+### Format
+This needs to be formatted in a professional, modern academic way. Say, Arial or Helvetica, 1.5 line spacing, with footnotes.
+
 ## Translation analysis
 Like it says on the tin. This may or may not be a separate structure from the straight analysis -- probably separate, or footnoted out from the straight analysis, as again, it's rooted in fact-based reality.
 
+### Format
+This should be similar to the straight analysis. If the straight analysis is Arial, this should be Helvetica, for example.
+
 ## Gonzo
 Did you expect anything else. The tension throughout the work will be when and where the straight analysis will get absolutely derailed or subsumed in the gonzo take.
+
+### Format
+This is going to be some true fuckery. Footnotes in chaotic places, from wherever they derive inspiration -- could be from any of the other three categories.
 
 ## Legal briefing
 I'm not sure about the viability of this, but I find it very intriguing. One idea would be to mirror or follow the structure of an NTA:
@@ -201,3 +214,6 @@ What's intriguing about this, in order to express the connection my mind is maki
 4. Fuck. Well, fuck. I am now reaping what I sowed - desde la otra costa - you didn't have permission to cross the line
 
 The way these things line up is, to a mind that works the way mine does, *striking*.
+
+### Format
+OK, this shit would get wEiRd. It would have a black line at the top of it, with a heading above the line, in order to mirror the formatting of most DHS documents. Then the text would be e.g. plaintext / typewriter font, in order to emulate the text style on an NTA.
