@@ -1,4 +1,7 @@
-## Introduction
+---
+title: "Side 1: Reach the Pass"
+order: 1
+---
 
 Welcome to Side 1 of this four-sided, annotated-play collection of tracks.
 
