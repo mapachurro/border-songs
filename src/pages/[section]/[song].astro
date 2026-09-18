@@ -1,0 +1,38 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const songs = await getCollection('songs');
+
+  return songs.map((song) => {
+    const [section, songSlug] = song.id.split('/');
+
+    return {
+      params: {
+        section,
+        song: songSlug,
+      },
+      props: {
+        song,
+      },
+    };
+  });
+}
+
+const { song } = Astro.props;
+const { Content } = await render(song);
+---
+
+<BaseLayout title={song.data.title ?? 'Border Songs'}>
+  <div class="container py-5">
+    <div class="card mx-auto" style="max-width: 800px;">
+      <div class="card-body">
+        {song.data.title && <h1>{song.data.title}</h1>}
+        {song.data.authority && <p><strong>{song.data.authority}</strong></p>}
+
+        <Content />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
