@@ -1,8 +1,8 @@
-# Title: El costo de la vida
-
-# Authority: Juan Luis Guerra
-
-# Video source: https://www.youtube.com/watch?v=tPTB0TRV3BA
+---
+title: "El costo de la vida"
+authority: "Juan Luis Guerra"
+videoSource: "https://www.youtube.com/watch?v=tPTB0TRV3BA"
+---
 
 # Source:
 

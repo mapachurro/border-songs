@@ -1,8 +1,8 @@
-# Title: Fast Car
-
-# Authority: Tracy Chapman
-
-# Video source: https://www.youtube.com/watch?v=AIOAlaACuv4
+---
+title: "Fast Car"
+authority: "Tracy Chapman"
+videoSource: "https://www.youtube.com/watch?v=AIOAlaACuv4"
+---
 
 # Source
 You got a fast car  

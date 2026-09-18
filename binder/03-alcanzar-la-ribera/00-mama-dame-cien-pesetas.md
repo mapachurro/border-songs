@@ -1,8 +1,8 @@
-# Title: Mama dame cien pesetas
-
-# Authority: Raffaella Carra
-
-# Video source: https://www.youtube.com/watch?v=OwNRZlQ1cKc
+---
+title: "Mama dame cien pesetas"
+authority: "Raffaella Carra"
+videoSource: "https://www.youtube.com/watch?v=OwNRZlQ1cKc"
+---
 
 # Source
 

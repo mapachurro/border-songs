@@ -1,8 +1,8 @@
-# Title: Romance in Durango
-
-# Authority: Bob Dylan, Jacques Levy
-
-# Video source: https://www.youtube.com/watch?v=N2ZxwyBV2IM
+---
+title: "Romance in Durango"
+authority: "Bob Dylan, Jacques Levy"
+videoSource: "https://www.youtube.com/watch?v=N2ZxwyBV2IM"
+---
 
 # Source:
 Hot chili peppers in the blistering sun  

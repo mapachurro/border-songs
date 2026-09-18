@@ -1,8 +1,8 @@
-# Title: Hotel California
-
-# Authority: Glenn Lewis Frey, Don Felder, Donald Hugh Henley
-
-# Video source: https://www.youtube.com/watch?v=6sEgBV0zMoQ
+---
+title: "Hotel California"
+authority: "Glenn Lewis Frey, Don Felder, Donald Hugh Henley"
+videoSource: "https://www.youtube.com/watch?v=6sEgBV0zMoQ"
+---
 
 # Source:
 

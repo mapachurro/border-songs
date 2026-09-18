@@ -1,8 +1,8 @@
-# Title: Caminos Verdes
-
-# Authority: Ruben Blades
-
-# Video source: https://www.youtube.com/watch?v=v9la5umehiw
+---
+title: "Caminos Verdes"
+authority: "Ruben Blades"
+videoSource: "https://www.youtube.com/watch?v=v9la5umehiw"
+---
 
 # Source:
 Voy llegando a la frontera  

@@ -1,8 +1,8 @@
-# Title: At the dark end of the street
-
-# Authority: Dan Penn, Chips Moman; Gram Parsons
-
-# Video source: https://www.youtube.com/watch?v=TDIhN630_3w
+---
+title: "At the dark end of the street"
+authority: "Dan Penn, Chips Moman; Gram Parsons"
+videoSource: "https://www.youtube.com/watch?v=TDIhN630_3w"
+---
 
 # Source:
 At the dark end of the street  

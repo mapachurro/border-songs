@@ -1,8 +1,7 @@
-# Title: Buscando América
-
-# Authority: 
-
-# Video source: https://www.youtube.com/watch?v=j2VoKiKwETI
+---
+title: "Buscando América"
+videoSource: "https://www.youtube.com/watch?v=j2VoKiKwETI"
+---
 
 # Source:
 

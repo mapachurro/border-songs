@@ -1,8 +1,8 @@
-# Title: Why you'd want to live here
-
-# Authority: Ben Gibbard / Death Cab for Cutie
-
-# Video source: https://www.youtube.com/watch?v=lrI1_FwTmtg
+---
+title: "Why you'd want to live here"
+authority: "Ben Gibbard / Death Cab for Cutie"
+videoSource: "https://www.youtube.com/watch?v=lrI1_FwTmtg"
+---
 
 # Source
 I'm in Los Angeles today  

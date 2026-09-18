@@ -1,8 +1,8 @@
-# Title: Wasn't born to follow
-
-# Authority: Carole King, George Goffin, Roger McGuinn
-
-# Video source: https://www.youtube.com/watch?v=PrU9iI2VxPE
+---
+title: "Wasn't born to follow"
+authority: "Carole King, George Goffin, Roger McGuinn"
+videoSource: "https://www.youtube.com/watch?v=PrU9iI2VxPE"
+---
 
 # Source
 No I'd rather go and journey  

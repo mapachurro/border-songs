@@ -1,8 +1,8 @@
-# Title: Pa'l Norte
-
-# Authority: Calle 13
-
-# Video source: https://www.youtube.com/watch?v=SBYO1ZfxxSM
+---
+title: "Pa'l Norte"
+authority: "Calle 13"
+videoSource: "https://www.youtube.com/watch?v=SBYO1ZfxxSM"
+---
 
 # Source:
 Unas piernas que respiran  

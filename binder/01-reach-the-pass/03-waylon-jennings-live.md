@@ -1,8 +1,8 @@
-# Title: Waylon Jennings Live!
-
-# Authority: John Darnielle
-
-# Video source: https://www.youtube.com/watch?v=9o3WZK4QDA4
+---
+title: "Waylon Jennings Live!"
+authority: "John Darnielle"
+videoSource: "https://www.youtube.com/watch?v=9o3WZK4QDA4"
+---
 
 # Source:
 Drunk at the Meskwaki casino  

@@ -1,8 +1,8 @@
-# Title: Tangled Up In Blue
-
-# Authority: Bob Dylan
-
-# Video source: https://www.youtube.com/watch?v=fPBmJSNSiFY
+---
+title: "Tangled Up In Blue"
+authority: "Bob Dylan"
+videoSource: "https://www.youtube.com/watch?v=fPBmJSNSiFY"
+---
 
 # Source:
 

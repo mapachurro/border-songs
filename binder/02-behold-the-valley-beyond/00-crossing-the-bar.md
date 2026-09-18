@@ -1,8 +1,7 @@
-# Title: Crossing the bar
-
-# Authority: Alfred, Lord Tennyson
-
-# Video source: 
+---
+title: "Crossing the bar"
+authority: "Alfred, Lord Tennyson"
+---
 
 # Source:
 

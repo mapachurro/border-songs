@@ -1,8 +1,8 @@
-# Title: Viva Las Vegas
-
-# Authority: Doc Pomus, Mort Shuman; Jello Biafra
-
-# Video source: https://www.youtube.com/watch?v=aT2nRwQysNA
+---
+title: "Viva Las Vegas"
+authority: "Doc Pomus, Mort Shuman; Jello Biafra"
+videoSource: "https://www.youtube.com/watch?v=aT2nRwQysNA"
+---
 
 # Source:
 

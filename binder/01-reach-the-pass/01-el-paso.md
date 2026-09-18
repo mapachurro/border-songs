@@ -1,8 +1,8 @@
-# Title: El Paso
-
-# Authority: Marty Robbins
-
-# Video source: https://www.youtube.com/watch?v=EzSJEHQ49gU
+---
+title: "El Paso"
+authority: "Marty Robbins"
+videoSource: "https://www.youtube.com/watch?v=EzSJEHQ49gU"
+---
 
 # Source:
 

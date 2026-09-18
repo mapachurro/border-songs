@@ -1,8 +1,8 @@
-# Title: Boulder to Birmingham
-
-# Authority: Bill Danoff, Emmylou Harris
-
-# Video source: https://www.youtube.com/watch?v=JjLx7ESHRcA
+---
+title: "Boulder to Birmingham"
+authority: "Bill Danoff, Emmylou Harris"
+videoSource: "https://www.youtube.com/watch?v=JjLx7ESHRcA"
+---
 
 # Source:
 

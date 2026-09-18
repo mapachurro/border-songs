@@ -1,8 +1,8 @@
-# Title: Dancing in the Dark
-
-# Authority: Bruce Springsteen, Juanes
-
-# Video source: https://www.youtube.com/watch?v=RRs6ju42Icg
+---
+title: "Dancing in the Dark"
+authority: "Bruce Springsteen, Juanes"
+videoSource: "https://www.youtube.com/watch?v=RRs6ju42Icg"
+---
 
 # Source:
 I get up in the evenin'  

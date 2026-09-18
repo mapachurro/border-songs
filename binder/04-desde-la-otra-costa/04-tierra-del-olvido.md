@@ -1,8 +1,8 @@
-# Title: Tierra del olvido
-
-# Authority: Carlos Vives
-
-# Video source: https://www.youtube.com/watch?v=-QkmEVNA-fo
+---
+title: "Tierra del olvido"
+authority: "Carlos Vives"
+videoSource: "https://www.youtube.com/watch?v=-QkmEVNA-fo"
+---
 
 # Source:
 

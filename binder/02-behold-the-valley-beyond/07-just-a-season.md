@@ -1,8 +1,8 @@
-# Title: Just a Season
-
-# Authority: Roger McGuinn, Jacques Levy
-
-# Video source: https://www.youtube.com/watch?v=7CekMoTerEM
+---
+title: "Just a Season"
+authority: "Roger McGuinn, Jacques Levy"
+videoSource: "https://www.youtube.com/watch?v=7CekMoTerEM"
+---
 
 # Source:
 

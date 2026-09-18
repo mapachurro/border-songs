@@ -1,8 +1,7 @@
-# Title: Landslide
-
-# Authority: 
-
-# Video source: https://www.youtube.com/watch?v=WM7-PYtXtJM
+---
+title: "Landslide"
+videoSource: "https://www.youtube.com/watch?v=WM7-PYtXtJM"
+---
 
 # Source:
 

@@ -1,8 +1,8 @@
-# Title: Frijolero
-
-# Authority: Molotov
-
-# Video source: https://www.youtube.com/watch?v=8iJMOBcPQyg
+---
+title: "Frijolero"
+authority: "Molotov"
+videoSource: "https://www.youtube.com/watch?v=8iJMOBcPQyg"
+---
 
 # Source:
 Yo ya estoy hasta la madre de que me pongan sombrero  

@@ -1,8 +1,7 @@
-# Title: Free Mexican Air Force
-
-# Authority: 
-
-# Video source: https://www.youtube.com/watch?v=DhjuKNOLSNM
+---
+title: "Free Mexican Air Force"
+videoSource: "https://www.youtube.com/watch?v=DhjuKNOLSNM"
+---
 
 # Source:
 

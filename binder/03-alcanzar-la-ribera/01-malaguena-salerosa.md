@@ -1,8 +1,8 @@
-# Title: Malagueña salerosa
-
-# Authority: Elpidio Ramirez, Pedro Galindo Galarza
-
-# Video source: https://www.youtube.com/watch?v=n8vFZNXV4i8
+---
+title: "Malagueña salerosa"
+authority: "Elpidio Ramirez, Pedro Galindo Galarza"
+videoSource: "https://www.youtube.com/watch?v=n8vFZNXV4i8"
+---
 
 # Source:
 

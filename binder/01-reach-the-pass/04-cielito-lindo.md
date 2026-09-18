@@ -1,8 +1,8 @@
-# Title: Cielito Lindo
-
-# Authority: Trini Lopez
-
-# Video source: https://www.youtube.com/watch?v=g0oMEd3-Oyg
+---
+title: "Cielito Lindo"
+authority: "Trini Lopez"
+videoSource: "https://www.youtube.com/watch?v=g0oMEd3-Oyg"
+---
 
 # Source:
 De la Sierra Morena  

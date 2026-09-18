@@ -1,8 +1,8 @@
-# Title: Return of the Grievous Angel  
-
-# Authority: Tom Brown, Gram Parsons
-
-# Video source: https://www.youtube.com/watch?v=h_Iz0iVvhEc
+---
+title: "Return of the Grievous Angel"
+authority: "Tom Brown, Gram Parsons"
+videoSource: "https://www.youtube.com/watch?v=h_Iz0iVvhEc"
+---
 
 # Source:  
 Won't you scratch my itch, sweet Annie Rich  

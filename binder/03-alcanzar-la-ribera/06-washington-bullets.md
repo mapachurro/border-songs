@@ -1,8 +1,8 @@
-# Title: Washington Bullets
-
-# Authority: Joe Strummer
-
-# Video source: https://www.youtube.com/watch?v=mkoWjhZOKWo
+---
+title: "Washington Bullets"
+authority: "Joe Strummer"
+videoSource: "https://www.youtube.com/watch?v=mkoWjhZOKWo"
+---
 
 # Source:
 

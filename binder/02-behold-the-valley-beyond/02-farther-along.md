@@ -1,8 +1,7 @@
-# Title: Farther Along
-
-# Authority: 
-
-# Video source: https://www.youtube.com/watch?v=aOkB0rG5jaE
+---
+title: "Farther Along"
+videoSource: "https://www.youtube.com/watch?v=aOkB0rG5jaE"
+---
 
 # Source:
 
