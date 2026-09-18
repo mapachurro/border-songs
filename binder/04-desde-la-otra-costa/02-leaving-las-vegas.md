@@ -1,8 +1,8 @@
-# Title: Leaving Las Vegas
-
-# Authority: Sheryl Crow
-
-# Video source: https://youtu.be/Xkc-en0_LGY
+---
+title: Leaving Las Vegas
+authority: Sheryl Crow
+videoSource: https://youtu.be/Xkc-en0_LGY
+---
 
 # Source:
 
