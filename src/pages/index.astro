@@ -1,19 +1,12 @@
 ---
-const title = 'Border Songs';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TitlePage from '../../binder/title-page.md';
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{title}</title>
-  </head>
-
-  <body>
-    <main>
-      <h1>{title}</h1>
-      <p>Astro is alive.</p>
-    </main>
-  </body>
-</html>
+<BaseLayout title="Border Songs – Title Page">
+  <main>
+    <article class="title-page">
+      <TitlePage />
+    </article>
+  </main>
+</BaseLayout>
