@@ -42,10 +42,14 @@
     "doctoc": "^2.2.1",
     "gh-pages": "^6.3.0",
     "glob": "^11.0.1",
+    "prettier": "^3.9.8",
+    "prettier-plugin-astro": "^1.0.1",
     "serve": "^14.2.4"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.10",
     "astro": "^7.3.3",
-    "marked": "^15.0.7"
+    "marked": "^15.0.7",
+    "typescript": "^6.0.3"
   }
 }

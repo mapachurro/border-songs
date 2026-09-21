@@ -7,13 +7,13 @@ const sections = (await getCollection('sections'))
 
 const songs = await getCollection('songs');
 
-function songsForSection(sectionId) {
+function songsForSection(sectionId: string) {
   return songs
     .filter((song) => song.id.startsWith(`${sectionId}/`))
     .sort((a, b) => a.id.localeCompare(b.id));
 }
 
-function trackNumber(songId) {
+function trackNumber(songId: string) {
   const filename = songId.split('/').pop();
   return filename?.match(/^(\d+)/)?.[1] ?? '';
 }

@@ -1,7 +1,12 @@
 ---
+interface Props {
+  url?: string;
+  title?: string;
+}
+
 const { url, title = 'YouTube video' } = Astro.props;
 
-function getYouTubeId(url) {
+function getYouTubeId(url: string | undefined) {
   if (!url) return null;
 
   try {
