@@ -1,15 +1,18 @@
 ---
+import { siteUrl } from "../utils/siteUrl.js";
+
 const {
   sections = [],
   currentSection = null,
   currentTitle = null,
 } = Astro.props;
 
-const orderedSections = [...sections]
-  .sort((a, b) => a.data.order - b.data.order);
+const orderedSections = [...sections].sort(
+  (a, b) => a.data.order - b.data.order,
+);
 
 const activeSection = orderedSections.find(
-  (section) => section.id.split('/')[0] === currentSection
+  (section) => section.id.split("/")[0] === currentSection,
 );
 ---
 
@@ -18,12 +21,12 @@ const activeSection = orderedSections.find(
     <div class="breadcrumb-container">
 
       <div class="breadcrumb-section">
-        <a href="/">Border Songs</a>
+        <a href={siteUrl()}>Border Songs</a>
 
         {activeSection && (
           <>
             <span aria-hidden="true"> › </span>
-            <a href={`/${currentSection}/`}>
+            <a href={siteUrl(`${currentSection}/`)}>
               {activeSection.data.title}
             </a>
           </>
@@ -39,28 +42,28 @@ const activeSection = orderedSections.find(
 
       <ol class="breadcrumb-pages">
         <li class="breadcrumb-page">
-          <a href="/">Home</a>
+          <a href={siteUrl()}>Home</a>
         </li>
 
         <li class="breadcrumb-page">
-          <a href="/toc/">TOC</a>
+          <a href={siteUrl("toc/")}>TOC</a>
         </li>
 
         <li class="breadcrumb-page">
-          <a href="/introduction/">Introduction</a>
+          <a href={siteUrl("introduction/")}>Introduction</a>
         </li>
 
         {orderedSections.map((section) => {
-          const sectionId = section.id.split('/')[0];
+          const sectionId = section.id.split("/")[0];
 
           return (
             <li
               class:list={[
-                'breadcrumb-page',
+                "breadcrumb-page",
                 { active: sectionId === currentSection },
               ]}
             >
-              <a href={`/${sectionId}/`}>
+              <a href={siteUrl(`${sectionId}/`)}>
                 Side {section.data.order}
               </a>
             </li>

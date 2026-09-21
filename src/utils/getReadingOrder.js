@@ -1,3 +1,5 @@
+import { siteUrl } from "./siteUrl.js";
+
 export function getReadingOrder(sections, songs) {
   const orderedSections = [...sections].sort(
     (a, b) => a.data.order - b.data.order,
@@ -6,15 +8,15 @@ export function getReadingOrder(sections, songs) {
   const pages = [
     {
       title: "Border Songs",
-      href: "/",
+      href: siteUrl(),
     },
     {
       title: "Table of Contents",
-      href: "/toc/",
+      href: siteUrl("toc/"),
     },
     {
       title: "Introduction",
-      href: "/introduction/",
+      href: siteUrl("introduction/"),
     },
   ];
 
@@ -23,7 +25,7 @@ export function getReadingOrder(sections, songs) {
 
     pages.push({
       title: section.data.title,
-      href: `/${sectionId}/`,
+      href: siteUrl(`${sectionId}/`),
     });
 
     const sectionSongs = songs
@@ -33,7 +35,7 @@ export function getReadingOrder(sections, songs) {
     for (const song of sectionSongs) {
       pages.push({
         title: song.data.title,
-        href: `/${song.id}/`,
+        href: siteUrl(`${song.id}/`),
       });
     }
   }

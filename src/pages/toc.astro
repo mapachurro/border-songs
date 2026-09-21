@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteUrl } from "../utils/siteUrl.js";
 
 const sections = (await getCollection('sections'))
   .sort((a, b) => a.data.order - b.data.order);
@@ -34,7 +35,7 @@ function trackNumber(songId: string) {
               <details>
                 <summary>
                   <strong>
-                    <a href={`/${sectionId}/`}>
+                    <a href={siteUrl(`${sectionId}/`)}>
                       {section.data.title}
                     </a>
                   </strong>
@@ -43,7 +44,7 @@ function trackNumber(songId: string) {
                 <div class="mt-3">
                   {sectionSongs.map((song) => (
                     <p>
-                      <a href={`/${song.id}/`}>
+                      <a href={siteUrl(`${song.id}/`)}>
                         {trackNumber(song.id)} - {song.data.title}
                       </a>
 
