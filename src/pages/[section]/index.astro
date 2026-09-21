@@ -1,12 +1,13 @@
 ---
-import { getCollection, render } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TrackList from "../../components/TrackList.astro";
 
 export async function getStaticPaths() {
-  const sections = await getCollection('sections');
+  const sections = await getCollection("sections");
 
   return sections.map((section) => {
-    const [sectionSlug] = section.id.split('/');
+    const [sectionSlug] = section.id.split("/");
 
     return {
       params: {
@@ -21,7 +22,13 @@ export async function getStaticPaths() {
 
 const { section } = Astro.props;
 const { Content } = await render(section);
-const sectionSlug = section.id.split('/')[0];
+const sectionSlug = section.id.split("/")[0];
+
+const songs = await getCollection("songs");
+
+const sectionSongs = songs
+  .filter((song) => song.id.startsWith(`${sectionSlug}/`))
+  .sort((a, b) => a.id.localeCompare(b.id));
 ---
 
 <BaseLayout
@@ -31,6 +38,10 @@ const sectionSlug = section.id.split('/')[0];
   <div class="container py-5">
     <div class="card mx-auto" style="max-width: 800px;">
       <div class="card-body">
+        <h1>{section.data.title}</h1>
+
+        <TrackList songs={sectionSongs} />
+
         <Content />
       </div>
     </div>
