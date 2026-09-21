@@ -2,24 +2,14 @@
   "name": "border-songs",
   "version": "0.5.3",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
-  "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "test": "npm run start",
-    "prebuild": "node scripts/add-linebreaks.js",
-    "build": "node src/index.js && node scripts/update-tracklist.js",
-    "build:tracklist": "node scripts/update-tracklist.js",
-    "build:html": "node src/index.js",
-    "clear": "rm -rf ./build",
-    "clean-slate": "rm -rf ./build ./node_modules package-lock.json && npm install",
-    "rebuild": "npm run clear && npm run build",
-    "serve": "serve ./build",
-    "deploy": "gh-pages -d build",
-    "dev:astro": "astro dev",
-    "build:astro": "astro build",
-    "preview:astro": "astro preview",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
     "format": "prettier --write .",
-    "check": "astro check"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -41,17 +31,12 @@
   },
   "homepage": "https://mapachurro.github.io/border-songs/",
   "devDependencies": {
-    "doctoc": "^2.2.1",
-    "gh-pages": "^6.3.0",
-    "glob": "^11.0.1",
-    "prettier": "^3.9.8",
-    "prettier-plugin-astro": "^1.0.1",
-    "serve": "^14.2.4"
-  },
-  "dependencies": {
     "@astrojs/check": "^0.9.10",
     "astro": "^7.3.3",
-    "marked": "^15.0.7",
+    "doctoc": "^2.2.1",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.9.8",
+    "prettier-plugin-astro": "^1.0.1",
     "typescript": "^6.0.3"
   }
 }
