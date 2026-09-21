@@ -1,16 +1,16 @@
-import { defineCollection } from 'astro:content';
-import { glob } from 'astro/loaders';
-import { z } from 'astro/zod';
+import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
 const songs = defineCollection({
   loader: glob({
-    base: './binder',
+    base: "./binder",
     pattern: [
-      '**/*.md',
-      '!**/introduction.md',
-      '!**/track-list*.md',
-      '!introduction.md',
-      '!title-page.md',
+      "**/*.md",
+      "!**/introduction.md",
+      "!**/track-list*.md",
+      "!introduction.md",
+      "!title-page.md",
     ],
   }),
   schema: z.object({
@@ -22,11 +22,8 @@ const songs = defineCollection({
 
 const sections = defineCollection({
   loader: glob({
-    base: './binder',
-    pattern: [
-      '**/introduction.md',
-      '!introduction.md',
-    ],
+    base: "./binder",
+    pattern: ["**/introduction.md", "!introduction.md"],
   }),
   schema: z.object({
     title: z.string(),

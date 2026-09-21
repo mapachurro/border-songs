@@ -13,7 +13,7 @@ Como el sol espanta al frío
 Como la tierra a la lluvia  
 Como el mar espera al río  
 Así espero tu regreso  
-A la tierra del olvido  
+A la tierra del olvido
 
 Como naufragan mis miedos  
 Si navego en tu mirada  
@@ -22,12 +22,12 @@ Con tu voz enamorada
 Con tu sonrisa de niña  
 Cómo me mueves el alma  
 Cómo me quitas el sueño  
-Cómo me robas la calma  
+Cómo me robas la calma
 
 Tú tienes la llave de mi corazón  
 Yo te quiero  
 Más que mi vida porque sin tu amor  
-Yo me muero  
+Yo me muero
 
 Cómo la luna alumbra  
 Por la noche los caminos  
@@ -36,7 +36,7 @@ Como el sol espanta al frío
 Como la tierra a la lluvia  
 Como el mar espera al río  
 Así espero tu regreso  
-A la tierra del olvido  
+A la tierra del olvido
 
 Como naufragan mis miedos  
 Si navego en tu mirada  
@@ -45,22 +45,22 @@ Con tu voz enamorada
 Con tu sonrisa de niña  
 Como me mueves el alma  
 Como me quitas el sueño  
-Como me robas la calma  
+Como me robas la calma
 
 Tú tienes la llave de mi corazón  
 Yo te quiero  
 Más que a mi vida porque sin tu amor  
-Yo me muero  
+Yo me muero
 
 Yo me muero  
 Yo me muero  
 Yo me muero  
-Yo me muero  
+Yo me muero
 
-# Target:  
+# Target:
 
-# Commentary:  
+# Commentary:
 
-# Notes:  
+# Notes:
 
-# Versions:  
+# Versions:

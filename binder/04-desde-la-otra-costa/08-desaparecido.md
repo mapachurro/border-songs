@@ -9,7 +9,7 @@ videoSource: "http://youtube.com/watch?v=HQaPT58mh8k"
 Me llaman el desaparecido  
 Cuando llega ya se ha ido  
 Volando vengo, volando voy  
-Deprisa deprisa a rumbo perdido  
+Deprisa deprisa a rumbo perdido
 
 Cuando me buscan nunca estoy  
 Cuando me encuentran yo no soy  
@@ -22,12 +22,12 @@ Pero esa no es la verdad
 Yo llevo en el cuerpo un dolor  
 Que no me deja respirar  
 Llevo en el cuerpo una condena  
-Que siempre me echa a caminar  
+Que siempre me echa a caminar
 
 Me dicen el desaparecido  
 Que cuando llega ya se ha ido  
 Volando vengo, volando voy  
-Deprisa deprisa a rumbo perdido  
+Deprisa deprisa a rumbo perdido
 
 Me dicen el desaparecido  
 Fantasma que nunca está  
@@ -36,7 +36,7 @@ Pero esa no es la verdad
 Yo llevo en el cuerpo un motor  
 Que nunca deja de rolar  
 Llevo en el alma un camino  
-Destino a dar nunca llegar  
+Destino a dar nunca llegar
 
 Cuando me buscan nunca estoy  
 Cuando me encuentran yo no soy  
@@ -45,7 +45,7 @@ Me fui corriendo más allá
 Me dicen el desaparecido  
 Cuando llega ya se ha ido  
 Volando vengo, volando voy  
-Deprisa deprisa a rumbo perdido  
+Deprisa deprisa a rumbo perdido
 
 Perdido en el siglo  
 Perdido en el siglo  
@@ -54,7 +54,7 @@ Siglo XX
 (Cuando llegaré) me llaman el desaparecido  
 (Cuando llegaré) perdido en el siglo  
 (Cuando llegaré) me llaman el desaparecido  
-(Cuando llegaré)  
+(Cuando llegaré)
 
 Me dicen el desaparecido  
 Fantasma que nunca está  
@@ -68,13 +68,12 @@ Me llaman el desaparecido
 Que cuando llega ya se ha ido  
 Volando vengo, volando voy  
 Deprisa deprisa a rumbo perdido  
-(Cuando llegaré)  
+(Cuando llegaré)
 
+# Target:
 
-# Target:  
+# Commentary:
 
-# Commentary:  
+# Notes:
 
-# Notes:  
-
-# Versions:  
+# Versions:

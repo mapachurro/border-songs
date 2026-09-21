@@ -20,7 +20,7 @@ jobs:
       - name: 🔧 Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20  # (Optional: Node 23 is still experimental, try 20 LTS for safety)
+          node-version: 20 # (Optional: Node 23 is still experimental, try 20 LTS for safety)
 
       - name: 📦 Install dependencies
         run: npm ci

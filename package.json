@@ -17,7 +17,9 @@
     "deploy": "gh-pages -d build",
     "dev:astro": "astro dev",
     "build:astro": "astro build",
-    "preview:astro": "astro preview"
+    "preview:astro": "astro preview",
+    "format": "prettier --write . '!**/*.css'",
+    "check": "astro check"
   },
   "repository": {
     "type": "git",

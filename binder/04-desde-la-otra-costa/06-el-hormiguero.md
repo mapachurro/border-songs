@@ -29,9 +29,9 @@ Todas juntas se convierten en camión
 Pobre del vaquero que nos subestima  
 Cuando se duerme se le viene la colonia encima  
 Por eso los vaqueros en todas las esquinas  
-Los tenemos comiendo comida latina  
+Los tenemos comiendo comida latina
 
-Tu quieres guerra (rep.)  
+Tu quieres guerra (rep.)
 
 Las hormigas pueden contra cualquier gigante  
 Entran por la trompa de cualquier elefante  
@@ -52,9 +52,9 @@ Puede ser que a las hormigas les salga lo de Zapata
 En equipo se resuelve cualquier contratiempo  
 Cuando te picamos picamos al mismo tiempo  
 Sobre nuestra unidad no debe haber preguntas  
-Frente al peligro las hormigas mueren juntas  
+Frente al peligro las hormigas mueren juntas
 
-Tu quieres guerra (rep.)  
+Tu quieres guerra (rep.)
 
 Un país durmiendo es un país desierto  
 Mi gobierno se asusta cuando me despierto  
@@ -69,17 +69,15 @@ Porque yo me crié con invasiones
 Y como las hormigas si tengo mala suerte  
 Defiendo mi hormiguero hasta la muerte  
 Tu quieres guerra (rep.)  
-¡Vamos a medirnos a ver quien es mas bravo!  
+¡Vamos a medirnos a ver quien es mas bravo!
 
 Tu quieres guerra (rep.)  
-¡Vamos a medirnos a ver quien es mas bravo!  
+¡Vamos a medirnos a ver quien es mas bravo!
 
+# Target:
 
+# Commentary:
 
-# Target:  
+# Notes:
 
-# Commentary:  
-
-# Notes:  
-
-# Versions:  
+# Versions:

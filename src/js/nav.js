@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Get the current path
     let currentPath = window.location.pathname;
-    
+
     // Handle GitHub Pages paths which might include the repo name
     const repoName = "border-songs";
     if (currentPath.includes(repoName)) {
       currentPath = currentPath.split(repoName)[1] || "";
     }
-    
+
     // Remove leading and trailing slashes
     currentPath = currentPath.replace(/^\/+|\/+$/g, "");
 
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       "../nav-index.json",
       "nav-index.json",
       `/${repoName}/nav-index.json`,
-      `https://mapachurro.github.io/${repoName}/nav-index.json`
+      `https://mapachurro.github.io/${repoName}/nav-index.json`,
     ];
 
     let successPath;
@@ -101,9 +101,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // If still not found, try matching just the filename part
     if (currentIndex === -1) {
-      const currentFilename = currentPath.split('/').pop();
+      const currentFilename = currentPath.split("/").pop();
       for (let i = 0; i < navList.length; i++) {
-        const navFilename = navList[i].split('/').pop();
+        const navFilename = navList[i].split("/").pop();
         if (currentFilename === navFilename) {
           currentIndex = i;
           currentPath = navList[i];
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Determine base path for links
     let basePath = "";
-    
+
     // Check if we're on GitHub Pages
     if (window.location.hostname.includes("github.io")) {
       // For GitHub Pages, use absolute path with repo name

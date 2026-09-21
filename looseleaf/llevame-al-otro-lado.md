@@ -1,6 +1,6 @@
 I was interpreting in court. A young woman connected to the court through a video call; she was calling from what appeared to be an administrative office at a local hospital.
 
-The judge reviewed her NTA with her; the allegations were that she was Mexican, and that she was EWI: crossed the border without being inspected and granted permission to entry or being paroled into the US. 
+The judge reviewed her NTA with her; the allegations were that she was Mexican, and that she was EWI: crossed the border without being inspected and granted permission to entry or being paroled into the US.
 
 Commonly, respondents get confused at this point. The wording of the allegation is tricky; it also runs counter to the logic of what many respondents understand they are doing when they cross the border and turn themselves in to ICE / CBP.
 

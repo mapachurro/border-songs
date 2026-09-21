@@ -4,7 +4,8 @@ authority: "Tom Brown, Gram Parsons"
 videoSource: "https://www.youtube.com/watch?v=h_Iz0iVvhEc"
 ---
 
-# Source:  
+# Source:
+
 Won't you scratch my itch, sweet Annie Rich  
 And welcome me back to town?  
 Come out on your porch or I'll step into your parlor  
@@ -26,7 +27,7 @@ Across those prairies with those waves of grain
 <br />  
 And I saw my devil  
 And I saw my deep blue sea  
-And I thought about a calico bonnet   
+And I thought about a calico bonnet  
 From Cheyenne to Tennessee  
 <br />  
 We flew straight across that river bridge  
@@ -43,7 +44,7 @@ He wants to take my money for something that I've never been shown
 <br />  
 And I saw my devil  
 And I saw my deep blue sea  
-And I thought about a calico bonnet   
+And I thought about a calico bonnet  
 From Cheyenne to Tennessee  
 <br />  
 The news I could bring, I met up with the king  
@@ -60,7 +61,7 @@ Twenty thousand roads I went down, down, down
 And they all led me straight back home to you  
 And they all led me straight back home to you  
 Twenty thousand roads I went down, down, down  
-And they all led me straight back home to you  
+And they all led me straight back home to you
 
 # Target
 

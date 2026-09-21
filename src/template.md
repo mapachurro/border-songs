@@ -1,15 +1,15 @@
 # Title:
 
-# Authority: 
+# Authority:
 
-# Video source: 
+# Video source:
 
 # Source:
 
-# Target:  
+# Target:
 
-# Commentary:  
+# Commentary:
 
-# Notes:  
+# Notes:
 
-# Versions:  
+# Versions:
