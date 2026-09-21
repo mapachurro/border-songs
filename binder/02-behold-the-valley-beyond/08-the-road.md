@@ -1,5 +1,6 @@
 ---
 title: "The Road"
+authority: Emmylou Harris
 videoSource: "https://www.youtube.com/watch?v=dRbb4KwpwbU"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Viva Las Vegas"
-authority: "Doc Pomus, Mort Shuman; Jello Biafra"
+authority: "Doc Pomus, Mort Shuman; Jello Biafra; The Dead Kennedys"
 videoSource: "https://www.youtube.com/watch?v=aT2nRwQysNA"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Landslide"
+authority: "Stevie Nicks"
 videoSource: "https://www.youtube.com/watch?v=WM7-PYtXtJM"
 ---
 

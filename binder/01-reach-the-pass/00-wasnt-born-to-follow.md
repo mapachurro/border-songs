@@ -1,6 +1,6 @@
 ---
 title: "Wasn't born to follow"
-authority: "Carole King, George Goffin, Roger McGuinn"
+authority: "Carole King, George Goffin; Roger McGuinn; The Byrds"
 videoSource: "https://www.youtube.com/watch?v=PrU9iI2VxPE"
 ---
 

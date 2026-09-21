@@ -1,5 +1,6 @@
 ---
 title: "Farther Along"
+authority: "Traditional; The Byrds"
 videoSource: "https://www.youtube.com/watch?v=aOkB0rG5jaE"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Hotel California"
-authority: "Glenn Lewis Frey, Don Felder, Donald Hugh Henley"
+authority: "Glenn Lewis Frey, Don Felder, Donald Hugh Henley; the Gipsy Kings"
 videoSource: "https://www.youtube.com/watch?v=6sEgBV0zMoQ"
 ---
 

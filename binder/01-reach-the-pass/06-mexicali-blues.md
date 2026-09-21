@@ -1,6 +1,6 @@
 ---
 title: "Mexicali Blues"
-authority: "Bob Weir"
+authority: "Bob Weir; The Grateful Dead"
 videoSource: "https://www.youtube.com/watch?v=ETD4YkkD_dg"
 ---
 

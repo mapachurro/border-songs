@@ -1,6 +1,6 @@
 ---
 title: "Malagueña salerosa"
-authority: "Elpidio Ramirez, Pedro Galindo Galarza"
+authority: "Elpidio Ramirez, Pedro Galindo Galarza; Robert Rodriguez and Chingón"
 videoSource: "https://www.youtube.com/watch?v=n8vFZNXV4i8"
 ---
 

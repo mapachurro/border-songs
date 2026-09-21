@@ -1,5 +1,6 @@
 ---
 title: "Buscando América"
+authority: "Ruben Blades"
 videoSource: "https://www.youtube.com/watch?v=j2VoKiKwETI"
 ---
 
