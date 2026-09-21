@@ -61,6 +61,33 @@ const next =
 
     <div class="container pb-5">
       <PrevNext prev={prev} next={next} />
+      <script define:vars={{ prevHref: prev?.href, nextHref: next?.href }}>
+  document.addEventListener("keydown", (event) => {
+    const target = event.target;
+
+    if (
+      target instanceof HTMLInputElement ||
+      target instanceof HTMLTextAreaElement ||
+      target instanceof HTMLSelectElement ||
+      target instanceof HTMLButtonElement ||
+      target?.isContentEditable
+    ) {
+      return;
+    }
+
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+      return;
+    }
+
+    if (event.key === "ArrowLeft" && prevHref) {
+      window.location.href = prevHref;
+    }
+
+    if (event.key === "ArrowRight" && nextHref) {
+      window.location.href = nextHref;
+    }
+  });
+</script>
     </div>
   </body>
 </html>
