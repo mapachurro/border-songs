@@ -18,7 +18,7 @@
     "dev:astro": "astro dev",
     "build:astro": "astro build",
     "preview:astro": "astro preview",
-    "format": "prettier --write . '!**/*.css'",
+    "format": "prettier --write .",
     "check": "astro check"
   },
   "repository": {

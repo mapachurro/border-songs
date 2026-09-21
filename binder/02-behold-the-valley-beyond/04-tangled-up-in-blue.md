@@ -73,21 +73,21 @@ When she bent down to tie the laces of my shoe
 
 Tangled up in blue
 
-<!-- She lit a burner on the stove  
-And offered me a pipe  
-“I thought you’d never say hello,” she said  
-“You look like the silent type”  
+<!-- She lit a burner on the stove
+And offered me a pipe
+“I thought you’d never say hello,” she said
+“You look like the silent type”
 
-Then she opened up a book of poems  
-And handed it to me  
-Written by an Italian poet  
-From the thirteenth century  
+Then she opened up a book of poems
+And handed it to me
+Written by an Italian poet
+From the thirteenth century
 
-And every one of them words rang true  
-And glowed like burnin’ coal  
-Pourin’ off of every page  
+And every one of them words rang true
+And glowed like burnin’ coal
+Pourin’ off of every page
 Like it was written in my soul from me to you   -->
-<!--   
+<!--
 Tangled up in blue   -->
 
 I lived with them on Montague Street  
