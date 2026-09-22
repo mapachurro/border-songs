@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Introduction from '../../binder/introduction.md';
+---
+
+<BaseLayout title="Introduction">
+  <div class="container py-5">
+    <div class="card mx-auto" style="max-width: 800px;">
+      <div class="card-body">
+        <Introduction />
+      </div>
+    </div>
+
+    <nav class="navigation d-flex justify-content-between mt-4"></nav>
+  </div>
+</BaseLayout>

@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const songs = await getCollection('songs');
+
+  return songs.map((song) => {
+    const [section, songSlug] = song.id.split('/');
+
+    return {
+      params: {
+        section,
+        song: songSlug,
+      },
+      props: {
+        song,
+      },
+    };
+  });
+}
+
+const { song } = Astro.props;
+const { Content } = await render(song);
+
+const sectionId = song.id.split('/')[0];
+---
+
+<BaseLayout
+  title={song.data.title ?? "Border Songs"}
+  currentSection={sectionId}
+  currentTitle={song.data.title}
+>
+  <div class="container py-5">
+    <div class="card mx-auto" style="max-width: 800px;">
+      <div class="card-body">
+        <div class="card-body">
+  {song.data.title && <h1>{song.data.title}</h1>}
+
+  {song.data.authority && (
+    <p><strong>{song.data.authority}</strong></p>
+  )}
+
+  {song.data.videoSource && (
+    <YouTubeEmbed
+      url={song.data.videoSource}
+      title={`${song.data.title} video`}
+    />
+  )}
+
+  <Content />
+</div>
+        
+
+        <Content />
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,7 +1,8 @@
-# .github/workflows/test-deploy.yml
 name: Test deploy
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -18,19 +19,24 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 🔧 Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v5
         with:
-          node-version: 20  # (Optional: Node 23 is still experimental, try 20 LTS for safety)
+          node-version: 24
+          cache: npm
 
       - name: 📦 Install dependencies
         run: npm ci
+
+      - name: 🔎 Check Astro
+        run: npm run check
 
       - name: 🏗️ Build the site
         run: npm run build
 
       - name: 🚀 Deploy to gh-pages branch
+        if: github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist
           publish_branch: gh-pages

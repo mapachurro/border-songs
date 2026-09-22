@@ -1,6 +1,6 @@
 # Overview
 
-The index.js file in this directory should be used to build the visual, "frontend" version of the markdown files held in [binder](../binder). 
+The index.js file in this directory should be used to build the visual, "frontend" version of the markdown files held in [binder](../binder).
 
 ## Rendering
 

@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { siteUrl } from "../utils/siteUrl.js";
+
+interface Props {
+  songs: CollectionEntry<"songs">[];
+}
+
+const { songs } = Astro.props;
+---
+
+<section class="track-list">
+  <h2>Track List</h2>
+
+  <ol>
+    {songs.map((song) => (
+      <li>
+        <a href={siteUrl(`${song.id}/`)}>
+          {song.data.title}
+        </a>
+
+        {song.data.authority && (
+          <> — {song.data.authority}</>
+        )}
+      </li>
+    ))}
+  </ol>
+</section>

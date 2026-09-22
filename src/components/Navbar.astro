@@ -1,0 +1,76 @@
+---
+import { siteUrl } from "../utils/siteUrl.js";
+
+const {
+  sections = [],
+  currentSection = null,
+  currentTitle = null,
+} = Astro.props;
+
+const orderedSections = [...sections].sort(
+  (a, b) => a.data.order - b.data.order,
+);
+
+const activeSection = orderedSections.find(
+  (section) => section.id.split("/")[0] === currentSection,
+);
+---
+
+<nav class="navbar-fixed" aria-label="Book navigation">
+  <div class="navbar-container">
+    <div class="breadcrumb-container">
+
+      <div class="breadcrumb-section">
+        <a href={siteUrl()}>Border Songs</a>
+
+        {activeSection && (
+          <>
+            <span aria-hidden="true"> › </span>
+            <a href={siteUrl(`${currentSection}/`)}>
+              {activeSection.data.title}
+            </a>
+          </>
+        )}
+
+        {currentTitle && (
+          <>
+            <span aria-hidden="true"> › </span>
+            <span>{currentTitle}</span>
+          </>
+        )}
+      </div>
+
+      <ol class="breadcrumb-pages">
+        <li class="breadcrumb-page">
+          <a href={siteUrl()}>Home</a>
+        </li>
+
+        <li class="breadcrumb-page">
+          <a href={siteUrl("toc/")}>TOC</a>
+        </li>
+
+        <li class="breadcrumb-page">
+          <a href={siteUrl("introduction/")}>Introduction</a>
+        </li>
+
+        {orderedSections.map((section) => {
+          const sectionId = section.id.split("/")[0];
+
+          return (
+            <li
+              class:list={[
+                "breadcrumb-page",
+                { active: sectionId === currentSection },
+              ]}
+            >
+              <a href={siteUrl(`${sectionId}/`)}>
+                Side {section.data.order}
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+
+    </div>
+  </div>
+</nav>

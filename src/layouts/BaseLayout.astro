@@ -1,0 +1,93 @@
+---
+import '../bootstrap/bootstrap.min.css';
+import '../styles.css';
+
+import { getCollection } from 'astro:content';
+import Navbar from '../components/Navbar.astro';
+import PrevNext from '../components/PrevNext.astro';
+import { getReadingOrder } from '../utils/getReadingOrder.js';
+
+const {
+  title = 'Border Songs',
+  currentHref = Astro.url.pathname,
+  currentSection = null,
+  currentTitle = null,
+} = Astro.props;
+
+const sections = await getCollection('sections');
+const songs = await getCollection('songs');
+
+const readingOrder = getReadingOrder(sections, songs);
+
+const currentIndex = readingOrder.findIndex(
+  (page) => page.href === currentHref
+);
+
+const prev =
+  currentIndex > 0
+    ? readingOrder[currentIndex - 1]
+    : null;
+
+const next =
+  currentIndex >= 0 && currentIndex < readingOrder.length - 1
+    ? readingOrder[currentIndex + 1]
+    : null;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{title}</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🏜️</text></svg>"
+    />
+  </head>
+
+  <body>
+    <Navbar
+      sections={sections}
+      currentSection={currentSection}
+      currentTitle={currentTitle}
+    />
+
+    <main>
+      <slot />
+    </main>
+
+    <div class="container pb-5">
+      <PrevNext prev={prev} next={next} />
+      <script define:vars={{ prevHref: prev?.href, nextHref: next?.href }}>
+  document.addEventListener("keydown", (event) => {
+    const target = event.target;
+
+    if (
+      target instanceof HTMLInputElement ||
+      target instanceof HTMLTextAreaElement ||
+      target instanceof HTMLSelectElement ||
+      target instanceof HTMLButtonElement ||
+      target?.isContentEditable
+    ) {
+      return;
+    }
+
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+      return;
+    }
+
+    if (event.key === "ArrowLeft" && prevHref) {
+      window.location.href = prevHref;
+    }
+
+    if (event.key === "ArrowRight" && nextHref) {
+      window.location.href = nextHref;
+    }
+  });
+</script>
+    </div>
+  </body>
+</html>
