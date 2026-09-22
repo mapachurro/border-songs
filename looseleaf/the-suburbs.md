@@ -1,0 +1,1 @@
+*This is a placeholder document to hold the complete text of the lyrics of the album* The Suburbs, *by the Arcade Fire. For more on this, see the README.*
