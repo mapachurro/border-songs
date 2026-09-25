@@ -15,13 +15,9 @@ const { songs } = Astro.props;
   <ol>
     {songs.map((song) => (
       <li>
-        <a href={siteUrl(`${song.id}/`)}>
-          {song.data.title}
-        </a>
+        <a href={siteUrl(`${song.id}/`)}>{song.data.title}</a>
 
-        {song.data.authority && (
-          <> — {song.data.authority}</>
-        )}
+        {song.data.authority && <> — {song.data.authority}</>}
       </li>
     ))}
   </ol>

@@ -9,7 +9,10 @@
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier --write .",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "print:image": "docker build -t border-songs-latex -f docker/latex/Dockerfile .",
+    "build:print": "mkdir -p dist-print && docker run --rm -v \"$PWD:/work\" border-songs-latex --output-directory=dist-print latex/prototypes/nta.tex",
+    "build:all": "npm run build && npm run build:print"
   },
   "repository": {
     "type": "git",

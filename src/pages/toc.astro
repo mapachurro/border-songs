@@ -1,12 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import { siteUrl } from "../utils/siteUrl.js";
 
-const sections = (await getCollection('sections'))
-  .sort((a, b) => a.data.order - b.data.order);
+const sections = (await getCollection("sections")).sort(
+  (a, b) => a.data.order - b.data.order,
+);
 
-const songs = await getCollection('songs');
+const songs = await getCollection("songs");
 
 function songsForSection(sectionId: string) {
   return songs
@@ -15,8 +16,8 @@ function songsForSection(sectionId: string) {
 }
 
 function trackNumber(songId: string) {
-  const filename = songId.split('/').pop();
-  return filename?.match(/^(\d+)/)?.[1] ?? '';
+  const filename = songId.split("/").pop();
+  return filename?.match(/^(\d+)/)?.[1] ?? "";
 }
 ---
 
@@ -28,16 +29,14 @@ function trackNumber(songId: string) {
           <h1 class="text-center mb-4">Table of Contents</h1>
 
           {sections.map((section) => {
-            const sectionId = section.id.split('/')[0];
+            const sectionId = section.id.split("/")[0];
             const sectionSongs = songsForSection(sectionId);
 
             return (
               <details>
                 <summary>
                   <strong>
-                    <a href={siteUrl(`${sectionId}/`)}>
-                      {section.data.title}
-                    </a>
+                    <a href={siteUrl(`${sectionId}/`)}>{section.data.title}</a>
                   </strong>
                 </summary>
 
@@ -48,9 +47,7 @@ function trackNumber(songId: string) {
                         {trackNumber(song.id)} - {song.data.title}
                       </a>
 
-                      {song.data.authority && (
-                        <> - {song.data.authority}</>
-                      )}
+                      {song.data.authority && <> - {song.data.authority}</>}
                     </p>
                   ))}
                 </div>
