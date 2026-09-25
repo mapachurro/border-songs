@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier --write .",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "build:print": "mkdir -p dist-print && lualatex --output-directory=dist-print latex/prototypes/nta.tex",
+    "build:all": "npm run build && npm run build:print"
   },
   "repository": {
     "type": "git",
