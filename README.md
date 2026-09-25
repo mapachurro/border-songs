@@ -18,6 +18,9 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
 - [Border Songs](#border-songs)
   - [Live Demo](#live-demo)
   - [What is wrong with you, why is nodejs involved in writing a book](#what-is-wrong-with-you-why-is-nodejs-involved-in-writing-a-book)
+    - [Edit, September 2026](#edit-september-2026)
+      - [HOST REQUIREMENTS](#host-requirements)
+      - [PROJECT-MANAGED](#project-managed)
 - [Full track listing](#full-track-listing)
   - [Songs of the limit; Canciones limítrofes](#songs-of-the-limit-canciones-limítrofes)
     - [Full track listing](#full-track-listing-1)
@@ -48,6 +51,22 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
 ## What is wrong with you, why is nodejs involved in writing a book
 
 I have an idea about how I want this text to be visually represented, and stored (_immutably?_), and iterated upon (_how many writers have wanted the experience of merkle tries for their drafts, and just didn't know they could?_), and therefore, the medium with which I will be binding this book will be JAVASCRIPT.
+
+### Edit, September 2026
+Haha just kidding. We're gonna use LaTex, too. Ha ha
+
+#### HOST REQUIREMENTS
+├── Node.js
+├── npm
+└── Docker-compatible container runtime
+
+#### PROJECT-MANAGED
+├── Astro
+├── TeX Live
+├── LuaLaTeX
+├── LaTeX packages
+├── print fonts
+└── PDF-generation environment
 
 # Full track listing
 
