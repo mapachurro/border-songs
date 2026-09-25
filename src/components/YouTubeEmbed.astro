@@ -4,7 +4,7 @@ interface Props {
   title?: string;
 }
 
-const { url, title = 'YouTube video' } = Astro.props;
+const { url, title = "YouTube video" } = Astro.props;
 
 function getYouTubeId(url: string | undefined) {
   if (!url) return null;
@@ -12,20 +12,20 @@ function getYouTubeId(url: string | undefined) {
   try {
     const parsed = new URL(url);
 
-    if (parsed.hostname === 'youtu.be') {
+    if (parsed.hostname === "youtu.be") {
       return parsed.pathname.slice(1);
     }
 
     if (
-      parsed.hostname === 'youtube.com' ||
-      parsed.hostname === 'www.youtube.com'
+      parsed.hostname === "youtube.com" ||
+      parsed.hostname === "www.youtube.com"
     ) {
-      if (parsed.pathname === '/watch') {
-        return parsed.searchParams.get('v');
+      if (parsed.pathname === "/watch") {
+        return parsed.searchParams.get("v");
       }
 
-      if (parsed.pathname.startsWith('/embed/')) {
-        return parsed.pathname.split('/')[2];
+      if (parsed.pathname.startsWith("/embed/")) {
+        return parsed.pathname.split("/")[2];
       }
     }
   } catch {

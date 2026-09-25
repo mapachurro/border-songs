@@ -1,32 +1,29 @@
 ---
-import '../bootstrap/bootstrap.min.css';
-import '../styles.css';
+import "../bootstrap/bootstrap.min.css";
+import "../styles.css";
 
-import { getCollection } from 'astro:content';
-import Navbar from '../components/Navbar.astro';
-import PrevNext from '../components/PrevNext.astro';
-import { getReadingOrder } from '../utils/getReadingOrder.js';
+import { getCollection } from "astro:content";
+import Navbar from "../components/Navbar.astro";
+import PrevNext from "../components/PrevNext.astro";
+import { getReadingOrder } from "../utils/getReadingOrder.js";
 
 const {
-  title = 'Border Songs',
+  title = "Border Songs",
   currentHref = Astro.url.pathname,
   currentSection = null,
   currentTitle = null,
 } = Astro.props;
 
-const sections = await getCollection('sections');
-const songs = await getCollection('songs');
+const sections = await getCollection("sections");
+const songs = await getCollection("songs");
 
 const readingOrder = getReadingOrder(sections, songs);
 
 const currentIndex = readingOrder.findIndex(
-  (page) => page.href === currentHref
+  (page) => page.href === currentHref,
 );
 
-const prev =
-  currentIndex > 0
-    ? readingOrder[currentIndex - 1]
-    : null;
+const prev = currentIndex > 0 ? readingOrder[currentIndex - 1] : null;
 
 const next =
   currentIndex >= 0 && currentIndex < readingOrder.length - 1
@@ -62,32 +59,37 @@ const next =
     <div class="container pb-5">
       <PrevNext prev={prev} next={next} />
       <script define:vars={{ prevHref: prev?.href, nextHref: next?.href }}>
-  document.addEventListener("keydown", (event) => {
-    const target = event.target;
+        document.addEventListener("keydown", (event) => {
+          const target = event.target;
 
-    if (
-      target instanceof HTMLInputElement ||
-      target instanceof HTMLTextAreaElement ||
-      target instanceof HTMLSelectElement ||
-      target instanceof HTMLButtonElement ||
-      target?.isContentEditable
-    ) {
-      return;
-    }
+          if (
+            target instanceof HTMLInputElement ||
+            target instanceof HTMLTextAreaElement ||
+            target instanceof HTMLSelectElement ||
+            target instanceof HTMLButtonElement ||
+            target?.isContentEditable
+          ) {
+            return;
+          }
 
-    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
-      return;
-    }
+          if (
+            event.altKey ||
+            event.ctrlKey ||
+            event.metaKey ||
+            event.shiftKey
+          ) {
+            return;
+          }
 
-    if (event.key === "ArrowLeft" && prevHref) {
-      window.location.href = prevHref;
-    }
+          if (event.key === "ArrowLeft" && prevHref) {
+            window.location.href = prevHref;
+          }
 
-    if (event.key === "ArrowRight" && nextHref) {
-      window.location.href = nextHref;
-    }
-  });
-</script>
+          if (event.key === "ArrowRight" && nextHref) {
+            window.location.href = nextHref;
+          }
+        });
+      </script>
     </div>
   </body>
 </html>

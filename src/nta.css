@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nta-page {
+  width: 8.5in;
+  min-height: 11in;
+  margin: 2rem auto;
+  padding: 0.65in 0.7in;
+  background: white;
+}
+
+.nta-header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.nta-double-rule {
+  margin-top: 0.08in;
+}
+
+.nta-rule-thick {
+  height: 6pt;
+  background: #000;
+}
+
+.nta-rule-thin {
+  height: 1.5pt;
+  margin-top: 2pt;
+  background: #000;
+}
+
+.nta-content {
+  margin-top: 0.18in;
+  font-size: 11pt;
+}
+
+.nta-content h1 {
+  margin: 0 0 0.22in;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.nta-identifiers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  margin-bottom: 0.28in;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10pt;
+}

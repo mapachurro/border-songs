@@ -6,19 +6,7 @@ const { prev, next } = Astro.props;
   class="navigation d-flex justify-content-between mt-4"
   aria-label="Book navigation"
 >
-  <div>
-    {prev && (
-      <a href={prev.href}>
-        ← {prev.title}
-      </a>
-    )}
-  </div>
+  <div>{prev && <a href={prev.href}>← {prev.title}</a>}</div>
 
-  <div class="text-end">
-    {next && (
-      <a href={next.href}>
-        {next.title} →
-      </a>
-    )}
-  </div>
+  <div class="text-end">{next && <a href={next.href}>{next.title} →</a>}</div>
 </nav>

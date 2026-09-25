@@ -1,13 +1,13 @@
 ---
-import { getCollection, render } from 'astro:content';
-import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from "astro:content";
+import YouTubeEmbed from "../../components/YouTubeEmbed.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
-  const songs = await getCollection('songs');
+  const songs = await getCollection("songs");
 
   return songs.map((song) => {
-    const [section, songSlug] = song.id.split('/');
+    const [section, songSlug] = song.id.split("/");
 
     return {
       params: {
@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 const { song } = Astro.props;
 const { Content } = await render(song);
 
-const sectionId = song.id.split('/')[0];
+const sectionId = song.id.split("/")[0];
 ---
 
 <BaseLayout
@@ -36,22 +36,23 @@ const sectionId = song.id.split('/')[0];
     <div class="card mx-auto" style="max-width: 800px;">
       <div class="card-body">
         <div class="card-body">
-  {song.data.title && <h1>{song.data.title}</h1>}
+          {song.data.title && <h1>{song.data.title}</h1>}
 
-  {song.data.authority && (
-    <p><strong>{song.data.authority}</strong></p>
-  )}
+          {song.data.authority && (
+            <p>
+              <strong>{song.data.authority}</strong>
+            </p>
+          )}
 
-  {song.data.videoSource && (
-    <YouTubeEmbed
-      url={song.data.videoSource}
-      title={`${song.data.title} video`}
-    />
-  )}
+          {song.data.videoSource && (
+            <YouTubeEmbed
+              url={song.data.videoSource}
+              title={`${song.data.title} video`}
+            />
+          )}
 
-  <Content />
-</div>
-        
+          <Content />
+        </div>
 
         <Content />
       </div>
