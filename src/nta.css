@@ -67,7 +67,18 @@ body {
 }
 
 .nta-entered-data {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Nimbus Mono PS", "Courier New", monospace;
+  font-size: 10pt;
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+/* Optional degraded / older reproduction treatment */
+.nta-entered-data--vintage {
+  text-shadow:
+    0.12px 0 currentColor,
+    -0.12px 0 currentColor;
 }
 
 .nta-matter,
