@@ -60,7 +60,6 @@ I quit my job as a dancer
 At the Lido des Girls  
 And they're `(I've been?)` dealin' blackjack until one or two
 <!-- This line is difficult to decipher clearly. I'm still looking for an authoritative source on Crow's version of her lyrics. It sounds like "They had me dealing...", but it could also be "Now I've been dealing...", or even "And they're dealing..." -->
-
 Such a muddy line between the things you want  
 And the things you have to do, oh
 
@@ -68,6 +67,7 @@ Leaving Las Vegas
 Lights so bright  
 Palm sweat  
 Blackjack on a Saturday night  
+
 Leaving Las Vegas  
 I'm leaving for good  
 I'm leaving for good
@@ -113,6 +113,7 @@ Adiós a Las Vegas
 Luces tan brillantes  
 Palmas sudadas  
 Blackjack una noche de sábado  
+
 Adiós a Las Vegas  
 Me voy para siempre, para siempre  
 Voy para siempre  
@@ -157,9 +158,14 @@ Me voy da Las Vegas
 Me voy para siempre  
 Me voy para siempre
 
-Adiós a Las Vegas  
+Ay, adiós a Las Vegas  
 Luces tan brillantes  
+Palmas sudadas
 Una noche de sábado
+
+Me voy da Las Vegas  
+Me voy para siempre  
+Me voy para siempre
 
 Adiós a Las Vegas  
 Y no vuelvo más  
