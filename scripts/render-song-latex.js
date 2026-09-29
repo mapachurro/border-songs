@@ -7,8 +7,19 @@ import { parseSong } from "../src/utils/parseSong.js";
 // Input
 // -----------------------------------------------------------------------------
 
-const inputPath =
-  "binder/04-desde-la-otra-costa/02-leaving-las-vegas.md";
+const inputPath = process.argv[2];
+
+if (!inputPath) {
+  console.error(
+    "Usage: node scripts/render-song-latex.js <song.md>",
+  );
+  process.exit(1);
+}
+
+if (!fs.existsSync(inputPath)) {
+  console.error(`File not found: ${inputPath}`);
+  process.exit(1);
+}
 
 const markdown = fs.readFileSync(inputPath, "utf8");
 
@@ -112,9 +123,14 @@ ${renderedPairs}
 
 const tex = renderSong(song);
 
+const basename = path.basename(
+  inputPath,
+  path.extname(inputPath),
+);
+
 const outputPath = path.join(
   "dist-print",
-  "leaving-las-vegas.tex",
+  `${basename}.tex`,
 );
 
 fs.mkdirSync("dist-print", { recursive: true });
