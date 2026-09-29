@@ -91,10 +91,8 @@ Enamorado, pero en vano me lo sabía
 
 Otra noche entró un joven vaquero loco
 <!-- not sure about loco; I wish I could use 'bien cabron'; there's another mexican word on the tip of my tongue. Makes me think of 'rudo y cursi' -->
-
 Descontrolado como el viento de Tejas oeste
 <!-- put oeste at the end for the grito -->
-
 Atrevido y bien galante, una copa compartía  
 Con la malvada Felina, a la que yo amaba
 
@@ -102,7 +100,6 @@ Así que con ira
 
 Le demandé el derecho al amor de la doncella
 <!-- do research on this archaic language -->
-
 Bajó la mano a por la pistola que llevaba  
 Le contesté mi reto en menos que un latido  
 Aquel forastero galante cayó muerto al suelo
@@ -115,10 +112,8 @@ Nomás me quedaba la chance de correr
 
 Corrí por la puerta trasera donde Rosa
 <!-- anything about 'atras' makes me nervous with Mexican -->
-
 Allá donde ataban los caballos
 <!-- dale bien fuerte con el grito cabrón -->
-
 Agarré uno bueno, con pinta que sí corría  
 Salto a su espalda y allá cabalgué
 
@@ -134,7 +129,6 @@ Mi amor es más fuerte que mi temor a la muerte
 Me ensillé y prendí camino  
 Andando a solas, a oscuras
 <!-- grito grito -->
-
 Capaz que mañana me tope una bala  
 Esta noche no hay peor que el dolor de mi corazón
 

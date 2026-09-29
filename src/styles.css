@@ -199,3 +199,30 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+  .concordance-header,
+  .concordance-pair {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 3rem;
+  }
+
+  .concordance-header {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+
+  .concordance-pair {
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 700px) {
+    .concordance-header {
+      display: none;
+    }
+
+    .concordance-pair {
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+    }
+  }
