@@ -80,24 +80,13 @@ function renderSong(song) {
 
 \\usepackage[margin=0.8in]{geometry}
 \\usepackage{fontspec}
-\\usepackage{xltabular}
-\\usepackage{array}
-
-\\newcolumntype{Y}{>{\\raggedright\\arraybackslash}X}
+\\usepackage{latex/styles/concordance}
 
 \\setmainfont{Nimbus Roman}
 
 \\pagestyle{empty}
 \\setlength{\\parindent}{0pt}
 \\setlength{\\parskip}{0pt}
-
-\\newcommand{\\stanza}[1]{%
-  \\begin{minipage}[t]{\\linewidth}
-    \\raggedright
-    #1
-    \\vspace{1.5em}
-  \\end{minipage}
-}
 
 \\begin{document}
 

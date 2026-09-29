@@ -2,18 +2,13 @@
 
 \usepackage[margin=0.8in]{geometry}
 \usepackage{fontspec}
-\usepackage{tabularx}
-\usepackage{array}
+\usepackage{latex/styles/concordance}
 
-\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\setmainfont{Nimbus Roman}
 
-\newcommand{\stanza}[1]{%
-  \begin{minipage}[t]{\linewidth}
-    \raggedright
-    #1
-    \vspace{1.5em}
-  \end{minipage}
-}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
 
 \begin{document}
 
@@ -23,10 +18,7 @@
 
 \vspace{1.5em}
 
-\begin{center}
-\begin{minipage}{0.88\textwidth}
-
-\begin{tabularx}{\textwidth}{@{}Y@{\hspace{2em}}Y@{}}
+\begin{xltabular}{0.88\textwidth}{@{}Y@{\hspace{2em}}Y@{}}
 
 \stanza{
 Life springs eternal\\
@@ -67,9 +59,6 @@ Y yo, hago mi apuesta
 }
 \\
 
-\end{tabularx}
-
-\end{minipage}
-\end{center}
+\end{xltabular}
 
 \end{document}
