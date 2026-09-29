@@ -1,3 +1,16 @@
+/**
+ * @typedef {Object} ParsedSong
+ * @property {string[]} source
+ * @property {string[]} target
+ * @property {string} remainder
+ */
+
+/**
+ * Parse a song body into its semantic sections.
+ *
+ * @param {string} body
+ * @returns {ParsedSong}
+ */
 export function parseSong(body) {
   const sourceMatch = body.match(
   /# Source:?\s*\n([\s\S]*?)\n# Target:?\s*\n/
