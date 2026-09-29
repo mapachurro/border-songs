@@ -1,0 +1,60 @@
+---
+interface StanzaPair {
+  source: string;
+  target: string;
+}
+
+interface Props {
+  pairs: StanzaPair[];
+}
+
+const { pairs } = Astro.props;
+---
+
+<section class="concordance">
+  <header class="concordance-header">
+    <div>Source</div>
+    <div>Target</div>
+  </header>
+
+  {pairs.map((pair) => (
+    <div class="concordance-pair">
+      <div class="concordance-source">
+        {pair.source}
+      </div>
+
+      <div class="concordance-target">
+        {pair.target}
+      </div>
+    </div>
+  ))}
+</section>
+
+<style>
+  .concordance-header,
+  .concordance-pair {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 3rem;
+  }
+
+  .concordance-header {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+
+  .concordance-pair {
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 700px) {
+    .concordance-header {
+      display: none;
+    }
+
+    .concordance-pair {
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+    }
+  }
+</style>

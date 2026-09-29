@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import YouTubeEmbed from "../../components/YouTubeEmbed.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { parseSong } from "../../utils/parseSong.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -23,6 +24,17 @@ export async function getStaticPaths() {
 
 const { song } = Astro.props;
 const { Content } = await render(song);
+
+const { source, target } = parseSong(song.body);
+
+const pairs = source.map((sourceStanza, index) => ({
+  source: sourceStanza,
+  target: target[index],
+}));
+
+console.log("SOURCE STANZAS:", source.length);
+console.log("TARGET STANZAS:", target.length);
+console.log("FIRST PAIR:", pairs[0]);
 
 const sectionId = song.id.split("/")[0];
 ---
@@ -53,8 +65,6 @@ const sectionId = song.id.split("/")[0];
 
           <Content />
         </div>
-
-        <Content />
       </div>
     </div>
   </div>

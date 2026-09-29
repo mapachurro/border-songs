@@ -12,15 +12,15 @@ Not that I care at all
 
 I spent the best part of my losing streak  
 In an Army Jeep  
-For what I can't recall
+For what I can't recall  
 
 Oh, I'm bangin' on my TV set  
 And I check the odds  
-And I, and I place my bet
+And I, and I place my bet  
 
 I pour a drink  
 And I pull the blinds  
-I wonder what I'll find
+I wonder what I'll find  
 
 I'm leaving Las Vegas  
 Lights so bright  
@@ -79,7 +79,7 @@ Blackjack on a Saturday night
 
 I'm leaving Las Vegas  
 I'm leaving for good  
-I'm leaving for good
+I'm leaving for good  
 
 Oh, I'm leaving Las Vegas  
 Lights so bright  
@@ -89,25 +89,25 @@ Leaving Las Vegas
 And I won't be back  
 No, no  
 No, I won't be back  
-Not this time
+Not this time  
 
 # Target:
 
 La vida siempre brota  
 En una calle colorida de neon  
-Ya, que me da igual
+Ya, que me da igual  
 
 Pasé la mayor parte de mi racha perdedora  
 En un jeep militar  
-Para qué, no quiero recordarme
+Para qué, no quiero recordarme  
 
 Ay, ando pegandole al televisor  
 Reviso las probabilidades  
-Y yo, hago mi apuesta
+Y yo, hago mi apuesta  
 
 Me echo un trago  
 Y cierro las persianas  
-Qué será lo que encuentro
+Qué será lo que encuentro  
 
 Adiós a Las Vegas  
 Luces tan brillantes  
@@ -161,17 +161,21 @@ Me voy para siempre
 Ay, adiós a Las Vegas  
 Luces tan brillantes  
 Palmas sudadas
-Una noche de sábado
+Blackjack una noche de sábado
 
 Me voy da Las Vegas  
 Me voy para siempre  
-Me voy para siempre
+Me voy para siempre  
+
+Ay, adiós a Las Vegas  
+Luces tan brillantes  
+Una noche de sábado  
 
 Adiós a Las Vegas  
 Y no vuelvo más  
 No, no  
 No, ya no vuelvo más  
-Esta vez no
+Esta vez no  
 
 # Commentary:
 
