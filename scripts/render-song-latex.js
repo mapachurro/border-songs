@@ -80,7 +80,7 @@ function renderSong(song) {
 
 \\usepackage[margin=0.8in]{geometry}
 \\usepackage{fontspec}
-\\usepackage{tabularx}
+\\usepackage{xltabular}
 \\usepackage{array}
 
 \\newcolumntype{Y}{>{\\raggedright\\arraybackslash}X}
@@ -107,17 +107,11 @@ function renderSong(song) {
 
 \\vspace{1.5em}
 
-\\begin{center}
-\\begin{minipage}{0.88\\textwidth}
-
-\\begin{tabularx}{\\textwidth}{@{}Y@{\\hspace{2em}}Y@{}}
+\\begin{xltabular}{0.88\\textwidth}{@{}Y@{\\hspace{2em}}Y@{}}
 
 ${renderedPairs}
 
-\\end{tabularx}
-
-\\end{minipage}
-\\end{center}
+\\end{xltabular}
 
 \\end{document}
 `;
