@@ -78,3 +78,10 @@ Paper:
 
 Status:
 - Prototype working
+
+### paracol
+
+Used for synchronized bilingual source/target text in the song template.
+
+Provided by: texlive-latex-extra
+Status: prototype

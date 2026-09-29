@@ -5,6 +5,7 @@ RUN apt-get update \
         texlive-luatex \
         texlive-latex-base \
         texlive-latex-recommended \
+        texlive-latex-extra \
         texlive-fonts-recommended \
         fonts-urw-base35 \
     && rm -rf /var/lib/apt/lists/*
