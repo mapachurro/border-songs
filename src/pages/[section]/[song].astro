@@ -27,10 +27,13 @@ export async function getStaticPaths() {
 const { song } = Astro.props;
 const { source, target, remainder } = parseSong(song.body);
 
+const hasTranslation = target.length > 0;
 const pairs = await Promise.all(
   source.map(async (sourceStanza, index) => ({
     source: await renderMarkdown(sourceStanza),
-    target: await renderMarkdown(target[index]),
+    target: hasTranslation
+      ? await renderMarkdown(target[index])
+      : null,
   })),
 );
 

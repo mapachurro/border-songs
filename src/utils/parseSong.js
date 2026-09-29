@@ -21,11 +21,11 @@ const remainderMatch = body.match(
   const target = splitStanzas(targetMatch[1]);
   const remainder = remainderMatch[0];
 
-  if (source.length !== target.length) {
-    throw new Error(
-      `Source/Target stanza mismatch: ${source.length} source, ${target.length} target`
-    );
-  }
+  if (target.length > 0 && source.length !== target.length) {
+  throw new Error(
+    `Source/Target stanza mismatch: ${source.length} source, ${target.length} target`
+  );
+}
 
   return {
     source,
@@ -35,8 +35,13 @@ const remainderMatch = body.match(
 }
 
 function splitStanzas(text) {
-  return text
-    .trim()
+  const trimmed = text.trim();
+
+  if (!trimmed) {
+    return [];
+  }
+
+  return trimmed
     .split(/\n\s*\n/)
     .map((stanza) => stanza.trim());
 }
