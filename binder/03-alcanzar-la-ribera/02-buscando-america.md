@@ -117,6 +117,17 @@ We're going to find you
 All right, Raffy!
 
 I'm searching for you America  
+I'm calling you America
+Fighting for la raza
+<!-- that's a fun one... -->
+And our identity
+
+I'm searching for you America (this is my home)  
+I'm calling you America
+And we will find you
+Amongst all this darkness
+
+I'm searching for you America  
 I'm calling you America  
 Those that fear the truth  
 Have disappeared you

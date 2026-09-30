@@ -31,10 +31,7 @@ const sectionSongs = songs
   .sort((a, b) => a.id.localeCompare(b.id));
 ---
 
-<BaseLayout
-  title={section.data.title}
-  currentSection={sectionSlug}
->
+<BaseLayout title={section.data.title} currentSection={sectionSlug}>
   <div class="container py-5">
     <div class="card mx-auto" style="max-width: 800px;">
       <div class="card-body">

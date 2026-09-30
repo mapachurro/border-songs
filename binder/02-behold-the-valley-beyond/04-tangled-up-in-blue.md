@@ -126,6 +126,10 @@ Tangled up in blue
 
 # Target:
 
+# Commentary:
+
+Draft translation, wildly incomplete:
+
 Tempranito de una mañanita, con el sol brillante  
 Ella recostada en la cama  
 Será que haya cambiado en algo  
@@ -140,8 +144,6 @@ Y la billetera de papá muy escasa quedaba
 Y ahí estuvo parado al lado de la carretera  
 Caía la lluvia sobre sus zapatos  
 De camino para la costa del Este
-
-# Commentary:
 
 # Notes:
 

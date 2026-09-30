@@ -160,7 +160,7 @@ Tú tienes un carro recio
 Tienes que tomarte la decisión  
 Vete esta noche o vives y mueres así
 
-# Notes
+# Commentary
 
 At a certain point in this translation, I stopped thinking about it -- because this translation has been living rent-free in my head for _years_. I knew the words in Spanish before having to think about it, once I got to the chorus.
 

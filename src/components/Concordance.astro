@@ -1,0 +1,37 @@
+---
+interface StanzaPair {
+  source: string;
+  target: string | null;
+}
+
+interface Props {
+  pairs: StanzaPair[];
+}
+
+const { pairs } = Astro.props;
+---
+
+<section class="concordance">
+  <div class="concordance-header" aria-hidden="true">
+    <div>Source</div>
+    <div>Target</div>
+  </div>
+
+  {
+    pairs.map((pair) => (
+      <div class="concordance-pair">
+        <div
+          class="concordance-source"
+          set:html={pair.source}
+        />
+
+        {pair.target !== null && (
+          <div
+            class="concordance-target"
+            set:html={pair.target}
+          />
+        )}
+      </div>
+    ))
+  }
+</section>
