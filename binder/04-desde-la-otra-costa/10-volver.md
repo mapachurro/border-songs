@@ -23,10 +23,11 @@ Bajo el burlón mirar de las estrellas
 Que, con indiferencia, hoy me ven volver  
 
 Volver con la frente marchita  
-Las nieves del tiempo platearon mi sien  
-Sentir que es un soplo la vida  
+Las nieves del tiempo platearon mi sien
 
+Sentir que es un soplo la vida  
 Que veinte años no es nada  
+
 Que febril la mirada, errante en las sombras  
 Te busca y te nombra  
 
@@ -56,9 +57,9 @@ Las nieves del tiempo platearon mi sien
 
 Sentir que es un soplo la vida  
 Que veinte años no es nada  
+
 Que febril la mirada, errante en las sombras  
 Te busca y te nombra  
-
 
 # Target:
 I foresee the twinkling
@@ -79,9 +80,10 @@ Who, with their indifference, today see me return
 
 Return, with stained brow
 My temples, silvered with the snows of time
-To feel, that life is but an exhale (gust)
 
+To feel, that life is but an exhale (gust)
 That twenty years, is but nothing
+
 With a febrile gaze, questing in shadows
 Searches for you and names you
 
@@ -111,6 +113,7 @@ My temples silver with the snows of time
 
 To feel that life is but a single exhale (gust)
 That twenty years is but nothing
+
 With a febrile gaze, questing in shadows
 Searches for you and names you
 
@@ -118,6 +121,11 @@ Searches for you and names you
 
 Orignally, I translated this line by line, because of the difficulty involved.
 
+## Textual analysis
+- lines in triples
+  - waltz / tango: rhythm in threes
+- change to doublets for the chorus: structural change lends emphasis to the chorus
+  - However, even in the doublets... there are three of them. Triplets within triplets.
 
 ## Almodovar
 
@@ -128,3 +136,9 @@ Discussion of the film, `Volver`, by Almodovar
 
 ## Mack the Knife
 Discussion of the number of covers and history of "Mack the Knife", vis-a-vis the history and number of covers and societal resonance of "Volver"
+
+- A song in translation, first of all
+- A song that literally and figuratively crossed borders and lines:
+  - A song written by Germans in German about Germany but set in London about a Briton because they couldn't write about Germans because of censors (right? I gotta check this)
+- A song that was translated over and over again, and sung over and over again, improvised upon continually
+  - OK this shit's super deep, deeper than I ever realized
