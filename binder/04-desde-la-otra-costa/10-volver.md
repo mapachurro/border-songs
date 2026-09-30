@@ -117,3 +117,14 @@ Searches for you and names you
 # Commentary
 
 Orignally, I translated this line by line, because of the difficulty involved.
+
+
+## Almodovar
+
+Discussion of the film, `Volver`, by Almodovar
+
+- un pico y una pala
+- immigration analysis: internal relocation; going to the police
+
+## Mack the Knife
+Discussion of the number of covers and history of "Mack the Knife", vis-a-vis the history and number of covers and societal resonance of "Volver"
