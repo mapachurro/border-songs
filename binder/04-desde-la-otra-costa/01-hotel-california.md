@@ -6,6 +6,8 @@ videoSource: "https://www.youtube.com/watch?v=6sEgBV0zMoQ"
 
 # Source:
 
+*Original: The (fuckin') Eagles*
+
 On a dark desert highway, cool wind in my hair  
 Warm smell of colitas rising up through the air  
 Up ahead in the distance, I saw a shimmering light  
@@ -50,6 +52,8 @@ I had to find the passage back to the place I was before
 "Relax, " said the night man, "We are programmed to receive  
 You can check out any time you like, but you can never leave"
 
+*Translation: The Gipsy Kings*
+
 Por el camino del desierto  
 El viento me despeina  
 Sube el aroma de colita  
@@ -69,7 +73,8 @@ Y lo que indican diciendo
 
 Welcome to the Hotel California  
 Such a lovely place  
-Such a lovely place  
+Such a lovely place 
+
 Welcome to the Hotel California  
 Such a lovely place  
 Such a lovely place
@@ -94,6 +99,7 @@ La noche para decir
 Welcome to the Hotel California  
 Such a lovely place  
 Such a lovely place  
+
 Welcome to the Hotel California  
 Such a lovely place  
 Such a lovely place
