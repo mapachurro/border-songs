@@ -6,6 +6,8 @@ videoSource: "https://www.youtube.com/watch?v=RRs6ju42Icg"
 
 # Source:
 
+*Original: Bruce Springsteen*
+
 I get up in the evenin'  
 And I ain't got nothin' to say  
 I come home in the mornin'  
@@ -65,9 +67,8 @@ Even if we're just dancin' in the dark
 Even if we're just dancin' in the dark  
 Hey baby
 
-# Target:
+*Translation: Juanes*
 
-**Translation by Juanes**
 Despierto en la noche  
 Roto sin nada que decir  
 Y luego en la mañana  
@@ -126,6 +127,11 @@ Y bailemos aquí en la oscuridad
 Y bailemos en la oscuridad  
 Hey, baby  
 Y bailemos aquí en la oscuridad
+
+# Target:
+
+*Original: Bruce Springsteen*
+
 
 # Commentary:
 
