@@ -154,6 +154,19 @@ Quiero cambiar mi ropa, mi pelo, mi cara
 Hombe, no llego a ningun lado
 Nomás vivo en este lugar de traste (?)
 Algo sucede por alguna parte
+Linda (mi negra?) sé que tiene que haber
+
+No podrás prender fuego
+No podrás prender fuego sin chispa
+Este pistolero se contrata
+Aún si nomás bailamos a oscuras
+
+Te quedas sentado haciendote mayor
+Alguien bromea aquí, y el costo será mío
+Sacudo este mundo de mis hombros
+Venga, negra, riémonos por mi cuenta
+
+Como sigas en las calles de aquí
 
 
 # Commentary:
@@ -164,8 +177,10 @@ Overall commentary, Juanes' version is extremely economical and it would be wort
 
 ## Terminology
 
-### Man
+### Man + baby
 This requires a dialectical decision. I chose to go with `hombe`, in order to be an asshole and go with Colombian dialect if possible in order to make the comparison to Juanes' translation either better or worse. Did Juanes make a more international version than I did? etc.
+
+I feel like `baby` should be `negra` but I feel awkward about that
 
 ### This gun's for hire
 Such a bizarre expression. It's like, a double elliptical expression. First of all, referring to oneself as a "hired gun", and then shortening that to "this gun", at which point we start to lose the literal expression and reference to violence, and start to refer to, ah, the male sexual member. We're still referring to the former, but now also the latter.
@@ -189,5 +204,13 @@ he's verifying how he looks. sigh. Juanes deletes this in his version
 
 ### a dump like this
 not sure what the correct equivalent is.
+
+### joke's on me
+una broma... a mi costo?
+
+### stay on the streets of this town
+There's an elliptical implicit subject + conditional here. It's actually: "If you stay / If you were to stay...". Additionally, while "town" has a meaning of a certain size, it get used to refer to population centers of many sizes: "I love this town" is a popular exclamation used to describe, e.g., New York City. (Ghostbusters?)
+
+--> Immigration Court insert: aldea / pueblo / colonia / municipalidad
 
 # Versions:
