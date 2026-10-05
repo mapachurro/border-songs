@@ -242,6 +242,16 @@ If there's no strength of will
 Don't even say see you later (no see you later)
 And let's dance here in the dark
 
+You can't start (a) fire
+Worried and with no clarity
+Forget your ego
+And let's dance here in the dark
+
+And let's dance here in the dark
+And let's dance in the dark
+Hey, baby
+And let's dance here in the dark
+
 # Commentary:
 
 Overall commentary, Juanes' version is extremely economical and it would be worthwhile to perform comparative syllable length analysis to take a look at why he made certain decisions.
@@ -349,5 +359,8 @@ How can I express that when I hear this line, I hear the soft, constant chatter 
 
 ### necesito buscarte
 Yes, this is technically 'look for', but it means 'find'. No, I will not be taking questions.
+
+### sin claridad
+confused? with no clarity? hmm.
 
 # Versions:
