@@ -17,6 +17,7 @@ const songs = defineCollection({
     title: z.string().optional(),
     authority: z.string().optional(),
     videoSource: z.url().optional(),
+    background: z.string().optional(),
   }),
 });
 
