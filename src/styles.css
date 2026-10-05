@@ -185,3 +185,32 @@ h2 {
   border-radius: 0.25rem;
   overflow: hidden;
 }
+
+/* Concordance Styles */
+
+.stanza-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+@media (max-width: 700px) {
+  .concordance-header {
+    display: none;
+  }
+
+  .concordance-pair {
+    grid-template-columns: 1fr;
+    row-gap: 0.75rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .concordance-source,
+  .concordance-target {
+    min-width: 0;
+  }
+
+  .concordance-target {
+    margin-left: 1.25rem;
+  }
+}

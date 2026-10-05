@@ -1,62 +1,68 @@
-# Title: Return of the Grievous Angel  
+---
+title: "Return of the Grievous Angel"
+authority: "Tom Brown, Gram Parsons"
+videoSource: "https://www.youtube.com/watch?v=h_Iz0iVvhEc"
+---
 
-# Authority: Tom Brown, Gram Parsons
+# Source:
 
-# Video source: https://www.youtube.com/watch?v=h_Iz0iVvhEc
-
-# Source:  
 Won't you scratch my itch, sweet Annie Rich  
 And welcome me back to town?  
 Come out on your porch or I'll step into your parlor  
 And I'll tell you how it all went down  
-<br />  
+  
 Out with the truckers and the kickers and the cowboy angels  
 And a good saloon in every single town  
 Oh, and I remembered something you once told me  
 And I'll be damned if it did not come true  
-<br />  
+  
 Twenty thousand roads I went down, down, down  
-And they all lead me straight back home to you  
-<br />  
-'Cause I headed West to grow up with the country  
-Across those prairies with the waves of grain  
-<br />  
+And they all led me straight back home to you  
+And they all led me straight back home to you  
+  
+'Cause I headed west to grow up with the country  
+Across those prairies with those waves of grain  
+'Cause I headed west to grow up with the country  
+Across those prairies with those waves of grain  
+  
 And I saw my devil  
 And I saw my deep blue sea  
-And I thought about a calico bonnet from  
-Cheyenne to Tennessee  
-<br />  
+And I thought about a calico bonnet  
+From Cheyenne to Tennessee  
+  
 We flew straight across that river bridge  
 Last night, half past two  
-The switchman wave his lantern goodbye  
-And good day as we went rolling through  
-<br />  
+The switchman wave his lantern goodbye and good day  
+As we went rolling through  
+  
 Billboards and truckstops passed by the grievous angel  
 And now I know just what I have to do  
-<br />  
+  
 And the man on the radio won't leave me alone  
-He wants to take my money for something  
-That I've never been shown  
-<br />  
+He wants to take my money for something that I've never been shown  
+He wants to take my money for something that I've never been shown  
+  
 And I saw my devil  
 And I saw my deep blue sea  
-And I thought about a calico bonnet from  
-Cheyenne to Tennessee  
-<br />  
+And I thought about a calico bonnet  
+From Cheyenne to Tennessee  
+  
 The news I could bring, I met up with the king  
 On his head, an amphetamine crown  
 He talked about unbuckling that old bible belt  
 And lighted out for some desert town  
-<br />  
+  
 Out with the truckers and the kickers and the cowboy angels  
 And a good saloon in every single town  
 Oh, but I remembered something you once told me  
 And I'll be damned if it did not come true  
-<br />  
+  
+Twenty thousand roads I went down, down, down  
+And they all led me straight back home to you  
+And they all led me straight back home to you  
 Twenty thousand roads I went down, down, down  
 And they all lead me straight back home to you  
-Twenty thousand roads I went down, down, down  
-And they all lead me straight back home to you  
+And they all led me straight back home to you
 
 # Target
 <!--Good Christ, that intro line is a doozy -->
