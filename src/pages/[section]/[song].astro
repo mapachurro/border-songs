@@ -5,6 +5,7 @@ import Concordance from "../../components/Concordance.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { parseSong } from "../../utils/parseSong.js";
 import { renderMarkdown } from "../../utils/renderMarkdown.js";
+import { siteUrl } from "../../utils/siteUrl.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -39,12 +40,20 @@ const pairs = await Promise.all(
 
 const remainderHtml = await renderMarkdown(remainder);
 const sectionId = song.id.split("/")[0];
+
+const backgroundUrl = song.data.background
+  ? siteUrl(song.data.background)
+  : null;
 ---
 
 <BaseLayout
   title={song.data.title ?? "Border Songs"}
   currentSection={sectionId}
   currentTitle={song.data.title}
+>
+<div
+  class="song-page"
+  style={backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined}
 >
   <div class="container py-5">
     <div class="card mx-auto" style="max-width: 800px;">
@@ -69,4 +78,5 @@ const sectionId = song.id.split("/")[0];
       </div>
     </div>
   </div>
+</div>
 </BaseLayout>
