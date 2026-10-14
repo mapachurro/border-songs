@@ -1,6 +1,7 @@
 ---
 title: "Crossing the bar"
 authority: "Alfred, Lord Tennyson"
+background: "images/backgrounds/erie-bar.jpg"
 ---
 
 # Source:
