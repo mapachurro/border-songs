@@ -2,6 +2,7 @@
 title: "Romance in Durango"
 authority: "Bob Dylan, Jacques Levy; The Rolling Thunder Revue"
 videoSource: "https://www.youtube.com/watch?v=N2ZxwyBV2IM"
+background: "images/backgrounds/la-mision.jpg"
 ---
 
 # Source:
