@@ -29,6 +29,7 @@ const sections = defineCollection({
   schema: z.object({
     title: z.string(),
     order: z.number(),
+    background: z.string().optional(),
   }),
 });
 

@@ -17,21 +17,13 @@ const { pairs } = Astro.props;
     <div>Target</div>
   </div>
 
-  {
-    pairs.map((pair) => (
-      <div class="concordance-pair">
-        <div
-          class="concordance-source"
-          set:html={pair.source}
-        />
+  {pairs.map((pair) => (
+    <div class="concordance-pair">
+      <div class="concordance-source" set:html={pair.source} />
 
-        {pair.target !== null && (
-          <div
-            class="concordance-target"
-            set:html={pair.target}
-          />
-        )}
-      </div>
-    ))
-  }
+      {pair.target !== null && (
+        <div class="concordance-target" set:html={pair.target} />
+      )}
+    </div>
+  ))}
 </section>

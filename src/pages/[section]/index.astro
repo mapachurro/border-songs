@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import TrackList from "../../components/TrackList.astro";
+import { siteUrl } from "../../utils/siteUrl.js";
 
 export async function getStaticPaths() {
   const sections = await getCollection("sections");
@@ -21,6 +22,11 @@ export async function getStaticPaths() {
 }
 
 const { section } = Astro.props;
+
+const backgroundUrl = section.data.background
+  ? siteUrl(section.data.background)
+  : null;
+
 const { Content } = await render(section);
 const sectionSlug = section.id.split("/")[0];
 
@@ -32,14 +38,21 @@ const sectionSongs = songs
 ---
 
 <BaseLayout title={section.data.title} currentSection={sectionSlug}>
-  <div class="container py-5">
-    <div class="card mx-auto" style="max-width: 800px;">
-      <div class="card-body">
-        <h1>{section.data.title}</h1>
+  <div
+    class="song-page"
+    style={
+      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
+    }
+  >
+    <div class="container py-5">
+      <div class="card mx-auto" style="max-width: 800px;">
+        <div class="card-body">
+          <h1>{section.data.title}</h1>
 
-        <TrackList songs={sectionSongs} />
+          <TrackList songs={sectionSongs} />
 
-        <Content />
+          <Content />
+        </div>
       </div>
     </div>
   </div>
