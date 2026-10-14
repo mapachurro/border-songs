@@ -2,6 +2,7 @@
 title: "Clandestino"
 authority: "Manu Chao"
 videoSource: "https://www.youtube.com/watch?v=7AzimrAgWbA"
+background: "images/backgrounds/vista-del-conde-don-julian.jpg"
 ---
 
 # Source:
