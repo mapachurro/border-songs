@@ -62,6 +62,10 @@ Yo me muero
 
 # Commentary:
 
+Um. La Tierra del Olvido is, in fact, West Virginia? 
+
+La ciudad de New Orleans se parece a Barranquilla, so it would only make sense that el monte looks like being up on the mountain. Good ole Rocky Top knwwhatImen
+
 # Notes:
 
 # Versions:
