@@ -2,6 +2,7 @@
 title: "Tierra del olvido"
 authority: "Carlos Vives"
 videoSource: "https://www.youtube.com/watch?v=-QkmEVNA-fo"
+background: "images/backgrounds/al-arroyo.jpg"
 ---
 
 # Source:
