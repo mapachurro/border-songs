@@ -46,6 +46,20 @@ And you spend your life digging coal from the bottom of your grave.
 You'll never leave Harlan alive
 
 # Target:
+Allá en el monte profundo de Guatemala Oeste
+Ese es el lugar al que he trazado mi herencia
+Y es ahí donde leí en una lápida sobre una colina
+Jamás saldrás de San Marcos con vida
+
+El papá de mi abuelo cruzó a la valle de Aguacatán
+En donde se casó con una novia bonita
+Le dijo "A ver si caminas conmigo, salgamos de esta valle
+O sino, jamás saldremos de San Marcos con vida"
+
+En donde sale el sol por eso de las diez de la mañana
+Y se pone el sol como a las tres de la tarde
+
+
 
 # Commentary:
 
@@ -54,3 +68,5 @@ This is a song about the highlands of Guatemala. Change my mind.
 # Notes:
 
 # Versions:
+
+Jamás saldrás de San Marcos con vida
