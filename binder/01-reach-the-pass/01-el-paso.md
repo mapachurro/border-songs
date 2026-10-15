@@ -2,6 +2,7 @@
 title: "El Paso"
 authority: "Marty Robbins"
 videoSource: "https://www.youtube.com/watch?v=EzSJEHQ49gU"
+background: "images/backgrounds/la-vista.jpg"
 ---
 
 # Source:

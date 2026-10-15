@@ -214,3 +214,16 @@ h2 {
     margin-left: 1.25rem;
   }
 }
+
+/* Background formatting */
+
+.song-page {
+  min-height: 100vh;
+}
+
+.song-page[style] {
+  background-image: var(--song-background);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

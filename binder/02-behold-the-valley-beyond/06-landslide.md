@@ -44,6 +44,7 @@ Oh, the landslide will bring it down
 # Target:
 
 # Commentary:
+I always envisioned this as a Shakira song. The themes of nature, love and loss, change over time. Classic.
 
 # Notes:
 

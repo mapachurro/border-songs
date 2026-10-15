@@ -2,6 +2,7 @@
 title: "Washington Bullets"
 authority: "Joe Strummer"
 videoSource: "https://www.youtube.com/watch?v=mkoWjhZOKWo"
+background: "images/backgrounds/adventure.jpg"
 ---
 
 # Source:
