@@ -2,6 +2,7 @@
 title: "Caminos Verdes"
 authority: "Ruben Blades"
 videoSource: "https://www.youtube.com/watch?v=v9la5umehiw"
+background: "images/backgrounds/caminos-verdes.jpg"
 ---
 
 # Source:

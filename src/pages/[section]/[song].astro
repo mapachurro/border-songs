@@ -5,6 +5,7 @@ import Concordance from "../../components/Concordance.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { parseSong } from "../../utils/parseSong.js";
 import { renderMarkdown } from "../../utils/renderMarkdown.js";
+import { siteUrl } from "../../utils/siteUrl.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -31,14 +32,16 @@ const hasTranslation = target.length > 0;
 const pairs = await Promise.all(
   source.map(async (sourceStanza: string, index: number) => ({
     source: await renderMarkdown(sourceStanza),
-    target: hasTranslation
-      ? await renderMarkdown(target[index])
-      : null,
+    target: hasTranslation ? await renderMarkdown(target[index]) : null,
   })),
 );
 
 const remainderHtml = await renderMarkdown(remainder);
 const sectionId = song.id.split("/")[0];
+
+const backgroundUrl = song.data.background
+  ? siteUrl(song.data.background)
+  : null;
 ---
 
 <BaseLayout
@@ -46,26 +49,33 @@ const sectionId = song.id.split("/")[0];
   currentSection={sectionId}
   currentTitle={song.data.title}
 >
-  <div class="container py-5">
-    <div class="card mx-auto" style="max-width: 800px;">
-      <div class="card-body">
-        {song.data.title && <h1>{song.data.title}</h1>}
+  <div
+    class="song-page"
+    style={
+      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
+    }
+  >
+    <div class="container py-5">
+      <div class="card mx-auto" style="max-width: 800px;">
+        <div class="card-body">
+          {song.data.title && <h1>{song.data.title}</h1>}
 
-        {song.data.authority && (
-          <p>
-            <strong>{song.data.authority}</strong>
-          </p>
-        )}
+          {song.data.authority && (
+            <p>
+              <strong>{song.data.authority}</strong>
+            </p>
+          )}
 
-        {song.data.videoSource && (
-          <YouTubeEmbed
-            url={song.data.videoSource}
-            title={`${song.data.title} video`}
-          />
-        )}
-        <Concordance pairs={pairs} />
+          {song.data.videoSource && (
+            <YouTubeEmbed
+              url={song.data.videoSource}
+              title={`${song.data.title} video`}
+            />
+          )}
+          <Concordance pairs={pairs} />
 
-        <div class="song-content" set:html={remainderHtml} />
+          <div class="song-content" set:html={remainderHtml} />
+        </div>
       </div>
     </div>
   </div>

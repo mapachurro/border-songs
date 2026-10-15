@@ -2,6 +2,7 @@
 title: "Tierra del olvido"
 authority: "Carlos Vives"
 videoSource: "https://www.youtube.com/watch?v=-QkmEVNA-fo"
+background: "images/backgrounds/al-arroyo.jpg"
 ---
 
 # Source:
@@ -62,6 +63,10 @@ Yo me muero
 # Commentary:
 
 In a way, maybe this is the corollary to `Landslide`. 
+
+Um. La Tierra del Olvido is, in fact, West Virginia? 
+
+La ciudad de New Orleans se parece a Barranquilla, so it would only make sense that el monte looks like being up on the mountain. Good ole Rocky Top knwwhatImen
 
 # Notes:
 
