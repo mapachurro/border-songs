@@ -32,3 +32,13 @@ You are an immigrant not in possession of a valid unexpired immigrant visa, reen
 
 #### INA 212a9ab (?)
 You overstayed a visa for more than one year and then you sought admission to the United States within ten years after the end of the period of your overstay
+
+## Regulation and case law
+
+### 42-B cancellation of removal
+
+### Asylum standards
+
+### Ancillary relief
+
+
