@@ -1,4 +1,7 @@
-## Introduction
+---
+title: "Side 1: Reach the Pass"
+order: 1
+---
 
 Welcome to Side 1 of this four-sided, annotated-play collection of tracks.
 
@@ -10,15 +13,15 @@ There is an idea that is so deeply embedded in the idea and the experience of th
 
 In short: it's the idea that somewhere out there, más allá que el horizonte, once we come down from the mountain, we can be more; we can make of the land, of our time, and of ourselves, what we wish.
 
---- 
+---
 
-Tracing this path back to its source would be a fool's errand, a wild goose chase greater than the professional careers of multiple academicians. This track in the wilderness has no single starting point, only increasing innumerable upstream tributaries. 
+Tracing this path back to its source would be a fool's errand, a wild goose chase greater than the professional careers of multiple academicians. This track in the wilderness has no single starting point, only increasing innumerable upstream tributaries.
 
 So let's establish that, for now, we have come to ourselves on some point of this westbound path, and this is the map that we have been given to follow.
 
 ---
 
-It's an error to think of poetry as something relegated to the domain of a canon, of strict rules of rhyme and verse. It might help to think beyond those walls, and think not of poetry, but of *poetics*.
+It's an error to think of poetry as something relegated to the domain of a canon, of strict rules of rhyme and verse. It might help to think beyond those walls, and think not of poetry, but of _poetics_.
 
 And poetics doesn't belong to the academy, or to the canon, or to some imagined Western phallogocentric iron-bound casket of Art and Knowledge. Poetics is, are, explicitly unbound. Poetics is something that you discover at the woody substance at the heart of language; at the fuzzy edges of grammar where language is constantly reinventing itself; in dance and voluptuousness, in the branch clusters of the tumbleweed and the clusters of its leaves; in colorless green ideas sleeping furiously: in the impossible and deeply necessary aporia of translating. Translating oneself to the other, translating ideas to words, translating from one language to another.
 

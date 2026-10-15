@@ -1,52 +1,53 @@
-# Title: Cielito Lindo
-
-# Authority: Trini Lopez
-
-# Video source: https://www.youtube.com/watch?v=g0oMEd3-Oyg
+---
+title: "Cielito Lindo"
+authority: "Trini Lopez"
+videoSource: "https://www.youtube.com/watch?v=g0oMEd3-Oyg"
+---
 
 # Source:
+
 De la Sierra Morena  
 Cielito lindo, vienen bajando  
 Un par de ojitos negros  
-Cielito lindo, de contrabando  
+Cielito lindo, de contrabando
 
 (Here we go)  
 ¡Ay, ay, ay, ay!  
 Canta y no llores  
 Porque cantando se alegran  
-Cielito lindo, los corazones (everybody)  
+Cielito lindo, los corazones (everybody)
 
 ¡Ay, ay, ay, ay!  
 Canta y no llores  
 Porque cantando se alegran  
-Cielito lindo, los corazones  
+Cielito lindo, los corazones
 
 Ese lunar que tienes  
 Cielito lindo, junto a la boca  
 No se lo des a nadie  
 Cielito lindo, que a mí me toca  
-(Let me hear you now)  
+(Let me hear you now)
 
 ¡Ay, ay, ay, ay!  
 Canta y no llores  
 Porque cantando se alegran  
-Cielito lindo, los corazones  
+Cielito lindo, los corazones
 
 De la Sierra Morena  
 Cielito lindo, vienen bajando  
 Un par de ojitos negros  
 Cielito lindo, de contrabando  
-(One more time)  
+(One more time)
 
 ¡Ay, ay, ay, ay!  
 Canta y no llores  
 Porque cantando se alegran  
-Cielito lindo, los corazones  
+Cielito lindo, los corazones
 
-# Target:  
+# Target:
 
-# Commentary:  
+# Commentary:
 
-# Notes:  
+# Notes:
 
-# Versions:  
+# Versions:

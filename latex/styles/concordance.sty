@@ -1,0 +1,15 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{concordance}[2026/09/29 Border Songs concordance layout]
+
+\RequirePackage{xltabular}
+\RequirePackage{array}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\newcommand{\stanza}[1]{%
+  \begin{minipage}[t]{\linewidth}
+    \raggedright
+    #1
+    \vspace{1.5em}
+  \end{minipage}
+}
