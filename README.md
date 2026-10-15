@@ -254,23 +254,11 @@ This is going to be some true fuckery. Footnotes in chaotic places, from whereve
 
 ## Legal briefing
 
-I'm not sure about the viability of this, but I find it very intriguing. One idea would be to mirror or follow the structure of an NTA:
-
-1. You're not from here
-2. You're from somewhere else
-3. You crossed the line
-4. You didn't have permission to cross the line
-
---> and you are now known to be illegal, and now you're facing the consequences
-
-What's intriguing about this, in order to express the connection my mind is making: I created a four-part structure about crossing borders, in ~202...4? 5? while I was working in gambling, I mean, self-custodial cryptographic technology services. Now, it's 2026, and I'm back in Immigration Court, and it just strikes me how well they line up:
-
-1. Fantasies and dreams about how dope it will be on the frontier or border - approaching the border - you're not from here
-2. Finding out what it is you lost on `the other side` when you crossed the border - the valley beyond - You're from somewhere else
-3. I fully intend on intentionally breaking the law and crossing the border because I have to survive - alcanzar la ribera - you crossed the line
-4. Fuck. Well, fuck. I am now reaping what I sowed - desde la otra costa - you didn't have permission to cross the line
+I'm not sure about the viability of this, but I find it very intriguing. One idea would be to mirror or follow the structure of an [NTA](https://gringo.bingo/term/notice-to-appear-nta-aviso-notificacion-de-comparecencia/).
 
 The way these things line up is, to a mind that works the way mine does, _striking_.
+
+For more details on this, I'm scoping it out in [this planning doc](./looseleaf/allegations-and-charges.md).
 
 ### Format
 
