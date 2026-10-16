@@ -2,6 +2,7 @@
 title: "Frijolero"
 authority: "Molotov"
 videoSource: "https://www.youtube.com/watch?v=8iJMOBcPQyg"
+background: "images/backgrounds/posse.jpg"
 ---
 
 # Source:
