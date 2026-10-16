@@ -93,6 +93,32 @@ Jamás saldrás de San Marcos con vida
 
 # Commentary:
 
+*There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach.*
+
+At the highest possible level, this is a song about extractive, arguably zero-sum, economic practices, and the human cost on which they rely.
+
+Something that I think about a lot are the borders that are there because you know they're there, and once you've seen them, they become patently clear, even if those around you have no eyes to see them.
+
+I hadn't been back to Kentucky in several years, and it was the first time I was going back to Lexington in, perhaps, decades. As I drove backwards down my personal history, southbound on I-71 diagonally across the state, I watched the borders as they came along; the Wooster and Route 30 exits, making it clear you're in the Amish borderlands, and soon afterwards, the Bellville exit at the bottom of the valley, marking the end of the Appalachian plateau. You're leaving the Northeast; you're no longer in the rust belt. You're entering the flatlands; the Midwest. 
+
+It looks like just another exit, if you don't know any better. But after this, there are no more Cleveland Browns flags; only Ohio State University. The white folks are taller, thicker, and drive bigger trucks with more Punisher flags and Three Percenter stickers. The Mexican radio stations get stronger across the FM band; you might even catch a narcocorrido, because the FCC hasn't caught on yet.
+
+By the time you get through, or around, the traffic in Columbus, the flatlands stretch out in front of you for days. If you go west on I-70 to Indianapolis, eventually everything will become rolling hills of soy, corn, hogs and cattle until you start climbing back up to Denver.
+
+But if you hold the course, and lock in southwest into the setting sun, there will be no natural landmarks to tell you; only a shift in the architecture of the farmhouses and the grain silos to tell you that you've entered the Bible Belt.
+
+It was there, thundering along on my turbodiesel engine almost as old as I am, unbeknownst to me in the process of shredding its accessory belt and initiating a cascading catastrophic system failure ending in the eventual destruction of piston #1, that I caught a bluegrass station, fading in and out as I hurtled past Washington Court House.
+
+Returning to Kentucky, going back to Lexington for the first time in my adult memory, as the sun went down across the flatlands, I heard Patty Loveless' rendition of "You'll Never Leave Harlan Alive" for the first time.
+
+---
+
+But carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
+
+
+
+
+
 This is a song about the highlands of Guatemala. Change my mind.
 
 # Notes:
