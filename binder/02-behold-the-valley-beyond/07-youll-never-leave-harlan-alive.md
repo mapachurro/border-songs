@@ -4,7 +4,7 @@ authority: "Darrell Scott; Patty Loveless"
 videoSource: "https://www.youtube.com/watch?v=WM7-PYtXtJM"
 ---
 
-# Source:
+# Source
 
 In the deep dark hills of eastern Kentucky
 That's the place where I traced my bloodline
@@ -47,7 +47,7 @@ And you spend your life digging coal from the bottom of your grave.
 
 You'll never leave Harlan alive
 
-# Target:
+# Target
 
 Allá en el monte profundo de Guatemala Oeste
 Ese es el lugar al que he trazado mi herencia
@@ -91,7 +91,7 @@ Y te pasas la vida cavando la tierra del fondo de tu sepultura.
 
 Jamás saldrás de San Marcos con vida
 
-# Commentary:
+# Commentary
 
 *There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach.*
 
