@@ -12,7 +12,8 @@
     "deploy": "npm run build && gh-pages -d dist",
     "print:image": "docker build -t border-songs-latex -f docker/latex/Dockerfile .",
     "build:print": "node scripts/build-print.js",
-    "build:all": "npm run build && npm run build:print"
+    "build:all": "npm run build && npm run build:print",
+    "clean-slate": "bash ./clean-slate.sh"
   },
   "repository": {
     "type": "git",
