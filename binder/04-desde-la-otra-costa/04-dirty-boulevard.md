@@ -2,7 +2,7 @@
 ---
 title: "Dirty Boulevard"
 authority: "Lou Reed"
-videoSource: ""
+videoSource: "https://www.youtube.com/watch?v=tPTB0TRV3BA"
 ---
 
 # Source:
