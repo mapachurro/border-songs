@@ -50,51 +50,56 @@ const backgroundUrl = song.data.background
   : null;
 ---
 
+
 <BaseLayout
   title={song.data.title ?? "Border Songs"}
   currentSection={sectionId}
   currentTitle={song.data.title}
 >
-  <div
+  <main
     class="song-page"
-    style={
-      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
-    }
+    style={backgroundUrl
+      ? { "--song-background": `url("${backgroundUrl}")` }
+      : undefined}
   >
     <div class="container py-5">
-      <div class="card mx-auto" style="max-width: 800px;">
-        <div class="card-body">
-          {song.data.title && <h1>{song.data.title}</h1>}
+      <div class="song-layout">
 
-          {song.data.authority && (
-            <p>
-              <strong>{song.data.authority}</strong>
-            </p>
-          )}
+        <!-- Song / concordance card -->
+        <article class="card song-main-card">
+          <div class="card-body">
+            {song.data.title && <h1>{song.data.title}</h1>}
 
-          {song.data.videoSource && (
-            <YouTubeEmbed
-              url={song.data.videoSource}
-              title={`${song.data.title} video`}
-            />
-          )}
-          <Concordance pairs={pairs} />
+            {song.data.authority && (
+              <p><strong>{song.data.authority}</strong></p>
+            )}
 
-          <div class="song-sections">
-  {
-    textSections.map((section) => (
-      <section
-        class={`text-section text-section--${section.type}`}
-        aria-label={section.title}
-      >
-        <div class="text-section__label">{section.title}</div>
-        <div class="text-section__body" set:html={section.html} />
-      </section>
-    ))
-  }
-</div>
-        </div>
+            {song.data.videoSource && (
+              <YouTubeEmbed
+                url={song.data.videoSource}
+                title={`${song.data.title} video`}
+              />
+            )}
+
+            <Concordance pairs={pairs} />
+          </div>
+        </article>
+
+        <!-- Independent editorial cards -->
+        {
+          textSections.map((section) => (
+            <section
+              class={`text-section text-section--${section.type}`}
+              aria-label={section.title}
+            >
+              <div class="text-section__label">{section.title}</div>
+              <div class="text-section__body" set:html={section.html} />
+            </section>
+          ))
+        }
+
       </div>
     </div>
-  </div>
+  </main>
 </BaseLayout>
+

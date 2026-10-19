@@ -233,7 +233,8 @@ h2 {
 .song-page[style] {
   background-image: var(--song-background);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -319,5 +320,50 @@ h2 {
 @media (max-width: 700px) {
   .text-section {
     padding: 1.25rem;
+  }
+}
+
+/* Independent song and editorial cards */
+
+.song-layout {
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.song-main-card {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.song-main-card .card-body {
+  padding: 2rem;
+}
+
+.song-layout > .text-section {
+  border-radius: 0.75rem;
+  padding: 2.5rem;
+  margin: 0;
+}
+
+/* Background stays in place while cards scroll */
+
+@media (max-width: 700px) {
+  .song-layout {
+    gap: 1.25rem;
+  }
+
+  .song-main-card .card-body,
+  .song-layout > .text-section {
+    padding: 1.25rem;
+  }
+
+  /* Fixed backgrounds are unreliable on many mobile browsers */
+  .song-page[style] {
+    background-attachment: scroll;
   }
 }
