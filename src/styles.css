@@ -224,18 +224,35 @@ h2 {
   }
 }
 
-/* Background formatting */
+/* Shared photographic page layout */
 
-.song-page {
+.song-page,
+.introduction-page {
   min-height: 100vh;
+  background-color: #f4f5f6;
 }
 
-.song-page[style] {
-  background-image: var(--song-background);
+/* The photograph gets its own opening region */
+
+.song-hero,
+.introduction-hero {
+  height: 85svh;
+  min-height: 400px;
+
+  background-image: var(--song-background, none);
+  background-position: center;
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+
+/* The content overlaps the bottom of the photograph */
+
+.song-layout,
+.introduction-content {
+  position: relative;
+  z-index: 1;
+  margin-top: -5rem;
+  padding-bottom: 4rem;
 }
 
 /* Semantic text sections */
@@ -399,5 +416,23 @@ h2 {
 
   .introduction-card {
     padding: 1.5rem;
+  }
+}
+
+/* Songs without photographs start directly with their content */
+
+.song-page:not(.has-background) .song-layout {
+  margin-top: 3rem;
+}
+
+/* Keep the first card overlapping the photographic opening */
+
+.song-page.has-background .song-layout {
+  margin-top: -5rem;
+}
+
+@media (max-width: 700px) {
+  .song-page.has-background .song-layout {
+    margin-top: -3rem;
   }
 }
