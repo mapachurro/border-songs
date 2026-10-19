@@ -2,6 +2,7 @@
 title: Leaving Las Vegas
 authority: Sheryl Crow
 videoSource: https://youtu.be/Xkc-en0_LGY
+background: "images/backgrounds/the-valley-beyond.jpg"
 ---
 
 # Source:
