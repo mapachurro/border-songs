@@ -6,6 +6,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { parseSong } from "../../utils/parseSong.js";
 import { renderMarkdown } from "../../utils/renderMarkdown.js";
 import { siteUrl } from "../../utils/siteUrl.js";
+import { parseTextSections } from "../../utils/parseTextSections.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -36,7 +37,12 @@ const pairs = await Promise.all(
   })),
 );
 
-const remainderHtml = await renderMarkdown(remainder);
+const textSections = await Promise.all(
+  parseTextSections(remainder).map(async (section) => ({
+    ...section,
+    html: await renderMarkdown(section.body),
+  })),
+);
 const sectionId = song.id.split("/")[0];
 
 const backgroundUrl = song.data.background
@@ -74,7 +80,19 @@ const backgroundUrl = song.data.background
           )}
           <Concordance pairs={pairs} />
 
-          <div class="song-content" set:html={remainderHtml} />
+          <div class="song-sections">
+  {
+    textSections.map((section) => (
+      <section
+        class={`text-section text-section--${section.type}`}
+        aria-label={section.title}
+      >
+        <div class="text-section__label">{section.title}</div>
+        <div class="text-section__body" set:html={section.html} />
+      </section>
+    ))
+  }
+</div>
         </div>
       </div>
     </div>

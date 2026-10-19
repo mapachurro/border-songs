@@ -308,6 +308,8 @@ Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is a
 
 # Versions:
 
+# Footnotes
+
 v1, Part 1: November 17 or 18, 2025; Buenos Aires, Argentina
 
 E[illegible] de neon
@@ -353,3 +355,7 @@ Aquí parada en medio del desierto
 Esperando a que llegue mi embarcadero
 <!-- Double asterisk here, and at the bottom of the page: `"my ship to come in"` -->
 <!-- The translation ends here. It's possible that I saw the next line, `no joker, no jack, no king`, became overwhelmed, and gave up. -->
+
+# Findings
+
+- Something about human trafficking?
