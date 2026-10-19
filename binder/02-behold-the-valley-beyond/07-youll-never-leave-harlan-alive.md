@@ -1,7 +1,7 @@
 ---
 title: "You'll Never Leave Harlan Alive"
 authority: "Darrell Scott; Patty Loveless"
-videoSource: "https://www.youtube.com/watch?v=WM7-PYtXtJM"
+videoSource: "https://youtu.be/MjFcllICjUc"
 ---
 
 # Source
@@ -91,7 +91,7 @@ Y te pasas la vida cavando la tierra del fondo de tu sepultura.
 
 Jamás saldrás de San Marcos con vida
 
-# Commentary
+# Footnotes
 
 *There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach.*
 
@@ -115,15 +115,11 @@ Returning to Kentucky, going back to Lexington for the first time in my adult me
 
 But carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
 
-
-
-
-
 This is a song about the highlands of Guatemala. Change my mind.
 
 # Notes:
 
-# Versions:
+## Versions:
 
 Jamás saldrás de San Marcos con vida
 Jamás saldrás de Harlan con vida
