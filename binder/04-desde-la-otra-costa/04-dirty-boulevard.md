@@ -1,4 +1,3 @@
-
 ---
 title: "Dirty Boulevard"
 authority: "Lou Reed"
