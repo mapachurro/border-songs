@@ -1,3 +1,7 @@
+---
+background: "images/backgrounds/desert-and-the-sown.jpg"
+---
+
 ## Introduction
 
 If any of the verses from Edward FitzGerald's 1859 translation, "The Rubáiyát of Omar Khayyam", sound familiar to you, they're probably these:

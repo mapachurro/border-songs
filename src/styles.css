@@ -367,3 +367,37 @@ h2 {
     background-attachment: scroll;
   }
 }
+
+/* Introduction page */
+
+.introduction-page {
+  min-height: 100vh;
+  padding: 3rem 0;
+
+  background-color: #f4f5f6;
+  background-image: var(--song-background, none);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.introduction-card {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem;
+
+  background: #fff;
+  border: 1px solid #d9dde2;
+  border-radius: 14px;
+}
+
+@media (max-width: 700px) {
+  .introduction-page {
+    padding: 1.5rem 0.75rem 3rem;
+    background-attachment: scroll;
+  }
+
+  .introduction-card {
+    padding: 1.5rem;
+  }
+}
