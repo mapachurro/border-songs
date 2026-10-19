@@ -1,6 +1,7 @@
 ---
 title: "Side 1: Reach the Pass"
 order: 1
+background: "images/backgrounds/la-sierra.jpg"
 ---
 
 Welcome to Side 1 of this four-sided, annotated-play collection of tracks.

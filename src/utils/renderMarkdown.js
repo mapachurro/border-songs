@@ -1,10 +1,13 @@
+
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import remarkBreaks from "remark-breaks";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 
 const processor = unified()
   .use(remarkParse)
+  .use(remarkBreaks)
   .use(remarkRehype)
   .use(rehypeStringify);
 

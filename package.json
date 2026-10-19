@@ -12,7 +12,8 @@
     "deploy": "npm run build && gh-pages -d dist",
     "print:image": "docker build -t border-songs-latex -f docker/latex/Dockerfile .",
     "build:print": "node scripts/build-print.js",
-    "build:all": "npm run build && npm run build:print"
+    "build:all": "npm run build && npm run build:print",
+    "clean-slate": "bash ./clean-slate.sh"
   },
   "repository": {
     "type": "git",
@@ -45,6 +46,7 @@
   "dependencies": {
     "js-yaml": "^5.4.2",
     "rehype-stringify": "^10.0.1",
+    "remark-breaks": "^4.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
     "unified": "^11.0.5"
