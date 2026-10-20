@@ -34,6 +34,10 @@ Reading this in January 2026, I'm not sure this song, of all the Byrds' oeuvre, 
 
 I suppose this is "un caso limitrofe", pun 110% intended.
 
+Counterargument, October 2026: This is a song of the limit... of our knowledge. We cannot see forward. This is faith that, farther along, we'll know why, but right now, we don't.
+
+Therefore -- it should be on Side 1, not Side 2?
+
 # Notes:
 
 # Versions:
