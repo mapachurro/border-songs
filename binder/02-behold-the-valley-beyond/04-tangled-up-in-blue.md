@@ -2,6 +2,7 @@
 title: "Tangled Up In Blue"
 authority: "Bob Dylan"
 videoSource: "https://www.youtube.com/watch?v=fPBmJSNSiFY"
+background: "images/backgrounds/iowa.jpg"
 ---
 
 # Source:
