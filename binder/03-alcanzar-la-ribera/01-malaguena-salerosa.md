@@ -99,11 +99,11 @@ Which brings us to the reason for which I asser this being one of the broadest a
 
 Perhaps this Malaga Woman is full of the riches of love; that's a reading.
 
-[^1] ...Pirates of the Caribbean. That's a Pirates of the Caribbean reference.
+[^1]: ...Pirates of the Caribbean. That's a Pirates of the Caribbean reference.
 
-[^2] *You Are My Diamond*, Tijs Verwest, Dennis Waakop Reijers, Kianna Alarid; released by Tiesto ft. Kianna, 2012.
+[^2]: *You Are My Diamond*, Tijs Verwest, Dennis Waakop Reijers, Kianna Alarid; released by Tiesto ft. Kianna, 2012.
 
-[^3] *Buid Me A Woman*. Original author?? `TODO`; as covered by The Doors, on Absolutely Live.
+[^3]: *Buid Me A Woman*. Original author?? `TODO`; as covered by The Doors, on Absolutely Live.
 
 
 
