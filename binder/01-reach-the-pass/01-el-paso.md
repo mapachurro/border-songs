@@ -164,3 +164,7 @@ Un besito más y Felina, adiós
 # Notes:
 
 # Versions:
+
+# Photo:
+
+Hillside near Polson, Montana. Oliver Renwick.

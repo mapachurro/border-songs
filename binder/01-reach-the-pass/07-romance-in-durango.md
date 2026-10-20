@@ -195,3 +195,6 @@ This is muzzle flash. So -- fogonazo?
 These lyrics appear to be canonical / album version. The Rolling Thunder Revue version may differ slightly, or in the noise of that live performance, certain lines are slurred enough that they begin to have multiple readings. I have indicated these in parentheses ().
 
 # Versions:
+
+# Photo
+2012-2013, Oliver Renwick. Tucson, AZ.

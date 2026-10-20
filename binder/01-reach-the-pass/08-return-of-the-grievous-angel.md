@@ -71,3 +71,6 @@ And they all led me straight back home to you
 # Notes
 
 # Versions
+
+# Photo
+Oliver Renwick, 2016-2026. I-71N, somewhere around Sunbury, OH. IIRC.

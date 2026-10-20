@@ -74,3 +74,6 @@ Para por si acaso logro a pasar la frontera
 # Notes:
 
 # Versions:
+
+# Photo:
+2022, Oliver Renwick. A very gay bar on a very rowdy street, early days post-COVID lockdown in the Raval, Barcelona.
