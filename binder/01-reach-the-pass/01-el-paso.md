@@ -2,7 +2,7 @@
 title: "El Paso"
 authority: "Marty Robbins"
 videoSource: "https://www.youtube.com/watch?v=EzSJEHQ49gU"
-background: "images/backgrounds/la-vista.jpg"
+background: "images/backgrounds/monte-montana.jpg"
 ---
 
 # Source:
@@ -164,3 +164,7 @@ Un besito más y Felina, adiós
 # Notes:
 
 # Versions:
+
+# Photo:
+
+Hillside near Polson, Montana. Oliver Renwick.

@@ -32,8 +32,12 @@ It is the intention of poetics to push expression to its limit, push language pa
 
 ---
 
-But poetics do not exist in a vacuum. They do not come from nowhere, and they build upon each other, call out to each other, forward, backwards, and across. In the Americas, poetic traditions weave in and out of being "just a song", to being part of our psyche, to being an expression of identity, to summing up an entire epoch of history; "Just a Season".
+But poetics do not exist in a vacuum. They do not come from nowhere, and they build upon each other, call out to each other, forward, backwards, and across. In the Americas, poetic traditions weave in and out of being "just a song", to being part of our psyche, to being an expression of identity, to summing up an entire epoch of history; [just a season](../02-behold-the-valley-beyond/08-just-a-season).
 
 So we will start our journey in the Desert Spring. It is the 1960s in the United States, and angelheaded hipsters are burning for an ancient heavenly connection to a starry dynamo, through the gears of the machine that they threw their bodies upon to make it stop.
 
 When you go searching for the ancient heavenly connection to a starry dynamo, where do you go? You go to the wilderness. You seek your roots, your water; you go out into the desert, with a billion stars all around: with nothing left to lose, and everything to gain.
+
+# Photo
+Oliver Renwick, 2023 (?); The Rockies (?).
+

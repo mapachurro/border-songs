@@ -224,18 +224,35 @@ h2 {
   }
 }
 
-/* Background formatting */
+/* Shared photographic page layout */
 
-.song-page {
+.song-page,
+.introduction-page {
   min-height: 100vh;
+  background-color: #f4f5f6;
 }
 
-.song-page[style] {
-  background-image: var(--song-background);
+/* The photograph gets its own opening region */
+
+.song-hero,
+.introduction-hero {
+  height: 85svh;
+  min-height: 400px;
+
+  background-image: var(--song-background, none);
+  background-position: center;
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+
+/* The content overlaps the bottom of the photograph */
+
+.song-layout,
+.introduction-content {
+  position: relative;
+  z-index: 1;
+  margin-top: -5rem;
+  padding-bottom: 4rem;
 }
 
 /* Semantic text sections */
@@ -366,4 +383,85 @@ h2 {
   .song-page[style] {
     background-attachment: scroll;
   }
+}
+
+/* Introduction page */
+
+.introduction-page {
+  min-height: 100vh;
+  padding: 3rem 0;
+
+  background-color: #f4f5f6;
+  background-image: var(--song-background, none);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.introduction-card {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem;
+
+  background: #fff;
+  border: 1px solid #d9dde2;
+  border-radius: 14px;
+}
+
+@media (max-width: 700px) {
+  .introduction-page {
+    padding: 1.5rem 0.75rem 3rem;
+    background-attachment: scroll;
+  }
+
+  .introduction-card {
+    padding: 1.5rem;
+  }
+}
+
+/* Songs without photographs start directly with their content */
+
+.song-page:not(.has-background) .song-layout {
+  margin-top: 3rem;
+}
+
+/* Keep the first card overlapping the photographic opening */
+
+.song-page.has-background .song-layout {
+  margin-top: -5rem;
+}
+
+@media (max-width: 700px) {
+  .song-page.has-background .song-layout {
+    margin-top: -3rem;
+  }
+}
+
+/* Photo credits and contextual information */
+
+.text-section--photo {
+  background: #f1f2f2;
+  border: 1px solid #d8dde2;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.text-section--photo .text-section__label {
+  margin-bottom: 1rem;
+}
+
+.text-section--photo p {
+  margin-bottom: 0.75rem;
+}
+
+.text-section--photo a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+/* extra specs for song pages on mobile? */
+.song-layout {
+  padding-inline: 1rem;
 }

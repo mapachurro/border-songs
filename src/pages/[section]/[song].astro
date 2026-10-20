@@ -43,6 +43,12 @@ const textSections = await Promise.all(
     html: await renderMarkdown(section.body),
   })),
 );
+
+const orderedTextSections = [
+  ...textSections.filter((section) => section.type !== "photo"),
+  ...textSections.filter((section) => section.type === "photo"),
+];
+
 const sectionId = song.id.split("/")[0];
 
 const backgroundUrl = song.data.background
@@ -57,49 +63,46 @@ const backgroundUrl = song.data.background
   currentTitle={song.data.title}
 >
   <main
-    class="song-page"
+    class:list={["song-page", { "has-background": !!backgroundUrl }]}
     style={backgroundUrl
-      ? { "--song-background": `url("${backgroundUrl}")` }
+      ? `--song-background: url("${backgroundUrl}")`
       : undefined}
   >
-    <div class="container py-5">
-      <div class="song-layout">
+    {backgroundUrl && <div class="song-hero" aria-hidden="true"></div>}
 
-        <!-- Song / concordance card -->
-        <article class="card song-main-card">
-          <div class="card-body">
-            {song.data.title && <h1>{song.data.title}</h1>}
+    <div class="song-layout">
+      <!-- Song / concordance card -->
+      <article class="card song-main-card">
+        <div class="card-body">
+          {song.data.title && <h1>{song.data.title}</h1>}
 
-            {song.data.authority && (
-              <p><strong>{song.data.authority}</strong></p>
-            )}
+          {song.data.authority && (
+            <p><strong>{song.data.authority}</strong></p>
+          )}
 
-            {song.data.videoSource && (
-              <YouTubeEmbed
-                url={song.data.videoSource}
-                title={`${song.data.title} video`}
-              />
-            )}
+          {song.data.videoSource && (
+            <YouTubeEmbed
+              url={song.data.videoSource}
+              title={`${song.data.title} video`}
+            />
+          )}
 
-            <Concordance pairs={pairs} />
-          </div>
-        </article>
+          <Concordance pairs={pairs} />
+        </div>
+      </article>
 
-        <!-- Independent editorial cards -->
-        {
-          textSections.map((section) => (
-            <section
-              class={`text-section text-section--${section.type}`}
-              aria-label={section.title}
-            >
-              <div class="text-section__label">{section.title}</div>
-              <div class="text-section__body" set:html={section.html} />
-            </section>
-          ))
-        }
-
-      </div>
+      <!-- Independent editorial cards -->
+      {
+        orderedTextSections.map((section) => (
+          <section
+            class={`text-section text-section--${section.type}`}
+            aria-label={section.title}
+          >
+            <div class="text-section__label">{section.title}</div>
+            <div class="text-section__body" set:html={section.html} />
+          </section>
+        ))
+      }
     </div>
   </main>
 </BaseLayout>
-

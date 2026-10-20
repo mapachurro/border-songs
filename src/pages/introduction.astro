@@ -1,16 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Introduction from "../../binder/introduction.md";
+import { siteUrl } from "../utils/siteUrl.js";
+
+import { frontmatter } from "../../binder/introduction.md";
+
+const backgroundUrl = frontmatter?.background
+  ? siteUrl(frontmatter.background)
+  : null;
 ---
 
 <BaseLayout title="Introduction">
-  <div class="container py-5">
-    <div class="card mx-auto" style="max-width: 800px;">
-      <div class="card-body">
-        <Introduction />
-      </div>
-    </div>
-
-    <nav class="navigation d-flex justify-content-between mt-4"></nav>
-  </div>
+  <main
+    class="introduction-page"
+    style={backgroundUrl
+      ? `--song-background: url("${backgroundUrl}")`
+      : undefined}
+  >
+    <article class="introduction-card">
+      <Introduction />
+    </article>
+  </main>
 </BaseLayout>

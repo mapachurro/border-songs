@@ -2,6 +2,7 @@
 title: "Fast Car"
 authority: "Tracy Chapman"
 videoSource: "https://www.youtube.com/watch?v=AIOAlaACuv4"
+background: "images/backgrounds/cle-port.jpg"
 ---
 
 # Source

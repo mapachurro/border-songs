@@ -3,6 +3,7 @@ const sectionTypes = {
   notes: "notes",
   footnotes: "footnotes",
   findings: "findings",
+  photo: "photo",
 };
 
 /**

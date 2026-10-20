@@ -2,6 +2,7 @@
 title: "You'll Never Leave Harlan Alive"
 authority: "Darrell Scott; Patty Loveless"
 videoSource: "https://youtu.be/MjFcllICjUc"
+background: "images/backgrounds/adrian.jpg"
 ---
 
 # Source
