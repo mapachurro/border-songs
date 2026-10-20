@@ -461,3 +461,7 @@ h2 {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+/* extra specs for song pages on mobile? */
+.song-layout {
+  padding-inline: 1rem;
+}
