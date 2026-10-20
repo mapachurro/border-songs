@@ -2,6 +2,7 @@
 title: "Why you'd want to live here"
 authority: "Ben Gibbard / Death Cab for Cutie"
 videoSource: "https://www.youtube.com/watch?v=lrI1_FwTmtg"
+background: "images/backgrounds/mountains-beyond-mountains.jpg"
 ---
 
 # Source

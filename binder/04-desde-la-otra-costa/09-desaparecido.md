@@ -2,7 +2,7 @@
 title: "Desaparecido"
 authority: "Manu Chao"
 videoSource: "http://youtube.com/watch?v=HQaPT58mh8k"
-background: "images/backgrounds/desfile.jpg"
+background: "images/backgrounds/linias.jpg"
 ---
 
 # Source:

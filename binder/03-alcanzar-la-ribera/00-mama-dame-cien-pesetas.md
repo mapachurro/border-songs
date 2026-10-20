@@ -2,6 +2,7 @@
 title: "Mama dame cien pesetas"
 authority: "Raffaella Carra"
 videoSource: "https://www.youtube.com/watch?v=OwNRZlQ1cKc"
+background: "images/backgrounds/barsa-port.jpg"
 ---
 
 # Source
