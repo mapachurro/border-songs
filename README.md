@@ -28,6 +28,7 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
       - [Behold the valley beyond](#behold-the-valley-beyond)
       - [Alcanzar la ribera](#alcanzar-la-ribera)
 - [Desde la otra costa](#desde-la-otra-costa)
+- [Copyright and licensing](#copyright-and-licensing)
 - [Scope Creep](#scope-creep)
   - [Colorable claim to this project](#colorable-claim-to-this-project)
   - [idk](#idk)
@@ -146,6 +147,17 @@ There's a structure and organization to this work which follows the logic of the
 </details>
 
 <!-- END FULL TRACKLIST -->
+
+# Copyright and licensing
+
+The source code, original written content, and photographic materials in this repository may be subject to different copyright and licensing terms.
+
+Unless otherwise indicated, all photographs are original works by Oliver Renwick and are © 2026 Oliver Renwick, all rights reserved. See [PHOTO-LICENSE.md](PHOTO-LICENSE.md) for details.
+
+The repository's software license does not grant permission to reuse its photographic materials *or* written materials.
+
+The software involved in this project is mainly Astro, as of October 2026; no assertion is made regarding the rights to use that software.
+
 
 # Scope Creep
 
