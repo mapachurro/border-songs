@@ -52,3 +52,8 @@ Cielito lindo, los corazones
 # Notes:
 
 # Versions:
+
+# Photo:
+This photo is, apparently, illegal. I managed to take it before the Moroccan border patrol stopped me.
+
+It's a hillside in no-man's-land, specifically, between the Moroccan and Spanish border fences on the pedestrian route into and out of Ceuta.

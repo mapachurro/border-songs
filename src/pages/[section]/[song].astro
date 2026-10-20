@@ -43,6 +43,12 @@ const textSections = await Promise.all(
     html: await renderMarkdown(section.body),
   })),
 );
+
+const orderedTextSections = [
+  ...textSections.filter((section) => section.type !== "photo"),
+  ...textSections.filter((section) => section.type === "photo"),
+];
+
 const sectionId = song.id.split("/")[0];
 
 const backgroundUrl = song.data.background
@@ -87,7 +93,7 @@ const backgroundUrl = song.data.background
 
       <!-- Independent editorial cards -->
       {
-        textSections.map((section) => (
+        orderedTextSections.map((section) => (
           <section
             class={`text-section text-section--${section.type}`}
             aria-label={section.title}

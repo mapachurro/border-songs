@@ -36,12 +36,24 @@ const withBackground = [];
 const withoutBackground = [];
 const missingFiles = [];
 const imageUsage = new Map();
+const missingPhotoSections = [];
+const orphanPhotoSections = [];
 
 for (const file of findMarkdownFiles(binderDir)) {
   const page = path.relative(binderDir, file);
   const content = fs.readFileSync(file, "utf8");
   const frontmatter = getFrontmatter(content);
   const background = frontmatter.background;
+
+  const hasPhotoSection = /^#\s+Photo\s*:?\s*$/im.test(content);
+
+if (background && !hasPhotoSection) {
+  missingPhotoSections.push(page);
+}
+
+if (!background && hasPhotoSection) {
+  orphanPhotoSections.push(page);
+}
 
   if (typeof background !== "string" || !background.trim()) {
     withoutBackground.push(page);
@@ -102,6 +114,28 @@ if (missingFiles.length === 0) {
   }
 }
 
+console.log("\n=== PHOTO DOCUMENTATION ===\n");
+
+console.log("Backgrounds without a Photo section:");
+
+if (missingPhotoSections.length === 0) {
+  console.log("  None!");
+} else {
+  for (const page of missingPhotoSections) {
+    console.log(`  ${page}`);
+  }
+}
+
+console.log("\nPhoto sections without a background:");
+
+if (orphanPhotoSections.length === 0) {
+  console.log("  None!");
+} else {
+  for (const page of orphanPhotoSections) {
+    console.log(`  ${page}`);
+  }
+}
+
 console.log("\n=== SUMMARY ===\n");
 console.log(`Pages scanned:          ${withBackground.length + withoutBackground.length}`);
 console.log(`With backgrounds:       ${withBackground.length}`);
@@ -109,3 +143,5 @@ console.log(`Without backgrounds:    ${withoutBackground.length}`);
 console.log(`Unique images used:     ${imageUsage.size}`);
 console.log(`Duplicate image groups: ${duplicates.length}`);
 console.log(`Missing image files:    ${missingFiles.length}`);
+console.log(`Missing Photo sections: ${missingPhotoSections.length}`);
+console.log(`Orphan Photo sections:  ${orphanPhotoSections.length}`);

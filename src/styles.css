@@ -436,3 +436,28 @@ h2 {
     margin-top: -3rem;
   }
 }
+
+/* Photo credits and contextual information */
+
+.text-section--photo {
+  background: #f1f2f2;
+  border: 1px solid #d8dde2;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.text-section--photo .text-section__label {
+  margin-bottom: 1rem;
+}
+
+.text-section--photo p {
+  margin-bottom: 0.75rem;
+}
+
+.text-section--photo a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

@@ -2,6 +2,7 @@
 title: "Waylon Jennings Live!"
 authority: "John Darnielle; The Mountain Goats"
 videoSource: "https://www.youtube.com/watch?v=9o3WZK4QDA4"
+background: "images/backgrounds/bar-raval.jpg"
 ---
 
 # Source:
