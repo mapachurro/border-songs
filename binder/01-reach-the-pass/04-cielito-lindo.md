@@ -2,6 +2,7 @@
 title: "Cielito Lindo"
 authority: "Trini Lopez"
 videoSource: "https://www.youtube.com/watch?v=g0oMEd3-Oyg"
+background: "images/backgrounds/nameless-sheep-nameless-hillside.jpg"
 ---
 
 # Source:

@@ -2,7 +2,6 @@
 title: "At the dark end of the street"
 authority: "Dan Penn, Chips Moman; Gram Parsons"
 videoSource: "https://www.youtube.com/watch?v=TDIhN630_3w"
-background: "images/backgrounds/iowa.jpg"
 ---
 
 # Source:
