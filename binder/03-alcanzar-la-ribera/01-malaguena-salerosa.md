@@ -89,9 +89,9 @@ Where Simon tends to lose touch with literality is somewhere around `...He makes
 
 This is where we're entering the realm of poetics; and with the insistence, very clearly, repeatedly, and *hey, it says it on the label of the song*, that she has diamonds on the soles of her shoes, we are forced to arrive at the only possible conclusion:
 
-"Not all treasure is silver and gold, mate." 
+"Not all treasure is silver and gold, mate." [^1]
 
-She is so full of love, that it forms a wave; she shines so brightly that she sparkles like a diamond, `from the top of (her) head down to the / bottom of (her) / cowboy shoes`. And the boy is poor, *impoverished*. Maybe at the level of money; kind of sounds like the level of money, if they're sleeping in a doorway (or maybe they were just hella drunk). 
+She is so full of love, that it forms a wave; she shines so brightly that ~~she sparkles like a diamond~~ `...you are my diamond / when I'm with you I / shine...`[^2], `from the top of (her) head down to the / bottom of (her) / cowboy shoes`[^3]. And the boy is poor, *impoverished*. Maybe at the level of money; kind of sounds like the level of money, if they're sleeping in a doorway (or maybe they were just hella drunk). 
 
 Which brings us to the reason for which I asser this being one of the broadest and most intricate examples of the genre: we have, in this song, a *hero's journey* embedded inside the genre. The hero (I don't need to say it again, do I?) is a man who is impoverished; the implication is not only that he doesn't have much love for others, it's that he doesn't have much love for himself; and it takes the love of this (grammatically canonically) woman to ~~sigh~~ show him that he is not only worth loving, but that he can love, and he can be as full of love as she is -- he, too, can have diamonds on the soles of his shoes.
 
@@ -99,8 +99,11 @@ Which brings us to the reason for which I asser this being one of the broadest a
 
 Perhaps this Malaga Woman is full of the riches of love; that's a reading.
 
+[^1] ...Pirates of the Caribbean. That's a Pirates of the Caribbean reference.
 
+[^2] *You Are My Diamond*, Tijs Verwest, Dennis Waakop Reijers, Kianna Alarid; released by Tiesto ft. Kianna, 2012.
 
+[^3] *Buid Me A Woman*. Original author?? `TODO`; as covered by The Doors, on Absolutely Live.
 
 
 
