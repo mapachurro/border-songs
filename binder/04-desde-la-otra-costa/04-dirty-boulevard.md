@@ -2,6 +2,7 @@
 title: "Dirty Boulevard"
 authority: "Lou Reed"
 videoSource: "https://www.youtube.com/watch?v=tPTB0TRV3BA"
+background: "images/backgrounds/citta-di-palermo.jpg"
 ---
 
 # Source:
