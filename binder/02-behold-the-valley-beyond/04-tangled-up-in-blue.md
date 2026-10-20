@@ -152,7 +152,9 @@ The video linked here, and the version of the lyrics, is not the album version.
 
 Dylan notably played with the lyrics of this song, probably partially because he was unsatisfied with the direction and feel of where his art was going at the time; the performance from the Rolling Thunder Revue, linked here, is of particular interest.
 
-He was playing with Emmy Lou Harris and Roger McGuinn on this tour; the name of the tour was an explicit reference to the Nixon-era carpetbombing of Laos; his performances of 'Hurricane' on this tour were passionate, and simultaneously carried on his reputation of "protest songs", despite that being clearly something he felt he was trying to get rid of.
+John Darnielle, auteur of the Mountain Goats' oeuvre and of [Waylon Jennings Live!](/01-reach-the-pass/03-waylon-jennings-live/), is on record, both [in writing](citation to *This Year*, with page number) and, well, on [*a* record](citation to the track on Jordan Lake Sessions, I believe Vol. I, wherein he discusses this) that, in his not inconsiderable view, the place of poetry, songwriting in particular, is not on the page (or in burning coal jumping off of pages, necessarily) but *on the tongue*; it is not to be read, it is to be *performed*, "in these rooms", an odd, probably unintentional collision between the rooms of confessional music, and "the rooms" of confessional anonymous 12-step meetings.
+
+It would seem that Dylan, regardless of whatever his explicit stance may be regarding spoken versus written songwriting, may have acted in accordance with this ethos. He was playing with Emmy Lou Harris and Roger McGuinn on this tour; the name of the tour was an explicit reference to the Nixon-era carpetbombing of Laos; his performances of 'Hurricane' on this tour were passionate, and simultaneously carried on his reputation of "protest songs", despite that being clearly something he felt he was trying to get rid of.
 
 Point being: this tour, in some ways, was maybe the last concerted effort to play Cosmic American Music, as such.
 
