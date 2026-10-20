@@ -2,7 +2,7 @@
 title: "Just a Season"
 authority: "Roger McGuinn, Jacques Levy"
 videoSource: "https://www.youtube.com/watch?v=7CekMoTerEM"
-background: "images/backgrounds/camino-en-el-monte.jpg"
+background: "images/backgrounds/tren-suiz.jpg"
 ---
 
 # Source:

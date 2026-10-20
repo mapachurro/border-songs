@@ -2,6 +2,7 @@
 title: "Return of the Grievous Angel"
 authority: "Tom Brown, Gram Parsons"
 videoSource: "https://www.youtube.com/watch?v=h_Iz0iVvhEc"
+background: "images/backgrounds/truckers.jpg"
 ---
 
 # Source:
