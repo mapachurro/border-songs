@@ -436,6 +436,18 @@ h2 {
   background-color: #f4f5f6;
 }
 
+/* Match the photographic framing of section title pages */
+
+.book-page {
+  padding: 3rem 1rem 0;
+}
+
+@media (max-width: 700px) {
+  .book-page {
+    padding: 1.5rem 0.75rem 0;
+  }
+}
+
 .book-hero {
   height: 85svh;
   min-height: 400px;
