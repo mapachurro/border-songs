@@ -12,13 +12,17 @@ const backgroundUrl = frontmatter?.background
 
 <BaseLayout title="Introduction">
   <main
-    class="introduction-page"
+    class:list={["book-page", { "has-background": !!backgroundUrl }]}
     style={backgroundUrl
-      ? `--song-background: url("${backgroundUrl}")`
+      ? `--page-background: url("${backgroundUrl}")`
       : undefined}
   >
-    <article class="introduction-card">
-      <Introduction />
-    </article>
+    {backgroundUrl && <div class="book-hero" aria-hidden="true"></div>}
+
+    <div class="book-content">
+      <article class="book-card book-card--introduction">
+        <Introduction />
+      </article>
+    </div>
   </main>
 </BaseLayout>

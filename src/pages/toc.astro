@@ -19,15 +19,25 @@ function trackNumber(songId: string) {
   const filename = songId.split("/").pop();
   return filename?.match(/^(\d+)/)?.[1] ?? "";
 }
+
+const background = "images/backgrounds/a-tokio.jpg";
+const backgroundUrl = background ? siteUrl(background) : null;
 ---
 
 <BaseLayout title="Table of Contents">
-  <div class="container py-5">
-    <div class="row justify-content-center">
-      <div class="card mx-auto" style="max-width: 800px;">
-        <div class="card-body">
-          <h1 class="text-center mb-4">Table of Contents</h1>
+  <main
+    class:list={["book-page", { "has-background": !!backgroundUrl }]}
+    style={backgroundUrl
+      ? `--page-background: url("${backgroundUrl}")`
+      : undefined}
+  >
+    {backgroundUrl && <div class="book-hero" aria-hidden="true"></div>}
 
+    <div class="book-content">
+      <article class="book-card book-card--toc">
+        <h1 class="text-center mb-4">Table of Contents</h1>
+
+        <div class="toc-sections">
           {sections.map((section) => {
             const sectionId = section.id.split("/")[0];
             const sectionSongs = songsForSection(sectionId);
@@ -36,7 +46,9 @@ function trackNumber(songId: string) {
               <details>
                 <summary>
                   <strong>
-                    <a href={siteUrl(`${sectionId}/`)}>{section.data.title}</a>
+                    <a href={siteUrl(`${sectionId}/`)}>
+                      {section.data.title}
+                    </a>
                   </strong>
                 </summary>
 
@@ -55,7 +67,7 @@ function trackNumber(songId: string) {
             );
           })}
         </div>
-      </div>
+      </article>
     </div>
-  </div>
+  </main>
 </BaseLayout>
