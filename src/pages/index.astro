@@ -1,20 +1,32 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TitlePage from "../../binder/title-page.md";
+import { siteUrl } from "../utils/siteUrl.js";
+
+const titleFiles = import.meta.glob("../../binder/title-page.md", {
+  eager: true,
+  query: "?raw",
+  import: "default",
+});
+
+const titleSource = Object.values(titleFiles)[0] as string;
+const background = titleSource.match(/^background:\s*["']?([^"'\r\n]+)["']?/m)?.[1];
+const backgroundUrl = background ? siteUrl(background) : null;
 ---
 
-<BaseLayout title="Border Songs – Title Page">
-  <div class="container py-5">
-    <div class="row justify-content-center">
-      <div class="col-md-10 col-lg-8">
-        <div class="card p-4 shadow-sm">
-          <article class="title-page">
-            <TitlePage />
-          </article>
-        </div>
-      </div>
-    </div>
+<BaseLayout title="Border Songs - Title Page">
+  <main
+    class:list={["book-page", { "has-background": !!backgroundUrl }]}
+    style={backgroundUrl
+      ? `--page-background: url("${backgroundUrl}")`
+      : undefined}
+  >
+    {backgroundUrl && <div class="book-hero" aria-hidden="true"></div>}
 
-    <nav class="navigation d-flex justify-content-between mt-4"></nav>
-  </div>
+    <div class="book-content">
+      <article class="book-card book-card--title">
+        <TitlePage />
+      </article>
+    </div>
+  </main>
 </BaseLayout>

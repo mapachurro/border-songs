@@ -465,3 +465,81 @@ h2 {
 .song-layout {
   padding-inline: 1rem;
 }
+
+/* Shared book cover and TOC layouts */
+
+.book-page {
+  min-height: 100vh;
+  background-color: #f4f5f6;
+}
+
+.book-hero {
+  height: 85svh;
+  min-height: 400px;
+  background-image: var(--page-background, none);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.book-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1rem 4rem;
+}
+
+.book-page.has-background .book-content {
+  margin-top: -5rem;
+}
+
+.book-card {
+  padding: 3rem;
+  background: #fff;
+  border: 1px solid #d9dde2;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Title page remains more compact and centered */
+
+.book-card--title {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+/* TOC has a little more room for expanded track lists */
+
+.book-card--toc {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.toc-sections details {
+  margin-bottom: 0.75rem;
+}
+
+.toc-sections summary {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .book-hero {
+    height: 75svh;
+    min-height: 320px;
+  }
+
+  .book-content {
+    padding: 1.5rem 0.75rem 3rem;
+  }
+
+  .book-page.has-background .book-content {
+    margin-top: -3rem;
+  }
+
+  .book-card {
+    padding: 1.5rem;
+  }
+}
