@@ -121,7 +121,7 @@ Searches for you and names you
 
 # Analysis
 
-Orignally, I translated this line by line, because of the difficulty involved.
+`TODO`
 
 ## Textual analysis
 
@@ -146,6 +146,12 @@ Discussion of the number of covers and history of "Mack the Knife", vis-a-vis th
   - A song written by Germans in German about Germany but set in London about a Briton because they couldn't write about Germans because of censors (right? I gotta check this)
 - A song that was translated over and over again, and sung over and over again, improvised upon continually
   - OK this shit's super deep, deeper than I ever realized
+
+# Translator's notes
+
+Orignally, I translated this line by line, because of the difficulty involved.
+
+`edit, 10/26`: I don't know what I meant by that comment. How else would I translate something? Maybe I meant "instead of considering it one triplet at a time"? No clue.
 
 # Findings of fact and conclusions of law
 

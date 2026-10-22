@@ -383,3 +383,6 @@ confused? with no clarity? hmm.
 42-B... but successful. 
 - Myrtle Beach
 - Is it extremely unusual and exceptional to have an alcoholic parent?
+
+# Photo credits:
+2022-2024, Oliver Renwick. Manhattan on a summer evening, from Brooklyn.
