@@ -118,7 +118,7 @@ Returning to Kentucky, going back to Lexington for the first time in my adult me
 
 ---
 
-Carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
+Carry on: if you make it across the Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
 
 Borders are all around you now, regardless of the choice you make at this point, and you have several: due south to the Bluegrass on I-75, or peel off west on I-71, dodging semis along the Ohio river and hoping your car doesn't catch fire like the ones on the shoulder. You could, if you so chose, drop off into a different era of history and follow Highway 27, on its long route down to the tip of Florida. You'd have to make it through Somerset first, though.
 
@@ -149,13 +149,6 @@ links to genre of western / country outlaw music
 # Intralinear subtext
 
 ## Economic Migrants
-
-`TODO`
-
-- Florence, Y'all
-- Hamiltucky
-
----
 
 ### A letter to a neighbor
 
