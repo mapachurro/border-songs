@@ -54,8 +54,7 @@ Pero no sé si un día volveré
 
 This is fascist bread and circus propaganda pop music, to be clear.
 
+# Translator's notes
 Note that the [Wikipedia article](<https://en.wikipedia.org/wiki/Raffaella_Carr%C3%A0_(1981_album)>) mentions alternate, localized versions: **Mama dame 100 pesitos** in LatAm, perhaps 100 lire in... Portugal? Did they use lire in Portugal? wtf
-
-# Notes
 
 # Versions
