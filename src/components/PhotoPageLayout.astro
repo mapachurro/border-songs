@@ -1,0 +1,26 @@
+---
+import { siteUrl } from "../utils/siteUrl.js";
+
+interface Props {
+  background?: string | null;
+}
+
+const { background } = Astro.props;
+
+const backgroundUrl = background ? siteUrl(background) : null;
+---
+
+<div
+  class:list={["photo-page", { "has-background": !!backgroundUrl }]}
+  style={
+    backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
+  }
+>
+  <div class="photo-page-container">
+    {backgroundUrl && <div class="photo-page-hero"></div>}
+
+    <main class="photo-page-content">
+      <slot />
+    </main>
+  </div>
+</div>
