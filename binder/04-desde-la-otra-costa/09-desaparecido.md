@@ -81,3 +81,6 @@ Deprisa deprisa a rumbo perdido
 
 # Findings of fact and conclusions of law
 VAWA.
+
+# Photo credits
+Oliver Renwick, 2013-2015. Rail lines of the Rodalies de Catalunya.

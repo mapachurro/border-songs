@@ -140,6 +140,8 @@ Today, to release you
 
 # Analysis:
 
+# Translator's notes:
+
 viviendo dictaduras - this is not living `in` or, particularly, `through` dictatorships. In English we might say something like `living a dictatorship`, in the way we say `she's living a nightmare`. Unclear how to resolve.
 
 No saben dónde está - OK. This is next-level Spanish poetics, I'm going to have to do some textual analysis
@@ -156,8 +158,6 @@ te estoy llamando america - Double meaning at least: `I'm naming you America`, `
 
 Te han desaparecido  
 Los que temen la verdad - Should the syntax of this be reversed?
-
-# Translator's notes:
 
 # Versions:
 

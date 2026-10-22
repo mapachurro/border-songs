@@ -70,9 +70,12 @@ No me llames frijolero, pinche gringo (pinche gringo, ¿qué?) puñetero
 
 # Versions:
 
-Findings:
+# Findings of fact and conclusions of law:
 
 What was the name of the old visa program? Brazo...?? The thing that we had that the unions got rid of
 
 "No hay algun tipo de solicitud que podria hacer que me permitiria quedar aqui por dos o tres anos y trabajar y luego volver?"
 (once laughter ceases) "That would be nice, sir, wouldn't it? Unfortunately, *no*. No, there's not."
+
+# Photo credits:
+2012-2013, Oliver Renwick. Maricopa County Sherriff's Office (MCSO) vehicles in storage; Phoenix, AZ.

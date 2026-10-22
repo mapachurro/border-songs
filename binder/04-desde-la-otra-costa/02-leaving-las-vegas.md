@@ -197,14 +197,6 @@ On the other: Despite what we may have been taught, and what may _also_ be true,
 
 # Translator's notes
 
-The initial version of this will be one rendered on Aug 17, 2026.
-
-However, I had previously rendered a translation of this, while under significant mental health strain and physical illness duress, while standing on a street in Buenos Aires in late November 2025.
-
-Unsurprisingly, the notebook in which I wrote that translation later was badly water damaged; surprisingly, due to leaking weatherstripping in an aging modified VW Beetle.
-
-However, I believe some of that translation survives. I will compare my 2026 rendition with whatever is left of the 2025 rendition; any modifications will be noted, For Science.
-
 ### hope springs eternal
 
 So: first line, and Ms. Crow is getting down with allusions. `life springs eternal` is a variant of `hope springs eternal`, which apparently was first coined by Alexander Pope in his _Essay on Man_. We will need to track down whether this has been translated, and if so, whether the phrase exists; initial linguee corpus concordance searches indicate most translators shy away from the phrase by eliding it entirely. Understandably.
@@ -309,41 +301,49 @@ Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is a
 
 # intralinear subtext
 
-v1, Part 1: November 17 or 18, 2025; Buenos Aires, Argentina
+The initial version (above) of this will be one rendered on Aug 17, 2026.
 
-E[illegible] de neon
+However, I had previously rendered a translation of this, while under significant mental health strain and physical illness duress, while standing on a street in Buenos Aires in late November 2025.
+
+Unsurprisingly, the notebook in which I wrote that translation later was badly water damaged; surprisingly, due to leaking weatherstripping in an aging modified VW Beetle.
+
+However, I believe some of that translation survives. I will compare my 2026 rendition with whatever is left of the 2025 rendition; any modifications will be noted, For Science.
+
+## v1, Part 1: November 17 or 18, 2025; Buenos Aires, Argentina
+
+E`[illegible]` de neon
 Aunque no me importa nada / aunque me da igual
 Pase lo principal de mi racha perdedora
 En un Jeep army / del ejército
 Para qué ni me acuerdo
 Ahora ando (dando cachetadas) al televisor
-<!-- I'm not entirely sure why I put parentheses here. I think my intention was to highlight a questionable term choice. -->
+*`I'm not entirely sure why I put parentheses here. I think my intention was to highlight a questionable term choice.`*
 
 Y reviso las _probabilidades_
-<!-- And now I appear to be putting questionable terms in asterisks. Which is preferable for digital format tbh. -->
+*`And now I appear to be putting questionable terms in asterisks. I think I may have been hand-writing (with a fountain pen) Markdown syntax.`*
 
 Y registro mi apuesta
 Me echo una copa y les
 les cierro a las persianas
-<!-- I like what I did here: adding the `les` onto the end of the first line in order to echo the way Crow delivers the line in English: `and I / I pull the blinds` -->
+*`I like what I did here: adding the` **-les** `onto the end of the first line in order to echo the way Crow delivers the line in English: 'and I / I pull the blinds'`*
 
 Me pregunto qué vaya a encontrar
 Parto / me voy de / te dejo Las Vegas
 Luces / la luz es tan brillante
 Palmas sudadas, black jack
-<!-- sic -->
+*`sic`*
 
 Una noche de sábado
 Te dejo Las Vegas
-<!--  There is a break in the translation at this point. See note below. -->
+*`There is a break in the translation at this point. See note below.`*
 
-v1, Part 2: November 28th, 2025; Cleveland, OH.
+## v1, Part 2: November 28th, 2025; Cleveland, OH.
 
-<!--The translation continues, in a different, this time indelible, black ink, twelve pages later. There are a few legible dates in the intervening pages, including an entry dated November 28th, 2025. This is headed in blue ball point ink; the first page and a half of the entry is in pencil, and then it switches to a thick black ballpoint ink. A subsequent entry, December 5th, 2025, is written in water-soluble fountain pen ink, and little more than the date is legible. It's two pages later that we find the second half of the translation, also written in the same thick black ballpoint ink. For some reason, I remember looking for a page in this notebook that wasn't a fully blank, two-page fold, but rather already had something on the facing page. I think I was trying to leave larger spans of open pages for longer entries. And because of that, I chose to write the second half of the translation on the left hand page, facing a diagram I had made of the dimensions of the underside of a Singer Model 15 sewing machine. This would lead me to conclude that the second half of this translation, such as it is, was written on November 28th, 2025, or at the very least, between that date and December 5th, by which point I had found my fountain pen again. I hesitate to say more in this forum, but: the lapse of time between the first and second halves of this translation comprises one of the most severe life changes and mental health events of my adult life. I suspect that I came back to this translation in an attempt to cling to something familiar: the act of translation.  -->
+*`The translation continues, in a different, this time indelible, black ink, twelve pages later. There are a few legible dates in the intervening pages, including an entry dated November 28th, 2025. This is headed in blue ball point ink; the first page and a half of the entry is in pencil, and then it switches to a thick black ballpoint ink. A subsequent entry, December 5th, 2025, is written in water-soluble fountain pen ink, and little more than the date is legible. It's two pages later that we find the second half of the translation, also written in the same thick black ballpoint ink. For some reason, I remember looking for a page in this notebook that wasn't a fully blank, two-page fold, but rather already had something on the facing page. I think I was trying to leave larger spans of open pages for longer entries. And because of that, I chose to write the second half of the translation on the left hand page, facing a diagram I had made of the dimensions of the underside of a Singer Model 15 sewing machine. This would lead me to conclude that the second half of this translation, such as it is, was written on November 28th, 2025, or at the very least, between that date and December 5th, by which point I had found my fountain pen again. I hesitate to say more in this forum, but: the lapse of time between the first and second halves of this translation comprises one of the most severe life changes and mental health events of my adult life. I suspect that I came back to this translation in an attempt to cling to something familiar: the act of translation.`*
 
 Antes era que iba a Barstow por una noche
 Me encontraba cualquier camionero autopistero
-<!-- I put an asterisk at the end of this line, and at the bottom of the page: `cross roads`. Clearly I was struggling with this one then, too. -->
+*`I put an asterisk at the end of this line, and at the bottom of the page: 'cross roads'. Clearly I was struggling with this one then, too.`*
 
 Para que me demostrara su valor
 Pero hoy en día es como que
@@ -352,8 +352,8 @@ Así es que hoy de Las Vegas me voy
 (coro)
 Aquí parada en medio del desierto
 Esperando a que llegue mi embarcadero
-<!-- Double asterisk here, and at the bottom of the page: `"my ship to come in"` -->
-<!-- The translation ends here. It's possible that I saw the next line, `no joker, no jack, no king`, became overwhelmed, and gave up. -->
+*`Double asterisk here, and at the bottom of the page: "my ship to come in"`*
+*`The translation ends here. It's possible that I saw the next line, "no joker, no jack, no king", became overwhelmed, and gave up.`*
 
 # Findings of fact and conclusions of law
 - Something about human trafficking?

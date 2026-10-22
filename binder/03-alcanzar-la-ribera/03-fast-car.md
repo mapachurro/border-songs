@@ -163,6 +163,15 @@ Vete esta noche o vives y mueres así
 
 # Analysis
 
+`TODO`
+
+- Rabat
+- Borderlands
+- Catalunya
+- Cleveland
+
+# Translator's notes
+
 At a certain point in this translation, I stopped thinking about it -- because this translation has been living rent-free in my head for _years_. I knew the words in Spanish before having to think about it, once I got to the chorus.
 
 The thing about the original of this song is that Chapman sings so softly and melodically that the _brutality_ of the song gets lost. But it builds; it builds, and by the time we get to the last half verse, the Spanish needs to be just as harsh. Luckily, Spanish can do that.
@@ -214,3 +223,8 @@ las colonias, cabrón.
 - the border issue
 - the change of the last chorus: 'you' is elided / dropped
 - is the subject implicit? I don't think it is; I think he explicitly states subject in earlier instances of the key phrase
+
+# Findings of fact and conclusions of law:
+
+# Photo credits:
+Oliver Renwick, 2016-2026. A view literally across *that* border and into *those* suburbs.
