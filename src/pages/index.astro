@@ -1,4 +1,3 @@
-
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PhotoPageLayout from "../components/PhotoPageLayout.astro";
@@ -11,7 +10,9 @@ const titleFiles = import.meta.glob("../../binder/title-page.md", {
 });
 
 const titleSource = Object.values(titleFiles)[0] as string;
-const background = titleSource.match(/^background:\s*["']?([^"'\r\n]+)["']?/m)?.[1];
+const background = titleSource.match(
+  /^background:\s*["']?([^"'\r\n]+)["']?/m,
+)?.[1];
 ---
 
 <BaseLayout title="Border Songs - Title Page">

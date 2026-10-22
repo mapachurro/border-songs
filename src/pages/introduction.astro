@@ -1,4 +1,3 @@
-
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Introduction, { frontmatter } from "../../binder/introduction.md";
@@ -9,8 +8,8 @@ const background = frontmatter?.background ?? null;
 
 <BaseLayout title="Introduction">
   <PhotoPageLayout background={background}>
-  <article class="book-card book-card--introduction">
-    <Introduction />
-  </article>
-</PhotoPageLayout>
+    <article class="book-card book-card--introduction">
+      <Introduction />
+    </article>
+  </PhotoPageLayout>
 </BaseLayout>

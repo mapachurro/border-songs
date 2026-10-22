@@ -41,9 +41,7 @@ const sectionSongs = songs
   <main
     class:list={["song-page", { "has-background": !!backgroundUrl }]}
     style={
-      backgroundUrl
-        ? `--song-background: url("${backgroundUrl}")`
-        : undefined
+      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
     }
   >
     {backgroundUrl && <div class="song-hero" aria-hidden="true"></div>}
