@@ -68,3 +68,6 @@ Mano Negra, ilegal
 
 # Findings of fact and conclusions of law
 Asylum clock - work authorization
+
+# Photo credits:
+2011-2012, Oliver Renwick. The port of Ceuta and the Rock of Gibraltar to the north.

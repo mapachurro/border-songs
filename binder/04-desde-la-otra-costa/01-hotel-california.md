@@ -164,3 +164,6 @@ Pero nunca yo partir
 
 # Findings of fact and conclusions of law
 42-B: Bars
+
+# Photo credits:
+Exterior, San Andres Carne de Res, Bogota, Colombia. Oliver Renwick, 2022-2023.
