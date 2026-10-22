@@ -69,7 +69,7 @@ Lleno de pasaportes
 y giros postales internacionales  
 Para por si acaso logro a pasar la frontera
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

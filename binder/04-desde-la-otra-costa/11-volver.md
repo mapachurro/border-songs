@@ -119,7 +119,7 @@ That twenty years is but nothing
 With a febrile gaze, questing in shadows
 Searches for you and names you
 
-# Commentary
+# Analysis
 
 Orignally, I translated this line by line, because of the difficulty involved.
 

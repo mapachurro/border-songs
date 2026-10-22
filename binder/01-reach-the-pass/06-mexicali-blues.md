@@ -89,7 +89,7 @@ Cuando deja que una mujer lo tenga entre sus manos
 Puede que te encuentres allá cabalgando por la oscuridad  
 Andando y corriendo sobre las arenas desiertas
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

@@ -67,7 +67,7 @@ Fly away" (Fly, fly, fly away) (I want to fly, woah-woah, gonna fly away)
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 This is track 4 on this side, because it aligns with, calls back and responds to, Track 4 on the previous side, `Visa para un sueño`, as well as the track immediately prior on this side, `El costo de la vida`.
 

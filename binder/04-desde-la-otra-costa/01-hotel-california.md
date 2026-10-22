@@ -156,7 +156,7 @@ Pero nunca yo partir
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

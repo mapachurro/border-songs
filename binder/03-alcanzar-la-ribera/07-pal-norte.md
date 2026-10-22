@@ -140,7 +140,7 @@ Para todos todos, todos todos
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

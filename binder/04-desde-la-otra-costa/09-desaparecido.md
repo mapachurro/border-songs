@@ -73,7 +73,7 @@ Deprisa deprisa a rumbo perdido
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

@@ -59,7 +59,7 @@ Flyin' tonight!
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

@@ -165,7 +165,7 @@ De aqui vuelo
 De aqui vuelo  
 De aqui vuelo
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

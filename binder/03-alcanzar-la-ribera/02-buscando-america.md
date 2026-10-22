@@ -138,7 +138,7 @@ I'm calling you America
 And it's down to us  
 Today, to release you
 
-# Commentary:
+# Analysis:
 
 viviendo dictaduras - this is not living `in` or, particularly, `through` dictatorships. In English we might say something like `living a dictatorship`, in the way we say `she's living a nightmare`. Unclear how to resolve.
 

@@ -94,7 +94,7 @@ Que realmente carecen de valor
 > Al final, seguramente ella sabrá  
 > No nací yo para andar detrás
 
-# Commentary
+# Analysis
 
 > The difference between Goffin-King and McGuinn here is between `her` and `your` form
 >

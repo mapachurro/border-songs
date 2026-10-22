@@ -77,7 +77,7 @@ Andaba todo el camino desde Boulder a Birmingham
 Si creía que pudiese ver, pudiese ver tu cara  
 Si creía que pudiese ver, pudiese ver tu cara
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

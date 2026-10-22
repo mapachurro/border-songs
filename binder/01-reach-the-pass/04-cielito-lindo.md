@@ -47,7 +47,7 @@ Cielito lindo, los corazones
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

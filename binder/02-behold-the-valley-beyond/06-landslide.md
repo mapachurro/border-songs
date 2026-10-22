@@ -43,7 +43,7 @@ Oh, the landslide will bring it down
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 Jimi Hendrix once said that "All Along the Watchtower" felt like a song that he had started writing, but had never finished (citation); Bob Dylan, the original author of that song, for his part said that song was Jimi's, now--words echoed perhaps more awkwardly and fumbling, but no less sincerly, by Trent Reznor regarding Johnny Cash's cover of "Hurt", half a century later.
 

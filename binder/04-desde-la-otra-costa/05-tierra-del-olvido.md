@@ -60,7 +60,7 @@ Yo me muero
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 In a way, maybe this is the corollary to `Landslide`.
 

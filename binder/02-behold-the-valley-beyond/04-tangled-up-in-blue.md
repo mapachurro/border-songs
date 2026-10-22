@@ -127,7 +127,7 @@ Tangled up in blue
 
 # Target:
 
-# Commentary:
+# Analysis:
 The video linked here, and the version of the lyrics, is not the album version.
 
 Dylan notably played with the lyrics of this song, probably partially because he was unsatisfied with the direction and feel of where his art was going at the time; the performance from the Rolling Thunder Revue, linked here, is of particular interest.

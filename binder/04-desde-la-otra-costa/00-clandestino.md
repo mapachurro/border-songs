@@ -59,7 +59,7 @@ Mano Negra, ilegal
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

@@ -54,7 +54,7 @@ Sandinista!
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

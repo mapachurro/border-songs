@@ -19,7 +19,7 @@ Hey hey, hey hey, hey yeah eh
 To save myself in Venezuela
 Hey hey, hey hey, hey yeah eh
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

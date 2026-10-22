@@ -178,7 +178,7 @@ No, no
 No, ya no vuelvo más  
 Esta vez no
 
-# Commentary:
+# Analysis:
 
 Let's be real. This song was always the point / counterpoint that Hotel California was looking for.
 

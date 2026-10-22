@@ -159,7 +159,7 @@ Besandome la cara arrodillada a mi lado
 Acunado entre estos dos brazos para que valen morirse  
 Un besito más y Felina, adiós
 
-# Commentary:
+# Analysis:
 
 # Translator's notes:
 

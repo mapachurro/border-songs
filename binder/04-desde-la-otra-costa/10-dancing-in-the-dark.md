@@ -253,7 +253,7 @@ And let's dance in the dark
 Hey, baby
 And let's dance here in the dark
 
-# Commentary:
+# Analysis:
 
 Overall commentary, Juanes' version is extremely economical and it would be worthwhile to perform comparative syllable length analysis to take a look at why he made certain decisions.
 

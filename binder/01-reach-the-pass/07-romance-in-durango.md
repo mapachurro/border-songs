@@ -156,7 +156,7 @@ Hold on to me, beloved
 Pronto ya pasará el desierto  
 Pronto bailarás el fandango
 
-# Commentary:
+# Analysis:
 
 This song, written by Jacques Levy and Bob Dylan, has an inherently simple A/B/A/B rhyme for the verses. Levy-Dylan collaborations are often full of vivid imagery, and this song is certainly exemplary in that regard. For the most part, the rhyme is enforced directly (people / steeple; cape / escape), or with words that are close enough for the delivery style (gun / done).
 
