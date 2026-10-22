@@ -161,7 +161,7 @@ Un besito más y Felina, adiós
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

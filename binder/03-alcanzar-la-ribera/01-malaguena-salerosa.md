@@ -105,7 +105,7 @@ Perhaps this Malaga Woman is full of the riches of love; that's a reading.
 
 [^3]: _Buid Me A Woman_. Original author?? `TODO`; as covered by The Doors, on Absolutely Live.
 
-# Notes:
+# Translator's notes:
 
 La autoría de esta canción parece estar sujeto a cierto debate.
 

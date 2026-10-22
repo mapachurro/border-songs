@@ -49,7 +49,7 @@ Cielito lindo, los corazones
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

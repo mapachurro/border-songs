@@ -104,6 +104,6 @@ Viva, viva Las Vegas
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

@@ -71,7 +71,7 @@ Para por si acaso logro a pasar la frontera
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

@@ -157,7 +157,7 @@ te estoy llamando america - Double meaning at least: `I'm naming you America`, `
 Te han desaparecido  
 Los que temen la verdad - Should the syntax of this be reversed?
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

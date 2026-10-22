@@ -21,7 +21,7 @@ Hey hey, hey hey, hey yeah eh
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 In such a short song, it sucks not to be able to nail the rhyme scheme. It's a mantra, and the rhyme is crucial. You can see this in some mantras, but also in folk sayings. There's one that I can't fully remember right now, in Spanish, which is along the lines of `No temas al rio que ... porque el rio que corre no trae maldad`. It was reported to me by a native of Sanlucar de Barrameda, Spain. Her explanation, in context, was that someone who talks a lot is inoffensive, "like water off a duck's back", "easy come, easy go"; that their words are not meant as, well, _poison_: because the original meaning of the saying, as per the Cervantes Institute (https://cvc.cervantes.es/lengua/refranero/Ficha.aspx?Par=58151&Lng=0) was probably intended to pass along wisdom about which streams one should, or should not, drink from.
 

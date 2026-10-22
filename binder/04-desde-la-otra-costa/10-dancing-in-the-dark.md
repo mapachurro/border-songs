@@ -261,7 +261,7 @@ He took a questionably violent song with poetics that were and have become more 
 
 See note under 'voluntad': perhaps use this as a place to discuss active voice vs passive voice?
 
-# Notes:
+# Translator's notes:
 
 ## Terminology: Bruce Springsteen
 

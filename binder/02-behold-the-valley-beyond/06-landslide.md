@@ -51,7 +51,7 @@ So allow me to follow in the vein of my elders and betters: This song always fel
 
 But it's all there: loss, nature, love; change over time; the will to persevere in the face of it all, bundled in up in the wrapper of a ballad. It's a Shakira song.
 
-# Notes:
+# Translator's notes:
 
 This version is the best version.
 

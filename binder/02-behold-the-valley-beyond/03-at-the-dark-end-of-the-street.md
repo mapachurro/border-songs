@@ -52,6 +52,6 @@ Again, reading this now -- I know why I included this song; it's about a differe
 
 I'm not sure it belongs in this section though?
 
-# Notes:
+# Translator's notes:
 
 # Versions:

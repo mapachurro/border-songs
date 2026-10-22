@@ -38,6 +38,6 @@ Counterargument, October 2026: This is a song of the limit... of our knowledge. 
 
 Therefore -- it should be on Side 1, not Side 2?
 
-# Notes:
+# Translator's notes:
 
 # Versions:

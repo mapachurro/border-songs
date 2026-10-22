@@ -91,7 +91,7 @@ Andando y corriendo sobre las arenas desiertas
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

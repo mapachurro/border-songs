@@ -63,7 +63,7 @@ for tho -
 bourne - This is differance. We've got bourn (https://www.etymonline.com/word/bourn), which is a stream or river, and bourne (second definition), which has an alternate etymology (!) and refers to a _limit_. Going with `orilla` for the time being.
 the flood - Biblical echoes without explicit reference, matching with `diluvio`
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

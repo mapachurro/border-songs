@@ -61,7 +61,7 @@ Mano Negra, ilegal
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

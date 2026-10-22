@@ -61,6 +61,6 @@ Flyin' tonight!
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

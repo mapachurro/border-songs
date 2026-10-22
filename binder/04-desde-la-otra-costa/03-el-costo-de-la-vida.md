@@ -95,6 +95,6 @@ Eh, ya ves, ni a la Chevrolet
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

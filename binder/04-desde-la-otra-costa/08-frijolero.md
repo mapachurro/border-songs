@@ -66,7 +66,7 @@ No me llames frijolero, pinche gringo (pinche gringo, ¿qué?) puñetero
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

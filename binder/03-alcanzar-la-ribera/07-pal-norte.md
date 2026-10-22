@@ -142,7 +142,7 @@ Para todos todos, todos todos
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

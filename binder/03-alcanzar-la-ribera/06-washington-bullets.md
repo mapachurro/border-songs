@@ -56,7 +56,7 @@ Sandinista!
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

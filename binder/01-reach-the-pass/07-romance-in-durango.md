@@ -190,7 +190,7 @@ On its face, straightforward--but this is a case of matching connotation, specif
 
 This is muzzle flash. So -- fogonazo?
 
-# Notes:
+# Translator's notes:
 
 These lyrics appear to be canonical / album version. The Rolling Thunder Revue version may differ slightly, or in the noise of that live performance, certain lines are slurred enough that they begin to have multiple readings. I have indicated these in parentheses ().
 

@@ -118,7 +118,7 @@ But carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straigh
 
 This is a song about the highlands of Guatemala. Change my mind.
 
-# Notes:
+# Translator's notes:
 
 ## Versions:
 

@@ -58,6 +58,6 @@ we'll ride them some day
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

@@ -158,7 +158,7 @@ Pero nunca yo partir
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 

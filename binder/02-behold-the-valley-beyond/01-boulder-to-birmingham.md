@@ -79,6 +79,6 @@ Si creía que pudiese ver, pudiese ver tu cara
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

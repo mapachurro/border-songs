@@ -167,7 +167,7 @@ De aqui vuelo
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 This piece is heavily intertextual in several dimensions.
 

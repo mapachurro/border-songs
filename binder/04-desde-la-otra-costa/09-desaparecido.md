@@ -75,7 +75,7 @@ Deprisa deprisa a rumbo perdido
 
 # Commentary:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
