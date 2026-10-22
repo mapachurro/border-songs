@@ -197,4 +197,5 @@ These lyrics appear to be canonical / album version. The Rolling Thunder Revue v
 # Versions:
 
 # Photo
+
 2012-2013, Oliver Renwick. Tucson, AZ.

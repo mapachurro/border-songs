@@ -7,7 +7,7 @@ background: "images/backgrounds/san-andres.jpg"
 
 # Source:
 
-*Original: The (fuckin') Eagles*
+_Original: The (fuckin') Eagles_
 
 On a dark desert highway, cool wind in my hair  
 Warm smell of colitas rising up through the air  
@@ -53,7 +53,7 @@ I had to find the passage back to the place I was before
 "Relax, " said the night man, "We are programmed to receive  
 You can check out any time you like, but you can never leave"
 
-*Translation: The Gipsy Kings* -- I'm pretty sure these lyrics, wherever I pulled them from, are hilariously incorrect
+_Translation: The Gipsy Kings_ -- I'm pretty sure these lyrics, wherever I pulled them from, are hilariously incorrect
 
 Por el camino del desierto  
 El viento me despeina  
@@ -63,8 +63,9 @@ Luna, luna de nadie
 
 Ella a lo lejos  
 Una luz centela  
-La idea de mi estar  
+La idea de mi estar
 <!-- lmao what? -->
+
 Quedar por la noche
 
 Alli estaba a la entrada  
@@ -80,7 +81,7 @@ Y lo que indican diciendo
 
 Welcome to the Hotel California  
 Such a lovely place  
-Such a lovely place 
+Such a lovely place
 
 Welcome to the Hotel California  
 Such a lovely place  
@@ -90,32 +91,38 @@ Ella al lado que brillaba
 Tenia una Mercedes  
 Rodeada de chicos guapos
 <!-- ...Que ella...? -->
+
 Ella llamaba amigos
 
 Cuando viene despacio  
-Del tumba de verano  
+Del tumba de verano
 <!-- what? -->
+
 Aquel era pa'recordar  
 Y otro pa' olvidar
 
 Le pedi al capitan  
-Que sirve el vino  
+Que sirve el vino
 <!-- Que sirva? -->
-Y pedi con un amor  
+
+Y pedi con un amor
 <!-- Pretty sure this one is wrong; I think the line is about ...mi amo, like, My Lord. -->
+
 Tenido este alcohol
 <!-- Also, there needs to be a negation about having the alcohol -->
 
-De este sesenta y nueve  
+De este sesenta y nueve
 <!-- *Desde* el sesenta y nueve -->
-Famosa y que llamando  
+
+Famosa y que llamando
 <!-- wtff?? -->
+
 Pues me va a despertar  
 La noche para decir
 
 Welcome to the Hotel California  
 Such a lovely place  
-Such a lovely place  
+Such a lovely place
 
 Welcome to the Hotel California  
 Such a lovely place  
@@ -123,20 +130,22 @@ Such a lovely place
 
 El espejo en el techo  
 Champana en el hielo
-  <!-*Champán*. Who the fuck transcribed this?-  -->
+<!-_Champán_. Who the fuck transcribed this?- -->
 Y ella dijo somos todos prisioneros  
 De propia voluntad
 
 Y en los cuartos principales  
 Hacen sucias esta  
-Hasta aca a la bestia  
+Hasta aca a la bestia
 <!-- Isn't this *para atacar a la bestia*?? -->
+
 Pero no la logra a matar
 
 Mi ultimo recuerdo  
 Corria hacia la puerta  
-Ver una candela en el camino  
+Ver una candela en el camino
 <!-- Ví? -->
+
 Por donde habia llegado
 
 Relax dijo el portero  

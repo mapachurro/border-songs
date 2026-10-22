@@ -1,4 +1,3 @@
-
 /**
  * @typedef {Object} ParsedSong
  * @property {string[]} source
@@ -22,9 +21,7 @@ export function parseSong(body) {
     const title = match[1].replace(/:\s*$/, "").trim();
     const start = match.index + match[0].length;
     const end =
-      index + 1 < headings.length
-        ? headings[index + 1].index
-        : body.length;
+      index + 1 < headings.length ? headings[index + 1].index : body.length;
 
     return {
       title: title.toLowerCase(),
@@ -38,9 +35,7 @@ export function parseSong(body) {
     sections[0].title !== "source" ||
     sections[1].title !== "target"
   ) {
-    throw new Error(
-      "Song must begin with Source followed by Target"
-    );
+    throw new Error("Song must begin with Source followed by Target");
   }
 
   const source = splitStanzas(sections[0].markdown);
@@ -48,14 +43,12 @@ export function parseSong(body) {
 
   if (target.length > 0 && source.length !== target.length) {
     throw new Error(
-      `Source/Target stanza mismatch: ${source.length} source, ${target.length} target`
+      `Source/Target stanza mismatch: ${source.length} source, ${target.length} target`,
     );
   }
 
   const remainder =
-    sections.length > 2
-      ? body.slice(sections[2].start).trim()
-      : "";
+    sections.length > 2 ? body.slice(sections[2].start).trim() : "";
 
   return {
     source,
@@ -71,7 +64,5 @@ function splitStanzas(text) {
     return [];
   }
 
-  return trimmed
-    .split(/\n\s*\n/)
-    .map((stanza) => stanza.trim());
+  return trimmed.split(/\n\s*\n/).map((stanza) => stanza.trim());
 }

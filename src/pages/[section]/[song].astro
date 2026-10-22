@@ -56,7 +56,6 @@ const backgroundUrl = song.data.background
   : null;
 ---
 
-
 <BaseLayout
   title={song.data.title ?? "Border Songs"}
   currentSection={sectionId}
@@ -64,9 +63,9 @@ const backgroundUrl = song.data.background
 >
   <main
     class:list={["song-page", { "has-background": !!backgroundUrl }]}
-    style={backgroundUrl
-      ? `--song-background: url("${backgroundUrl}")`
-      : undefined}
+    style={
+      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
+    }
   >
     {backgroundUrl && <div class="song-hero" aria-hidden="true"></div>}
 
@@ -77,7 +76,9 @@ const backgroundUrl = song.data.background
           {song.data.title && <h1>{song.data.title}</h1>}
 
           {song.data.authority && (
-            <p><strong>{song.data.authority}</strong></p>
+            <p>
+              <strong>{song.data.authority}</strong>
+            </p>
           )}
 
           {song.data.videoSource && (
@@ -92,17 +93,15 @@ const backgroundUrl = song.data.background
       </article>
 
       <!-- Independent editorial cards -->
-      {
-        orderedTextSections.map((section) => (
-          <section
-            class={`text-section text-section--${section.type}`}
-            aria-label={section.title}
-          >
-            <div class="text-section__label">{section.title}</div>
-            <div class="text-section__body" set:html={section.html} />
-          </section>
-        ))
-      }
+      {orderedTextSections.map((section) => (
+        <section
+          class={`text-section text-section--${section.type}`}
+          aria-label={section.title}
+        >
+          <div class="text-section__label">{section.title}</div>
+          <div class="text-section__body" set:html={section.html} />
+        </section>
+      ))}
     </div>
   </main>
 </BaseLayout>

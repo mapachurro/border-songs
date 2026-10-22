@@ -39,5 +39,5 @@ So we will start our journey in the Desert Spring. It is the 1960s in the United
 When you go searching for the ancient heavenly connection to a starry dynamo, where do you go? You go to the wilderness. You seek your roots, your water; you go out into the desert, with a billion stars all around: with nothing left to lose, and everything to gain.
 
 # Photo
-Oliver Renwick, 2023 (?); The Rockies (?).
 
+Oliver Renwick, 2023 (?); The Rockies (?).
