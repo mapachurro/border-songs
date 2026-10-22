@@ -10,54 +10,54 @@ background: "images/backgrounds/truckers.jpg"
 Won't you scratch my itch, sweet Annie Rich  
 And welcome me back to town?  
 Come out on your porch or I'll step into your parlor  
-And I'll tell you how it all went down  
-  
+And I'll tell you how it all went down
+
 Out with the truckers and the kickers and the cowboy angels  
 And a good saloon in every single town  
 Oh, and I remembered something you once told me  
-And I'll be damned if it did not come true  
-  
+And I'll be damned if it did not come true
+
 Twenty thousand roads I went down, down, down  
 And they all led me straight back home to you  
-And they all led me straight back home to you  
-  
+And they all led me straight back home to you
+
 'Cause I headed west to grow up with the country  
 Across those prairies with those waves of grain  
 'Cause I headed west to grow up with the country  
-Across those prairies with those waves of grain  
-  
+Across those prairies with those waves of grain
+
 And I saw my devil  
 And I saw my deep blue sea  
 And I thought about a calico bonnet  
-From Cheyenne to Tennessee  
-  
+From Cheyenne to Tennessee
+
 We flew straight across that river bridge  
 Last night, half past two  
 The switchman wave his lantern goodbye and good day  
-As we went rolling through  
-  
+As we went rolling through
+
 Billboards and truckstops passed by the grievous angel  
-And now I know just what I have to do  
-  
+And now I know just what I have to do
+
 And the man on the radio won't leave me alone  
 He wants to take my money for something that I've never been shown  
-He wants to take my money for something that I've never been shown  
-  
+He wants to take my money for something that I've never been shown
+
 And I saw my devil  
 And I saw my deep blue sea  
 And I thought about a calico bonnet  
-From Cheyenne to Tennessee  
-  
+From Cheyenne to Tennessee
+
 The news I could bring, I met up with the king  
 On his head, an amphetamine crown  
 He talked about unbuckling that old bible belt  
-And lighted out for some desert town  
-  
+And lighted out for some desert town
+
 Out with the truckers and the kickers and the cowboy angels  
 And a good saloon in every single town  
 Oh, but I remembered something you once told me  
-And I'll be damned if it did not come true  
-  
+And I'll be damned if it did not come true
+
 Twenty thousand roads I went down, down, down  
 And they all led me straight back home to you  
 And they all led me straight back home to you  
@@ -73,4 +73,5 @@ And they all led me straight back home to you
 # Versions
 
 # Photo
+
 Oliver Renwick, 2016-2026. I-71N, somewhere around Sunbury, OH. IIRC.

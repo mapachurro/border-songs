@@ -9,58 +9,58 @@ background: "images/backgrounds/pueblo-del-terror.jpg"
 
 Yo adivino el parpadeo  
 De las luces que a lo lejos  
-Van marcando mi retorno  
+Van marcando mi retorno
 
 Son las mismas que alumbraron  
 Con sus pálidos reflejos  
-Hondas horas de dolor  
+Hondas horas de dolor
 
 Y aunque no quise el regreso  
 Siempre se vuelve al primer amor  
-La vieja calle donde el eco dijo  
+La vieja calle donde el eco dijo
 
 Tuya es su vida, tuyo es su querer  
 Bajo el burlón mirar de las estrellas  
-Que, con indiferencia, hoy me ven volver  
+Que, con indiferencia, hoy me ven volver
 
 Volver con la frente marchita  
 Las nieves del tiempo platearon mi sien
 
 Sentir que es un soplo la vida  
-Que veinte años no es nada  
+Que veinte años no es nada
 
 Que febril la mirada, errante en las sombras  
-Te busca y te nombra  
+Te busca y te nombra
 
 Vivir con el alma aferrada  
 A un dulce recuerdo  
-Que lloro otra vez  
+Que lloro otra vez
 
 Tengo miedo del encuentro  
 Con el pasado que vuelve  
-A enfrentarse con mi vida  
+A enfrentarse con mi vida
 
 Tengo miedo de las noches  
 Que pobladas de recuerdos  
-Encadenan mi soñar  
+Encadenan mi soñar
 
 Pero el viajero que huye  
-Tarde o temprano detiene su andar  
+Tarde o temprano detiene su andar
 
 Y aunque el olvido, que todo destruye  
-Haya matado mi vieja ilusión  
+Haya matado mi vieja ilusión
 
 Guardo escondida una esperanza humilde  
-Que es toda la fortuna de mi corazón  
+Que es toda la fortuna de mi corazón
 
 Volver con la frente marchita  
-Las nieves del tiempo platearon mi sien  
+Las nieves del tiempo platearon mi sien
 
 Sentir que es un soplo la vida  
-Que veinte años no es nada  
+Que veinte años no es nada
 
 Que febril la mirada, errante en las sombras  
-Te busca y te nombra  
+Te busca y te nombra
 
 # Target:
 
@@ -74,7 +74,7 @@ Hollowed-out hours of pain
 
 And even if I didn't want to come back
 You always end up back at your first love
-That old street where the echo said  
+That old street where the echo said
 
 Their life is for you, their love is for you
 Under the mocking gaze of the stars
@@ -124,6 +124,7 @@ Searches for you and names you
 Orignally, I translated this line by line, because of the difficulty involved.
 
 ## Textual analysis
+
 - lines in triples
   - waltz / tango: rhythm in threes
 - change to doublets for the chorus: structural change lends emphasis to the chorus
@@ -137,6 +138,7 @@ Discussion of the film, `Volver`, by Almodovar
 - immigration analysis: internal relocation; going to the police
 
 ## Mack the Knife
+
 Discussion of the number of covers and history of "Mack the Knife", vis-a-vis the history and number of covers and societal resonance of "Volver"
 
 - A song in translation, first of all

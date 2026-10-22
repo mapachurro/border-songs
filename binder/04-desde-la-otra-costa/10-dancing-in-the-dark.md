@@ -7,7 +7,7 @@ background: "images/backgrounds/la-gran-ciudad.jpg"
 
 # Source:
 
-*Original: Bruce Springsteen*
+_Original: Bruce Springsteen_
 
 I get up in the evenin'  
 And I ain't got nothin' to say  
@@ -68,7 +68,7 @@ Even if we're just dancin' in the dark
 Even if we're just dancin' in the dark  
 Hey baby
 
-*Translation: Juanes*
+_Translation: Juanes_
 
 Despierto en la noche  
 Roto sin nada que decir  
@@ -131,7 +131,7 @@ Y bailemos aquí en la oscuridad
 
 # Target:
 
-*Original: Bruce Springsteen*
+_Original: Bruce Springsteen_
 
 Me levanto por la tarde
 Y no digo nada a nadie
@@ -192,7 +192,7 @@ Aún si nomás bailamos a oscuras
 Aún si nomás bailamos a oscuras
 Ey, mi amor
 
-*Traducción: Juanes*
+_Traducción: Juanes_
 
 I wake up at night
 Broken, with nothing to say
@@ -266,56 +266,69 @@ See note under 'voluntad': perhaps use this as a place to discuss active voice v
 ## Terminology: Bruce Springsteen
 
 ### Man + baby
+
 This requires a dialectical decision. I chose to go with `hombe`, in order to be an asshole and go with Colombian dialect if possible in order to make the comparison to Juanes' translation either better or worse. Did Juanes make a more international version than I did? etc.
 
 I feel like `baby` should be `negra` but I feel awkward about that
 
 ### This gun's for hire
+
 Such a bizarre expression. It's like, a double elliptical expression. First of all, referring to oneself as a "hired gun", and then shortening that to "this gun", at which point we start to lose the literal expression and reference to violence, and start to refer to, ah, the male sexual member. We're still referring to the former, but now also the latter.
 
 `TODO`:
+
 - hired gun
 
 ### dancing in the dark
+
 - `bailando en la oscuridad` vs `bailar a oscuras`
 - are we human - or are we dancers
 - how can you sleep while your beds are burning - how can you dance while the earth is turning?
 
 ### message just keeps getting clearer
+
 - aclarar vs hacerse claro vs...?
 
 ### moving round my place
+
 Juanes edits this, makes it 'mi habitacion', which might make more sense and feels more intimate -- which is Juanes' overall sensation, one of an intimate love song. That is not Bruce's intent. Bruce is communicating nervous, spastic energy. He's boiling over, he wants to start a fire. He's a loaded gun. Which is somehow sexy? wtf Bruce
 
 ### check my look
+
 he's verifying how he looks. sigh. Juanes deletes this in his version
 
 ### a dump like this
+
 not sure what the correct equivalent is.
 
 ### joke's on me
+
 una broma... a mi costo?
 
 ### stay on the streets of this town
+
 There's an elliptical implicit subject + conditional here. It's actually: "If you stay / If you were to stay...". Additionally, while "town" has a meaning of a certain size, it get used to refer to population centers of many sizes: "I love this town" is a popular exclamation used to describe, e.g., New York City. (Ghostbusters?)
 
 --> Immigration Court insert: aldea / pueblo / colonia / municipalidad
 
 ### carving you up
-It feels metaphorical in Bruce's version, like all his violent references. So, some more research is necessary, but to commit to the Colombian bit, why not go with `machetazo`. 
+
+It feels metaphorical in Bruce's version, like all his violent references. So, some more research is necessary, but to commit to the Colombian bit, why not go with `machetazo`.
 
 --> Immigration Court: `machetazo` and its difficulty in translation: "a machetazos", specifically, "by machete blows"?
-    --> darb / daraba / darabaN
-    --> golpe de estado
-    --> disparar a vs dar con
+--> darb / daraba / darabaN
+--> golpe de estado
+--> disparar a vs dar con
 
 At this point we'd have to go back to translator's footnotes from the immigration court sidebar, in order to go into
---> loop back to discussions about phrasal verbs in `Return of the Grievous Angel` 
---> Reggaeton: 
+--> loop back to discussions about phrasal verbs in `Return of the Grievous Angel`
+--> Reggaeton:
+
 - dale palante
 - para sacarle mas jugo / pegala contra el muro
 
 ### your little world fallin apart
+
 could be romperse a pedazos; maybe caer... hecho... pedazos?
 
 ## Terminology: Juanes
@@ -325,43 +338,43 @@ could be romperse a pedazos; maybe caer... hecho... pedazos?
 I could complain so much about impersonal vs active voice expressions, and maybe that's a good place to do it. In any case, there may be implicit subjects here.
 
 ### deja el misterio / tu ego
-This, in my mind, sounds more like the British "leave off", but... that would make no sense in this context. 
 
-Actually, I had never considered this song with a UK inflection, but it could *absolutely* work...?
+This, in my mind, sounds more like the British "leave off", but... that would make no sense in this context.
+
+Actually, I had never considered this song with a UK inflection, but it could _absolutely_ work...?
 
 `give up` is, additionally, a possible translation, and it works better perhaps with `tu ego`. Or: Leave your ego at the door? Leave your ego aside? That one matches the feeling of love in Juanes' version.
 
 ### voy a ninguna parte
+
 Although Spanish accepts it, and English allegedly doesn't, Juanes simplifies to a single negation, instead of a double or triple as in the original. Is that irony? idk
 
 ### vivir una miseria
+
 translated it fairly literally but there might be a more correct expression equivalent
 
 ### para poder revivir
+
 Again, see `sin voluntad`; this could be translated as "so I / we can come back to life", there's an implicit but undefined subject. Could be you. Could be me. Could be all usn's.
 
 ### huir
 
---> Immigration court interlude:
-    - huir vs fugar
-      - run away vs flee, fugitive, FUG branded on your forehead, etc
-    - Internal relocation vs fleeing to the United States
-      - Legal requirements for internal relocation
-      - Could not relocate to another part of their country
-      - and that relocation would be reasonable under the circumstances
-      - no evidence has shown that the danger would be nationwide or that the respondent would not be safe in another part of the country
-      - --> personal interlude: internal relocation of desplazados en Colombia
+--> Immigration court interlude: - huir vs fugar - run away vs flee, fugitive, FUG branded on your forehead, etc - Internal relocation vs fleeing to the United States - Legal requirements for internal relocation - Could not relocate to another part of their country - and that relocation would be reasonable under the circumstances - no evidence has shown that the danger would be nationwide or that the respondent would not be safe in another part of the country - --> personal interlude: internal relocation of desplazados en Colombia
 
 ### y yo sigo detras de ti
-But, like, in a loving, devoted way, *not* in an `Every Breath You Take` way.
+
+But, like, in a loving, devoted way, _not_ in an `Every Breath You Take` way.
 
 ### el ruido de las calles
+
 How can I express that when I hear this line, I hear the soft, constant chatter of the street life picking up at about 8PM on a cool evening in Barcelona, and that it's a sensation of deep comfort and sense of living in community, the warmth of the city that, while it may not know everything about you, is there with a cafe, a `clean, well-lit place`, but without the guns and suicide?
 
 ### necesito buscarte
+
 Yes, this is technically 'look for', but it means 'find'. No, I will not be taking questions.
 
 ### sin claridad
+
 confused? with no clarity? hmm.
 
 # Versions:
