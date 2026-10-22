@@ -68,7 +68,8 @@ And they all led me straight back home to you
 
 # Analysis
 
-# Notes
+# Translator's notes
+This may be the single most difficult piece to translate in this entire book.
 
 # Versions
 

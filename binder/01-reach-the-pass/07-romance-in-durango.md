@@ -168,7 +168,9 @@ Perhaps, fifty years on, the lyrics slap a bit of `cultural appropriation` and m
 
 The chorus is where it gets properly interesting; the rhyme scheme gets a bit chaotic. It's A/A/B/A/C/B, and switches back and forth between Spanish sentences, properly formed, grammatical, and dialectially appropriate (`Agarrame, mi vida`).
 
-## Translation difficulties
+# Translator's notes:
+
+These lyrics appear to be canonical / album version. The Rolling Thunder Revue version may differ slightly, or in the noise of that live performance, certain lines are slurred enough that they begin to have multiple readings. I have indicated these in parentheses ().
 
 ### ghosts
 
@@ -189,10 +191,6 @@ On its face, straightforward--but this is a case of matching connotation, specif
 ### that flash of light
 
 This is muzzle flash. So -- fogonazo?
-
-# Translator's notes:
-
-These lyrics appear to be canonical / album version. The Rolling Thunder Revue version may differ slightly, or in the noise of that live performance, certain lines are slurred enough that they begin to have multiple readings. I have indicated these in parentheses ().
 
 # Versions:
 
