@@ -161,3 +161,6 @@ Pero nunca yo partir
 # Notes:
 
 # Versions:
+
+# Findings:
+42-B: Bars

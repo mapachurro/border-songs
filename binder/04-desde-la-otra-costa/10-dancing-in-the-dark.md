@@ -378,3 +378,8 @@ Yes, this is technically 'look for', but it means 'find'. No, I will not be taki
 confused? with no clarity? hmm.
 
 # Versions:
+
+# Findings:
+42-B... but successful. 
+- Myrtle Beach
+- Is it extremely unusual and exceptional to have an alcoholic parent?

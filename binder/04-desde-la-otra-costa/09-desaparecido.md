@@ -78,3 +78,6 @@ Deprisa deprisa a rumbo perdido
 # Notes:
 
 # Versions:
+
+# Findings:
+VAWA.

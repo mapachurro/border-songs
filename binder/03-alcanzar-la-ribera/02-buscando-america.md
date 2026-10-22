@@ -160,3 +160,9 @@ Los que temen la verdad - Should the syntax of this be reversed?
 # Notes:
 
 # Versions:
+
+# Findings:
+Asylum standards, specifically: Persecution. What is persecution? What are the standards? Case law, etc.
+
+https://github.com/mapachurro/eoir-glossary/issues/139
+https://github.com/mapachurro/eoir-glossary/issues/138

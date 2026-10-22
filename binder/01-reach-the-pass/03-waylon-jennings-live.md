@@ -75,6 +75,10 @@ Para por si acaso logro a pasar la frontera
 
 # Versions:
 
+# Findings:
+- Checkpoints: Corpus Christi?
+- What's that damn rule about how far into the US you have to be before you're in the US?
+
 # Photo:
 
 2022, Oliver Renwick. A very gay bar on a very rowdy street, early days post-COVID lockdown in the Raval, Barcelona.

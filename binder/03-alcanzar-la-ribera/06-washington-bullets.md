@@ -59,3 +59,8 @@ Sandinista!
 # Notes:
 
 # Versions:
+
+# Findings:
+212a3di
+Membership or affiliation with the Communist party "or another totalitarian party"? lmao
+citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/

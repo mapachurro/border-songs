@@ -146,3 +146,15 @@ Discussion of the number of covers and history of "Mack the Knife", vis-a-vis th
   - A song written by Germans in German about Germany but set in London about a Briton because they couldn't write about Germans because of censors (right? I gotta check this)
 - A song that was translated over and over again, and sung over and over again, improvised upon continually
   - OK this shit's super deep, deeper than I ever realized
+
+# Findings:
+
+Removal order recitation:
+- not a national or citizen
+- are a native and citizen
+- entered at a place and date unknown to the US govt or otherwise without the permission of the Atty General
+- Removable under 212a6ai
+- Waive your right to appeal because you yourself asked me to order you removed
+- You will not be released from detention
+- Rather, you will be transported from the detention center to your port of departure, most likely an airport
+- Wherever you go, I wish you the best of luck

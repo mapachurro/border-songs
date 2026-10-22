@@ -32,3 +32,8 @@ Context there is apparently it's a very common saying regarding newcomers to the
 Point being: there may be some way to fuck with the syntax of the two rhyming lines, or rework the second line in particular, in order to rhyme `border` with an expression of saving oneself in Venezuela, but I can't think of it... yet.
 
 # Versions:
+
+# Findings:
+212a7aiI would be a really nice IRONY TWIST here. As if it needed more.
+
+Xiaohecgred

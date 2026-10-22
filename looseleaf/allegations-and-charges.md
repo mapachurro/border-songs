@@ -45,11 +45,6 @@ You overstayed a visa for more than one year and then you sought admission to th
 
 ### Side 1: You're not from here
 
-#### You'll never leave Harlan alive
-maybe a thing about country conditions reports, how they do not reflect the reality of the situation? Cross-border drug trafficking, etc
-
-Ixchiguan. Poppy fields.
-
 #### Wasn't born to follow
 Probably a pretty perfect con-text for `native` v `citizen` v `national`
 
@@ -62,6 +57,10 @@ Probably a pretty perfect con-text for `native` v `citizen` v `national`
 #### You'll never leave Harlan alive
 You **are** a native and citizen of... **Kentucky**. lmao
 See also: `y'all ain't from around here`, `what church y'all go to`, `what county you from`, etc.
+
+maybe a thing about country conditions reports, how they do not reflect the reality of the situation? Cross-border drug trafficking, etc
+
+Ixchiguan. Poppy fields.
 
 ### Side 3: You came in, and it's a problem.
 
@@ -88,6 +87,9 @@ citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/
 Fuck yeah baby 212a6aiI ALL THE WAY
 
 ### Side 4: You're still here. It's still a problem.
+
+#### Clandestino
+Asylum clock - work permit
 
 #### Hotel California -- Why you'd want to live here
 42-B. Bars.
