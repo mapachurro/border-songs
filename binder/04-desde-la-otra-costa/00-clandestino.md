@@ -64,3 +64,6 @@ Mano Negra, ilegal
 # Notes:
 
 # Versions:
+
+# Findings:
+Asylum clock - work authorization

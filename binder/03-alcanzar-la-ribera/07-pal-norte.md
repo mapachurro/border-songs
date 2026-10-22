@@ -145,3 +145,8 @@ Para todos todos, todos todos
 # Notes:
 
 # Versions:
+
+# Findings:
+212a6aiI ALL DAY LONG
+
+ooh also: Removal vs deportation vs departure vs RETURN

@@ -69,3 +69,10 @@ No me llames frijolero, pinche gringo (pinche gringo, ¿qué?) puñetero
 # Notes:
 
 # Versions:
+
+Findings:
+
+What was the name of the old visa program? Brazo...?? The thing that we had that the unions got rid of
+
+"No hay algun tipo de solicitud que podria hacer que me permitiria quedar aqui por dos o tres anos y trabajar y luego volver?"
+(once laughter ceases) "That would be nice, sir, wouldn't it? Unfortunately, *no*. No, there's not."

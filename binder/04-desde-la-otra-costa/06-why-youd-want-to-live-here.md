@@ -65,3 +65,6 @@ As you will most assuredly drown tomorrow
 # Notes
 
 # Versions
+
+# Findings:
+42-B...?

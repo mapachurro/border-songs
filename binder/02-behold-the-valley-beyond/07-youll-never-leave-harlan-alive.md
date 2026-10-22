@@ -124,3 +124,11 @@ This is a song about the highlands of Guatemala. Change my mind.
 
 Jamás saldrás de San Marcos con vida
 Jamás saldrás de Harlan con vida
+
+# Findings:
+You **are** a native and citizen of... **Kentucky**. lmao
+See also: `y'all ain't from around here`, `what church y'all go to`, `what county you from`, etc.
+
+maybe a thing about country conditions reports, how they do not reflect the reality of the situation? Cross-border drug trafficking, etc
+
+Ixchiguan. Poppy fields.

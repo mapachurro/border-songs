@@ -224,3 +224,6 @@ In the end she** will **surely know
 I wasn**'**t born to follow**
 
 I wasn't born to follow
+
+# Findings
+## You are not a national or citizen of the United States
