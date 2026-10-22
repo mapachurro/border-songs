@@ -69,6 +69,11 @@ Buscando visa para no volver
 
 # Commentary:
 
+- Leaving on a jet plane?
+- Going to California?
+
+Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it *does*, what I'm saying is *maybe link it with that song, specifically*
+
 # Notes:
 
 # Versions:

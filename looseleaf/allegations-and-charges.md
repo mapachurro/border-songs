@@ -43,7 +43,78 @@ You overstayed a visa for more than one year and then you sought admission to th
 
 ## Specific songs
 
-### You'll never leave Harlan alive
+### Side 1: You're not from here
+
+#### You'll never leave Harlan alive
 maybe a thing about country conditions reports, how they do not reflect the reality of the situation? Cross-border drug trafficking, etc
 
-Ixchiguan
+Ixchiguan. Poppy fields.
+
+#### Wasn't born to follow
+Probably a pretty perfect con-text for `native` v `citizen` v `national`
+
+#### Waylon Jennings live!
+- Checkpoints: Corpus Christi?
+- What's that damn rule about how far into the US you have to be before you're in the US?
+
+### Side 2: You're from somewhere else
+
+#### You'll never leave Harlan alive
+You **are** a native and citizen of... **Kentucky**. lmao
+See also: `y'all ain't from around here`, `what church y'all go to`, `what county you from`, etc.
+
+### Side 3: You came in, and it's a problem.
+
+#### Malaguena salerosa
+Probably 212a6Ci, fraud or material misrepresentation (fraudulent K-1 visa)
+But also potentially 237a1G, which is specifically for that context
+
+#### Buscando America
+Asylum standards, specifically: Persecution. What is persecution? What are the standards? Case law, etc.
+
+#### Visa para un sueno
+212a7aiI
+...er, no. Better yet, 212a9bi. Valid visa but overstay more than a year
+
+#### Caminos verdes
+212a7aiI would be a really nice IRONY TWIST here. As if it needed more.
+
+#### Washington bullets
+212a3di
+Membership or affiliation with the Communist party "or another totalitarian party"? lmao
+citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/
+
+#### Pa'l Norte
+Fuck yeah baby 212a6aiI ALL THE WAY
+
+### Side 4: You're still here. It's still a problem.
+
+#### Hotel California -- Why you'd want to live here
+42-B. Bars.
+
+#### Frijolero
+What was the name of the old visa program? Brazo...?? The thing that we had that the unions got rid of
+
+"No hay algun tipo de solicitud que podria hacer que me permitiria quedar aqui por dos o tres anos y trabajar y luego volver?"
+(once laughter ceases) "That would be nice, sir, wouldn't it? Unfortunately, *no*. No, there's not."
+
+#### Desaparecido
+VAWA.
+
+#### Dancing in the dark
+42-B... but successful. 
+- Myrtle Beach
+- Is it extremely unusual and exceptional to have an alcoholic parent?
+
+#### Volver
+Removal order recitation:
+- not a national or citizen
+- are a native and citizen
+- entered at a place and date unknown to the US govt or otherwise without the permission of the Atty General
+- Removable under 212a6ai
+- Waive your right to appeal because you yourself asked me to order you removed
+- You will not be released from detention
+- Rather, you will be transported from the detention center to your port of departure, most likely an airport
+- Wherever you go, I wish you the best of luck
+
+
