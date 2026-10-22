@@ -161,7 +161,7 @@ Los que temen la verdad - Should the syntax of this be reversed?
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 Asylum standards, specifically: Persecution. What is persecution? What are the standards? Case law, etc.
 
 https://github.com/mapachurro/eoir-glossary/issues/139

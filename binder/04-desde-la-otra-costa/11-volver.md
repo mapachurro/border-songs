@@ -147,7 +147,7 @@ Discussion of the number of covers and history of "Mack the Knife", vis-a-vis th
 - A song that was translated over and over again, and sung over and over again, improvised upon continually
   - OK this shit's super deep, deeper than I ever realized
 
-# Findings:
+# Findings of fact and conclusions of law
 
 Removal order recitation:
 - not a national or citizen

@@ -53,7 +53,7 @@ Cielito lindo, los corazones
 
 # Versions:
 
-# Photo:
+# Photo credits
 
 This photo is, apparently, illegal. I managed to take it before the Moroccan border patrol stopped me.
 

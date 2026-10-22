@@ -379,7 +379,7 @@ confused? with no clarity? hmm.
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 42-B... but successful. 
 - Myrtle Beach
 - Is it extremely unusual and exceptional to have an alcoholic parent?

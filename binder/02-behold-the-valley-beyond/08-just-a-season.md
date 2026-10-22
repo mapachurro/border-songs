@@ -43,6 +43,6 @@ In case the `border` isn't immediately clear: This is a song of experience. `cli
 
 # Versions:
 
-# Photo:
+# Photo credits
 
 2015, Oliver Renwick. On a train, Milan - Martigny.

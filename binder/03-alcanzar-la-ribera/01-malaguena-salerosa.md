@@ -111,10 +111,10 @@ La autoría de esta canción parece estar sujeto a cierto debate.
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 Probably 212a6Ci, fraud or material misrepresentation (fraudulent K-1 visa)
 But also potentially 237a1G, which is specifically for that context
 
-# Photo:
+# Photo credits
 
 2011, Oliver Renwick. Orange tree, Ceuta.
