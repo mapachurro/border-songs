@@ -64,3 +64,6 @@ Sandinista!
 212a3di
 Membership or affiliation with the Communist party "or another totalitarian party"? lmao
 citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/
+
+# Photo credits: 
+2012-2013, Oliver Renwick. A Border Patrol mousepad hung on a police officer's cubicle, Phoenix, Arizona.
