@@ -96,23 +96,21 @@ Que realmente carecen de valor
 
 # Analysis
 
-> The difference between Goffin-King and McGuinn here is between `her` and `your` form
->
-> This small change opens up the story. This is not necessarily a love song or a traditional 'romance' in the medieval sense.
->
-> This may be a love triangle situation. Or a conversation with something that is not human. This may be a conversation with a higher power, a god, Nature, or even some part of yourself you're looking for.
->
-> Given that, at the time, McGuinn was trying to write the soundtrack for Easy Rider -- They went looking for America, and couldn't find it anywhere -- the implication that he is, in fact, _Buscando America_ is a tantalizing one.
+ The difference between Goffin-King and McGuinn here is between `her` and `your` form
 
-# Notes
+ This small change opens up the story. This is not necessarily a love song or a traditional 'romance' in the medieval sense.
+
+ This may be a love triangle situation. Or a conversation with something that is not human. This may be a conversation with a higher power, a god, Nature, or even some part of yourself you're looking for.
+
+Given that, at the time, McGuinn was trying to write the soundtrack for Easy Rider -- They went looking for America, and couldn't find it anywhere -- the implication that he is, in fact, _Buscando America_ is a tantalizing one.
 
 Apparently, Goffin and King wrote this, and gave the rights to it to the Byrds' manager before they ever recorded it, so McGuinn's version was the first to be recorded. King's version wasn't recorded and or released until 1980.
 
 This provides for very interesting questions about canonicity. The subtle differences between the Goffin-King and McGuinn versions have a lot to play with, as well. It's not that Goffin-King consistently used more formal language as compared to McGuinn, although arguably it is more 'standard English', whereas McGuinn is clearly trying to inflect the song with the emergent flavor of Western-Cosmic American Music that, at the time, they were beginning to give shape to.
 
-# Versions
+## Versions
 
-## Carole King:
+### Carole King:
 
 No, I'd rather go and journey  
 Where the diamond crescents flowing  
@@ -154,7 +152,7 @@ Come to understand my meaning
 In the end she'll surely know  
 I was not born to follow
 
-## Roger McGuinn:
+### Roger McGuinn:
 
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
@@ -183,7 +181,7 @@ That really have no value in the end she will surely know
 
 I wasn't born to follow
 
-## mapachurro's attempt at reconciliation
+### mapachurro's attempt at reconciliation
 
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
