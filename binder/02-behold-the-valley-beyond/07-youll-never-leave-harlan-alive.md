@@ -142,6 +142,7 @@ Harlan County is one county amongst the 120. It borders Virginia to the southeas
 Bloody Harlan (song)
 links to genre of western / country outlaw music 
 --> Sixteen Tons
+--> Rocky Top
   There's a whole route we can go down here: Johnny Cash; I never picked cotton, etc.
 --> Which side are you on? 
         
@@ -212,9 +213,54 @@ _Oliver JL Renwick, Cleveland, Ohio, November 2024._
 
 ---
 
-This is a song about the highlands of Guatemala. Change my mind.
 
 # Translator's notes:
+
+After that line above about "extractive industries", you can pretty much disregard the rest. Maybe, in English, this song is about Kentucky. But in Spanish, this song is about the northwestern highlands of Guatemala, and you pretty much can't change my mind. Allow me to backtranslate the version I provided above:
+
+## You'll Never Leave San Marcos Alive
+Out in the deep hills of West Guatemala
+That's the place where I've traced my heritage
+And it's there where I read on a gravestone on a hill
+You'll never leave San Marcos alive
+
+My grandfather's dad crossed the valley of Aguacatán
+Where he married himself a pretty bride
+He[^1] told her "Won't you walk with me, let's leave this valley
+Or otherwise, we'll never leave San Marcos alive"
+
+There where the sun comes up at about ten in the morning
+And the sun goes down at about three in the afternoon
+And you pour yourself a cup
+Of something bitter that you drink
+And you spend your life just thinking of how you'll get out of there
+
+No one ever knew about the gold that was in those mountains
+Until a man from the north arrived
+Throwing hundred dollar bills
+He said "I'll pay you for your lands" 
+But he never left San Marcos alive
+
+My grandma sold them cheap and they went to live out by Malacatán
+To a farm where the Suchiate river passes by
+And I bet they danced in celebration
+Laughed and sang a new song
+"Who said we'd never leave San Marcos alive"
+
+But times got difficult, the fields didn't give enough
+And grandpa knew what he would do to survive
+He went back and grew mountain opium
+Sent the money back to grandma
+But he never left San Marcos alive
+
+There where the sun comes up at about ten in the morning
+And the sun goes down at about three in the afternoon
+And you pour yourself a cup
+Of something bitter that you drink
+And you spend your life digging earth from the bottom of your grave.
+
+
+[^1]: The Spanish does not specify gender here; it's unclear whether the husband said this to the wife, or vice versa. -Trans.
 
 ## Versions:
 
