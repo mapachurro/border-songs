@@ -92,7 +92,7 @@ Y te pasas la vida cavando la tierra del fondo de tu sepultura.
 
 Jamás saldrás de San Marcos con vida
 
-# Footnotes
+# Intralinear subtext
 
 _There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach._
 
@@ -100,7 +100,13 @@ At the highest possible level, this is a song about extractive, arguably zero-su
 
 Something that I think about a lot are the borders that are there because you know they're there, and once you've seen them, they become patently clear, even if those around you have no eyes to see them.
 
-I hadn't been back to Kentucky in several years, and it was the first time I was going back to Lexington in, perhaps, decades. As I drove backwards down my personal history, southbound on I-71 diagonally across the state, I watched the borders as they came along; the Wooster and Route 30 exits, making it clear you're in the Amish borderlands, and soon afterwards, the Bellville exit at the bottom of the valley, marking the end of the Appalachian plateau. You're leaving the Northeast; you're no longer in the rust belt. You're entering the flatlands; the Midwest.
+---
+
+## Southbound
+
+I hadn't been back to Kentucky in several years. It was the first time I was going back to Lexington in, perhaps, decades. 
+
+As I drove backwards down my personal history, southbound on I-71 diagonally across the state, I watched the borders as they came along: the Wooster and Route 30 exits, making it clear you're in the Amish borderlands, and soon afterwards, the Bellville exit at the bottom of the valley, marking the end of the Appalachian plateau. You're leaving the Northeast; you're no longer in the rust belt. You're entering the flatlands; the Midwest.
 
 It looks like just another exit, if you don't know any better. But after this, there are no more Cleveland Browns flags; only Ohio State University. The white folks are taller, thicker, and drive bigger trucks with more Punisher flags and Three Percenter stickers. The Mexican radio stations get stronger across the FM band; you might even catch a narcocorrido, because the FCC hasn't caught on yet.
 
@@ -108,13 +114,103 @@ By the time you get through, or around, the traffic in Columbus, the flatlands s
 
 But if you hold the course, and lock in southwest into the setting sun, there will be no natural landmarks to tell you; only a shift in the architecture of the farmhouses and the grain silos to tell you that you've entered the Bible Belt.
 
-It was there, thundering along on my turbodiesel engine almost as old as I am, unbeknownst to me in the process of shredding its accessory belt and initiating a cascading catastrophic system failure ending in the eventual destruction of piston #1, that I caught a bluegrass station, fading in and out as I hurtled past Washington Court House.
+It was there, thundering along on my turbodiesel engine almost as old as I am, unbeknownst to me in the process of shredding its accessory belt and initiating a cascading catastrophic system failure ending in the eventual destruction of piston #1, dumping oil all over the shoulder of I-86E, that I caught a bluegrass station, fading in and out as I hurtled past Washington Court House.
 
 Returning to Kentucky, going back to Lexington for the first time in my adult memory, as the sun went down across the flatlands, I heard Patty Loveless' rendition of "You'll Never Leave Harlan Alive" for the first time.
 
 ---
 
-But carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
+Carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
+
+Borders are all around you now, regardless of the choice you make at this point, and you have several: due south to the Bluegrass on I-75, or peel off West on I-71, dodging semis along the Ohio river and hoping your car doesn't catch fire like the ones on the shoulder; you could, if you so chose, drop off into a different era of history and follow Highway 27, on its long route down to the tip of Florida. You'd have to make it through Somerset, first, though.
+
+Regardless of your choice, Kentucky is a state made up of differentiations created in a different era. This tiny state has more miles of waterways than *the state of Alaska*. At last count, it has 120 counties, and you can't get alcohol in all of 'em. Hell, by the time you finish that cigarette, you might be in another county and they don't sell smokes there. Might as well buy a carton now while you still can.
+
+---
+
+# Analysis
+
+## Harlan
+
+Harlan needs no qualifiers. It is a proper noun in and of itself, within the borders of Kentucky, and its full name is 'Harlan Bloody Harlan'. But, as this is a book of translation, allow me to translate:
+
+Harlan County is one county amongst the 120. It borders Virginia to the southeast, the Cumberland Gap to the southwest. It is the edge of the narrow, deep valleys of the thick of the Appalachian Mountains, and to the northwest, the winding foothills and hollers leading back up to the Bluegrass.
+
+- True history of the situation that happened in Harlan County
+- Metonymical usage of Harlan as a stand-in for the brutal reality of the Appalachian working poor
+
+Bloody Harlan (song)
+links to genre of western / country outlaw music 
+--> Sixteen Tons
+  There's a whole route we can go down here: Johnny Cash; I never picked cotton, etc.
+--> Which side are you on? 
+        
+---
+
+# Intralinear subtext
+
+## Economic Migrants
+
+- Florence, Y'all
+- Hamiltucky
+
+---
+
+### A letter to a neighbor
+
+Hello, Mr. Vance! 
+
+We don't know each other, although like as not, we may have run into each other as kids. 
+
+You see, I grew up a stone's throw from you. 
+
+You strike me not as the kind of guy who would have said, "we don't like city kids around here," but more like the kind of guy that I would have engaged in conversation with about your family, to see if I could get you to give certain tells. Get you to say things like, "When we go down to visit family on the holidays," or referring to your grandmother as *Maymaw*.
+
+You see, I'm kind of a fake Ohioan. Yes, I grew up in the cornfields, graduated from good old The Ohio State University, and in fact live in Ohio now--but my parents were transplants. Academics who found a job at one of those Small Ohio Liberal Arts Colleges people always nod their heads in vague recognition about. 
+
+And fortunately for you, they were of a discipline that passed on to me an interest in people's social reality; why they were how they were, and where they came from. 
+
+So to be clear, sir, you are a *textbook case*, and I wanted to bring this to your attention for your own good, because things have gotten a little out of hand. 
+
+I had the opportunity to spend time growing up on both sides of the border (for those not from those parts, I'm referring to the Mason-Dixon line, on the Ohio River), and I came to know, respect, and love many people in Appalachia. I could wax poetic about the perspectives and lessons I learned from them, but they themselves have done that quite well elsewhere. 
+
+No, unlike yourself, I'm not here to attempt to appropriate Appalachian identity and speak on behalf of an enormous, diverse and complex geosocial area. 
+
+I'm here to, first of all, explain what you were *actually* doing with Hillbilly Elegy, because, come on, who outside of Southeastern Ohio will have the cultural context to interpret it properly, and secondly, to pass on an ardent appeal for your own personal healing.
+
+Briefly, then: the social history of our region is complex, and I'm massively summarizing, but over the past few centuries, on balance, Ohio has experienced generally more stable social and economic conditions, with greater diversity in economic sectors and less reliance on destructive, boom and bust extractive industries, when compared to its southern neighbor. 
+
+This, in turn, has led to a pattern of migration that mirrors the chain migration we see in groups coming from many places around the world to the US as a whole. People come north to Ohio, often for economic reasons: to "better themselves", send money home to family, perhaps escape from exploitative conditions, or intractable social dynamics within insular communities.
+
+And I honor that impetus on behalf of your immigrant ancestors, Mr. Vance, as I honor the indigenous Guatemalans I've spoken with here in northern Ohio. Who knows--maybe one of their grandchildren could be in the running for Vice President some day! 
+
+The thing is--and you know this, I'm just explaining to everyone else--that once these families crossed the river, they realized they were up against significant bias and prejudice. Because of their accent, because of their manners and customs, because of stereotypes and the learned habits of generational poverty. So they, or at least their children, would adopt the mannerisms and standards of upstanding, respectable, middle-class Ohioans. They would eschew their roots, erasing it from their speech, cutting it off and killing it as best they could so they could assimilate and get ahead. 
+
+Or, as a man dressed in a Confederate uniform on Halloween in Louisville once said (jokingly, I think) in reference to me (I was wearing eyeliner and a cloak), "We're gonna have to take this one out back and parole 'im to Jesus."
+
+And that's what you did, so beautifully, with Hillbilly Elegy. It was never a book by an Appalachian, about Appalachia: it was a book by a man who identifies as an Ohioan, making it clear in the loudest possible way that he renounces all sin of being poor, of having an accent, of being anything approaching Kentuckian.
+
+And look at that--it worked! People believed you! You've been accepted into mainstream American society, you're rubbing elbows with people in *Washington*, you're moving up and out. There's no keeping you down on the farm now.
+
+But let me temper this excitement with a bit of harsh reality. I've known many people just like you, Mr. Vance. People who tried to bury their roots, only to realize that roots like to be buried, and only get stronger underground. 
+
+From what I've heard of your book (I actually never read it, and have no need to, because I know you in my blood), your family may have experienced that most cunning of afflictions, addiction. I am authentically and unironically empathetic to you and yours on this point. I myself have been in a process of recovery for nigh on a decade, and it's something I would wish on no one, not even my worst enemy (to be clear, in this context, that would be you).
+
+Mr. Vance, the actions you've taken and continue to take are doing harm to the society of the United States in ways that will be baffling to overcome, and will be an ongoing effort for the rest of our lives. The harm you've done to any honest representation of Appalachia is truly depressing. 
+
+You need to reckon with your true origins, your true past: you are not an afflicted Appalachian, sir. You are an immigrant struggling to assimilate to the dominant social norms, cutting himself off from a culture deep in tradition and wisdom in the process. 
+
+You are being forced to change something that is inherent to you, which you cannot or should not be forced to do. Sir, you are an economic refugee just doing what he has to do. I see you, and I know the place this comes from. 
+
+But as someone familiar with the patterns of addiction, I will not enable it. I hope for healing, and redemption, for you, if possible. These things are available to us all, with the proper guidance, support, and internal motivation. 
+
+But as things stand, don't come to me to make amends. Redemption from your addiction to power and lies is possible, and I can only hope that it takes the form offered to any addict: becoming hollowed out, broken, unable to feel anything inside, and in most cases, losing everything you hold most dear.
+
+Bless your heart, Mr. Vance.
+
+_Oliver JL Renwick, Cleveland, Ohio, November 2024._
+
+---
 
 This is a song about the highlands of Guatemala. Change my mind.
 
