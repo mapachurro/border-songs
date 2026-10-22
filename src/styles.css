@@ -188,10 +188,24 @@ h2 {
 
 /* Concordance Styles */
 
-.stanza-pair {
+.concordance-header,
+.concordance-pair {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 3rem;
+}
+
+.concordance-header {
+  margin-bottom: 1.5rem;
+}
+
+.concordance-pair {
+  margin-bottom: 2rem;
+}
+
+.concordance-source,
+.concordance-target {
+  min-width: 0;
 }
 
 @media (max-width: 700px) {
@@ -205,25 +219,309 @@ h2 {
     margin-bottom: 2.5rem;
   }
 
-  .concordance-source,
-  .concordance-target {
-    min-width: 0;
-  }
-
   .concordance-target {
     margin-left: 1.25rem;
   }
 }
 
-/* Background formatting */
+/* Shared photographic page layout */
 
 .song-page {
   min-height: 100vh;
+  background-color: #f4f5f6;
 }
 
-.song-page[style] {
-  background-image: var(--song-background);
-  background-size: cover;
+/* The photograph gets its own opening region */
+
+.song-hero{
+  height: 85svh;
+  min-height: 400px;
+
+  background-image: var(--song-background, none);
   background-position: center;
-  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* The content overlaps the bottom of the photograph */
+
+.song-layout {
+  position: relative;
+  z-index: 1;
+  margin-top: -5rem;
+  padding-bottom: 4rem;
+}
+
+/* Semantic text sections */
+
+.song-sections {
+  display: grid;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.text-section {
+  padding: 2rem;
+  border: 1px solid #d8dde2;
+  border-radius: 0.5rem;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+
+.text-section__label {
+  font: 600 0.7rem/1.4 system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #697580;
+  margin-bottom: 1.5rem;
+}
+
+.text-section__body > :last-child {
+  margin-bottom: 0;
+}
+
+/* Commentary: contemporary academic */
+
+.text-section--commentary {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.65;
+}
+
+/* Notes: translation analysis */
+
+.text-section--notes {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  border-left: 4px solid #657d91;
+}
+
+/* Footnotes: gonzo */
+
+.text-section--footnotes {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+  background: #faf7f0;
+  border: none;
+  border-radius: 0;
+  transform: rotate(-0.15deg);
+}
+
+/* Findings: documentary / NTA */
+
+.text-section--findings {
+  font-family: "Times New Roman", serif;
+  line-height: 1.45;
+  border: 1px solid #333;
+  border-radius: 0;
+  background: #fdfcf8;
+}
+
+.text-section--findings .text-section__label {
+  color: #111;
+  border-top: 5px solid #111;
+  border-bottom: 1px solid #111;
+  padding: 0.5rem 0;
+  font-family: "Times New Roman", serif;
+}
+
+/* Versions: neutral archival material */
+
+.text-section--versions {
+  background: #f5f6f7;
+  border-style: dashed;
+}
+
+@media (max-width: 700px) {
+  .text-section {
+    padding: 1.25rem;
+  }
+}
+
+/* Independent song and editorial cards */
+
+.song-layout {
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.song-main-card {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.song-main-card .card-body {
+  padding: 2rem;
+}
+
+.song-layout > .text-section {
+  border-radius: 0.75rem;
+  padding: 2.5rem;
+  margin: 0;
+}
+
+/* Background stays in place while cards scroll */
+
+@media (max-width: 700px) {
+  .song-layout {
+    gap: 1.25rem;
+  }
+
+  .song-main-card .card-body,
+  .song-layout > .text-section {
+    padding: 1.25rem;
+  }
+
+  /* Fixed backgrounds are unreliable on many mobile browsers */
+  .song-page[style] {
+    background-attachment: scroll;
+  }
+}
+
+/* Songs without photographs start directly with their content */
+
+.song-page:not(.has-background) .song-layout {
+  margin-top: 3rem;
+}
+
+/* Keep the first card overlapping the photographic opening */
+
+.song-page.has-background .song-layout {
+  margin-top: -5rem;
+}
+
+@media (max-width: 700px) {
+  .song-page.has-background .song-layout {
+    margin-top: -3rem;
+  }
+}
+
+/* Photo credits and contextual information */
+
+.text-section--photo {
+  background: #f1f2f2;
+  border: 1px solid #d8dde2;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.text-section--photo .text-section__label {
+  margin-bottom: 1rem;
+}
+
+.text-section--photo p {
+  margin-bottom: 0.75rem;
+}
+
+.text-section--photo a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+/* extra specs for song pages on mobile? */
+.song-layout {
+  padding-inline: 1rem;
+}
+
+/* Shared book cover and TOC layouts */
+
+.book-page {
+  min-height: 100vh;
+  background-color: #f4f5f6;
+}
+
+/* Match the photographic framing of section title pages */
+
+.book-page {
+  padding: 3rem 1rem 0;
+}
+
+@media (max-width: 700px) {
+  .book-page {
+    padding: 1.5rem 0.75rem 0;
+  }
+}
+
+.book-hero {
+  height: 85svh;
+  min-height: 400px;
+  background-image: var(--page-background, none);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.book-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1rem 4rem;
+}
+
+.book-page.has-background .book-content {
+  margin-top: -5rem;
+}
+
+.book-card {
+  padding: 3rem;
+  background: #fff;
+  border: 1px solid #d9dde2;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Title page remains more compact and centered */
+
+.book-card--title {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+/* TOC has a little more room for expanded track lists */
+
+.book-card--toc {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+/* Introduction: long-form prose */
+
+.book-card--introduction {
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.toc-sections details {
+  margin-bottom: 0.75rem;
+}
+
+.toc-sections summary {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .book-hero {
+    height: 75svh;
+    min-height: 320px;
+  }
+
+  .book-content {
+    padding: 1.5rem 0.75rem 3rem;
+  }
+
+  .book-page.has-background .book-content {
+    margin-top: -3rem;
+  }
+
+  .book-card {
+    padding: 1.5rem;
+  }
 }

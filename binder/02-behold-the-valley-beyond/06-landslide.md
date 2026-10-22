@@ -44,7 +44,11 @@ Oh, the landslide will bring it down
 # Target:
 
 # Commentary:
-I always envisioned this as a Shakira song. The themes of nature, love and loss, change over time. Classic.
+Jimi Hendrix once said that "All Along the Watchtower" felt like a song that he had started writing, but had never finished (citation); Bob Dylan, the original author of that song, for his part said that song was Jimi's, now--words echoed perhaps more awkwardly and fumbling, but no less sincerly, by Trent Reznor regarding Johnny Cash's cover of "Hurt", half a century later.
+
+So allow me to follow in the vein of my elders and betters: This song always felt, to me, like a Shakira song; just composed in the wrong language. Due to accidents of birth and cultural heritage, I was ignorant of Fleetwood Mac until after I had wholesale consumed Shakira's body of work. Perhaps there's some explanation there. Perhaps it had to do with encountering this song in its natural habitat, American dive bars at ~1:30AM, while severely under the influence during a time in my life when I would listen to "Ciega, Sordomuda" on repeat because it spoke to some sense of loss and forgiveness that I couldn't otherwise put a name to or identify.
+
+But it's all there: loss, nature, love; change over time; the will to persevere in the face of it all, bundled in up in the wrapper of a ballad. It's a Shakira song.
 
 # Notes:
 

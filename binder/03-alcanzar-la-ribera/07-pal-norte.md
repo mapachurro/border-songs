@@ -2,6 +2,7 @@
 title: "Pa'l Norte"
 authority: "Calle 13"
 videoSource: "https://www.youtube.com/watch?v=SBYO1ZfxxSM"
+background: "images/backgrounds/camino-en-el-monte.jpg"
 ---
 
 # Source:

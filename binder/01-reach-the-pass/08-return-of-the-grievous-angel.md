@@ -2,6 +2,7 @@
 title: "Return of the Grievous Angel"
 authority: "Tom Brown, Gram Parsons"
 videoSource: "https://www.youtube.com/watch?v=h_Iz0iVvhEc"
+background: "images/backgrounds/truckers.jpg"
 ---
 
 # Source:
@@ -70,3 +71,6 @@ And they all led me straight back home to you
 # Notes
 
 # Versions
+
+# Photo
+Oliver Renwick, 2016-2026. I-71N, somewhere around Sunbury, OH. IIRC.

@@ -1,7 +1,7 @@
 ---
 title: "Crossing the bar"
 authority: "Alfred, Lord Tennyson"
-background: "images/backgrounds/erie-bar.jpg"
+background: "images/backgrounds/rabat-bar.jpg"
 ---
 
 # Source:
@@ -66,3 +66,5 @@ the flood - Biblical echoes without explicit reference, matching with `diluvio`
 # Notes:
 
 # Versions:
+
+# Photo: 

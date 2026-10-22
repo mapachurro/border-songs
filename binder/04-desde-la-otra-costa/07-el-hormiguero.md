@@ -2,6 +2,7 @@
 title: "El hormiguero"
 authority: "Calle 13"
 videoSource: "https://www.youtube.com/watch?v=tPTB0TRV3BA"
+background: "images/backgrounds/okupa-y-resiste.jpg"
 ---
 
 # Source:

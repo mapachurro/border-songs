@@ -2,6 +2,7 @@
 title: "Mama dame cien pesetas"
 authority: "Raffaella Carra"
 videoSource: "https://www.youtube.com/watch?v=OwNRZlQ1cKc"
+background: "images/backgrounds/barsa-port.jpg"
 ---
 
 # Source
@@ -50,6 +51,10 @@ Pero no sé si un día volveré
 # Target
 
 # Commentary
+
+This is fascist bread and circus propaganda pop music, to be clear.
+
+Note that the [Wikipedia article](https://en.wikipedia.org/wiki/Raffaella_Carr%C3%A0_(1981_album)) mentions alternate, localized versions: **Mama dame 100 pesitos** in LatAm, perhaps 100 lire in... Portugal? Did they use lire in Portugal? wtf 
 
 # Notes
 

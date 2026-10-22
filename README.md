@@ -28,6 +28,7 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
       - [Behold the valley beyond](#behold-the-valley-beyond)
       - [Alcanzar la ribera](#alcanzar-la-ribera)
 - [Desde la otra costa](#desde-la-otra-costa)
+- [Copyright and licensing](#copyright-and-licensing)
 - [Scope Creep](#scope-creep)
   - [Colorable claim to this project](#colorable-claim-to-this-project)
   - [idk](#idk)
@@ -37,13 +38,13 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
     - [Current inclusions](#current-inclusions)
     - [Inter-thematic neural network](#inter-thematic-neural-network)
 - [Meta-structures](#meta-structures)
-  - [Straight analysis](#straight-analysis)
+  - [Straight analysis (Commentary)](#straight-analysis-commentary)
     - [Format](#format)
-  - [Translation analysis](#translation-analysis)
+  - [Translation analysis (Notes)](#translation-analysis-notes)
     - [Format](#format-1)
-  - [Gonzo](#gonzo)
+  - [Gonzo (Footnotes)](#gonzo-footnotes)
     - [Format](#format-2)
-  - [Legal briefing](#legal-briefing)
+  - [Legal briefing (Findings)](#legal-briefing-findings)
     - [Format](#format-3)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -147,6 +148,17 @@ There's a structure and organization to this work which follows the logic of the
 
 <!-- END FULL TRACKLIST -->
 
+# Copyright and licensing
+
+The source code, original written content, and photographic materials in this repository may be subject to different copyright and licensing terms.
+
+Unless otherwise indicated, all photographs are original works by Oliver Renwick and are © 2026 Oliver Renwick, all rights reserved. See [PHOTO-LICENSE.md](PHOTO-LICENSE.md) for details.
+
+The repository's software license does not grant permission to reuse its photographic materials *or* written materials.
+
+The software involved in this project is mainly Astro, as of October 2026; no assertion is made regarding the rights to use that software.
+
+
 # Scope Creep
 
 ## Colorable claim to this project
@@ -228,7 +240,7 @@ These are songs about risk; about gambling; about failure and **rags-to-riches d
 
 # Meta-structures
 
-## Straight analysis
+## Straight analysis (Commentary)
 
 This work does require a straight, fact-based analysis of what's going on here. This structure will include English or Spanish-language contextual information, e.g. authorage, publication, well-known versions, close reading and comparisons between prominent versions.
 
@@ -236,7 +248,7 @@ This work does require a straight, fact-based analysis of what's going on here. 
 
 This needs to be formatted in a professional, modern academic way. Say, Arial or Helvetica, 1.5 line spacing, with footnotes.
 
-## Translation analysis
+## Translation analysis (Notes)
 
 Like it says on the tin. This may or may not be a separate structure from the straight analysis -- probably separate, or footnoted out from the straight analysis, as again, it's rooted in fact-based reality.
 
@@ -244,7 +256,7 @@ Like it says on the tin. This may or may not be a separate structure from the st
 
 This should be similar to the straight analysis. If the straight analysis is Arial, this should be Helvetica, for example.
 
-## Gonzo
+## Gonzo (Footnotes)
 
 Did you expect anything else. The tension throughout the work will be when and where the straight analysis will get absolutely derailed or subsumed in the gonzo take.
 
@@ -252,7 +264,7 @@ Did you expect anything else. The tension throughout the work will be when and w
 
 This is going to be some true fuckery. Footnotes in chaotic places, from wherever they derive inspiration -- could be from any of the other three categories.
 
-## Legal briefing
+## Legal briefing (Findings)
 
 I'm not sure about the viability of this, but I find it very intriguing. One idea would be to mirror or follow the structure of an [NTA](https://gringo.bingo/term/notice-to-appear-nta-aviso-notificacion-de-comparecencia/).
 

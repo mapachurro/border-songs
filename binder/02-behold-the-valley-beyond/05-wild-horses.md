@@ -2,6 +2,7 @@
 title: "Wild Horses"
 authority: "Gram Parsons, Keith Richards, Mick Jagger; The Rolling Stones"
 videoSource: "https://www.youtube.com/watch?v=nV5ncVn15y0"
+background: "images/backgrounds/twister.jpg"
 ---
 
 # Source:

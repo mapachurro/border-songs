@@ -38,14 +38,18 @@ const sectionSongs = songs
 ---
 
 <BaseLayout title={section.data.title} currentSection={sectionSlug}>
-  <div
-    class="song-page"
+  <main
+    class:list={["song-page", { "has-background": !!backgroundUrl }]}
     style={
-      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
+      backgroundUrl
+        ? `--song-background: url("${backgroundUrl}")`
+        : undefined
     }
   >
-    <div class="container py-5">
-      <div class="card mx-auto" style="max-width: 800px;">
+    {backgroundUrl && <div class="song-hero" aria-hidden="true"></div>}
+
+    <div class="song-layout">
+      <article class="card song-main-card">
         <div class="card-body">
           <h1>{section.data.title}</h1>
 
@@ -53,7 +57,7 @@ const sectionSongs = songs
 
           <Content />
         </div>
-      </div>
+      </article>
     </div>
-  </div>
+  </main>
 </BaseLayout>

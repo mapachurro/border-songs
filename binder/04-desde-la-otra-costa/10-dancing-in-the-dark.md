@@ -2,6 +2,7 @@
 title: "Dancing in the Dark"
 authority: "Bruce Springsteen; Juanes"
 videoSource: "https://www.youtube.com/watch?v=RRs6ju42Icg"
+background: "images/backgrounds/la-gran-ciudad.jpg"
 ---
 
 # Source:

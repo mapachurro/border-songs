@@ -2,6 +2,7 @@
 title: "Boulder to Birmingham"
 authority: "Bill Danoff, Emmylou Harris"
 videoSource: "https://www.youtube.com/watch?v=JjLx7ESHRcA"
+background: "images/backgrounds/desfile.jpg"
 ---
 
 # Source:

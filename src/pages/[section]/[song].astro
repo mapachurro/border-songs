@@ -6,6 +6,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { parseSong } from "../../utils/parseSong.js";
 import { renderMarkdown } from "../../utils/renderMarkdown.js";
 import { siteUrl } from "../../utils/siteUrl.js";
+import { parseTextSections } from "../../utils/parseTextSections.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -36,7 +37,18 @@ const pairs = await Promise.all(
   })),
 );
 
-const remainderHtml = await renderMarkdown(remainder);
+const textSections = await Promise.all(
+  parseTextSections(remainder).map(async (section) => ({
+    ...section,
+    html: await renderMarkdown(section.body),
+  })),
+);
+
+const orderedTextSections = [
+  ...textSections.filter((section) => section.type !== "photo"),
+  ...textSections.filter((section) => section.type === "photo"),
+];
+
 const sectionId = song.id.split("/")[0];
 
 const backgroundUrl = song.data.background
@@ -44,26 +56,28 @@ const backgroundUrl = song.data.background
   : null;
 ---
 
+
 <BaseLayout
   title={song.data.title ?? "Border Songs"}
   currentSection={sectionId}
   currentTitle={song.data.title}
 >
-  <div
-    class="song-page"
-    style={
-      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
-    }
+  <main
+    class:list={["song-page", { "has-background": !!backgroundUrl }]}
+    style={backgroundUrl
+      ? `--song-background: url("${backgroundUrl}")`
+      : undefined}
   >
-    <div class="container py-5">
-      <div class="card mx-auto" style="max-width: 800px;">
+    {backgroundUrl && <div class="song-hero" aria-hidden="true"></div>}
+
+    <div class="song-layout">
+      <!-- Song / concordance card -->
+      <article class="card song-main-card">
         <div class="card-body">
           {song.data.title && <h1>{song.data.title}</h1>}
 
           {song.data.authority && (
-            <p>
-              <strong>{song.data.authority}</strong>
-            </p>
+            <p><strong>{song.data.authority}</strong></p>
           )}
 
           {song.data.videoSource && (
@@ -72,11 +86,23 @@ const backgroundUrl = song.data.background
               title={`${song.data.title} video`}
             />
           )}
-          <Concordance pairs={pairs} />
 
-          <div class="song-content" set:html={remainderHtml} />
+          <Concordance pairs={pairs} />
         </div>
-      </div>
+      </article>
+
+      <!-- Independent editorial cards -->
+      {
+        orderedTextSections.map((section) => (
+          <section
+            class={`text-section text-section--${section.type}`}
+            aria-label={section.title}
+          >
+            <div class="text-section__label">{section.title}</div>
+            <div class="text-section__body" set:html={section.html} />
+          </section>
+        ))
+      }
     </div>
-  </div>
+  </main>
 </BaseLayout>
