@@ -66,7 +66,7 @@ Y te echas una copa
 De algo amargo al que tomas
 Y te pasas la vida na' más pensando en cómo saldrás de ahí
 
-Nadie supo nunca del oro que había en esas montañas
+Nadie supo nunca del dinero que se ganaba de montañas
 Hasta llegó un hombre del norte
 Tirando billetes de cien dólares
 Dijo "Te pagaré por tus terrenos"
@@ -80,7 +80,7 @@ Se reían y cantaban un nuevo canto
 
 Pero llegaron tiempos difíciles, el campo no daba abasto
 Y el abuelo sabía lo que haría para sobrevivir
-Volvió y cultivó opio del monte
+Volvió y cultivó coca y amapola
 Mandaba el dinero de vuelta a la abuela
 Pero jamás salió de San Marcos con vida
 
@@ -94,11 +94,9 @@ Jamás saldrás de San Marcos con vida
 
 # Intralinear subtext
 
-_There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach._
+At the highest possible level, this is a song about extractive, arguably zero-sum, economic practices and the human cost on which they rely.
 
-At the highest possible level, this is a song about extractive, arguably zero-sum, economic practices, and the human cost on which they rely.
-
-Something that I think about a lot are the borders that are there because you know they're there, and once you've seen them, they become patently clear, even if those around you have no eyes to see them.
+Something that I think about a lot are the borders that are there because you know they're there. Once you've seen them, they become patently clear, even if those around you have no eyes to see them.
 
 ---
 
@@ -108,7 +106,7 @@ I hadn't been back to Kentucky in several years. It was the first time I was goi
 
 As I drove backwards down my personal history, southbound on I-71 diagonally across the state, I watched the borders as they came along: the Wooster and Route 30 exits, making it clear you're in the Amish borderlands, and soon afterwards, the Bellville exit at the bottom of the valley, marking the end of the Appalachian plateau. You're leaving the Northeast; you're no longer in the rust belt. You're entering the flatlands; the Midwest.
 
-It looks like just another exit, if you don't know any better. But after this, there are no more Cleveland Browns flags; only Ohio State University. The white folks are taller, thicker, and drive bigger trucks with more Punisher flags and Three Percenter stickers. The Mexican radio stations get stronger across the FM band; you might even catch a narcocorrido, because the FCC hasn't caught on yet.
+It looks like just another exit, if you don't know any better. But after this, there are no more Cleveland Browns flags or Pittsburgh Steelers stickers on the back of a blacked-out, mud-spattered Volkswagen Jetta; only Ohio State University. The white folks are taller, thicker, and drive bigger trucks with more Punisher flags and Three Percenter stickers. The Mexican radio stations get stronger across the FM band; you might even catch a narcocorrido, because the FCC hasn't caught on yet.
 
 By the time you get through, or around, the traffic in Columbus, the flatlands stretch out in front of you for days. If you go west on I-70 to Indianapolis, eventually everything will become rolling hills of soy, corn, hogs and cattle until you start climbing back up to Denver.
 
@@ -122,19 +120,19 @@ Returning to Kentucky, going back to Lexington for the first time in my adult me
 
 Carry on: if you make it across the ~~Mason-Dixon Line~~ Ohio River, straight into Covington and up the cut in the hill to Florence, you're surrounded by more borders than cogent areas. You're a stone's throw from Maysville, back on the edge of the Appalachian plateau again; from traditional lockbridge towns that share almost nothing, ethnically, socially, and certainly economically, with their counterpart northern Cincinnati suburbs of Indian Hill or Blue Ash.
 
-Borders are all around you now, regardless of the choice you make at this point, and you have several: due south to the Bluegrass on I-75, or peel off West on I-71, dodging semis along the Ohio river and hoping your car doesn't catch fire like the ones on the shoulder; you could, if you so chose, drop off into a different era of history and follow Highway 27, on its long route down to the tip of Florida. You'd have to make it through Somerset, first, though.
+Borders are all around you now, regardless of the choice you make at this point, and you have several: due south to the Bluegrass on I-75, or peel off west on I-71, dodging semis along the Ohio river and hoping your car doesn't catch fire like the ones on the shoulder. You could, if you so chose, drop off into a different era of history and follow Highway 27, on its long route down to the tip of Florida. You'd have to make it through Somerset first, though.
 
-Regardless of your choice, Kentucky is a state made up of differentiations created in a different era. This tiny state has more miles of waterways than *the state of Alaska*. At last count, it has 120 counties, and you can't get alcohol in all of 'em. Hell, by the time you finish that cigarette, you might be in another county and they don't sell smokes there. Might as well buy a carton now while you still can.
-
----
+Regardless of your choice, Kentucky is a state made up of differentiations and fences, black, white, and stone, from another era. This tiny state has more miles of waterways than *the state of Alaska*. At last count, it has 120 counties, and you can't get alcohol in all of 'em. Hell, by the time you finish that cigarette, you might be in another county and they don't sell smokes there. Might as well buy a carton now while you still can.
 
 # Analysis
 
 ## Harlan
 
-Harlan needs no qualifiers. It is a proper noun in and of itself, within the borders of Kentucky, and its full name is 'Harlan Bloody Harlan'. But, as this is a book of translation, allow me to translate:
+Harlan needs no qualifiers. It is a proper noun in and of itself, within the borders of Kentucky, and its full name is 'Harlan, Bloody Harlan'. But, as this is a book of translation, allow me to translate:
 
 Harlan County is one county amongst the 120. It borders Virginia to the southeast, the Cumberland Gap to the southwest. It is the edge of the narrow, deep valleys of the thick of the Appalachian Mountains, and to the northwest, the winding foothills and hollers leading back up to the Bluegrass.
+
+`TODO`
 
 - True history of the situation that happened in Harlan County
 - Metonymical usage of Harlan as a stand-in for the brutal reality of the Appalachian working poor
@@ -152,6 +150,8 @@ links to genre of western / country outlaw music
 
 ## Economic Migrants
 
+`TODO`
+
 - Florence, Y'all
 - Hamiltucky
 
@@ -165,7 +165,7 @@ We don't know each other, although like as not, we may have run into each other 
 
 You see, I grew up a stone's throw from you. 
 
-You strike me not as the kind of guy who would have said, "we don't like city kids around here," but more like the kind of guy that I would have engaged in conversation with about your family, to see if I could get you to give certain tells. Get you to say things like, "When we go down to visit family on the holidays," or referring to your grandmother as *Maymaw*.
+You strike me not as the kind of guy who would have said, "we don't like city kids around here," but more like the kind of guy that I would have engaged in conversation with about your family, to see if I could get you to give certain tells. Get you to say things like, "When we go down to visit family on the holidays," or referring to your grandmother as *Mamaw*.
 
 You see, I'm kind of a fake Ohioan. Yes, I grew up in the cornfields, graduated from good old The Ohio State University, and in fact live in Ohio now--but my parents were transplants. Academics who found a job at one of those Small Ohio Liberal Arts Colleges people always nod their heads in vague recognition about. 
 
@@ -177,7 +177,7 @@ I had the opportunity to spend time growing up on both sides of the border (for 
 
 No, unlike yourself, I'm not here to attempt to appropriate Appalachian identity and speak on behalf of an enormous, diverse and complex geosocial area. 
 
-I'm here to, first of all, explain what you were *actually* doing with Hillbilly Elegy, because, come on, who outside of Southeastern Ohio will have the cultural context to interpret it properly, and secondly, to pass on an ardent appeal for your own personal healing.
+I'm here to, first of all, explain what you were *actually* doing with Hillbilly Elegy, because, come on, who outside of Southwestern Ohio will have the cultural context to interpret it properly, and secondly, to pass on an ardent appeal for your own personal healing.
 
 Briefly, then: the social history of our region is complex, and I'm massively summarizing, but over the past few centuries, on balance, Ohio has experienced generally more stable social and economic conditions, with greater diversity in economic sectors and less reliance on destructive, boom and bust extractive industries, when compared to its southern neighbor. 
 
@@ -209,14 +209,16 @@ But as things stand, don't come to me to make amends. Redemption from your addic
 
 Bless your heart, Mr. Vance.
 
-_Oliver JL Renwick, Cleveland, Ohio, November 2024._
+_Oliver JL Renwick, Cleveland, Ohio, October 2024._
 
 ---
 
 
 # Translator's notes:
 
-After that line above about "extractive industries", you can pretty much disregard the rest. Maybe, in English, this song is about Kentucky. But in Spanish, this song is about the northwestern highlands of Guatemala, and you pretty much can't change my mind. Allow me to backtranslate the version I provided above:
+After that line above ^^ about "extractive industries", you can pretty much disregard the rest. 
+
+Maybe, in English, this song is about Kentucky. But in Spanish, this song is about the northwestern highlands of Guatemala, and you pretty much can't change my mind. Allow me to backtranslate the version I provided above:
 
 ## You'll Never Leave San Marcos Alive
 Out in the deep hills of West Guatemala
@@ -235,7 +237,7 @@ And you pour yourself a cup
 Of something bitter that you drink
 And you spend your life just thinking of how you'll get out of there
 
-No one ever knew about the gold that was in those mountains
+No one ever knew about the money you'd get from those mountains
 Until a man from the north arrived
 Throwing hundred dollar bills
 He said "I'll pay you for your lands" 
@@ -249,7 +251,7 @@ Laughed and sang a new song
 
 But times got difficult, the fields didn't give enough
 And grandpa knew what he would do to survive
-He went back and grew mountain opium
+He went back and grew coca and poppy
 Sent the money back to grandma
 But he never left San Marcos alive
 
@@ -260,12 +262,9 @@ Of something bitter that you drink
 And you spend your life digging earth from the bottom of your grave.
 
 
-[^1]: The Spanish does not specify gender here; it's unclear whether the husband said this to the wife, or vice versa. -Trans.
+[^1]: *The Spanish does not specify gender here; it's unclear whether the husband said this to the wife, or vice versa.* -Trans.
 
-## Versions:
 
-Jamás saldrás de San Marcos con vida
-Jamás saldrás de Harlan con vida
 
 # Findings of fact and conclusions of law
 You **are** a native and citizen of... **Kentucky**. lmao
