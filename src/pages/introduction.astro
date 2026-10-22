@@ -1,28 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Introduction from "../../binder/introduction.md";
-import { siteUrl } from "../utils/siteUrl.js";
+import Introduction, { frontmatter } from "../../binder/introduction.md";
+import PhotoPageLayout from "../components/PhotoPageLayout.astro";
 
-import { frontmatter } from "../../binder/introduction.md";
-
-const backgroundUrl = frontmatter?.background
-  ? siteUrl(frontmatter.background)
-  : null;
+const background = frontmatter?.background ?? null;
 ---
 
 <BaseLayout title="Introduction">
-  <main
-    class:list={["book-page", { "has-background": !!backgroundUrl }]}
-    style={backgroundUrl
-      ? `--page-background: url("${backgroundUrl}")`
-      : undefined}
-  >
-    {backgroundUrl && <div class="book-hero" aria-hidden="true"></div>}
-
-    <div class="book-content">
-      <article class="book-card book-card--introduction">
-        <Introduction />
-      </article>
-    </div>
-  </main>
+  <PhotoPageLayout background={background}>
+    <article class="book-card book-card--introduction">
+      <Introduction />
+    </article>
+  </PhotoPageLayout>
 </BaseLayout>

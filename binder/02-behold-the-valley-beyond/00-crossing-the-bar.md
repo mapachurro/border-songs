@@ -67,4 +67,4 @@ the flood - Biblical echoes without explicit reference, matching with `diluvio`
 
 # Versions:
 
-# Photo: 
+# Photo:

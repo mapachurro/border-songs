@@ -19,12 +19,12 @@ Or we'll never leave Harlan alive"
 
 Where the sun comes up about ten in the mornin'
 And the sun goes down about three in the day
-And you'll fill your cup 
+And you'll fill your cup
 With whatever bitter brew you're drinkin'
 And you spend your life just thinkin' of how to get away
 
 No one ever knew there was coal in them mountains
-Till a man from the northeast arrived 
+Till a man from the northeast arrived
 Waving hundred dollar bills
 Said "I'll pay you for your minerals"
 But he never left Harlan alive
@@ -62,7 +62,7 @@ O sino, jamás saldremos de San Marcos con vida"
 
 En donde sale el sol por eso de las diez de la mañana
 Y se pone el sol como a las tres de la tarde
-Y te echas una copa 
+Y te echas una copa
 De algo amargo al que tomas
 Y te pasas la vida na' más pensando en cómo saldrás de ahí
 
@@ -86,7 +86,7 @@ Pero jamás salió de San Marcos con vida
 
 En donde sale el sol por eso de las diez de la mañana
 Y se pone el sol como a las tres de la tarde
-Y te echas una copa 
+Y te echas una copa
 De algo amargo al que tomas
 Y te pasas la vida cavando la tierra del fondo de tu sepultura.
 
@@ -94,13 +94,13 @@ Jamás saldrás de San Marcos con vida
 
 # Footnotes
 
-*There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach.*
+_There will be no formal analysis or commentary of this song. It speaks for itself, plainly, for those with the ears or the cultural context to hear it. And for better or worse, I am deeply familiar with the cultural context at hand. As a result, my personal analysis will be offered, as it will likely be superior to any attempt I could make at a disinterested, academic approach._
 
 At the highest possible level, this is a song about extractive, arguably zero-sum, economic practices, and the human cost on which they rely.
 
 Something that I think about a lot are the borders that are there because you know they're there, and once you've seen them, they become patently clear, even if those around you have no eyes to see them.
 
-I hadn't been back to Kentucky in several years, and it was the first time I was going back to Lexington in, perhaps, decades. As I drove backwards down my personal history, southbound on I-71 diagonally across the state, I watched the borders as they came along; the Wooster and Route 30 exits, making it clear you're in the Amish borderlands, and soon afterwards, the Bellville exit at the bottom of the valley, marking the end of the Appalachian plateau. You're leaving the Northeast; you're no longer in the rust belt. You're entering the flatlands; the Midwest. 
+I hadn't been back to Kentucky in several years, and it was the first time I was going back to Lexington in, perhaps, decades. As I drove backwards down my personal history, southbound on I-71 diagonally across the state, I watched the borders as they came along; the Wooster and Route 30 exits, making it clear you're in the Amish borderlands, and soon afterwards, the Bellville exit at the bottom of the valley, marking the end of the Appalachian plateau. You're leaving the Northeast; you're no longer in the rust belt. You're entering the flatlands; the Midwest.
 
 It looks like just another exit, if you don't know any better. But after this, there are no more Cleveland Browns flags; only Ohio State University. The white folks are taller, thicker, and drive bigger trucks with more Punisher flags and Three Percenter stickers. The Mexican radio stations get stronger across the FM band; you might even catch a narcocorrido, because the FCC hasn't caught on yet.
 

@@ -10,38 +10,38 @@ background: "images/backgrounds/al-otro-lado.jpg"
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
 And run across the valley  
-Beneath the sacred mountain  
-  
+Beneath the sacred mountain
+
 And wander through the forest  
 Where the trees have leaves of prisms  
 And break the light in colors  
-That no one know the names of  
-  
+That no one know the names of
+
 And when it's time I'll go and wait  
 Beside the legendary fountain  
 'Till I see your **(her)** form reflected  
-In its clear and jewelled waters  
-  
+In its clear and jewelled waters
+
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
-Flow into one another  
-  
+Flow into one another
+
 **(And I'll stay awhile and wonder  
 At the mist that they've created  
 And lose myself within it  
-Cleanse my mind and body)**  
-  
+Cleanse my mind and body)**
+
 **(And I know at that moment  
 As I stand in that cathedral)**  
 I will want to dive beneath  
-the white cascading waters  
-  
+the white cascading waters
+
 She may beg, she may plead,  
 She may argue with her logic  
 And mention all the things I'll lose  
-That really have no value  
-  
+That really have no value
+
 **(Though I doubt that she will ever  
 Come to understand my meaning)**  
 In the end she will **(she'll)** surely know  
@@ -52,18 +52,18 @@ I was not **(was not)** born to follow
 Mas me vale andar errante  
 Donde arde el diamante menguante  
 Correr lo largo de la valle  
-Ante la montaña sagrada  
-  
+Ante la montaña sagrada
+
 Y vagar por aquel bosque  
 Donde cosechan los arboles hojas de prismas  
 Y destellan a la luz en colores  
-Cuyos nombres se desconocen  
-  
+Cuyos nombres se desconocen
+
 Y cuando llegue la hora iré a esperar  
 Al lado de la fuente de la leyenda  
 Hasta ver tu figura reflejada  
-En sus aguas nítidas enjoyadas  
-  
+En sus aguas nítidas enjoyadas
+
 Y si tu ya ves que me preparé  
 Que me lleves al abismo  
 Adonde los corriente de nuestra vista  
@@ -81,8 +81,8 @@ Se entremezclen y se unan
 > Al pararme en aquel catedral
 
 Voy a querer sumergirme bajo  
-las blancas aguas en cascada  
-  
+las blancas aguas en cascada
+
 Que ella me ruega, que me suplique,  
 que me lo discuta con su lógica  
 Y mencionar todas aquellas cosas que perderé  
@@ -91,9 +91,8 @@ Que realmente carecen de valor
 > [!NOTE]  
 > Aunque dude que ella nunca  
 > llegase a entender lo que me significa
-Al final, seguramente ella sabrá  
-No nací yo para andar detrás  
-
+> Al final, seguramente ella sabrá  
+> No nací yo para andar detrás
 
 # Commentary
 
@@ -118,37 +117,37 @@ This provides for very interesting questions about canonicity. The subtle differ
 No, I'd rather go and journey  
 Where the diamond crescents flowing  
 And run across the valley  
-Beneath the sacred mountain  
+Beneath the sacred mountain
 
 And wander through the forest  
 Where the trees have leaves of prisms  
 That break the light up into colours  
-That no one know the names of  
+That no one know the names of
 
 And when it's time I'll go and wait  
 Beside the legendary fountain  
 'Til I see her form reflected  
-In its clear and jewelled waters  
+In its clear and jewelled waters
 
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
-Flow into one another  
+Flow into one another
 
 And I'll stay awhile and wonder  
 At the mist that they've created  
 And lose myself within it  
-Cleanse my mind and body  
+Cleanse my mind and body
 
 And I know at that moment  
 As I stand in that cathedral  
 I will want to dive  
-Beneath the white cascading water  
+Beneath the white cascading water
 
 She may beg and she may plead  
 And she may argue with her logic  
 Mention all the things I'll lose  
-That really have no value  
+That really have no value
 
 Though I doubt that she will ever  
 Come to understand my meaning  
@@ -160,27 +159,27 @@ I was not born to follow
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
 And run across the valley  
-Beneath the sacred mountain  
+Beneath the sacred mountain
 
 And wander through the forest  
 Where the trees have leaves of prisms  
 And break the light in colors  
-That no one know the names of  
+That no one know the names of
 
 And when it's time I'll go and wait  
 Beside the legendary fountain  
 'Till I see your form reflected  
-In its clear and jewelled waters  
+In its clear and jewelled waters
 
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
-Flow into one another  
+Flow into one another
 
 I will want to dive beneath the white cascading waters  
 She may beg, she may plead, she may argue with her logic  
 And mention all the things I'll lose  
-That really have no value in the end she will surely know  
+That really have no value in the end she will surely know
 
 I wasn't born to follow
 
@@ -189,39 +188,39 @@ I wasn't born to follow
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
 And run across the valley  
-Beneath the sacred mountain  
+Beneath the sacred mountain
 
 And wander through the forest  
 Where the trees have leaves of prisms  
 And break the light in colors  
-That no one know the names of  
+That no one know the names of
 
 And when it's time I'll go and lay  
 Beside the legendary fountain  
 'Till I see her form reflected  
-In its clear and jewelled waters  
+In its clear and jewelled waters
 
 And if you think I'm ready  
 You may lead me to the chasm  
 Where the rivers of our visions  
-Flow into one another  
+Flow into one another
 
 **And I'll stay awhile and wonder  
 At the mist that they've created  
 And lose myself within it  
-Cleanse my mind and body  
+Cleanse my mind and body
 
 And I know at that moment  
 As I stand in that cathedral**  
-I will want to dive beneath the white cascading waters  
+I will want to dive beneath the white cascading waters
 
 She may beg, she may plead, she may argue with her logic  
 And mention all the things I'll lose  
-That really have no value  
+That really have no value
 
 **Though I doubt that she will ever  
 Come to understand my meaning  
 In the end she** will **surely know  
-I wasn**'**t born to follow**  
+I wasn**'**t born to follow**
 
 I wasn't born to follow

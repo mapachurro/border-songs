@@ -59,10 +59,7 @@ ${content}
 
     default:
       if (node.children) {
-        return node.children
-          .map(renderBlock)
-          .filter(Boolean)
-          .join("\\\\\n");
+        return node.children.map(renderBlock).filter(Boolean).join("\\\\\n");
       }
 
       return "";
@@ -72,10 +69,7 @@ ${content}
 function renderMarkdown(markdown) {
   const tree = markdownParser.parse(markdown);
 
-  return tree.children
-    .map(renderBlock)
-    .filter(Boolean)
-    .join("\\\\\n");
+  return tree.children.map(renderBlock).filter(Boolean).join("\\\\\n");
 }
 
 export function renderPair(pair) {
@@ -90,9 +84,7 @@ ${renderMarkdown(pair.target)}
 }
 
 export function renderSongLatex(song) {
-  const renderedPairs = song.pairs
-    .map(renderPair)
-    .join("\n\n");
+  const renderedPairs = song.pairs.map(renderPair).join("\n\n");
 
   return `\\section*{${escapeLatex(song.title)}}
 
