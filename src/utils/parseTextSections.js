@@ -1,10 +1,18 @@
 const sectionTypes = {
   commentary: "commentary",
+  "analysis": "commentary",
   notes: "notes",
+  "translator's notes": "notes",
   footnotes: "footnotes",
+  "intralinear subtext": "footnotes",
   findings: "findings",
+  "findings of fact and conclusions of law": "findings",
   photo: "photo",
+  "photo credits": "photo",
 };
+
+// Keys must be lowercase because section headings are normalized
+// with title.toLowerCase() before lookup.
 
 /**
  * Split the prose following Source/Target into semantic sections.

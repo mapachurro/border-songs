@@ -159,12 +159,12 @@ Besandome la cara arrodillada a mi lado
 Acunado entre estos dos brazos para que valen morirse  
 Un besito más y Felina, adiós
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Photo:
+# Photo credits
 
 Hillside near Polson, Montana. Oliver Renwick.

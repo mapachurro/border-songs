@@ -178,7 +178,7 @@ No, no
 No, ya no vuelvo más  
 Esta vez no
 
-# Commentary:
+# Analysis:
 
 Let's be real. This song was always the point / counterpoint that Hotel California was looking for.
 
@@ -195,9 +195,7 @@ Please note: _all of these things are defined by, or denominated in, money._ If 
 Boiling it down, though:
 On the other: Despite what we may have been taught, and what may _also_ be true, American society is founded on, and depends on, the
 
-# Notes:
-
-## Translation
+# Translator's notes
 
 The initial version of this will be one rendered on Aug 17, 2026.
 
@@ -309,7 +307,7 @@ Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is a
 
 # Versions:
 
-# Footnotes
+# intralinear subtext
 
 v1, Part 1: November 17 or 18, 2025; Buenos Aires, Argentina
 
@@ -357,6 +355,5 @@ Esperando a que llegue mi embarcadero
 <!-- Double asterisk here, and at the bottom of the page: `"my ship to come in"` -->
 <!-- The translation ends here. It's possible that I saw the next line, `no joker, no jack, no king`, became overwhelmed, and gave up. -->
 
-# Findings
-
+# Findings of fact and conclusions of law
 - Something about human trafficking?

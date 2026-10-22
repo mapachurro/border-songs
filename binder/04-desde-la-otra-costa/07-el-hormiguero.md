@@ -77,8 +77,8 @@ Tu quieres guerra (rep.)
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

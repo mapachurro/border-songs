@@ -54,13 +54,13 @@ Sandinista!
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 212a3di
 Membership or affiliation with the Communist party "or another totalitarian party"? lmao
 citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/

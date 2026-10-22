@@ -156,11 +156,11 @@ Pero nunca yo partir
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 42-B: Bars

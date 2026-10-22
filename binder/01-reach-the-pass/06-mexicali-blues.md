@@ -89,12 +89,12 @@ Cuando deja que una mujer lo tenga entre sus manos
 Puede que te encuentres allá cabalgando por la oscuridad  
 Andando y corriendo sobre las arenas desiertas
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Photo:
+# Photo credits
 
 2011-2013, Oliver Renwick. A valley in... Southern Arizona? Tucson? West Texas? Who knows.

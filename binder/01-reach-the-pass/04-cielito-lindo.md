@@ -47,13 +47,13 @@ Cielito lindo, los corazones
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Photo:
+# Photo credits
 
 This photo is, apparently, illegal. I managed to take it before the Moroccan border patrol stopped me.
 

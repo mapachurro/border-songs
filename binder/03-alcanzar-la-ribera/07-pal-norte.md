@@ -140,13 +140,13 @@ Para todos todos, todos todos
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 212a6aiI ALL DAY LONG
 
 ooh also: Removal vs deportation vs departure vs RETURN

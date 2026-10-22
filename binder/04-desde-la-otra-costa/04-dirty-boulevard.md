@@ -67,7 +67,7 @@ Fly away" (Fly, fly, fly away) (I want to fly, woah-woah, gonna fly away)
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 This is track 4 on this side, because it aligns with, calls back and responds to, Track 4 on the previous side, `Visa para un sueño`, as well as the track immediately prior on this side, `El costo de la vida`.
 
@@ -83,7 +83,7 @@ Mr. Reed, however, was not most writers. He was no hero, and he strictly did not
 
 And, coming back to the point: if I said at the outset, "I'm looking for a musical artist whose credentials are unassailable, and who is well-known for being acerbic and brutal"... Let's just say Mr. Reed comes to mind.
 
-# Notes:
+# Translator's notes:
 
 _sus más putas tristes_ - A reference to Gabriel García Marquez' 2004 novel, `Memoria de mis putas tristes`. The title strongly resists translation; the translation by Edith Grossman, published 2005, renders it as `Memories of My Melancholy Whores`. This is denotatively correct and accurate.
 

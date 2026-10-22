@@ -60,11 +60,11 @@ As you will most assuredly drown tomorrow
 
 # Target
 
-# Commentary
+# Analysis
 
 # Notes
 
 # Versions
 
-# Findings:
+# Findings of fact and conclusions of law
 42-B...?

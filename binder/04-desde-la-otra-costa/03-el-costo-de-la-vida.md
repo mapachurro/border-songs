@@ -93,8 +93,8 @@ Eh, ya ves, ni a la Chevrolet
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

@@ -53,7 +53,7 @@ Niña hermosa
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 Why is this here?
 
@@ -105,16 +105,16 @@ Perhaps this Malaga Woman is full of the riches of love; that's a reading.
 
 [^3]: _Buid Me A Woman_. Original author?? `TODO`; as covered by The Doors, on Absolutely Live.
 
-# Notes:
+# Translator's notes:
 
 La autoría de esta canción parece estar sujeto a cierto debate.
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 Probably 212a6Ci, fraud or material misrepresentation (fraudulent K-1 visa)
 But also potentially 237a1G, which is specifically for that context
 
-# Photo:
+# Photo credits
 
 2011, Oliver Renwick. Orange tree, Ceuta.

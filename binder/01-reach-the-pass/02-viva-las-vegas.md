@@ -102,8 +102,8 @@ Viva Las Vegas
 Viva Las Vegas  
 Viva, viva Las Vegas
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

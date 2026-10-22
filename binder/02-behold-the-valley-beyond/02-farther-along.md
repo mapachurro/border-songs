@@ -28,7 +28,7 @@ We'll understand it all by and by
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 Reading this in January 2026, I'm not sure this song, of all the Byrds' oeuvre, belongs here, especially as, IIRC, it's not actually by the Byrds; I believe it's a traditional hymn. Which... I know why I included it here. Because of its resonance with the horizon, the future, the other side.
 
@@ -38,6 +38,6 @@ Counterargument, October 2026: This is a song of the limit... of our knowledge. 
 
 Therefore -- it should be on Side 1, not Side 2?
 
-# Notes:
+# Translator's notes:
 
 # Versions:

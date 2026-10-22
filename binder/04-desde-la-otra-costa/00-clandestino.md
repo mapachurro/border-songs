@@ -9,12 +9,13 @@ background: "images/backgrounds/vista-del-conde-don-julian.jpg"
 
 Solo, voy con mi pena  
 Sola, va mi condena  
+<!-- Solaba mi condena? -->
 Correr es mi destino  
 Para burlar la ley
 
 Perdido en el corazón  
 De la grande Babylon  
-Me dicen: El Clandestino  
+Me dicen El Clandestino  
 Por no llevar papel
 
 Pa' una ciudad del norte  
@@ -34,8 +35,8 @@ Por no llevar papel
 
 Perdido en el corazón  
 De la grande Babylon  
-Me dicen: El Clandestino  
-Yo soy el quiebra ley
+Me dicen El Clandestino  
+Yo soy el quebraley
 
 Mano Negra, clandestino (clandestino)  
 Peruano, clandestino (clandestino)  
@@ -59,11 +60,11 @@ Mano Negra, ilegal
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 Asylum clock - work authorization

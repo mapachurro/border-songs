@@ -69,16 +69,16 @@ Lleno de pasaportes
 y giros postales internacionales  
 Para por si acaso logro a pasar la frontera
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 - Checkpoints: Corpus Christi?
 - What's that damn rule about how far into the US you have to be before you're in the US?
 
-# Photo:
+# Photo credits
 
 2022, Oliver Renwick. A very gay bar on a very rowdy street, early days post-COVID lockdown in the Raval, Barcelona.

@@ -73,11 +73,11 @@ Deprisa deprisa a rumbo perdido
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 VAWA.

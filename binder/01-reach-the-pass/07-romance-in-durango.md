@@ -156,7 +156,7 @@ Hold on to me, beloved
 Pronto ya pasará el desierto  
 Pronto bailarás el fandango
 
-# Commentary:
+# Analysis:
 
 This song, written by Jacques Levy and Bob Dylan, has an inherently simple A/B/A/B rhyme for the verses. Levy-Dylan collaborations are often full of vivid imagery, and this song is certainly exemplary in that regard. For the most part, the rhyme is enforced directly (people / steeple; cape / escape), or with words that are close enough for the delivery style (gun / done).
 
@@ -190,7 +190,7 @@ On its face, straightforward--but this is a case of matching connotation, specif
 
 This is muzzle flash. So -- fogonazo?
 
-# Notes:
+# Translator's notes:
 
 These lyrics appear to be canonical / album version. The Rolling Thunder Revue version may differ slightly, or in the noise of that live performance, certain lines are slurred enough that they begin to have multiple readings. I have indicated these in parentheses ().
 

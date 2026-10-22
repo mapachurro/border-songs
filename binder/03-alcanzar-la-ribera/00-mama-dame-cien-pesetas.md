@@ -50,7 +50,7 @@ Pero no sé si un día volveré
 
 # Target
 
-# Commentary
+# Analysis
 
 This is fascist bread and circus propaganda pop music, to be clear.
 

@@ -119,7 +119,7 @@ That twenty years is but nothing
 With a febrile gaze, questing in shadows
 Searches for you and names you
 
-# Commentary
+# Analysis
 
 Orignally, I translated this line by line, because of the difficulty involved.
 
@@ -147,7 +147,7 @@ Discussion of the number of covers and history of "Mack the Knife", vis-a-vis th
 - A song that was translated over and over again, and sung over and over again, improvised upon continually
   - OK this shit's super deep, deeper than I ever realized
 
-# Findings:
+# Findings of fact and conclusions of law
 
 Removal order recitation:
 - not a national or citizen

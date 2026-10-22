@@ -67,17 +67,17 @@ Buscando visa para no volver
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 - Leaving on a jet plane?
 - Going to California?
 
 Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it *does*, what I'm saying is *maybe link it with that song, specifically*
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 212a7aiI
 ...er, no. Better yet, 212a9bi. Valid visa but overstay more than a year

@@ -138,7 +138,7 @@ I'm calling you America
 And it's down to us  
 Today, to release you
 
-# Commentary:
+# Analysis:
 
 viviendo dictaduras - this is not living `in` or, particularly, `through` dictatorships. In English we might say something like `living a dictatorship`, in the way we say `she's living a nightmare`. Unclear how to resolve.
 
@@ -157,11 +157,11 @@ te estoy llamando america - Double meaning at least: `I'm naming you America`, `
 Te han desaparecido  
 Los que temen la verdad - Should the syntax of this be reversed?
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Findings:
+# Findings of fact and conclusions of law
 Asylum standards, specifically: Persecution. What is persecution? What are the standards? Case law, etc.
 
 https://github.com/mapachurro/eoir-glossary/issues/139

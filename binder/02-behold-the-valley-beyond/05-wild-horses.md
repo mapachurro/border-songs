@@ -56,8 +56,8 @@ we'll ride them some day
 
 # Target:
 
-# Commentary:
+# Analysis:
 
-# Notes:
+# Translator's notes:
 
 # Versions:

@@ -35,14 +35,14 @@ If all I was was passing time my life was just a season
 
 # Target:
 
-# Commentary:
+# Analysis:
 
 In case the `border` isn't immediately clear: This is a song of experience. `climbing hills` = crossing borders. Overcoming obstacles. Looking back at _all the places you've left behind_ on the train, all the people you've left behind, the _life_ you've left behind; all the `re`+`lat`+ionships you broke, and coming to some sort of terms with it.
 
-# Notes:
+# Translator's notes:
 
 # Versions:
 
-# Photo:
+# Photo credits
 
 2015, Oliver Renwick. On a train, Milan - Martigny.

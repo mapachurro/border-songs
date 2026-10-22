@@ -308,20 +308,20 @@ h2 {
 
 /* Findings: documentary / NTA */
 
-.text-section--findings {
-  font-family: "Times New Roman", serif;
-  line-height: 1.45;
-  border: 1px solid #333;
-  border-radius: 0;
-  background: #fdfcf8;
+.text-section--findings .text-section__label {
+  border-top: 6px solid #222;
+  border-bottom: none;
+  position: relative;
+  padding-top: 1.5rem;
 }
 
-.text-section--findings .text-section__label {
-  color: #111;
-  border-top: 5px solid #111;
-  border-bottom: 1px solid #111;
-  padding: 0.5rem 0;
-  font-family: "Times New Roman", serif;
+.text-section--findings .text-section__label::before {
+  content: "";
+  position: absolute;
+  top: 0.65rem;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #666;
 }
 
 /* Versions: neutral archival material */
