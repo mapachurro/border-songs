@@ -1,7 +1,7 @@
 ---
 title: "El hormiguero"
 authority: "Calle 13"
-videoSource: "https://www.youtube.com/watch?v=tPTB0TRV3BA"
+videoSource: "https://www.youtube.com/watch?v=6flRmuUWCMM"
 background: "images/backgrounds/okupa-y-resiste.jpg"
 ---
 
@@ -82,3 +82,6 @@ Tu quieres guerra (rep.)
 # Translator's notes:
 
 # Versions:
+
+# Photo credits:
+2013-2015, Oliver Renwick. View from the Parc Güell, before it got commoditized... further.
