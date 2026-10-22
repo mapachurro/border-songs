@@ -1,7 +1,8 @@
+
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import PhotoPageLayout from "../components/PhotoPageLayout.astro";
 import TitlePage from "../../binder/title-page.md";
-import { siteUrl } from "../utils/siteUrl.js";
 
 const titleFiles = import.meta.glob("../../binder/title-page.md", {
   eager: true,
@@ -11,22 +12,12 @@ const titleFiles = import.meta.glob("../../binder/title-page.md", {
 
 const titleSource = Object.values(titleFiles)[0] as string;
 const background = titleSource.match(/^background:\s*["']?([^"'\r\n]+)["']?/m)?.[1];
-const backgroundUrl = background ? siteUrl(background) : null;
 ---
 
 <BaseLayout title="Border Songs - Title Page">
-  <main
-    class:list={["book-page", { "has-background": !!backgroundUrl }]}
-    style={backgroundUrl
-      ? `--page-background: url("${backgroundUrl}")`
-      : undefined}
-  >
-    {backgroundUrl && <div class="book-hero" aria-hidden="true"></div>}
-
-    <div class="book-content">
-      <article class="book-card book-card--title">
-        <TitlePage />
-      </article>
-    </div>
-  </main>
+  <PhotoPageLayout background={background}>
+    <article class="book-card book-card--title">
+      <TitlePage />
+    </article>
+  </PhotoPageLayout>
 </BaseLayout>

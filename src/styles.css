@@ -554,7 +554,10 @@ h2 {
   z-index: 1;
 
   width: calc(100% - 2rem);
-  max-width: 1100px;
+  max-width: 1000px;
+  padding-inline: 1rem;
+  box-sizing: border-box;
+
   margin: -5rem auto 0;
 }
 

@@ -17,7 +17,7 @@ const backgroundUrl = background ? siteUrl(background) : null;
   }
 >
   <div class="photo-page-container">
-    {backgroundUrl && <div class="photo-page-hero"></div>}
+    {backgroundUrl && <div class="photo-page-hero" aria-hidden="true"></div>}
 
     <main class="photo-page-content">
       <slot />
