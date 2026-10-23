@@ -5,7 +5,9 @@ videoSource: "https://youtu.be/py5lONtuw2A?si=P_Xo2HU3W_zuW4Iu"
 background: "images/backgrounds/karst.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Eran la' cinco 'e la mañana
 Un seminarista, un obrero
@@ -59,14 +61,16 @@ Buscando visa, carne de la mar
 Buscando visa, la razón de ser
 Buscando visa para no volver
 
-# Target:
+## Target
 
-# Analysis:
+:::
+
+:::analysis
 
 - Leaving on a jet plane?
 - Going to California?
 
-Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it *does*, what I'm saying is *maybe link it with that song, specifically*
+Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it _does_, what I'm saying is _maybe link it with that song, specifically_
 
 The couplets are incredibly powerful:
 
@@ -82,7 +86,9 @@ que mas puedo hacer
 naufragar
 carne de la mar
 
-# Translator's notes:
+:::
+
+:::notes{title="Translator's notes"}
 
 Estrofa 1: they're waiting in line
 
@@ -96,11 +102,21 @@ Estrofa 4, bad news
 
 `golpe de poder` - Uncommon collocation. Probably have to fudge a bit and call it "coup d'etat" otherwise... we can't do "coup de force". Maybe "power coup"?
 
-# Versions:
+:::
 
-# Findings of fact and conclusions of law
+:::commentary{title="Versions"}
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
 212a7aiI
 ...er, no. Better yet, 212a9bi. Valid visa but overstay more than a year
 
-# Photo credits:
+:::
+
+:::photo{title="Photo credits"}
+
 Oliver Renwick, 2024. Touching down just after dawn in Cluj, Romania, in early summer.
+
+:::

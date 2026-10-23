@@ -6,6 +6,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { parseSong } from "../../utils/parseSong.js";
 import { renderMarkdown } from "../../utils/renderMarkdown.js";
 import { parseTextSections } from "../../utils/parseTextSections.js";
+import DocumentContent from "../../components/DocumentContent.astro";
+import { parseDocument } from "../../utils/parseDocument.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -26,33 +28,56 @@ export async function getStaticPaths() {
 }
 
 const { song } = Astro.props;
-const { source, target, remainder } = parseSong(song.body ?? "");
+const body = song.body ?? "";
 
-const hasTranslation = target.length > 0;
-const pairs = await Promise.all(
-  source.map(async (sourceStanza: string, index: number) => ({
-    source: await renderMarkdown(sourceStanza),
-    target: hasTranslation ? await renderMarkdown(target[index]) : null,
-  })),
-);
+// Temporary compatibility with the existing Markdown format.
+const usesDirectives = /^\s*:::concordance\b/m.test(body);
 
-const textSections = await Promise.all(
-  parseTextSections(remainder).map(async (section) => ({
-    ...section,
-    html: await renderMarkdown(section.body),
-  })),
-);
+const documentBlocks = usesDirectives ? parseDocument(body) : [];
+
+const legacySong = usesDirectives ? null : parseSong(body);
+
+const legacyPairs = legacySong
+  ? await Promise.all(
+      legacySong.source.map(async (sourceStanza: string, index: number) => ({
+        source: await renderMarkdown(sourceStanza),
+        target: legacySong.target.length
+          ? await renderMarkdown(legacySong.target[index])
+          : null,
+      })),
+    )
+  : [];
+
+const legacyTextSections = legacySong
+  ? await Promise.all(
+      parseTextSections(legacySong.remainder).map(async (section) => ({
+        ...section,
+        html: await renderMarkdown(section.body),
+      })),
+    )
+  : [];
 
 const orderedTextSections = [
-  ...textSections.filter((section) => section.type !== "photo"),
-  ...textSections.filter((section) => section.type === "photo"),
+  ...legacyTextSections.filter((section) => section.type !== "photo"),
+  ...legacyTextSections.filter((section) => section.type === "photo"),
 ];
+
+// The first top-level concordance is the principal song concordance.
+const mainConcordance =
+  usesDirectives && documentBlocks[0]?.type === "concordance"
+    ? documentBlocks[0]
+    : null;
+
+if (usesDirectives && !mainConcordance) {
+  throw new Error(`Missing principal concordance: ${song.id}`);
+}
+
+const editorialBlocks = usesDirectives ? documentBlocks.slice(1) : [];
 
 const sectionId = song.id.split("/")[0];
 
 import PhotoPageLayout from "../../components/PhotoPageLayout.astro";
 ---
-
 
 <BaseLayout
   title={song.data.title ?? "Border Songs"}
@@ -78,19 +103,27 @@ import PhotoPageLayout from "../../components/PhotoPageLayout.astro";
           />
         )}
 
-        <Concordance pairs={pairs} />
+        {usesDirectives ? (
+          <DocumentContent blocks={mainConcordance ? [mainConcordance] : []} />
+        ) : (
+          <Concordance pairs={legacyPairs} />
+        )}
       </div>
     </article>
 
     <!-- Independent editorial cards -->
-    {orderedTextSections.map((section) => (
-      <section
-        class={`text-section text-section--${section.type}`}
-        aria-label={section.title}
-      >
-        <div class="text-section__label">{section.title}</div>
-        <div class="text-section__body" set:html={section.html} />
-      </section>
-    ))}
+    {usesDirectives ? (
+      <DocumentContent blocks={editorialBlocks} />
+    ) : (
+      orderedTextSections.map((section) => (
+        <section
+          class={`text-section text-section--${section.type}`}
+          aria-label={section.title}
+        >
+          <div class="text-section__label">{section.title}</div>
+          <div class="text-section__body" set:html={section.html} />
+        </section>
+      ))
+    )}
   </PhotoPageLayout>
 </BaseLayout>

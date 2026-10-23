@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=6flRmuUWCMM"
 background: "images/backgrounds/okupa-y-resiste.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Aquí llegaron las hormigas  
 Vamos conquistando tierras enemigas  
@@ -75,13 +77,24 @@ Tu quieres guerra (rep.)
 Tu quieres guerra (rep.)  
 ¡Vamos a medirnos a ver quien es mas bravo!
 
-# Target:
+## Target
 
-# Analysis:
+:::
 
-# Translator's notes:
+:::analysis
 
-# Versions:
+:::
 
-# Photo credits:
+:::notes{title="Translator's notes"}
+
+:::
+
+:::commentary{title="Versions"}
+
+:::
+
+:::photo{title="Photo credits"}
+
 2013-2015, Oliver Renwick. View from the Parc Güell, before it got commoditized... further.
+
+:::

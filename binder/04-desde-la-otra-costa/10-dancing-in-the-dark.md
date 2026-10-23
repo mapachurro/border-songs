@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=RRs6ju42Icg"
 background: "images/backgrounds/la-gran-ciudad.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 _Original: Bruce Springsteen_
 
@@ -129,7 +131,7 @@ Y bailemos en la oscuridad
 Hey, baby  
 Y bailemos aquí en la oscuridad
 
-# Target:
+## Target
 
 _Original: Bruce Springsteen_
 
@@ -253,7 +255,9 @@ And let's dance in the dark
 Hey, baby
 And let's dance here in the dark
 
-# Analysis:
+:::
+
+:::analysis
 
 Overall commentary, Juanes' version is extremely economical and it would be worthwhile to perform comparative syllable length analysis to take a look at why he made certain decisions.
 
@@ -261,7 +265,9 @@ He took a questionably violent song with poetics that were and have become more 
 
 See note under 'voluntad': perhaps use this as a place to discuss active voice vs passive voice?
 
-# Translator's notes:
+:::
+
+:::notes{title="Translator's notes"}
 
 ## Terminology: Bruce Springsteen
 
@@ -377,12 +383,23 @@ Yes, this is technically 'look for', but it means 'find'. No, I will not be taki
 
 confused? with no clarity? hmm.
 
-# Versions:
+:::
 
-# Findings of fact and conclusions of law
-42-B... but successful. 
+:::commentary{title="Versions"}
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+42-B... but successful.
+
 - Myrtle Beach
 - Is it extremely unusual and exceptional to have an alcoholic parent?
 
-# Photo credits:
+:::
+
+:::photo{title="Photo credits"}
+
 2022-2024, Oliver Renwick. Manhattan on a summer evening, from Brooklyn.
+
+:::

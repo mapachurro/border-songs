@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=j2VoKiKwETI"
 background: "images/backgrounds/senales.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Te estoy buscando América  
 Y temo no encontrarte  
@@ -71,7 +73,7 @@ Te estoy llamando América
 Y a nosotros nos toca  
 Hoy ponerte en libertad
 
-# Target:
+## Target
 
 I'm searching for you, America  
 And I fear that I won't find you  
@@ -138,9 +140,13 @@ I'm calling you America
 And it's down to us  
 Today, to release you
 
-# Analysis:
+:::
 
-# Translator's notes:
+:::analysis
+
+:::
+
+:::notes{title="Translator's notes"}
 
 viviendo dictaduras - this is not living `in` or, particularly, `through` dictatorships. In English we might say something like `living a dictatorship`, in the way we say `she's living a nightmare`. Unclear how to resolve.
 
@@ -159,10 +165,17 @@ te estoy llamando america - Double meaning at least: `I'm naming you America`, `
 Te han desaparecido  
 Los que temen la verdad - Should the syntax of this be reversed?
 
-# Versions:
+:::
 
-# Findings of fact and conclusions of law
+:::commentary{title="Versions"}
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
 Asylum standards, specifically: Persecution. What is persecution? What are the standards? Case law, etc.
 
 https://github.com/mapachurro/eoir-glossary/issues/139
 https://github.com/mapachurro/eoir-glossary/issues/138
+
+:::

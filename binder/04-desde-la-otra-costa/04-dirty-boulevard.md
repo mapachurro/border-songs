@@ -5,7 +5,9 @@ videoSource: "https://youtu.be/wbVoFFC_198"
 background: "images/backgrounds/citta-di-palermo.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Pedro lives out of the Wilshire Hotel
 He looks out a window without glass
@@ -65,9 +67,11 @@ Fly, fly, fly (Fly, fly, fly away)
 Fly, fly away (Fly, fly, fly away) (I want to fly, fly away)
 Fly away" (Fly, fly, fly away) (I want to fly, woah-woah, gonna fly away)
 
-# Target:
+## Target
 
-# Analysis:
+:::
+
+:::analysis
 
 This is track 4 on this side, because it aligns with, calls back and responds to, Track 4 on the previous side, `Visa para un sueño`, as well as the track immediately prior on this side, `El costo de la vida`.
 
@@ -83,7 +87,9 @@ Mr. Reed, however, was not most writers. He was no hero, and he strictly did not
 
 And, coming back to the point: if I said at the outset, "I'm looking for a musical artist whose credentials are unassailable, and who is well-known for being acerbic and brutal"... Let's just say Mr. Reed comes to mind.
 
-# Translator's notes:
+:::
+
+:::notes{title="Translator's notes"}
 
 _sus más putas tristes_ - A reference to Gabriel García Marquez' 2004 novel, `Memoria de mis putas tristes`. The title strongly resists translation; the translation by Edith Grossman, published 2005, renders it as `Memories of My Melancholy Whores`. This is denotatively correct and accurate.
 
@@ -95,4 +101,8 @@ Mr. Marquez, being broadly credited as the godfather of _an entire goddamn genre
 
 So: what he did here, with this title, has one layer of denotative meaning, and a second one that would mean something like "A memoir of my worst fucking tragedies", except literally, something like "Memories of my most bitch sadnesses".
 
-# Versions:
+:::
+
+:::commentary{title="Versions"}
+
+:::

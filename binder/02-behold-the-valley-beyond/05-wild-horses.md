@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=nV5ncVn15y0"
 background: "images/backgrounds/twister.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Childhood living  
 is easy to do  
@@ -54,10 +56,18 @@ couldn't drag me away
 Wild, wild horses  
 we'll ride them some day
 
-# Target:
+## Target
 
-# Analysis:
+:::
 
-# Translator's notes:
+:::analysis
 
-# Versions:
+:::
+
+:::notes{title="Translator's notes"}
+
+:::
+
+:::commentary{title="Versions"}
+
+:::

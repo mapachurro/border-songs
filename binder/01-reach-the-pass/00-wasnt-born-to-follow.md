@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=PrU9iI2VxPE"
 background: "images/backgrounds/al-otro-lado.jpg"
 ---
 
-# Source
+:::concordance
+
+## Source
 
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
@@ -33,7 +35,7 @@ And lose myself within it
 Cleanse my mind and body)**
 
 **(And I know at that moment  
-As I stand in that cathedral)**  
+As I stand in that cathedral)**
 
 I will want to dive beneath  
 the white cascading waters
@@ -48,7 +50,7 @@ Come to understand my meaning)**
 In the end she will **(she'll)** surely know  
 I was not **(was not)** born to follow
 
-# Target
+## Target
 
 Mas me vale andar errante  
 Donde arde el diamante menguante  
@@ -91,13 +93,15 @@ llegase a entender lo que me significa
 Al final, seguramente ella sabrá  
 No nací yo para andar detrás
 
-# Analysis
+:::
 
- The difference between Goffin-King and McGuinn here is between `her` and `your` form
+:::analysis
 
- This small change opens up the story. This is not necessarily a love song or a traditional 'romance' in the medieval sense.
+The difference between Goffin-King and McGuinn here is between `her` and `your` form
 
- This may be a love triangle situation. Or a conversation with something that is not human. This may be a conversation with a higher power, a god, Nature, or even some part of yourself you're looking for.
+This small change opens up the story. This is not necessarily a love song or a traditional 'romance' in the medieval sense.
+
+This may be a love triangle situation. Or a conversation with something that is not human. This may be a conversation with a higher power, a god, Nature, or even some part of yourself you're looking for.
 
 Given that, at the time, McGuinn was trying to write the soundtrack for Easy Rider -- They went looking for America, and couldn't find it anywhere -- the implication that he is, in fact, _Buscando America_ is a tantalizing one.
 
@@ -220,8 +224,14 @@ I wasn**'**t born to follow**
 
 I wasn't born to follow
 
-# Findings
+:::
+
+:::findings{title="Findings"}
 You are not a national or citizen of the United States
 
-# Photo credits:
+:::
+
+:::photo
+
 2011-2012, Oliver Renwick. Sunset over the Mediterranean; Spanish territory in the foreground, Moroccan territory behind. Ceuta.
+:::

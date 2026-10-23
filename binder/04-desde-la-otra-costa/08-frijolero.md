@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=8iJMOBcPQyg"
 background: "images/backgrounds/posse.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Yo ya estoy hasta la madre de que me pongan sombrero  
 Escucha entonces cuando digo: No me llames frijolero  
@@ -62,20 +64,33 @@ No me digas beaner, mr. Puñetero
 Te sacaré un susto por racista y culero  
 No me llames frijolero, pinche gringo (pinche gringo, ¿qué?) puñetero
 
-# Target:
+## Target
 
-# Analysis:
+:::
 
-# Translator's notes:
+:::analysis
 
-# Versions:
+:::
 
-# Findings of fact and conclusions of law:
+:::notes{title="Translator's notes"}
+
+:::
+
+:::commentary{title="Versions"}
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
 
 What was the name of the old visa program? Brazo...?? The thing that we had that the unions got rid of
 
 "No hay algun tipo de solicitud que podria hacer que me permitiria quedar aqui por dos o tres anos y trabajar y luego volver?"
-(once laughter ceases) "That would be nice, sir, wouldn't it? Unfortunately, *no*. No, there's not."
+(once laughter ceases) "That would be nice, sir, wouldn't it? Unfortunately, _no_. No, there's not."
 
-# Photo credits:
+:::
+
+:::photo{title="Photo credits"}
+
 2012-2013, Oliver Renwick. Maricopa County Sherriff's Office (MCSO) vehicles in storage; Phoenix, AZ.
+
+:::

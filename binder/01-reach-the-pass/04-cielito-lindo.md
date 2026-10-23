@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=g0oMEd3-Oyg"
 background: "images/backgrounds/nameless-sheep-nameless-hillside.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 De la Sierra Morena  
 Cielito lindo, vienen bajando  
@@ -45,18 +47,28 @@ Canta y no llores
 Porque cantando se alegran  
 Cielito lindo, los corazones
 
-# Target:
+## Target
 
-# Analysis:
+:::
 
-# Translator's notes:
+:::analysis
 
-# Versions:
+:::
 
-# Photo credits
+:::notes{title="Translator's notes"}
+
+:::
+
+:::commentary{title="Versions"}
+
+:::
+
+:::photo{title="Photo credits"}
 
 This photo is, apparently, illegal. I managed to take it before the Moroccan border patrol stopped me.
 
 It's a hillside in no-man's-land, specifically, between the Moroccan and Spanish border fences on the pedestrian route into and out of Ceuta.
 
 Copyright 2011, Oliver JL Renwick.
+
+:::

@@ -38,7 +38,6 @@ The **lim**it was, as far back as we can recall, the **`lim`**`en` in Latin-spea
 
 This book, then, is about songs of the **bord**er, or **lim**inal songs, if you like.
 
-
 # Translator's notes
 
 `TODO`
@@ -49,13 +48,14 @@ This book, then, is about songs of the **bord**er, or **lim**inal songs, if you 
   - English: phrasal verbs
   - English: Everything is every part of speech
     - Strings of adjectives and adverbial phrases
-      - What is proper hyphenation? 
+      - What is proper hyphenation?
         - The evolution of a hyphenated term to a portmanteau
         - going hard on colorless green ideas if we want
   - Spanish: impersonal constructions vs English abandoning the subject and making phrases that carry meaning despite lack of agent
-    - *vs* Spanish: ability to embed subjects in conjugations, thereby implying / imputing a subject without specifying it ("no saben donde está" , Buscando América)
-  - Spanish: gender. 
+    - _vs_ Spanish: ability to embed subjects in conjugations, thereby implying / imputing a subject without specifying it ("no saben donde está" , Buscando América)
+  - Spanish: gender.
     - Potentially go all out with the argument about The Default Category vs Gender as a Grammatical Concept
 
 # Photo credits:
+
 2010-2026, Oliver Renwick.
