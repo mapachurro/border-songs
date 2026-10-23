@@ -3,6 +3,7 @@ import path from "node:path";
 import * as yaml from "js-yaml";
 
 import { parseSong } from "../src/utils/parseSong.js";
+import { parseDocument } from "../src/utils/parseDocument.js";
 import { renderSongLatex } from "../src/utils/renderSongLatex.js";
 
 const binderDir = "binder";
@@ -61,23 +62,38 @@ function loadSong(inputPath) {
   const metadata = yaml.load(frontmatterMatch[1]);
   const body = frontmatterMatch[2];
 
-  const { source, target, remainder } =
-    parseSong(body);
+const blocks = parseDocument(body);
 
-  const pairs = source.map(
-    (sourceStanza, index) => ({
-      source: sourceStanza,
-      target: target[index] ?? null,
-    }),
-  );
+const concordance = blocks.find(
+  (block) => block.type === "concordance",
+);
+
+let source;
+let target;
+
+if (concordance) {
+  // New Markdown directive format
+  source = concordance.source;
+  target = concordance.target;
+} else {
+  // Legacy # Source / # Target format
+  const legacy = parseSong(body);
+  source = legacy.source;
+  target = legacy.target;
+}
+
+const pairs = source.map((sourceStanza, index) => ({
+  source: sourceStanza,
+  target: target[index] ?? null,
+}));
 
   return {
-    title: metadata.title,
-    authority: metadata.authority,
-    videoSource: metadata.videoSource,
-    pairs,
-    remainder,
-  };
+  title: metadata.title,
+  authority: metadata.authority,
+  videoSource: metadata.videoSource,
+  pairs,
+  blocks,
+};
 }
 
 const songs = songPaths.map(loadSong);
