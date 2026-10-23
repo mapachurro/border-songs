@@ -9,7 +9,9 @@ import { parseConcordance } from "./parseConcordance.js";
  * @typedef {{
  *   type: "concordance",
  *   source: string[],
- *   target: string[]
+ *   target: string[],
+ *   sourceTitle: string,
+ *   targetTitle: string
  * }} ConcordanceBlock
  */
 
@@ -44,6 +46,7 @@ function headingText(node) {
     .map((child) => child.value)
     .join("")
     .trim()
+    .replace(/:\s*$/, "")
     .toLowerCase();
 }
 
@@ -87,12 +90,14 @@ function parseConcordanceNode(node, markdown) {
   );
 
   return {
-    type: "concordance",
-    ...parseConcordance(
-      extractMarkdown(markdown, sourceNodes),
-      extractMarkdown(markdown, targetNodes)
-    ),
-  };
+  type: "concordance",
+  sourceTitle: node.attributes?.source ?? "Source",
+  targetTitle: node.attributes?.target ?? "Target",
+  ...parseConcordance(
+    extractMarkdown(markdown, sourceNodes),
+    extractMarkdown(markdown, targetNodes),
+  ),
+};
 }
 
 /** @returns {(MarkdownBlock | ConcordanceBlock)[]} */

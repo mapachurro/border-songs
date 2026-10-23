@@ -6,16 +6,22 @@ interface StanzaPair {
 
 interface Props {
   pairs: StanzaPair[];
+  sourceTitle?: string;
+  targetTitle?: string;
 }
 
-const { pairs } = Astro.props;
+const {
+  pairs,
+  sourceTitle = "Source",
+  targetTitle = "Target",
+} = Astro.props;
 ---
 
 <section class="concordance">
   <div class="concordance-header" aria-hidden="true">
-    <div>Source</div>
-    <div>Target</div>
-  </div>
+  <div>{sourceTitle}</div>
+  <div>{targetTitle}</div>
+</div>
 
   {pairs.map((pair) => (
     <div class="concordance-pair">
