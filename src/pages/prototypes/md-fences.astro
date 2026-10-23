@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DocumentContent from "../../components/DocumentContent.astro";
+import { parseDocument } from "../../utils/parseDocument.js";
+
+const markdown = `
+:::concordance
+## Source
+
+First stanza, first line.  
+First stanza, second line.
+
+Second stanza, first line.  
+Second stanza, second line.
+
+## Target
+
+Primera estrofa, primera línea.  
+Primera estrofa, segunda línea.
+
+Segunda estrofa, primera línea.  
+Segunda estrofa, segunda línea.
+:::
+
+::::analysis{title="Analysis"}
+
+This paragraph introduces a comparison with another song.
+
+:::concordance
+## Source
+
+A different song, first line.  
+A different song, second line.
+
+## Target
+
+Otra canción, primera línea.  
+Otra canción, segunda línea.
+:::
+
+And this paragraph discusses the comparison.
+
+::::
+
+:::notes{title="Translator's notes"}
+
+These are some observations about the translation.
+
+:::
+`;
+
+const blocks = parseDocument(markdown);
+---
+
+<BaseLayout title="Markdown Directives Prototype">
+  <main class="container" style="padding-block: 3rem">
+    <h1>Markdown Directives Prototype</h1>
+    <DocumentContent blocks={blocks} />
+  </main>
+</BaseLayout>

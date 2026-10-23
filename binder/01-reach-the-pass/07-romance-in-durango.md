@@ -4,8 +4,9 @@ authority: "Bob Dylan, Jacques Levy; The Rolling Thunder Revue"
 videoSource: "https://www.youtube.com/watch?v=N2ZxwyBV2IM"
 background: "images/backgrounds/la-mision.jpg"
 ---
+:::concordance
 
-# Source:
+## Source:
 
 Hot chili peppers in the blistering sun  
 Dust on my face and my cape  
@@ -80,7 +81,7 @@ Agarrame, mi vida
 Soon the desert will be gone  
 Soon you will be dancing the fandango
 
-# Target:
+## Target:
 
 Chile picante bajo el sol arrasador  
 Polvo sobre mi cara y mi capa  
