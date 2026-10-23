@@ -23,8 +23,6 @@ Please remember Victor Jara,
 In the Santiago Stadium,  
 Es verdad - those Washington Bullets again
 
-<!-- Is the line above actually 'it was Washington Bullets again'? -->
-
 And in the Bay of Pigs in 1961,  
 Havana fought the playboy in the Cuban sun,  
 For Castro is a colour,  
@@ -53,10 +51,37 @@ Que?
 Sandinista!
 
 # Target:
+Ay! Mamá, mamá mira ahí!
+Tus niños vuelven a jugar en la calle
+¿No sabes lo que pasó allá?
+Fusilaron un joven de catorce allá
+Armas por coca en Jamdown Town
+Los payasos asesinos, hombres a dinero de sangre
+Andan tirando balas de Washington de nuevo
+
+Ya te contará cada celda de Chile
+De los gritos de los torturados
+Recuerda a Allende, y los días de antes,
+Antes de llegar el ejército
+
 
 # Analysis:
 
+Source lyrics taken from the most canonical source there could be, [The Clash's website](https://www.theclash.com/music/songs/washington-bullets).
+
 # Translator's notes:
+
+Kokane guns - narco armas; armas de coca; cocainarma
+
+Jamdown Town -- apparently a reference to Jamaica in general, probably specifically Kingston.
+
+killing clowns
+
+blood money - strong, established collocation. Equivalent?
+
+cell -- in this context, a `cell` could refer to a `terrorist` or `freedom fighter` cell; it could also refer to a `jail cell`. I lean towards the latter, given the next line, `the cries of the tortured men`. "If these walls could speak" is the sense here.
+
+`Before the army came` - my initial literal instinct is to render this as `antes de que llegó el ejército`. But the English has six syllables total, and Strummer's lyrics throughout this seminal work are *evocative*, more than literal and detailed. The more succinct `antes de llegar el ejército` clocks in at 10 syllables, in other words, 1/3 longer than the English, in other words, bang on target for the standard syllabic differential between English and Spanish.
 
 # Versions:
 
