@@ -57,17 +57,8 @@ In a war-torn swamp stop any mercenary,
 Que?  
 Sandinista!
 
-
-
 ## Target
 
-
-
-
-
-
-
-:::
 Ay! Mamá, mamá mira ahí!
 Tus niños vuelven a jugar en la calle
 ¿No sabes lo que pasó allá?
@@ -111,30 +102,21 @@ y revisa las balas británicas en su arsenal
 ¿What?
 ¡Sandinista!
 
-:::analysis
-
-
-
-
-
-
-
 :::
+
+:::analysis
 
 Source lyrics taken from the most canonical source there could be, [The Clash's website](https://www.theclash.com/music/songs/washington-bullets).
 
 `TODO`
 "Llegale a mi guarida" *must* be addressed. It either needs its own song, or it needs to be embedded in this piece.
 
+:::
+
+
+
 :::notes{title="Translator's notes"}
 
-
-
-
-
-
-
-:::
 
 Kokane guns - narco armas; armas de coca; cocainarma
 
@@ -179,17 +161,10 @@ get - I'd like to use alcanzar, but I just used it for balas...
 war-torn - strong collocation `TODO`
 
 swamp - tremendous inflections of T*rump-based US politics, now.
-
-
-
+:::
 
 
 :::commentary{title="Versions"}
-
-
-
-
-
 
 
 :::
@@ -199,22 +174,14 @@ Los Torogoces de Morazán
 
 :::findings{title="Findings of fact and conclusions of law"}
 
-
-
 212a3di
 Membership or affiliation with the Communist party "or another totalitarian party"? lmao
 citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/
-
-
 
 :::
 
 :::photo{title="Photo credits"}
 
-
-
 2012-2013, Oliver Renwick. A Border Patrol mousepad hung on a police officer's cubicle, Phoenix, Arizona.
-
-
 
 :::

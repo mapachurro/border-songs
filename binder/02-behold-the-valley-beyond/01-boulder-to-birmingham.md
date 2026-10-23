@@ -104,15 +104,11 @@ Si creía que pudiese ver, pudiese ver tu cara
 
 :::notes{title="Translator's notes"}
 
-
-
-
-
-
+This was among the first half-dozen songs I translated for this project. I did it in a single shot. By the time I was done, I was shaking with emotion and tears. I committed the text and closed my laptop.
 
 :::
 
-This was among the first half-dozen songs I translated for this project. I did it in a single shot. By the time I was done, I was shaking with emotion and tears. I committed the text and closed my laptop.
+
 
 :::commentary{title="Versions"}
 

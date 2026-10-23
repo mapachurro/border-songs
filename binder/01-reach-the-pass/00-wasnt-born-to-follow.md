@@ -237,15 +237,14 @@ I wasn**'**t born to follow**
 
 I wasn't born to follow
 
-
-
 :::
 
 :::findings{title="Findings"}
-
-
-
 You are not a national or citizen of the United States
 
-# Photo credits:
+:::
+
+:::photo
+
 2011-2012, Oliver Renwick. Sunset over the Mediterranean; Spanish territory in the foreground, Moroccan territory behind. Ceuta.
+:::

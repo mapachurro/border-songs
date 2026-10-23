@@ -66,14 +66,7 @@ Buscando visa, carne de la mar
 Buscando visa, la razón de ser
 Buscando visa para no volver
 
-
-
 ## Target
-
-
-
-
-
 
 
 :::
@@ -107,14 +100,6 @@ carne de la mar
 
 :::notes{title="Translator's notes"}
 
-
-
-
-
-
-
-:::
-
 Estrofa 1: they're waiting in line
 
 Estrofa 2: I think at this point they're going to work
@@ -127,33 +112,21 @@ Estrofa 4, bad news
 
 `golpe de poder` - Uncommon collocation. Probably have to fudge a bit and call it "coup d'etat" otherwise... we can't do "coup de force". Maybe "power coup"?
 
+:::
+
 :::commentary{title="Versions"}
-
-
-
-
-
-
 
 :::
 
 :::findings{title="Findings of fact and conclusions of law"}
 
-
-
 212a7aiI
 ...er, no. Better yet, 212a9bi. Valid visa but overstay more than a year
-
-
 
 :::
 
 :::photo{title="Photo credits"}
 
-
-
 Oliver Renwick, 2024. Touching down just after dawn in Cluj, Romania, in early summer.
-
-
 
 :::
