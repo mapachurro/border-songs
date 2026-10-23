@@ -37,6 +37,7 @@ And then a man rode in to town, some thought he was the law
 Billie Jean was waiting when he came  
 She told me he would take her if I didn't use my gun  
 And I'd have no one but myself to blame  
+
 I went down to those dusty streets, blood was on my mind  
 I guess that stranger hadn't heard the news  
 'Cause I shot first and killed him, Lord he didn't even draw  
