@@ -1,15 +1,31 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Introduction, { frontmatter } from "../../binder/introduction.md";
 import PhotoPageLayout from "../components/PhotoPageLayout.astro";
+import { frontmatter, rawContent } from "../../binder/introduction.md";
+
+import { parseTextSections } from "../utils/parseTextSections.js";
+import { renderMarkdown } from "../utils/renderMarkdown.js";
 
 const background = frontmatter?.background ?? null;
+
+const textSections = await Promise.all(
+  parseTextSections(rawContent()).map(async (section) => ({
+    ...section,
+    html: await renderMarkdown(section.body),
+  })),
+);
 ---
 
 <BaseLayout title="Introduction">
   <PhotoPageLayout background={background}>
-    <article class="book-card book-card--introduction">
-      <Introduction />
-    </article>
+    {textSections.map((section) => (
+      <section
+        class={`text-section text-section--${section.type}`}
+        aria-label={section.title}
+      >
+        <div class="text-section__label">{section.title}</div>
+        <div class="text-section__body" set:html={section.html} />
+      </section>
+    ))}
   </PhotoPageLayout>
 </BaseLayout>

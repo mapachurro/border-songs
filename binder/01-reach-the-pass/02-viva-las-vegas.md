@@ -34,7 +34,6 @@ I wouldn't sleep a minute away
 Oh, there's blackjack, poker, and the roulette wheel  
 I'll poach your money lost on every deal  
 All you need is sonar and nerves of steel  
-You might also like
 
 So, viva Las Vegas  
 Viva Las Vegas  
