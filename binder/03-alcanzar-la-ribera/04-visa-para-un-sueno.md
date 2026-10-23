@@ -30,13 +30,7 @@ Eran las nueve 'e la mañana
 Santo Domingo, 8 de enero
 Con la paciencia que se acaba
 Pues ya no hay visa para un sueño
-You might also like
-Ojalá Que Llueva Café
-Juan Luis Guerra
-Me Enamoro de Ella
-Juan Luis Guerra
-La Bilirrubina
-Juan Luis Guerra
+
 ¡Oh!
 Oh oh
 Oh oh
@@ -74,7 +68,33 @@ Buscando visa para no volver
 
 Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it *does*, what I'm saying is *maybe link it with that song, specifically*
 
+The couplets are incredibly powerful:
+
+razon de ser
+no volver
+
+necesidad
+rabia
+
+golpe de poder
+que mas puedo hacer
+
+naufragar
+carne de la mar
+
 # Translator's notes:
+
+Estrofa 1: they're waiting in line
+
+Estrofa 2: I think at this point they're going to work
+
+Estrofa 3: Entrevista?
+
+Estrofa 4, bad news
+
+`de cemento y cal`
+
+`golpe de poder` - Uncommon collocation. Probably have to fudge a bit and call it "coup d'etat" otherwise... we can't do "coup de force". Maybe "power coup"?
 
 # Versions:
 
