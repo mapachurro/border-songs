@@ -1,6 +1,8 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { parseSong } from "../src/utils/parseSong.js";
+import { parseDocument } from "../src/utils/parseDocument.js";
 
 const binderDir = "binder";
 const write = process.argv.includes("--write");
@@ -176,6 +178,38 @@ for (const file of songPaths) {
       console.log(`SKIP  ${file}: ${result.reason}`);
       continue;
     }
+
+    const originalBody = original.replace(
+  /^---\s*\r?\n[\s\S]*?\r?\n---\s*\r?\n/,
+  "",
+);
+
+const migratedBody = result.content.replace(
+  /^---\s*\r?\n[\s\S]*?\r?\n---\s*\r?\n/,
+  "",
+);
+
+const legacy = parseSong(originalBody);
+const blocks = parseDocument(migratedBody);
+
+const concordances = blocks.filter(
+  (block) => block.type === "concordance",
+);
+
+if (concordances.length !== 1) {
+  throw new Error(
+    `Expected one main concordance, found ${concordances.length}`,
+  );
+}
+
+const converted = concordances[0];
+
+if (
+  JSON.stringify(legacy.source) !== JSON.stringify(converted.source) ||
+  JSON.stringify(legacy.target) !== JSON.stringify(converted.target)
+) {
+  throw new Error("Source/Target stanza mismatch");
+}
 
     if (write) fs.writeFileSync(file, result.content, "utf8");
 
