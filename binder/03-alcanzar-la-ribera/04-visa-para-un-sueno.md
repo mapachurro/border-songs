@@ -5,7 +5,14 @@ videoSource: "https://youtu.be/py5lONtuw2A?si=P_Xo2HU3W_zuW4Iu"
 background: "images/backgrounds/karst.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Eran la' cinco 'e la mañana
 Un seminarista, un obrero
@@ -65,22 +72,68 @@ Buscando visa, carne de la mar
 Buscando visa, la razón de ser
 Buscando visa para no volver
 
-# Target:
 
-# Analysis:
+
+## Target
+
+
+
+
+
+
+
+:::
+
+:::analysis
+
+
 
 - Leaving on a jet plane?
 - Going to California?
 
 Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it *does*, what I'm saying is *maybe link it with that song, specifically*
 
-# Translator's notes:
 
-# Versions:
 
-# Findings of fact and conclusions of law
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+
+
 212a7aiI
 ...er, no. Better yet, 212a9bi. Valid visa but overstay more than a year
 
-# Photo credits:
+
+
+:::
+
+:::photo{title="Photo credits"}
+
+
+
 Oliver Renwick, 2024. Touching down just after dawn in Cluj, Romania, in early summer.
+
+
+
+:::

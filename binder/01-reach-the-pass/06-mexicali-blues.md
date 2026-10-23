@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=ETD4YkkD_dg"
 background: "images/backgrounds/la-vista.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Laid back in an old saloon, with a peso in my hand  
 Watching flies and children on the street  
@@ -47,7 +54,11 @@ Just riding and running across those desert sands
 
 (1) sometime in 1973 Bob Weir changed this line to "Now I spend my lifetime running with the Mexicali blues" - he sings the original line up to DP28 (Feb 73) but the new line on DP19 (Oct 73) and subsequently. Thanks to Neal Miskin for pointing this out to me.
 
-# Target:
+
+
+## Target
+
+
 
 Tirado ahí en un bar antiguo, un peso en la mano  
 Viendo las moscas y los niños por la calle  
@@ -89,12 +100,46 @@ Cuando deja que una mujer lo tenga entre sus manos
 Puede que te encuentres allá cabalgando por la oscuridad  
 Andando y corriendo sobre las arenas desiertas
 
-# Analysis:
 
-# Translator's notes:
 
-# Versions:
+:::
 
-# Photo credits
+:::analysis
+
+
+
+
+
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::photo{title="Photo credits"}
+
+
 
 2011-2013, Oliver Renwick. A valley in... Southern Arizona? Tucson? West Texas? Who knows.
+
+
+
+:::

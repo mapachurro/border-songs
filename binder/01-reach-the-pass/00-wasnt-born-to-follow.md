@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=PrU9iI2VxPE"
 background: "images/backgrounds/al-otro-lado.jpg"
 ---
 
-# Source
+
+:::concordance
+
+
+
+## Source
+
+
 
 No I'd rather go and journey  
 Where the diamond crescent's glowing  
@@ -47,7 +54,11 @@ Come to understand my meaning)**
 In the end she will **(she'll)** surely know  
 I was not **(was not)** born to follow
 
-# Target
+
+
+## Target
+
+
 
 Mas me vale andar errante  
 Donde arde el diamante menguante  
@@ -94,9 +105,15 @@ Que realmente carecen de valor
 > Al final, seguramente ella sabrá  
 > No nací yo para andar detrás
 
-# Analysis
 
- The difference between Goffin-King and McGuinn here is between `her` and `your` form
+
+:::
+
+:::analysis
+
+
+
+The difference between Goffin-King and McGuinn here is between `her` and `your` form
 
  This small change opens up the story. This is not necessarily a love song or a traditional 'romance' in the medieval sense.
 
@@ -223,5 +240,16 @@ I wasn**'**t born to follow**
 
 I wasn't born to follow
 
-# Findings
+
+
+:::
+
+:::findings{title="Findings"}
+
+
+
 You are not a national or citizen of the United States
+
+
+
+:::

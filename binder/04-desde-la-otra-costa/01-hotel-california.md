@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=6sEgBV0zMoQ"
 background: "images/backgrounds/san-andres.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 _Original: The (fuckin') Eagles_
 
@@ -154,16 +161,64 @@ Puede salir cuando quiere
 Pero nunca yo partir
 <!-- There's something wrong in this last line at least -->
 
-# Target:
 
-# Analysis:
 
-# Translator's notes:
+## Target
 
-# Versions:
 
-# Findings of fact and conclusions of law
+
+
+
+
+
+:::
+
+:::analysis
+
+
+
+
+
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+
+
 42-B: Bars
 
-# Photo credits:
+
+
+:::
+
+:::photo{title="Photo credits"}
+
+
+
 Exterior, San Andres Carne de Res, Bogota, Colombia. Oliver Renwick, 2022-2023.
+
+
+
+:::

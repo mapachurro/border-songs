@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=EzSJEHQ49gU"
 background: "images/backgrounds/monte-montana.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Out in the West Texas town of El Paso  
 I fell in love with a Mexican girl  
@@ -78,7 +85,11 @@ Kissing my cheek as she kneels by my side
 Cradled by two loving arms that I'll die for  
 One little kiss and Felina, goodbye
 
-# Target:
+
+
+## Target
+
+
 
 Por ahí, oeste de Tejas, villa de El Paso  
 Me enamoré de una mejicanita  
@@ -159,12 +170,46 @@ Besandome la cara arrodillada a mi lado
 Acunado entre estos dos brazos para que valen morirse  
 Un besito más y Felina, adiós
 
-# Analysis:
 
-# Translator's notes:
 
-# Versions:
+:::
 
-# Photo credits
+:::analysis
+
+
+
+
+
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::photo{title="Photo credits"}
+
+
 
 Hillside near Polson, Montana. Oliver Renwick.
+
+
+
+:::

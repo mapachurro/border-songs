@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=3PJiNOJsK8E"
 background: "images/backgrounds/pueblo-del-terror.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Yo adivino el parpadeo  
 De las luces que a lo lejos  
@@ -62,7 +69,11 @@ Que veinte años no es nada
 Que febril la mirada, errante en las sombras  
 Te busca y te nombra
 
-# Target:
+
+
+## Target
+
+
 
 I foresee the twinkling
 Of the lights in the distance
@@ -119,7 +130,13 @@ That twenty years is but nothing
 With a febrile gaze, questing in shadows
 Searches for you and names you
 
-# Analysis
+
+
+:::
+
+:::analysis
+
+
 
 `TODO`
 
@@ -147,13 +164,25 @@ Discussion of the number of covers and history of "Mack the Knife", vis-a-vis th
 - A song that was translated over and over again, and sung over and over again, improvised upon continually
   - OK this shit's super deep, deeper than I ever realized
 
-# Translator's notes
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
 
 Orignally, I translated this line by line, because of the difficulty involved.
 
 `edit, 10/26`: I don't know what I meant by that comment. How else would I translate something? Maybe I meant "instead of considering it one triplet at a time"? No clue.
 
-# Findings of fact and conclusions of law
+
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+
 
 Removal order recitation:
 - not a national or citizen
@@ -164,3 +193,7 @@ Removal order recitation:
 - You will not be released from detention
 - Rather, you will be transported from the detention center to your port of departure, most likely an airport
 - Wherever you go, I wish you the best of luck
+
+
+
+:::

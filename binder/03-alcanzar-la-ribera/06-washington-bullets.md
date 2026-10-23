@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=mkoWjhZOKWo"
 background: "images/backgrounds/adventure.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Oh! Mama, Mama look there!  
 Your children are playing in that street again  
@@ -52,18 +59,66 @@ In a war-torn swamp stop any mercenary,
 Que?  
 Sandinista!
 
-# Target:
 
-# Analysis:
 
-# Translator's notes:
+## Target
 
-# Versions:
 
-# Findings of fact and conclusions of law
+
+
+
+
+
+:::
+
+:::analysis
+
+
+
+
+
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+
+
 212a3di
 Membership or affiliation with the Communist party "or another totalitarian party"? lmao
 citation: https://uscode.house.gov/us/usc/119-121/t8/s1182/
 
-# Photo credits: 
+
+
+:::
+
+:::photo{title="Photo credits"}
+
+
+
 2012-2013, Oliver Renwick. A Border Patrol mousepad hung on a police officer's cubicle, Phoenix, Arizona.
+
+
+
+:::

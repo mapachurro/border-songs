@@ -5,7 +5,14 @@ videoSource: "https://www.youtube.com/watch?v=h_Iz0iVvhEc"
 background: "images/backgrounds/truckers.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Won't you scratch my itch, sweet Annie Rich  
 And welcome me back to town?  
@@ -64,15 +71,54 @@ And they all led me straight back home to you
 Twenty thousand roads I went down, down, down  
 And they all led me straight back home to you
 
-# Target
 
-# Analysis
 
-# Translator's notes
+## Target
+
+
+
+
+
+
+
+:::
+
+:::analysis
+
+
+
+
+
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
 This may be the single most difficult piece to translate in this entire book.
 
-# Versions
 
-# Photo
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::photo{title="Photo"}
+
+
 
 Oliver Renwick, 2016-2026. I-71N, somewhere around Sunbury, OH. IIRC.
+
+
+
+:::

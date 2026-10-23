@@ -5,7 +5,14 @@ videoSource: https://youtu.be/Xkc-en0_LGY
 background: "images/backgrounds/the-valley-beyond.jpg"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 Life springs eternal  
 On a gaudy neon street  
@@ -92,7 +99,11 @@ No, no
 No, I won't be back  
 Not this time
 
-# Target:
+
+
+## Target
+
+
 
 La vida siempre brota  
 En una calle colorida de neon  
@@ -178,7 +189,13 @@ No, no
 No, ya no vuelvo más  
 Esta vez no
 
-# Analysis:
+
+
+:::
+
+:::analysis
+
+
 
 Let's be real. This song was always the point / counterpoint that Hotel California was looking for.
 
@@ -195,7 +212,13 @@ Please note: _all of these things are defined by, or denominated in, money._ If 
 Boiling it down, though:
 On the other: Despite what we may have been taught, and what may _also_ be true, American society is founded on, and depends on, the
 
-# Translator's notes
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
 
 ### hope springs eternal
 
@@ -297,9 +320,23 @@ complicar, complicado
 
 Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is about. Fuck. Well, fuck.
 
-# Versions:
 
-# intralinear subtext
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Intralinear subtext"}
+
+
 
 The initial version (above) of this will be one rendered on Aug 17, 2026.
 
@@ -355,5 +392,16 @@ Esperando a que llegue mi embarcadero
 *`Double asterisk here, and at the bottom of the page: "my ship to come in"`*
 *`The translation ends here. It's possible that I saw the next line, "no joker, no jack, no king", became overwhelmed, and gave up.`*
 
-# Findings of fact and conclusions of law
+
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+
+
 - Something about human trafficking?
+
+
+
+:::

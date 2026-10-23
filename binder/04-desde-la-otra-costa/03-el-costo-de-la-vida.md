@@ -4,7 +4,14 @@ authority: "Juan Luis Guerra"
 videoSource: "https://www.youtube.com/watch?v=tPTB0TRV3BA"
 ---
 
-# Source:
+
+:::concordance
+
+
+
+## Source
+
+
 
 El costo de la vida sube otra vez  
 El peso que baja, ya ni se ve  
@@ -91,10 +98,44 @@ Eh, ya ves, pues no hablamos inglés
 Ni a la Mitsubishi  
 Eh, ya ves, ni a la Chevrolet
 
-# Target:
 
-# Analysis:
 
-# Translator's notes:
+## Target
 
-# Versions:
+
+
+
+
+
+
+:::
+
+:::analysis
+
+
+
+
+
+
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
+
+
+
+
+
+:::
+
+:::commentary{title="Versions"}
+
+
+
+
+
+
+
+:::

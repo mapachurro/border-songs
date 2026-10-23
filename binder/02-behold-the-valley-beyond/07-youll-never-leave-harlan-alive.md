@@ -5,7 +5,14 @@ videoSource: "https://youtu.be/MjFcllICjUc"
 background: "images/backgrounds/adrian.jpg"
 ---
 
-# Source
+
+:::concordance
+
+
+
+## Source
+
+
 
 In the deep dark hills of eastern Kentucky
 That's the place where I traced my bloodline
@@ -48,7 +55,11 @@ And you spend your life digging coal from the bottom of your grave.
 
 You'll never leave Harlan alive
 
-# Target
+
+
+## Target
+
+
 
 Allá en el monte profundo de Guatemala Oeste
 Ese es el lugar al que he trazado mi herencia
@@ -92,7 +103,13 @@ Y te pasas la vida cavando la tierra del fondo de tu sepultura.
 
 Jamás saldrás de San Marcos con vida
 
-# Intralinear subtext
+
+
+:::
+
+:::commentary{title="Intralinear subtext"}
+
+
 
 At the highest possible level, this is a song about extractive, arguably zero-sum, economic practices and the human cost on which they rely.
 
@@ -124,7 +141,13 @@ Borders are all around you now, regardless of the choice you make at this point,
 
 Regardless of your choice, Kentucky is a state made up of differentiations and fences, black, white, and stone, from another era. This tiny state has more miles of waterways than *the state of Alaska*. At last count, it has 120 counties, and you can't get alcohol in all of 'em. Hell, by the time you finish that cigarette, you might be in another county and they don't sell smokes there. Might as well buy a carton now while you still can.
 
-# Analysis
+
+
+:::
+
+:::analysis
+
+
 
 ## Harlan
 
@@ -146,7 +169,13 @@ links to genre of western / country outlaw music
         
 ---
 
-# Intralinear subtext
+
+
+:::
+
+:::commentary{title="Intralinear subtext"}
+
+
 
 ## Economic Migrants
 
@@ -207,7 +236,12 @@ _Oliver JL Renwick, Cleveland, Ohio, October 2024._
 ---
 
 
-# Translator's notes:
+
+:::
+
+:::notes{title="Translator's notes"}
+
+
 
 After that line above ^^ about "extractive industries", you can pretty much disregard the rest. 
 
@@ -259,10 +293,19 @@ And you spend your life digging earth from the bottom of your grave.
 
 
 
-# Findings of fact and conclusions of law
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+
+
 You **are** a native and citizen of... **Kentucky**. lmao
 See also: `y'all ain't from around here`, `what church y'all go to`, `what county you from`, etc.
 
 maybe a thing about country conditions reports, how they do not reflect the reality of the situation? Cross-border drug trafficking, etc
 
 Ixchiguan. Poppy fields.
+
+
+
+:::
