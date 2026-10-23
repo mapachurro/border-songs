@@ -62,40 +62,39 @@ function loadSong(inputPath) {
   const metadata = yaml.load(frontmatterMatch[1]);
   const body = frontmatterMatch[2];
 
-const blocks = parseDocument(body);
+  const parsedBlocks = parseDocument(body);
 
-const concordance = blocks.find(
-  (block) => block.type === "concordance",
-);
+  const concordance = parsedBlocks.find(
+    (block) => block.type === "concordance",
+  );
 
-let source;
-let target;
+  let blocks;
 
-if (concordance) {
-  // New Markdown directive format
-  source = concordance.source;
-  target = concordance.target;
-} else {
-  // Legacy # Source / # Target format
-  const legacy = parseSong(body);
-  source = legacy.source;
-  target = legacy.target;
-}
+  if (concordance) {
+    // New directive-based format.
+    blocks = parsedBlocks;
+  } else {
+    // Legacy heading-based format.
+    const legacy = parseSong(body);
 
-const pairs = source.map((sourceStanza, index) => ({
-  source: sourceStanza,
-  target: target[index] ?? null,
-}));
+    blocks = [
+      {
+        type: "concordance",
+        source: legacy.source,
+        target: legacy.target,
+        sourceTitle: "Source",
+        targetTitle: "Target",
+      },
+    ];
+  }
 
   return {
-  title: metadata.title,
-  authority: metadata.authority,
-  videoSource: metadata.videoSource,
-  pairs,
-  blocks,
-};
+    title: metadata.title,
+    authority: metadata.authority,
+    videoSource: metadata.videoSource,
+    blocks,
+  };
 }
-
 const songs = songPaths.map(loadSong);
 
 // -----------------------------------------------------------------------------
