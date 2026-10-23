@@ -9,7 +9,6 @@ import { parseTextSections } from "../../utils/parseTextSections.js";
 import DocumentContent from "../../components/DocumentContent.astro";
 import { parseDocument } from "../../utils/parseDocument.js";
 
-
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
 
@@ -80,7 +79,6 @@ const sectionId = song.id.split("/")[0];
 import PhotoPageLayout from "../../components/PhotoPageLayout.astro";
 ---
 
-
 <BaseLayout
   title={song.data.title ?? "Border Songs"}
   currentSection={sectionId}
@@ -106,26 +104,26 @@ import PhotoPageLayout from "../../components/PhotoPageLayout.astro";
         )}
 
         {usesDirectives ? (
-  <DocumentContent blocks={mainConcordance ? [mainConcordance] : []} />
-) : (
-  <Concordance pairs={legacyPairs} />
-)}
+          <DocumentContent blocks={mainConcordance ? [mainConcordance] : []} />
+        ) : (
+          <Concordance pairs={legacyPairs} />
+        )}
       </div>
     </article>
 
     <!-- Independent editorial cards -->
     {usesDirectives ? (
-  <DocumentContent blocks={editorialBlocks} />
-) : (
-  orderedTextSections.map((section) => (
-    <section
-      class={`text-section text-section--${section.type}`}
-      aria-label={section.title}
-    >
-      <div class="text-section__label">{section.title}</div>
-      <div class="text-section__body" set:html={section.html} />
-    </section>
-  ))
-)}
+      <DocumentContent blocks={editorialBlocks} />
+    ) : (
+      orderedTextSections.map((section) => (
+        <section
+          class={`text-section text-section--${section.type}`}
+          aria-label={section.title}
+        >
+          <div class="text-section__label">{section.title}</div>
+          <div class="text-section__body" set:html={section.html} />
+        </section>
+      ))
+    )}
   </PhotoPageLayout>
 </BaseLayout>

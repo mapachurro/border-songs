@@ -17,12 +17,7 @@ interface ConcordanceBlock {
 
 interface EditorialBlock {
   type:
-    | "analysis"
-    | "commentary"
-    | "notes"
-    | "footnotes"
-    | "findings"
-    | "photo";
+    "analysis" | "commentary" | "notes" | "footnotes" | "findings" | "photo";
   title: string;
   blocks: (MarkdownBlock | ConcordanceBlock)[];
 }
@@ -44,10 +39,10 @@ async function prepareBlock(block: MarkdownBlock | ConcordanceBlock) {
   }
 
   return {
-  type: "concordance" as const,
-  sourceTitle: block.sourceTitle ?? "Source",
-  targetTitle: block.targetTitle ?? "Target",
-  pairs: await Promise.all(
+    type: "concordance" as const,
+    sourceTitle: block.sourceTitle ?? "Source",
+    targetTitle: block.targetTitle ?? "Target",
+    pairs: await Promise.all(
       block.source.map(async (source, index) => ({
         source: await renderMarkdown(source),
         target:
@@ -77,10 +72,13 @@ const preparedBlocks = await Promise.all(
 
 {preparedBlocks.map((block) => {
   if (block.type === "concordance") {
-    return <Concordance
-  pairs={block.pairs}
-  sourceTitle={block.sourceTitle}
-  targetTitle={block.targetTitle} />;
+    return (
+      <Concordance
+        pairs={block.pairs}
+        sourceTitle={block.sourceTitle}
+        targetTitle={block.targetTitle}
+      />
+    );
   }
 
   if (block.type === "markdown") {
@@ -98,10 +96,10 @@ const preparedBlocks = await Promise.all(
         {block.blocks.map((child) =>
           child.type === "concordance" ? (
             <Concordance
-  pairs={child.pairs}
-  sourceTitle={child.sourceTitle}
-  targetTitle={child.targetTitle}
-/>
+              pairs={child.pairs}
+              sourceTitle={child.sourceTitle}
+              targetTitle={child.targetTitle}
+            />
           ) : (
             <div class="document-prose" set:html={child.html} />
           ),
