@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=n8vFZNXV4i8"
 background: "images/backgrounds/naranjero.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 ¡Qué bonitos ojos tienes!  
 Debajo de esas dos cejas  
@@ -58,21 +53,11 @@ Como el candor de una rosa
 Y decirte  
 Niña hermosa
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
-
-
 
 Why is this here?
 
@@ -124,47 +109,27 @@ Perhaps this Malaga Woman is full of the riches of love; that's a reading.
 
 [^3]: _Buid Me A Woman_. Original author?? `TODO`; as covered by The Doors, on Absolutely Live.
 
-
-
 :::
 
 :::notes{title="Translator's notes"}
 
-
-
 La autoría de esta canción parece estar sujeto a cierto debate.
-
-
 
 :::
 
 :::commentary{title="Versions"}
 
-
-
-
-
-
-
 :::
 
 :::findings{title="Findings of fact and conclusions of law"}
 
-
-
 Probably 212a6Ci, fraud or material misrepresentation (fraudulent K-1 visa)
 But also potentially 237a1G, which is specifically for that context
-
-
 
 :::
 
 :::photo{title="Photo credits"}
 
-
-
 2011, Oliver Renwick. Orange tree, Ceuta.
-
-
 
 :::

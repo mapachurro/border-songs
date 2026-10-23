@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=TDIhN630_3w"
 background: "images/backgrounds/poble-sec.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 At the dark end of the street  
 That's where we always meet  
@@ -51,46 +46,22 @@ Tonight, we'll meet
 At the dark end  
 Of the street
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
 
-
-
 Again, reading this now -- I know why I included this song; it's about a different kind of limit, and it's one of the most honest and succinct expressions of it, and is solidly within the Cosmic American Music canon.
 
 I'm not sure it belongs in this section though?
-
-
 
 :::
 
 :::notes{title="Translator's notes"}
 
-
-
-
-
-
-
 :::
 
 :::commentary{title="Versions"}
-
-
-
-
-
-
 
 :::

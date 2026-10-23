@@ -5,14 +5,9 @@ videoSource: "http://youtube.com/watch?v=HQaPT58mh8k"
 background: "images/backgrounds/linias.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Me llaman el desaparecido  
 Cuando llega ya se ha ido  
@@ -78,64 +73,30 @@ Volando vengo, volando voy
 Deprisa deprisa a rumbo perdido  
 (Cuando llegaré)
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
 
-
-
-
-
-
-
 :::
 
 :::notes{title="Translator's notes"}
-
-
-
-
-
-
 
 :::
 
 :::commentary{title="Versions"}
 
-
-
-
-
-
-
 :::
 
 :::findings{title="Findings of fact and conclusions of law"}
 
-
-
 VAWA.
-
-
 
 :::
 
 :::photo{title="Photo credits"}
 
-
-
 Oliver Renwick, 2013-2015. Rail lines of the Rodalies de Catalunya.
-
-
 
 :::

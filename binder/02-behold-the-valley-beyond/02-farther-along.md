@@ -4,14 +4,9 @@ authority: "Traditional; The Byrds"
 videoSource: "https://www.youtube.com/watch?v=aOkB0rG5jaE"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Tempted and tried we're oft' made to wonder  
 Why it should be thus all the day long  
@@ -33,21 +28,11 @@ Farther along we'll understand why
 Cheer up my brother live in the sunshine  
 We'll understand it all by and by
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
-
-
 
 Reading this in January 2026, I'm not sure this song, of all the Byrds' oeuvre, belongs here, especially as, IIRC, it's not actually by the Byrds; I believe it's a traditional hymn. Which... I know why I included it here. Because of its resonance with the horizon, the future, the other side.
 
@@ -57,26 +42,12 @@ Counterargument, October 2026: This is a song of the limit... of our knowledge. 
 
 Therefore -- it should be on Side 1, not Side 2?
 
-
-
 :::
 
 :::notes{title="Translator's notes"}
 
-
-
-
-
-
-
 :::
 
 :::commentary{title="Versions"}
-
-
-
-
-
-
 
 :::

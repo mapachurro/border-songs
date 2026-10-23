@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=SBYO1ZfxxSM"
 background: "images/backgrounds/camino-en-el-monte.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Unas piernas que respiran  
 Veneno de serpiente  
@@ -145,56 +140,26 @@ Hecha con cariño y con esfuerzo
 Sea como un llamado de voluntad y esperanza  
 Para todos todos, todos todos
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
 
-
-
-
-
-
-
 :::
 
 :::notes{title="Translator's notes"}
-
-
-
-
-
-
 
 :::
 
 :::commentary{title="Versions"}
 
-
-
-
-
-
-
 :::
 
 :::findings{title="Findings of fact and conclusions of law"}
 
-
-
 212a6aiI ALL DAY LONG
 
 ooh also: Removal vs deportation vs departure vs RETURN
-
-
 
 :::

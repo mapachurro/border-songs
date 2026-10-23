@@ -5,14 +5,9 @@ videoSource: "https://youtu.be/py5lONtuw2A?si=P_Xo2HU3W_zuW4Iu"
 background: "images/backgrounds/karst.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Eran la' cinco 'e la mañana
 Un seminarista, un obrero
@@ -68,17 +63,14 @@ Buscando visa para no volver
 
 ## Target
 
-
 :::
 
 :::analysis
 
-
-
 - Leaving on a jet plane?
 - Going to California?
 
-Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it *does*, what I'm saying is *maybe link it with that song, specifically*
+Broader theme + intertexutality Maybe this links with `Mama dame cien pesetas` as well. I mean, it _does_, what I'm saying is _maybe link it with that song, specifically_
 
 The couplets are incredibly powerful:
 
@@ -93,8 +85,6 @@ que mas puedo hacer
 
 naufragar
 carne de la mar
-
-
 
 :::
 

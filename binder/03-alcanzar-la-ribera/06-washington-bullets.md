@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=mkoWjhZOKWo"
 background: "images/backgrounds/adventure.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Oh! Mama, Mama look there!  
 Your children are playing in that street again  
@@ -109,14 +104,11 @@ y revisa las balas británicas en su arsenal
 Source lyrics taken from the most canonical source there could be, [The Clash's website](https://www.theclash.com/music/songs/washington-bullets).
 
 `TODO`
-"Llegale a mi guarida" *must* be addressed. It either needs its own song, or it needs to be embedded in this piece.
+"Llegale a mi guarida" _must_ be addressed. It either needs its own song, or it needs to be embedded in this piece.
 
 :::
 
-
-
 :::notes{title="Translator's notes"}
-
 
 Kokane guns - narco armas; armas de coca; cocainarma
 
@@ -126,11 +118,11 @@ killing clowns
 
 blood money - strong, established collocation. Equivalent?
 
-again -- otra vez, una vez más; I am going with `de nuevo`, and not unthinkingly. This is a song about **how this keeps happening**, but Strummer also goes to great lengths to talk about all the *different places, times, and ways* in which it happens. It's not simply "another instance" of the same thing. Each time it's, well, *new*. Another person being killed is not the same as the last person being killed. It's a *new* person being killed. `De nuevo`; echoes of `de novo`.
+again -- otra vez, una vez más; I am going with `de nuevo`, and not unthinkingly. This is a song about **how this keeps happening**, but Strummer also goes to great lengths to talk about all the _different places, times, and ways_ in which it happens. It's not simply "another instance" of the same thing. Each time it's, well, _new_. Another person being killed is not the same as the last person being killed. It's a _new_ person being killed. `De nuevo`; echoes of `de novo`.
 
 cell -- in this context, a `cell` could refer to a `terrorist` or `freedom fighter` cell; it could also refer to a `jail cell`. I lean towards the latter, given the next line, `the cries of the tortured men`. "If these walls could speak" is the sense here.
 
-`Before the army came` - my initial literal instinct is to render this as `antes de que llegó el ejército`. But the English has six syllables total, and Strummer's lyrics throughout this seminal work are *evocative*, more than literal and detailed. The more succinct `antes de llegar el ejército` clocks in at 10 syllables, in other words, 1/3 longer than the English, in other words, bang on target for the standard syllabic differential between English and Spanish.
+`Before the army came` - my initial literal instinct is to render this as `antes de que llegó el ejército`. But the English has six syllables total, and Strummer's lyrics throughout this seminal work are _evocative_, more than literal and detailed. The more succinct `antes de llegar el ejército` clocks in at 10 syllables, in other words, 1/3 longer than the English, in other words, bang on target for the standard syllabic differential between English and Spanish.
 
 `please remember` - por favor sounds too polite, too... gentle, somehow, in spanish. I feel like `rogar` is more what we mean here. Also, **English lacks a subject in the imperative, I have to impute a subject**. Spanish generally defaults to `ustedes` or `vosotros`, and I'm sure as hell not using `vosotros` if I'm talking about Chile and LatAm in general.
 
@@ -163,13 +155,12 @@ war-torn - strong collocation `TODO`
 swamp - tremendous inflections of T*rump-based US politics, now.
 :::
 
-
 :::commentary{title="Versions"}
-
 
 :::
 
 # Intralinear subtext
+
 Los Torogoces de Morazán
 
 :::findings{title="Findings of fact and conclusions of law"}

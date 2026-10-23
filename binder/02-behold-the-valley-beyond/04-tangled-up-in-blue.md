@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=fPBmJSNSiFY"
 background: "images/backgrounds/iowa.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Early one mornin’ the sun was shinin’  
 She was lyin’ in bed  
@@ -132,21 +127,11 @@ We just saw it from a different point of view
 
 Tangled up in blue
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
-
-
 
 The video linked here, and the version of the lyrics, is not the album version.
 
@@ -158,13 +143,9 @@ It would seem that Dylan, regardless of whatever his explicit stance may be rega
 
 Point being: this tour, in some ways, was maybe the last concerted effort to play Cosmic American Music, as such.
 
-
-
 :::
 
 :::notes{title="Translator's notes"}
-
-
 
 Draft translation, wildly incomplete:
 
@@ -183,26 +164,14 @@ Y ahí estuvo parado al lado de la carretera
 Caía la lluvia sobre sus zapatos  
 De camino para la costa del Este
 
-
-
 :::
 
 :::commentary{title="Versions"}
-
-
-
-
-
-
 
 :::
 
 :::photo{title="Photo credits"}
 
-
-
 2025, Oliver Renwick. View of the sunrise from the eastern edge of a KOA on the Iowa border.
-
-
 
 :::

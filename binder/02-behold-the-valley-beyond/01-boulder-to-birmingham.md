@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=JjLx7ESHRcA"
 background: "images/backgrounds/desfile.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 I don't want to hear a love song  
 I got on this airplane just to fly  
@@ -48,11 +43,7 @@ I would walk all the way from Boulder to Birmingham
 If I thought I could see, I could see your face  
 If I thought I could see, I could see your face
 
-
-
 ## Target
-
-
 
 No quiero canciones al amor  
 Subí a este avión solo para volar  
@@ -88,17 +79,9 @@ Andaba todo el camino desde Boulder a Birmingham
 Si creía que pudiese ver, pudiese ver tu cara  
 Si creía que pudiese ver, pudiese ver tu cara
 
-
-
 :::
 
 :::analysis
-
-
-
-
-
-
 
 :::
 
@@ -108,14 +91,6 @@ This was among the first half-dozen songs I translated for this project. I did i
 
 :::
 
-
-
 :::commentary{title="Versions"}
-
-
-
-
-
-
 
 :::

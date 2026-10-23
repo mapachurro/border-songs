@@ -4,14 +4,9 @@ authority: "Doc Pomus, Mort Shuman; Jello Biafra; The Dead Kennedys"
 videoSource: "https://www.youtube.com/watch?v=aT2nRwQysNA"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 Bright Light City gonna set my soul  
 It's gonna set my soul on fire  
@@ -33,7 +28,7 @@ I wouldn't sleep a minute away
 
 Oh, there's blackjack, poker, and the roulette wheel  
 I'll poach your money lost on every deal  
-All you need is sonar and nerves of steel  
+All you need is sonar and nerves of steel
 
 So, viva Las Vegas  
 Viva Las Vegas  
@@ -59,11 +54,7 @@ Viva Las Vegas
 Viva Las Vegas  
 Viva, viva Las Vegas
 
-
-
 ## Target
-
-
 
 Esa ciudad brillante prenderá mi alma  
 Prenderá fuego en mi alma  
@@ -112,36 +103,16 @@ Viva Las Vegas
 Viva Las Vegas  
 Viva, viva Las Vegas
 
-
-
 :::
 
 :::analysis
-
-
-
-
-
-
 
 :::
 
 :::notes{title="Translator's notes"}
 
-
-
-
-
-
-
 :::
 
 :::commentary{title="Versions"}
-
-
-
-
-
-
 
 :::

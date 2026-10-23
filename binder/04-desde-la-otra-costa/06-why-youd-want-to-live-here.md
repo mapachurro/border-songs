@@ -5,14 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=lrI1_FwTmtg"
 background: "images/backgrounds/mountains-beyond-mountains.jpg"
 ---
 
-
 :::concordance
 
-
-
 ## Source
-
-
 
 I'm in Los Angeles today  
 It smells like an airport runway  
@@ -65,54 +60,24 @@ Billboards reach past the tallest buildings
 You can't swim in a town this shallow  
 As you will most assuredly drown tomorrow
 
-
-
 ## Target
-
-
-
-
-
-
 
 :::
 
 :::analysis
 
-
-
-
-
-
-
 :::
 
 :::notes{title="Notes"}
-
-
-
-
-
-
 
 :::
 
 :::commentary{title="Versions"}
 
-
-
-
-
-
-
 :::
 
 :::findings{title="Findings of fact and conclusions of law"}
 
-
-
 42-B...?
-
-
 
 :::
