@@ -57,19 +57,27 @@ See also notes under "will bring it down", below.
 
 :::
 
+:::gonzo
+
+Jimi Hendrix once said that "All Along the Watchtower" felt like a song that he had started writing, but had never finished (`TODO`: citation). Bob Dylan, the original author of that song, for his part said that song was Jimi's, now (`TODO`: citation)--words echoed perhaps more awkwardly and fumbling, but no less sincerly, by Trent Reznor regarding Johnny Cash's cover of "Hurt", half a century later(`TODO`: citation).
+
+So allow me to follow in the vein of my elders and betters: This song always felt, to me, like a Shakira song. It's a Shakira song that just happened to be composed in the wrong language. 
+
+Due to accidents of birth and cultural heritage, I was ignorant of Fleetwood Mac until after I had wholesale consumed Shakira's body of work; perhaps there's some explanation there. Perhaps it had to do with encountering this song in its natural habitat: small-town American dive bars at ~1:30AM, while severely under the influence, during a time in my life when I would listen to "Ciega, Sordomuda" on repeat because it spoke to some sense of loss and forgiveness that I couldn't otherwise put a name to or identify.
+
+The point is, it's all there: loss, nature, love; change over time; the will to persevere in the face of it all, bundled in up in the wrapper of a ballad. 
+
+It's a Shakira song.
+
+:::
+
 :::notes{title="Translator's notes"}
 
-*This song, like several others in this collection (Fast car, Leaving Las Vegas, El Paso, Mexicali Blues...), have spent years getting stuck in my head. And when something comes into my head and is not immediately assigned a location, it gets picked up by the translation machine, which proceeds to grind on it until a higher-priority (aka more recent) project arrives.* 
+*This song, like several others in this collection ([Fast car](/border-songs/03-alcanzar-la-ribera/03-fast-car/), [Leaving Las Vegas](04-desde-la-otra-costa/02-leaving-las-vegas), [El Paso](01-reach-the-pass/01-el-paso), [Mexicali Blues](01-reach-the-pass/06-mexicali-blues)...), have spent years getting stuck in my head. And when something comes into my head and is not immediately assigned a location, it gets picked up by the translation machine, which proceeds to grind on it until a higher-priority (aka more recent) project arrives.* 
 
 *I'm looking forward to actually putting it down in writing; maybe that will free up some unfinished side project storage space in the translation machine's spare rooms.*
 
----
 
-Jimi Hendrix once said that "All Along the Watchtower" felt like a song that he had started writing, but had never finished (citation); Bob Dylan, the original author of that song, for his part said that song was Jimi's, now--words echoed perhaps more awkwardly and fumbling, but no less sincerly, by Trent Reznor regarding Johnny Cash's cover of "Hurt", half a century later.
-
-So allow me to follow in the vein of my elders and betters: This song always felt, to me, like a Shakira song; just composed in the wrong language. Due to accidents of birth and cultural heritage, I was ignorant of Fleetwood Mac until after I had wholesale consumed Shakira's body of work. Perhaps there's some explanation there. Perhaps it had to do with encountering this song in its natural habitat, American dive bars at ~1:30AM, while severely under the influence during a time in my life when I would listen to "Ciega, Sordomuda" on repeat because it spoke to some sense of loss and forgiveness that I couldn't otherwise put a name to or identify.
-
-But it's all there: loss, nature, love; change over time; the will to persevere in the face of it all, bundled in up in the wrapper of a ballad. It's a Shakira song.
 
 ---
 
