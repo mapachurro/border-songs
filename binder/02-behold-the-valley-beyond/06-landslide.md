@@ -26,13 +26,6 @@ But time makes you bolder
 Even children get older  
 And I'm gettin' older, too
 
-Well, I've been 'fraid of changin'  
-'Cause I've built my life around you  
-But time makes you bolder  
-Even children get older  
-And I'm gettin' older, too  
-I'm gettin' older, too
-
 Ah, take my love, take it down  
 Oh, climb a mountain and turn around  
 And if you see my reflection in the snow covered hills
@@ -45,12 +38,42 @@ Oh, the landslide will bring it down
 
 ## Target
 
+Llevé a mi amor, y me lo bajé
+Me subí la cumbre y me dí la vuelta
+Y me vi reflejada en los picos arropados de nieve
+Hasta el derrumbe me bajó
+
+Ay, espejo del cielo, ¿qué es el amor?
+¿Puede la niña dentro de mi corazón superar?
+¿Puedo navegar las mareas cambiantes? (de esta mar?)
+¿Puedo aguantar las temporadas de mi vida?
+
+Mm-jmmm, no lo sé
+
+Pues, miedo he tenido a cambiar
+Ya que hice mi vida basado en tí
+Pero el tiempo de da valor
+Hasta los niños se hacen mayores
+Y yo, me hago mayor, también
+Yo me hago mayor, también
+
+Ah, llévate mi amor, bajátelo
+Oh, súbete a una montaña y date la vuelta
+Y si ahí me ves reflejada en los picos arropados de nieve
+
+Pues, ya se lo llevará el derrumbe
+Y si me ves reflejada en los picos arropados de nieve
+
+Pues, ya se lo llevará el derrumbe
+Oh, se lo llevará el derrumbe
+
 :::
 
 :::analysis
 
 This version is the best version.
 
+`TODO`:
 See notes under "take my love", below, regarding the "frame story" that is built into this song. It's a story within a message within a song.
 
 See also notes under "will bring it down", below.
@@ -76,6 +99,11 @@ It's a Shakira song.
 *This song, like several others in this collection ([Fast car](/03-alcanzar-la-ribera/03-fast-car/), [Leaving Las Vegas](/04-desde-la-otra-costa/02-leaving-las-vegas/), [El Paso](/01-reach-the-pass/01-el-paso/), [Mexicali Blues](/01-reach-the-pass/06-mexicali-blues/)...), have spent years getting stuck in my head. And when something comes into my head and is not immediately assigned a location, it gets picked up by the translation machine, which proceeds to grind on it until a higher-priority (aka more recent) project arrives.* 
 
 *I'm looking forward to actually putting it down in writing; maybe that will free up some unfinished side project storage space in the translation machine's spare rooms.*
+
+---
+
+`Edit, 10-26-26, post-translation`
+Well, *fuck*. I think I made it rhyme, partially? And potentially match the meter?
 
 ---
 
@@ -107,6 +135,9 @@ I actually don't know the term for this? derrumbe?
 
 ### `mirror in the sky` 
 Sounds really pretty in Spanish: `espejo del cielo`, because `en` feels too literal.
+
+### `can`
+It's in the present tense, but she's talking about things both present and future. In my mind, it's always been future tense. I will attempt the present tense.
 
 ### `child`
 At this point, we trigger gendering
