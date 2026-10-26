@@ -410,10 +410,6 @@ confused? with no clarity? hmm.
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 42-B... but successful.
