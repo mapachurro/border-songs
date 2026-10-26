@@ -146,12 +146,59 @@ This model describes **what content is**, not its HTML or LaTeX appearance.
 4. Use a longer outer fence when nesting directives.
 5. Test both web and print when changing directive semantics or parser behavior.
 
-## Current limitations and questions
+## Current parser behavior and limitations
 
-- `:::footnotes` is a semantic section, **not** the same as automatic Markdown footnotes such as `[^1]`. True print footnote rendering is unfinished.
-- *Versions* and *Intralinear subtext* currently use `commentary` rather than dedicated types.
-- **TODO:** Specify unknown-directive behavior, malformed input handling, unequal stanza counts, and exact nested-block guarantees after inspecting parser tests/code.
-- **TODO:** Document all frontmatter fields and validation rules.
+### Top-level content
+
+`parseDocument()` processes recognized top-level container directives only. Ordinary Markdown outside those directives, including headings and paragraphs, is ignored.
+
+The recognized top-level directives are `concordance`, `analysis`, `commentary`, `notes`, `footnotes`, `findings`, and `photo`.
+
+Unknown top-level directives are silently ignored.
+
+### Nesting
+
+Editorial directives can contain ordinary Markdown and nested concordances.
+
+Nested concordances are returned as `ConcordanceBlock` objects within the parent editorial block's `blocks` array.
+
+Nested editorial directives are not recursively interpreted as editorial blocks. Their source text remains part of the surrounding Markdown content.
+
+Use longer outer directive fences when nesting concordances inside editorial sections.
+
+### Concordance structure
+
+Each concordance must contain exactly two immediate level-two headings:
+
+1. `## Source`
+2. `## Target`
+
+The parser accepts case variations and trailing colons, but does not reliably recognize headings containing inline formatting.
+
+Missing, additional, or incorrectly ordered level-two headings cause parsing to fail.
+
+The `source` and `target` attributes control display labels only. They do not change the structural heading requirements.
+
+### Default labels
+
+When directive attributes are omitted:
+
+- `sourceTitle` defaults to `"Source"`.
+- `targetTitle` defaults to `"Target"`.
+- Editorial `title` defaults to the directive name.
+
+### Editorial conventions
+
+`:::footnotes` is a semantic editorial section, not an implementation of automatic Markdown footnotes such as `[^1]`. True print footnote rendering remains unfinished.
+
+*Versions* and *Intralinear subtext* currently use the `commentary` directive rather than dedicated block types.
+
+### Outstanding questions
+
+- **TODO:** Verify stanza splitting, unequal stanza counts, and empty concordance behavior in `parseConcordance.js`.
+- **TODO:** Verify enabled Markdown extensions and malformed directive handling in `parseDirectives.js`.
+- **TODO:** Document all YAML frontmatter fields and their validation rules.
+- **TODO:** Decide whether silently ignoring unknown directives is desirable or whether validation should report them.
 
 ## Migration history
 
