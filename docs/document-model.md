@@ -111,7 +111,7 @@ These compatibility paths are transitional and may be removed once the directive
 | `:::commentary` | General commentary, including *Versions* and *Intralinear subtext* | `title` |
 | `:::findings` | Findings and formal editorial argument | `title` |
 | `:::photo` | Photo-related material or credits | `title` |
-| `:::footnotes` | Editorial footnotes section | `title` |
+| `:::gonzo` | Editorial footnotes section | `title` |
 
 ### Concordance
 
@@ -216,7 +216,7 @@ Further analysis.
 
 // EditorialBlock
 {
-  type: "analysis", // or notes, commentary, findings, photo, footnotes
+  type: "analysis", // or notes, commentary, findings, photo, gonzo
   title: "...",
   blocks: [/* MarkdownBlock and/or ConcordanceBlock */]
 }
@@ -238,7 +238,7 @@ This model describes **what content is**, not its HTML or LaTeX appearance.
 
 `parseDocument()` processes recognized top-level container directives only. Ordinary Markdown outside those directives, including headings and paragraphs, is ignored.
 
-The recognized top-level directives are `concordance`, `analysis`, `commentary`, `notes`, `footnotes`, `findings`, and `photo`.
+The recognized top-level directives are `concordance`, `analysis`, `commentary`, `notes`, `gonzo`, `findings`, and `photo`.
 
 Unknown top-level directives are silently ignored.
 
@@ -275,7 +275,7 @@ When directive attributes are omitted:
 
 ### Editorial conventions
 
-`:::footnotes` is a semantic editorial section, not an implementation of automatic Markdown footnotes such as `[^1]`. True print footnote rendering remains unfinished.
+`:::gonzo` is a semantic editorial section, and was previously denoted as `:::footnotes`, changed so as not to cause confusion with implementation of automatic Markdown footnotes such as `[^1]`. True print footnote rendering remains unfinished.
 
 *Versions* and *Intralinear subtext* currently use the `commentary` directive rather than dedicated block types.
 

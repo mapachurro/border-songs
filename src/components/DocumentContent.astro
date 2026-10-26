@@ -17,7 +17,7 @@ interface ConcordanceBlock {
 
 interface EditorialBlock {
   type:
-    "analysis" | "commentary" | "notes" | "footnotes" | "findings" | "photo";
+    "analysis" | "commentary" | "notes" | "gonzo" | "findings" | "photo";
   title: string;
   blocks: (MarkdownBlock | ConcordanceBlock)[];
 }

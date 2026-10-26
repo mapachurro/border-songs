@@ -16,7 +16,7 @@ import { parseConcordance } from "./parseConcordance.js";
  */
 
 /**
- * @typedef {"analysis" | "commentary" | "notes" | "footnotes" | "findings" | "photo"} EditorialType
+ * @typedef {"analysis" | "commentary" | "notes" | "gonzo" | "findings" | "photo"} EditorialType
  */
 
 /**
@@ -35,7 +35,7 @@ const editorialTypes = new Set([
   "analysis",
   "commentary",
   "notes",
-  "footnotes",
+  "gonzo",
   "findings",
   "photo",
 ]);
@@ -156,13 +156,15 @@ export function parseDocument(markdown) {
       continue;
     }
 
-    if (editorialTypes.has(node.name)) {
-  document.push({
-    type: /** @type {EditorialType} */ (node.name),
-    title: node.attributes?.title ?? node.name,
-    blocks: parseBlocks(node.children, markdown),
-  });
+        if (editorialTypes.has(node.name)) {
+      document.push({
+        type: node.name,
+        title:
+          node.attributes?.title ??
+          (node.name === "gonzo" ? "Intralinear Subtext" : node.name),
+        blocks: parseBlocks(node.children, markdown),
+      });
+    }
 }
-  }
   return document;
 }

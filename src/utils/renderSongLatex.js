@@ -128,7 +128,7 @@ function renderDocumentBlock(block) {
     case "analysis":
     case "commentary":
     case "notes":
-    case "footnotes":
+    case "gonzo":
     case "findings":
     case "photo":
       return renderEditorialSection(block);
