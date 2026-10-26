@@ -2,7 +2,6 @@ import fs from "node:fs";
 import path from "node:path";
 import * as yaml from "js-yaml";
 
-import { parseSong } from "../src/utils/parseSong.js";
 import { parseDocument } from "../src/utils/parseDocument.js";
 import { renderSongLatex } from "../src/utils/renderSongLatex.js";
 
@@ -62,31 +61,13 @@ function loadSong(inputPath) {
   const metadata = yaml.load(frontmatterMatch[1]);
   const body = frontmatterMatch[2];
 
-  const parsedBlocks = parseDocument(body);
+  const blocks = parseDocument(body);
 
-  const concordance = parsedBlocks.find(
-    (block) => block.type === "concordance",
+if (blocks[0]?.type !== "concordance") {
+  throw new Error(
+    `Missing principal concordance: ${inputPath}`,
   );
-
-  let blocks;
-
-  if (concordance) {
-    // New directive-based format.
-    blocks = parsedBlocks;
-  } else {
-    // Legacy heading-based format.
-    const legacy = parseSong(body);
-
-    blocks = [
-      {
-        type: "concordance",
-        source: legacy.source,
-        target: legacy.target,
-        sourceTitle: "Source",
-        targetTitle: "Target",
-      },
-    ];
-  }
+}
 
   return {
     title: metadata.title,
