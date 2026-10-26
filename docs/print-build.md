@@ -2,6 +2,26 @@
 
 The print edition of *Border Songs* generates a PDF using JavaScript, LaTeX, **LuaLaTeX**, and Docker. Shared source syntax and parsing are documented in [document-model.md](document-model.md).
 
+## Stack and dependencies
+
+### Host requirements
+├── Node.js
+├── npm
+└── Docker-compatible container runtime
+
+### Container-managed dependencies
+├── TeX Live
+├── LuaLaTeX
+├── LaTeX packages
+├── print fonts
+
+### Runtime
+To produce a .pdf printout of this book:
+
+`npm run build:print`
+
+This command leverages `scripts/build-print.js`. The resulting .pdf will be located at `dist-print/songbook.pdf`.
+
 ## Pipeline
 
 ```text

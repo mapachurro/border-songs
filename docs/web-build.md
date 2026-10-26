@@ -2,6 +2,20 @@
 
 The web edition of *Border Songs* uses **Astro**. Shared content semantics are defined in [document-model.md](document-model.md); the reasons for architectural choices are recorded in [adr.md](adr.md).
 
+## Stack and dependencies
+
+### Host requirements
+├── Node.js
+├── npm
+
+### Project-managed dependencies
+├── Astro
+
+For more information on the "shared" parser, see explanation in the [Document Model](./document-model.md) docs.
+
+### Runtime
+For relevant commands to start the dev server, create build, etc., see the [package file](../package.json).
+
 ## Pipeline
 
 ```text

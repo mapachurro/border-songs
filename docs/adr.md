@@ -54,6 +54,12 @@ See [document-model.md](document-model.md) for syntax.
 
 **Context:** A paginated bilingual book needs print-specific layout controls and a repeatable compilation environment.
 
+According to notes made in `./README.md`, this would have been done in September 2026: 
+
+### Edit, September 2026
+Haha just kidding. We're gonna use LaTex, too. Ha ha
+
+
 **Decision:** Generate LaTeX from the shared document model and compile with LuaLaTeX inside a Docker image defined under `docker/latex/`.
 
 **Consequences:** The PDF pipeline has an explicit TeX environment and its own stylesheets. Successful compilation is distinct from typographic correctness, so PDF inspection remains part of testing.

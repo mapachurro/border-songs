@@ -2,6 +2,31 @@
 
 This is the authoritative reference for **source content shared by the web and print editions**. Renderer-specific details belong in [web-build.md](web-build.md) and [print-build.md](print-build.md); motivations belong in [adr.md](adr.md).
 
+                    binder/
+                       │
+                       ▼
+                parseDocument()
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+          Astro web          LaTeX print
+           renderer           renderer
+              │                 │
+              ▼                 ▼
+            HTML               PDF
+
+## Running this software: shared stack
+
+### Host requirements
+├── Node.js - Runtime for parsing utilities
+├── `unified` - Markdown processing framework
+├── `remark-parse` - Parses Markdown into a syntax tree
+├── `remark-directive` - Enables custom `:::` Markdown containers
+├── `remark-gfm` - enabling Github-flavored markdown, *where applicable*
+
+### Project-managed
+├── `src/utils/parseDocument.js` - entry point for parsing tasks *shared between both web and print builds*.
+
 ## Source files
 
 Songs are Markdown files with YAML frontmatter in numbered section directories under `binder/`. The print builder currently discovers numbered song files in those directories; not every Markdown document in `binder/` is a song.
