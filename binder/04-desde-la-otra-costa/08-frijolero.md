@@ -76,10 +76,6 @@ No me llames frijolero, pinche gringo (pinche gringo, ¿qué?) puñetero
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 What was the name of the old visa program? Brazo...?? The thing that we had that the unions got rid of

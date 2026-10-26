@@ -85,10 +85,6 @@ Deprisa deprisa a rumbo perdido
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 VAWA.

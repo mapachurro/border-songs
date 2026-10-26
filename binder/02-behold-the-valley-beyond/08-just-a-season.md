@@ -49,10 +49,6 @@ In case the `border` isn't immediately clear: This is a song of experience. `cli
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::photo{title="Photo credits"}
 
 2015, Oliver Renwick. On a train, Milan - Martigny.

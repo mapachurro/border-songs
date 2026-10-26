@@ -119,6 +119,8 @@ La autoría de esta canción parece estar sujeto a cierto debate.
 
 :::commentary{title="Versions"}
 
+`TODO` legit there are so many freaking versions of this song. Might be helpful to document here; might be helpful to address directly in analysis.
+
 :::
 
 :::findings{title="Findings of fact and conclusions of law"}

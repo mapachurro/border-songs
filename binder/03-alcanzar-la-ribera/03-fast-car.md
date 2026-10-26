@@ -174,6 +174,8 @@ Vete esta noche o vives y mueres así
 - Catalunya
 - Cleveland
 
+`TODO`: Actual `versions` section, but it has to be directly addressed in the analysis.
+
 :::
 
 :::notes{title="Translator's notes"}

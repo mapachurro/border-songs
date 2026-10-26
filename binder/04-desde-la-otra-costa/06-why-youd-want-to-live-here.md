@@ -72,10 +72,6 @@ As you will most assuredly drown tomorrow
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 42-B...?

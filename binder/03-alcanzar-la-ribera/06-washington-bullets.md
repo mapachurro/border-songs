@@ -103,8 +103,10 @@ y revisa las balas británicas en su arsenal
 
 Source lyrics taken from the most canonical source there could be, [The Clash's website](https://www.theclash.com/music/songs/washington-bullets).
 
-`TODO`
+`TODO`:
 "Llegale a mi guarida" _must_ be addressed. It either needs its own song, or it needs to be embedded in this piece.
+
+`TODO`: "Straight to Hell", "Paper Planes"
 
 :::
 
@@ -153,10 +155,6 @@ get - I'd like to use alcanzar, but I just used it for balas...
 war-torn - strong collocation `TODO`
 
 swamp - tremendous inflections of T*rump-based US politics, now.
-:::
-
-:::commentary{title="Versions"}
-
 :::
 
 # Intralinear subtext

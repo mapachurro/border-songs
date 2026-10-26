@@ -104,10 +104,6 @@ Estrofa 4, bad news
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 212a7aiI
