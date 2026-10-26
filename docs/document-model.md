@@ -15,25 +15,32 @@ This is the authoritative reference for **source content shared by the web and p
               ▼                 ▼
             HTML               PDF
 
-## Running this software: shared stack
+## Shared parsing stack
 
 ### Host requirements
-├── Node.js - Runtime for parsing utilities
-├── `unified` - Markdown processing framework
-├── `remark-parse` - Parses Markdown into a syntax tree
-├── `remark-directive` - Enables custom `:::` Markdown containers
-├── `remark-gfm` - enabling Github-flavored markdown, *where applicable*
 
-### Project-managed
-├── `src/utils/parseDocument.js` - entry point for parsing tasks *shared between both web and print builds*.
+- Node.js
+- npm
 
-## Source files
+### Project-managed dependencies
 
-Songs are Markdown files with YAML frontmatter in numbered section directories under `binder/`. The print builder currently discovers numbered song files in those directories; not every Markdown document in `binder/` is a song.
+The shared document parser uses:
 
-The 39-song corpus has been migrated from legacy `# Source` / `# Target` headings to semantic container directives.
+- `unified`: Markdown processing framework.
+- `remark-parse`: Parses Markdown into an abstract syntax tree.
+- `remark-directive`: Recognizes custom Markdown directives.
 
-The print builder is known to use frontmatter fields `title`, `authority`, and `videoSource`. **TODO:** Verify and document the complete frontmatter schema against the corpus and web loader.
+These dependencies are declared in `package.json` and installed through npm.
+
+The shared parser does not enable `remark-gfm` or `remark-breaks`. Renderer-specific Markdown processing may use additional plugins.
+
+### Implementation
+
+- `src/utils/parseDirectives.js`: Parses Markdown into an abstract syntax tree using unified and remark.
+- `src/utils/parseDocument.js`: Converts recognized directives into typed document blocks.
+- `src/utils/parseConcordance.js`: Splits concordance text into stanzas and validates source/target alignment.
+
+The resulting document blocks are shared by the web and print rendering pipelines.
 
 ## Directive inventory
 
@@ -66,6 +73,26 @@ Second translated stanza.
 
 :::
 ```
+
+#### Stanza parsing and validation
+
+Concordance content is divided into stanzas by `splitStanzas()` in `src/utils/parseConcordance.js`.
+
+A stanza is a block of text separated from adjacent stanzas by one or more blank lines. Leading and trailing whitespace is removed from each stanza. Line breaks within stanzas are preserved.
+
+Source and target stanzas are aligned by their array positions, not by individual lyric lines.
+
+When target content is present, the number of target stanzas must equal the number of source stanzas. A mismatch throws an error:
+
+```text
+Source/Target stanza mismatch: 4 source, 3 target
+```
+
+Target content is optional. A concordance containing source stanzas and an empty target is valid, although both structural headings (`## Source` and `## Target`) are required.
+
+An entirely empty concordance is also accepted.
+
+These rules describe parser validation only. Renderer behavior for empty or monolingual concordances must be verified separately.
 
 `## Source` and `## Target` identify the sides structurally, regardless of the displayed labels. The parser aligns **stanzas by position**, not individual lyric lines. Label attributes are optional.
 
