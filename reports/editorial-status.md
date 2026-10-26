@@ -21,56 +21,56 @@ EDITORIAL COVERAGE
 
 Type        Written  Empty  Absent
 ----------  -------  -----  ------
-analysis    19       20     0     
-commentary  2        33     4     
-notes       20       18     1     
-footnotes   0        0      39    
-findings    17       1      21    
-photo       19       2      18    
+analysis    19       20     0
+commentary  0        34     5
+notes       20       18     1
+gonzo       2        0      37
+findings    17       1      21
+photo       19       2      18
 
 SONG-BY-SONG STATUS
 
-Song                             Translation  analysis  commentary  notes  footnotes  findings  photo
--------------------------------  -----------  --------  ----------  -----  ---------  --------  -----
-Wasn't born to follow            complete     ✓         ·           ·      ·          ✓         ✓    
-El Paso                          complete     ○         ○           ○      ·          ·         ✓    
-Viva Las Vegas                   complete     ○         ○           ○      ·          ·         ·    
-Waylon Jennings Live!            complete     ○         ○           ○      ·          ✓         ✓    
-Cielito Lindo                    missing      ○         ○           ○      ·          ·         ✓    
-Free Mexican Air Force           missing      ○         ○           ○      ·          ·         ·    
-Mexicali Blues                   complete     ✓         ○           ✓      ·          ·         ✓    
-Romance in Durango               complete     ✓         ·           ✓      ·          ·         ✓    
-Return of the Grievous Angel     missing      ○         ○           ✓      ·          ·         ✓    
-Crossing the bar                 complete     ○         ○           ✓      ·          ·         ○    
-Boulder to Birmingham            complete     ○         ○           ✓      ·          ·         ·    
-Farther Along                    missing      ✓         ○           ○      ·          ·         ·    
-At the dark end of the street    missing      ✓         ○           ○      ·          ·         ·    
-Tangled Up In Blue               missing      ✓         ○           ✓      ·          ·         ✓    
-Wild Horses                      missing      ○         ○           ○      ·          ·         ·    
-Landslide                        missing      ✓         ○           ✓      ·          ·         ○    
-You'll Never Leave Harlan Alive  complete     ✓         ✓           ✓      ·          ✓         ·    
-Just a Season                    missing      ✓         ○           ○      ·          ·         ✓    
-The Road                         complete     ○         ○           ✓      ·          ·         ·    
-Mama dame cien pesetas           missing      ✓         ○           ✓      ·          ·         ·    
-Malagueña salerosa               missing      ✓         ○           ✓      ·          ✓         ✓    
-Buscando América                 complete     ○         ○           ✓      ·          ✓         ·    
-Fast Car                         complete     ✓         ·           ✓      ·          ○         ✓    
-Visa para un sueño               missing      ✓         ○           ✓      ·          ✓         ✓    
-Caminos Verdes                   complete     ○         ○           ✓      ·          ✓         ·    
-Washington Bullets               complete     ✓         ○           ✓      ·          ✓         ✓    
-Pa'l Norte                       missing      ○         ○           ○      ·          ✓         ·    
-Clandestino                      missing      ○         ○           ○      ·          ✓         ✓    
-Hotel California                 missing      ○         ○           ○      ·          ✓         ✓    
-Leaving Las Vegas                complete     ✓         ✓           ✓      ·          ✓         ·    
-El costo de la vida              missing      ○         ○           ○      ·          ·         ·    
-Dirty Boulevard                  missing      ✓         ○           ✓      ·          ·         ·    
-Tierra del olvido                missing      ✓         ○           ○      ·          ·         ·    
-Why you'd want to live here      missing      ○         ○           ○      ·          ✓         ·    
-El hormiguero                    missing      ○         ○           ○      ·          ·         ✓    
-Frijolero                        missing      ○         ○           ○      ·          ✓         ✓    
-Desaparecido                     missing      ○         ○           ○      ·          ✓         ✓    
-Dancing in the Dark              complete     ✓         ○           ✓      ·          ✓         ✓    
-Volver                           complete     ✓         ·           ✓      ·          ✓         ·    
+Song                             Translation  analysis  commentary  notes  gonzo  findings  photo
+-------------------------------  -----------  --------  ----------  -----  -----  --------  -----
+Wasn't born to follow            complete     ✓         ·           ·      ·      ✓         ✓
+El Paso                          complete     ○         ○           ○      ·      ·         ✓
+Viva Las Vegas                   complete     ○         ○           ○      ·      ·         ·
+Waylon Jennings Live!            complete     ○         ○           ○      ·      ✓         ✓
+Cielito Lindo                    missing      ○         ○           ○      ·      ·         ✓
+Free Mexican Air Force           missing      ○         ○           ○      ·      ·         ·
+Mexicali Blues                   complete     ✓         ○           ✓      ·      ·         ✓
+Romance in Durango               complete     ✓         ·           ✓      ·      ·         ✓
+Return of the Grievous Angel     missing      ○         ○           ✓      ·      ·         ✓
+Crossing the bar                 complete     ○         ○           ✓      ·      ·         ○
+Boulder to Birmingham            complete     ○         ○           ✓      ·      ·         ·
+Farther Along                    missing      ✓         ○           ○      ·      ·         ·
+At the dark end of the street    missing      ✓         ○           ○      ·      ·         ·
+Tangled Up In Blue               missing      ✓         ○           ✓      ·      ·         ✓
+Wild Horses                      missing      ○         ○           ○      ·      ·         ·
+Landslide                        missing      ✓         ○           ✓      ·      ·         ○
+You'll Never Leave Harlan Alive  complete     ✓         ·           ✓      ✓      ✓         ·
+Just a Season                    missing      ✓         ○           ○      ·      ·         ✓
+The Road                         complete     ○         ○           ✓      ·      ·         ·
+Mama dame cien pesetas           missing      ✓         ○           ✓      ·      ·         ·
+Malagueña salerosa               missing      ✓         ○           ✓      ·      ✓         ✓
+Buscando América                 complete     ○         ○           ✓      ·      ✓         ·
+Fast Car                         complete     ✓         ·           ✓      ·      ○         ✓
+Visa para un sueño               missing      ✓         ○           ✓      ·      ✓         ✓
+Caminos Verdes                   complete     ○         ○           ✓      ·      ✓         ·
+Washington Bullets               complete     ✓         ○           ✓      ·      ✓         ✓
+Pa'l Norte                       missing      ○         ○           ○      ·      ✓         ·
+Clandestino                      missing      ○         ○           ○      ·      ✓         ✓
+Hotel California                 missing      ○         ○           ○      ·      ✓         ✓
+Leaving Las Vegas                complete     ✓         ○           ✓      ✓      ✓         ·
+El costo de la vida              missing      ○         ○           ○      ·      ·         ·
+Dirty Boulevard                  missing      ✓         ○           ✓      ·      ·         ·
+Tierra del olvido                missing      ✓         ○           ○      ·      ·         ·
+Why you'd want to live here      missing      ○         ○           ○      ·      ✓         ·
+El hormiguero                    missing      ○         ○           ○      ·      ·         ✓
+Frijolero                        missing      ○         ○           ○      ·      ✓         ✓
+Desaparecido                     missing      ○         ○           ○      ·      ✓         ✓
+Dancing in the Dark              complete     ✓         ○           ✓      ·      ✓         ✓
+Volver                           complete     ✓         ·           ✓      ·      ✓         ·
 
 Legend: ✓ written, ○ empty, · absent
 

@@ -295,9 +295,9 @@ h2 {
   border-left: 4px solid #657d91;
 }
 
-/* Footnotes: gonzo */
+/* Intralinear subtext (gonzo) */
 
-.text-section--footnotes {
+.text-section--gonzo {
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.65;
   background: #faf7f0;

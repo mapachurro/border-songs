@@ -96,7 +96,7 @@ Jamás saldrás de San Marcos con vida
 
 :::
 
-:::commentary{title="Intralinear subtext"}
+:::gonzo{title="Intralinear subtext"}
 
 At the highest possible level, this is a song about extractive, arguably zero-sum, economic practices and the human cost on which they rely.
 
@@ -154,7 +154,7 @@ There's a whole route we can go down here: Johnny Cash; I never picked cotton, e
 
 :::
 
-:::commentary{title="Intralinear subtext"}
+:::gonzo{title="Intralinear subtext"}
 
 ## Economic Migrants
 

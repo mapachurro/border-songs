@@ -12,7 +12,7 @@ const EDITORIAL_TYPES = [
   "analysis",
   "commentary",
   "notes",
-  "footnotes",
+  "gonzo",
   "findings",
   "photo",
 ];
@@ -138,7 +138,13 @@ function printTable(headers, rows) {
   );
 
   const format = (row) =>
-    row.map((cell, i) => String(cell).padEnd(widths[i])).join("  ");
+  row
+    .map((cell, i) =>
+      i === row.length - 1
+        ? String(cell)
+        : String(cell).padEnd(widths[i])
+    )
+    .join("  ");
 
   console.log(format(headers));
   console.log(widths.map((width) => "-".repeat(width)).join("  "));
