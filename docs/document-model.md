@@ -1,0 +1,133 @@
+# Document model
+
+This is the authoritative reference for **source content shared by the web and print editions**. Renderer-specific details belong in [web-build.md](web-build.md) and [print-build.md](print-build.md); motivations belong in [adr.md](adr.md).
+
+## Source files
+
+Songs are Markdown files with YAML frontmatter in numbered section directories under `binder/`. The print builder currently discovers numbered song files in those directories; not every Markdown document in `binder/` is a song.
+
+The 39-song corpus has been migrated from legacy `# Source` / `# Target` headings to semantic container directives.
+
+The print builder is known to use frontmatter fields `title`, `authority`, and `videoSource`. **TODO:** Verify and document the complete frontmatter schema against the corpus and web loader.
+
+## Directive inventory
+
+| Directive | Meaning | Attributes |
+| --- | --- | --- |
+| `:::concordance` | Paired source and target stanzas | `source`, `target` (display labels) |
+| `:::analysis` | Interpretive analysis | `title` |
+| `:::notes` | General or translator's notes | `title` |
+| `:::commentary` | General commentary, including *Versions* and *Intralinear subtext* | `title` |
+| `:::findings` | Findings and formal editorial argument | `title` |
+| `:::photo` | Photo-related material or credits | `title` |
+| `:::footnotes` | Editorial footnotes section | `title` |
+
+### Concordance
+
+```md
+:::concordance{source="English" target="Spanish"}
+
+## Source
+
+First original stanza.
+
+Second original stanza.
+
+## Target
+
+First translated stanza.
+
+Second translated stanza.
+
+:::
+```
+
+`## Source` and `## Target` identify the sides structurally, regardless of the displayed labels. The parser aligns **stanzas by position**, not individual lyric lines. Label attributes are optional.
+
+### Editorial sections
+
+```md
+:::notes{title="Translator's notes"}
+
+A note about a translation choice.
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+An argument with ordinary **Markdown** formatting.
+
+:::
+```
+
+### Nested concordances
+
+Use a longer fence for the outer container:
+
+```md
+::::analysis
+
+Comparison of a passage:
+
+:::concordance
+
+## Source
+
+Original passage.
+
+## Target
+
+Translated passage.
+
+:::
+
+Further analysis.
+
+::::
+```
+
+## Shared parser
+
+`src/utils/parseDocument.js` produces typed blocks. Known shapes:
+
+```js
+// ConcordanceBlock
+{
+  type: "concordance",
+  source: ["first stanza", "second stanza"],
+  target: ["first stanza", "second stanza"],
+  sourceTitle: "...",
+  targetTitle: "..."
+}
+
+// MarkdownBlock
+{ type: "markdown", content: "..." }
+
+// EditorialBlock
+{
+  type: "analysis", // or notes, commentary, findings, photo, footnotes
+  title: "...",
+  blocks: [/* MarkdownBlock and/or ConcordanceBlock */]
+}
+```
+
+This model describes **what content is**, not its HTML or LaTeX appearance.
+
+## Authoring conventions
+
+1. Use directives rather than legacy top-level source/target headings.
+2. Use `## Source` and `## Target` inside each concordance.
+3. Use `title` when a section needs a specific displayed heading.
+4. Use a longer outer fence when nesting directives.
+5. Test both web and print when changing directive semantics or parser behavior.
+
+## Current limitations and questions
+
+- `:::footnotes` is a semantic section, **not** the same as automatic Markdown footnotes such as `[^1]`. True print footnote rendering is unfinished.
+- *Versions* and *Intralinear subtext* currently use `commentary` rather than dedicated types.
+- **TODO:** Specify unknown-directive behavior, malformed input handling, unequal stanza counts, and exact nested-block guarantees after inspecting parser tests/code.
+- **TODO:** Document all frontmatter fields and validation rules.
+
+## Migration history
+
+`scripts/migrate-song-directives.js` migrated 38 songs; *Romance in Durango* had already been migrated. Source/Target stanza arrays were compared between legacy and new parsers before writing. The script is a historical migration aid, not the recommended authoring workflow.
