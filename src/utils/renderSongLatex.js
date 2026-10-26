@@ -138,13 +138,34 @@ function renderDocumentBlock(block) {
   }
 }
 
+function renderBackground(song) {
+  if (!song.background) {
+    return "";
+  }
+
+  const imagePath = `public/${song.background}`;
+
+  return `\\AddToShipoutPictureBG*{
+  \\AtPageLowerLeft{
+    \\transparent{0.18}{
+      \\adjustimage{
+        min size={\\paperwidth}{\\paperheight},
+        center
+      }{${imagePath}}
+    }
+  }
+}`;
+}
+
 export function renderSongLatex(song) {
   const content = song.blocks
     .map(renderDocumentBlock)
     .filter(Boolean)
     .join("\n\n");
 
-  return `\\section*{${escapeLatex(song.title)}}
+  return `${renderBackground(song)}
+
+\\section*{${escapeLatex(song.title)}}
 
 ${song.authority ? `\\textbf{${escapeLatex(song.authority)}}` : ""}
 
