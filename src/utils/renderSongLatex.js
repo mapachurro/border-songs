@@ -138,13 +138,52 @@ function renderDocumentBlock(block) {
   }
 }
 
+function renderBackground(song) {
+  if (!song.background) {
+    return "";
+  }
+
+  const imagePath = `public/${song.background}`;
+
+  return `\\AddToShipoutPictureBG*{
+    \\AtPageUpperLeft{
+      \\raisebox{-\\height}{
+        \\makebox[\\paperwidth][c]{
+          \\includegraphics[
+  width=\\paperwidth
+]{${imagePath}}
+        }
+      }
+    }
+  }`;
+}
+
+function renderCard(song) {
+  if (!song.background) {
+    return "";
+  }
+
+  return `\\AddToShipoutPictureBG*{
+  \\AtPageLowerLeft{
+    \\hspace*{0.07\\paperwidth}
+    \\color{white}
+    \\rule{0.86\\paperwidth}{0.62\\paperheight}
+  }
+}`;
+}
+
 export function renderSongLatex(song) {
   const content = song.blocks
     .map(renderDocumentBlock)
     .filter(Boolean)
     .join("\n\n");
 
-  return `\\section*{${escapeLatex(song.title)}}
+  return `${renderBackground(song)}
+${renderCard(song)}
+
+${song.background ? "\\vspace*{0.30\\paperheight}" : ""}
+
+\\section*{${escapeLatex(song.title)}}
 
 ${song.authority ? `\\textbf{${escapeLatex(song.authority)}}` : ""}
 

@@ -70,11 +70,12 @@ if (blocks[0]?.type !== "concordance") {
 }
 
   return {
-    title: metadata.title,
-    authority: metadata.authority,
-    videoSource: metadata.videoSource,
-    blocks,
-  };
+  title: metadata.title,
+  authority: metadata.authority,
+  videoSource: metadata.videoSource,
+  background: metadata.background,
+  blocks,
+};
 }
 const songs = songPaths.map(loadSong);
 
@@ -90,7 +91,11 @@ const tex = `\\documentclass[11pt,letterpaper]{article}
 
 \\usepackage[margin=0.8in]{geometry}
 \\usepackage{fontspec}
+\\usepackage{graphicx}
+\\usepackage{eso-pic}
 \\usepackage{latex/styles/concordance}
+\\usepackage{transparent}
+\\usepackage[export]{adjustbox}
 
 \\setmainfont{Nimbus Roman}
 
