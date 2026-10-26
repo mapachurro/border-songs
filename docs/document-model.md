@@ -42,6 +42,65 @@ The shared parser does not enable `remark-gfm` or `remark-breaks`. Renderer-spec
 
 The resulting document blocks are shared by the web and print rendering pipelines.
 
+## Source files and frontmatter
+
+The source corpus lives under `binder/`. Songs are Markdown files with YAML frontmatter, organized into numbered section directories.
+
+The current corpus contains 39 songs across four sections.
+
+### Song metadata
+
+The Astro `songs` collection defines the following frontmatter schema in `src/content.config.js`:
+
+| Field | Type | Required by Astro | Corpus coverage | Purpose |
+|---|---|---|---|---|
+| `title` | String | No | 39/39 | Song title |
+| `authority` | String | No | 39/39 | Songwriting and performance attribution |
+| `videoSource` | URL | No | 38/39 | Reference video, embedded in the web edition |
+| `background` | String | No | 34/39 | Background image path, used by the web edition |
+
+All four fields are optional under the current Astro schema.
+
+Although `title` and `authority` are universally populated in the existing corpus, their presence is not required by Astro. The README tracklist generator independently requires `title`.
+
+The web edition displays `title` and `authority` when present, embeds `videoSource` when supplied, and passes `background` to `PhotoPageLayout`.
+
+The print builder parses YAML directly using `js-yaml`. It passes `title`, `authority`, and `videoSource` to the LaTeX renderer but does not use `background`. The print builder does not currently apply the Astro/Zod field schema.
+
+### Section metadata
+
+Section introduction files belong to a separate Astro collection, `sections`, with the following schema:
+
+| Field | Type | Required |
+|---|---|---|
+| `title` | String | Yes |
+| `order` | Number | Yes |
+| `background` | String | No |
+
+Section metadata is distinct from song metadata.
+
+### Song discovery
+
+The web and print editions currently use different discovery rules.
+
+**Web:** Astro's `songs` collection discovers Markdown files recursively under `binder/`, excluding introduction, title-page, and track-list files according to the glob patterns in `src/content.config.js`.
+
+**Print:** `scripts/build-songbook.js` discovers Markdown files in numbered section directories, selecting filenames beginning with two digits and a hyphen.
+
+The README tracklist generator uses numbered section directories and numbered Markdown filenames.
+
+These discovery mechanisms currently cover the 39-song corpus but are not identical. Changes to the source directory structure should be tested against all three consumers.
+
+### Legacy compatibility
+
+Both editions retain compatibility with the earlier heading-based song format.
+
+The web edition selects directive parsing when the source contains a line matching `:::concordance`, and requires the first parsed block to be a concordance.
+
+The print edition parses directives first, then uses the directive-based result if it contains a top-level concordance. Otherwise, it falls back to the legacy `parseSong()` parser.
+
+These compatibility paths are transitional and may be removed once the directive-based document model is treated as the sole supported format.
+
 ## Directive inventory
 
 | Directive | Meaning | Attributes |
