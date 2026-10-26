@@ -146,13 +146,28 @@ function renderBackground(song) {
   const imagePath = `public/${song.background}`;
 
   return `\\AddToShipoutPictureBG*{
-  \\AtPageLowerLeft{
-    \\transparent{0.18}{
-      \\adjustimage{
-        min size={\\paperwidth}{\\paperheight},
-        center
-      }{${imagePath}}
+    \\AtPageUpperLeft{
+      \\raisebox{-\\height}{
+        \\makebox[\\paperwidth][c]{
+          \\includegraphics[
+  width=\\paperwidth
+]{${imagePath}}
+        }
+      }
     }
+  }`;
+}
+
+function renderCard(song) {
+  if (!song.background) {
+    return "";
+  }
+
+  return `\\AddToShipoutPictureBG*{
+  \\AtPageLowerLeft{
+    \\hspace*{0.07\\paperwidth}
+    \\color{white}
+    \\rule{0.86\\paperwidth}{0.62\\paperheight}
   }
 }`;
 }
@@ -164,6 +179,9 @@ export function renderSongLatex(song) {
     .join("\n\n");
 
   return `${renderBackground(song)}
+${renderCard(song)}
+
+${song.background ? "\\vspace*{0.30\\paperheight}" : ""}
 
 \\section*{${escapeLatex(song.title)}}
 
