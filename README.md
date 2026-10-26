@@ -15,14 +15,12 @@ You can see a staging version of the book [here](https://mapachurro.github.io/bo
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Border Songs](#border-songs)
-  - [Live Demo](#live-demo)
   - [Tech stack](#tech-stack)
     - [What is wrong with you, why is nodejs involved in writing a book](#what-is-wrong-with-you-why-is-nodejs-involved-in-writing-a-book)
     - [Edit, September 2026](#edit-september-2026)
     - [Tech docs, Oct 2026](#tech-docs-oct-2026)
 - [Full track listing](#full-track-listing)
-  - [Songs of the limit; Canciones limítrofes](#songs-of-the-limit-canciones-limítrofes)
+  - [Songs of the limit; Canciones limítrofes](#songs-of-the-limit-canciones-lim%C3%ADtrofes)
     - [Full track listing](#full-track-listing-1)
       - [Reach the pass](#reach-the-pass)
       - [Behold the valley beyond](#behold-the-valley-beyond)
