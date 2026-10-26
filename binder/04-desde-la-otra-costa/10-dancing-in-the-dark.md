@@ -70,67 +70,6 @@ Even if we're just dancin' in the dark
 Even if we're just dancin' in the dark  
 Hey baby
 
-_Translation: Juanes_
-
-Despierto en la noche  
-Roto sin nada que decir  
-Y luego en la mañana  
-Me siento igual no puedo seguir
-
-Estoy tan cansado  
-Tan cansado y hastiado de mí  
-A mi lado, necesito algo más de ti
-
-No prende el fuego  
-No prende el fuego sin voluntad  
-Deja el misterio  
-Y bailemos aquí en la oscuridad
-
-Siempre las mismas señales  
-La radio suena en mi habitación  
-Me miro en el espejo  
-Quiero cambiar mi nombre, mi corazón
-
-Voy a ninguna parte  
-Estoy viviendo una miseria aquí  
-Tan solo quiero encontrarte  
-Para poder revivir
-
-No prende el fuego  
-No prende el fuego sin voluntad  
-Deja tu ego  
-Y bailemos aquí en la oscuridad
-
-El tiempo nunca perdona  
-Parece broma, no puedes huir  
-El mundo se desmorona  
-Y yo sigo detrás de ti
-
-El ruido de las calles  
-Repite tu nombre sin parar  
-Dicen que amar quita el hambre  
-¿Qué esperas si estás a punto de reaccionar?
-
-Sigo sin encontrarme  
-Escribiendo este libro que no tiene fin  
-Necesito buscarte  
-Dame una mirada que me haga sentir
-
-No prende el fuego  
-Si no hay fuerza de voluntad  
-Ni un hasta luego (ni un hasta luego)  
-Y bailemos aquí en la oscuridad
-
-No prende el fuego  
-Preocupado y sin claridad  
-Olvida el ego  
-Y bailemos aquí en la oscuridad
-
-Y bailemos aquí en la oscuridad  
-Y bailemos en la oscuridad  
-Hey, baby  
-Y bailemos aquí en la oscuridad
-
 ## Target
 
 _Original: Bruce Springsteen_
@@ -194,6 +133,84 @@ Aún si nomás bailamos a oscuras
 Aún si nomás bailamos a oscuras
 Ey, mi amor
 
+:::
+
+:::analysis{title="But wait, there's more"}
+You thought you knew this song
+
+Until you've heard Juanes' version
+
+:::
+
+::::commentary{title="Juanes' version"}
+
+:::concordance
+
+## Source
+
+_Translation: Juanes_
+
+Despierto en la noche  
+Roto sin nada que decir  
+Y luego en la mañana  
+Me siento igual no puedo seguir
+
+Estoy tan cansado  
+Tan cansado y hastiado de mí  
+A mi lado, necesito algo más de ti
+
+No prende el fuego  
+No prende el fuego sin voluntad  
+Deja el misterio  
+Y bailemos aquí en la oscuridad
+
+Siempre las mismas señales  
+La radio suena en mi habitación  
+Me miro en el espejo  
+Quiero cambiar mi nombre, mi corazón
+
+Voy a ninguna parte  
+Estoy viviendo una miseria aquí  
+Tan solo quiero encontrarte  
+Para poder revivir
+
+No prende el fuego  
+No prende el fuego sin voluntad  
+Deja tu ego  
+Y bailemos aquí en la oscuridad
+
+El tiempo nunca perdona  
+Parece broma, no puedes huir  
+El mundo se desmorona  
+Y yo sigo detrás de ti
+
+El ruido de las calles  
+Repite tu nombre sin parar  
+Dicen que amar quita el hambre  
+¿Qué esperas si estás a punto de reaccionar?
+
+Sigo sin encontrarme  
+Escribiendo este libro que no tiene fin  
+Necesito buscarte  
+Dame una mirada que me haga sentir
+
+No prende el fuego  
+Si no hay fuerza de voluntad  
+Ni un hasta luego (ni un hasta luego)  
+Y bailemos aquí en la oscuridad
+
+No prende el fuego  
+Preocupado y sin claridad  
+Olvida el ego  
+Y bailemos aquí en la oscuridad
+
+Y bailemos aquí en la oscuridad  
+Y bailemos en la oscuridad  
+Hey, baby  
+Y bailemos aquí en la oscuridad
+
+## Target
+
 _Traducción: Juanes_
 
 I wake up at night
@@ -256,6 +273,8 @@ Hey, baby
 And let's dance here in the dark
 
 :::
+
+::::
 
 :::analysis
 
@@ -363,10 +382,16 @@ translated it fairly literally but there might be a more correct expression equi
 
 Again, see `sin voluntad`; this could be translated as "so I / we can come back to life", there's an implicit but undefined subject. Could be you. Could be me. Could be all usn's.
 
+:::
+
+:::findings{title="Sidebar"}
+
 ### huir
 
 --> Immigration court interlude: - huir vs fugar - run away vs flee, fugitive, FUG branded on your forehead, etc - Internal relocation vs fleeing to the United States - Legal requirements for internal relocation - Could not relocate to another part of their country - and that relocation would be reasonable under the circumstances - no evidence has shown that the danger would be nationwide or that the respondent would not be safe in another part of the country - --> personal interlude: internal relocation of desplazados en Colombia
+:::
 
+:::notes
 ### y yo sigo detras de ti
 
 But, like, in a loving, devoted way, _not_ in an `Every Breath You Take` way.
