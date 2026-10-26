@@ -1,6 +1,6 @@
 {
   "name": "border-songs",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "type": "module",
   "scripts": {
@@ -14,7 +14,8 @@
     "build:print": "node scripts/build-print.js",
     "build:all": "npm run build && npm run build:print",
     "clean-slate": "bash ./clean-slate.sh",
-    "docs:sync": "node scripts/update-readme-tracklist.js && doctoc README.md"
+    "docs:sync": "node scripts/update-readme-tracklist.js && doctoc README.md",
+    "report": "node scripts/report-status.js"
   },
   "repository": {
     "type": "git",
