@@ -13,7 +13,8 @@
     "print:image": "docker build -t border-songs-latex -f docker/latex/Dockerfile .",
     "build:print": "node scripts/build-print.js",
     "build:all": "npm run build && npm run build:print",
-    "clean-slate": "bash ./clean-slate.sh"
+    "clean-slate": "bash ./clean-slate.sh",
+    "docs:sync": "node scripts/update-readme-tracklist.js && doctoc README.md"
   },
   "repository": {
     "type": "git",
