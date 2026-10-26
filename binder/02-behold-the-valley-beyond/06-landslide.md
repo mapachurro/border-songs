@@ -73,11 +73,9 @@ It's a Shakira song.
 
 :::notes{title="Translator's notes"}
 
-*This song, like several others in this collection ([Fast car](/border-songs/03-alcanzar-la-ribera/03-fast-car/), [Leaving Las Vegas](04-desde-la-otra-costa/02-leaving-las-vegas), [El Paso](01-reach-the-pass/01-el-paso), [Mexicali Blues](01-reach-the-pass/06-mexicali-blues)...), have spent years getting stuck in my head. And when something comes into my head and is not immediately assigned a location, it gets picked up by the translation machine, which proceeds to grind on it until a higher-priority (aka more recent) project arrives.* 
+*This song, like several others in this collection ([Fast car](/03-alcanzar-la-ribera/03-fast-car/), [Leaving Las Vegas](/04-desde-la-otra-costa/02-leaving-las-vegas/), [El Paso](/01-reach-the-pass/01-el-paso/), [Mexicali Blues](/01-reach-the-pass/06-mexicali-blues/)...), have spent years getting stuck in my head. And when something comes into my head and is not immediately assigned a location, it gets picked up by the translation machine, which proceeds to grind on it until a higher-priority (aka more recent) project arrives.* 
 
 *I'm looking forward to actually putting it down in writing; maybe that will free up some unfinished side project storage space in the translation machine's spare rooms.*
-
-
 
 ---
 

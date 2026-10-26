@@ -57,7 +57,7 @@ The repository has also used `npm run check`; confirm the exact current scripts 
 - Astro routes and components: HTML rendering, navigation, and page structure.
 - CSS: responsive presentation, typography, and visual treatments.
 
-The renderer must account for `concordance`, `markdown`, `analysis`, `notes`, `commentary`, `findings`, `photo`, and `footnotes` blocks. Editorial blocks can include nested concordances. Source and target content is paired at the stanza level.
+The renderer must account for `concordance`, `markdown`, `analysis`, `notes`, `commentary`, `findings`, `photo`, and `gonzo` blocks. Editorial blocks can include nested concordances. Source and target content is paired at the stanza level.
 
 **TODO:** Add the exact Astro route/component map after inspecting the current source tree. Do not treat the names above as a complete file inventory.
 
@@ -75,6 +75,38 @@ The site has been deployed through GitHub Pages. **TODO:** Verify and document `
 ## Design status
 
 The web visual language is still evolving. Web styling changes do not automatically require matching LaTeX changes. The shared semantic contract must remain consistent across both editions.
+
+## Internal links and deployment base
+
+Song Markdown files use root-relative paths for internal links, independent of the website's deployment location.
+
+For example:
+
+```md
+[Fast Car](/03-alcanzar-la-ribera/03-fast-car/)
+```
+
+The web renderer (`src/utils/renderMarkdown.js`) rewrites root-relative URLs using Astro's configured `import.meta.env.BASE_URL`.
+
+With the current `base: "/border-songs"` configuration, the example above renders as:
+
+```text
+/border-songs/03-alcanzar-la-ribera/03-fast-car/
+```
+
+This allows the same Markdown to work when the site is deployed under a different base path, including `/` on a custom domain.
+
+**Authoring conventions:**
+
+- Begin internal links with `/`, relative to the Border Songs content root.
+- Do not include the deployment prefix (`/border-songs/`) in source Markdown.
+- Do not use document-relative paths such as `../`.
+- Trailing slashes are optional for the current song routes.
+- External URLs and fragment links are not rewritten.
+
+The transformation applies to Markdown links, reference-style links, and images. It does not modify the source files.
+
+**Print compatibility:** The LaTeX renderer processes Markdown links independently. Internal links are not yet converted into PDF cross-references, so this convention currently guarantees correct navigation only in the web edition.
 
 ## Documentation to complete
 

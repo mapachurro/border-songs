@@ -286,6 +286,10 @@ When directive attributes are omitted:
 - **TODO:** Document all YAML frontmatter fields and their validation rules.
 - **TODO:** Decide whether silently ignoring unknown directives is desirable or whether validation should report them.
 
+## Internal links
+
+Internal song links use root-relative paths such as `/03-alcanzar-la-ribera/03-fast-car/`. The web renderer resolves these against Astro's deployment base. See [the web build docs](./web-build.md) for implementation details. Internal PDF cross-references are not yet implemented.
+
 ## Migration history
 
 `scripts/migrate-song-directives.js` migrated 38 songs; *Romance in Durango* had already been migrated. Source/Target stanza arrays were compared between legacy and new parsers before writing. The script is a historical migration aid, not the recommended authoring workflow.
