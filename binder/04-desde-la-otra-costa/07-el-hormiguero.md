@@ -89,10 +89,6 @@ Tu quieres guerra (rep.)
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::photo{title="Photo credits"}
 
 2013-2015, Oliver Renwick. View from the Parc Güell, before it got commoditized... further.

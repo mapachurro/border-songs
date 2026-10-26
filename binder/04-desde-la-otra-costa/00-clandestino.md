@@ -73,13 +73,11 @@ Mano Negra, ilegal
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 Asylum clock - work authorization
+
+Comparative asylum law - Proceso de arraigo social
 
 :::
 

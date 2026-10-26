@@ -167,10 +167,6 @@ Los que temen la verdad - Should the syntax of this be reversed?
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 Asylum standards, specifically: Persecution. What is persecution? What are the standards? Case law, etc.

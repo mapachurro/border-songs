@@ -305,10 +305,6 @@ Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is a
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::gonzo{title="Intralinear subtext"}
 
 The initial version (above) of this will be one rendered on Aug 17, 2026.

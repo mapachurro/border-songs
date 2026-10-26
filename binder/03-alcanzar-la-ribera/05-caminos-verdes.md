@@ -41,10 +41,6 @@ Point being: there may be some way to fuck with the syntax of the two rhyming li
 
 :::
 
-:::commentary{title="Versions"}
-
-:::
-
 :::findings{title="Findings of fact and conclusions of law"}
 
 212a7aiI would be a really nice IRONY TWIST here. As if it needed more.

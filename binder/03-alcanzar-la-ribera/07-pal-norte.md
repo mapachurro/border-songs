@@ -146,13 +146,13 @@ Para todos todos, todos todos
 
 :::analysis
 
+`Northbound`
+
+contrast with `Southbound`, ie, by the Allman Brothers?
+
 :::
 
 :::notes{title="Translator's notes"}
-
-:::
-
-:::commentary{title="Versions"}
 
 :::
 

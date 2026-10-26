@@ -104,7 +104,3 @@ Eh, ya ves, ni a la Chevrolet
 :::notes{title="Translator's notes"}
 
 :::
-
-:::commentary{title="Versions"}
-
-:::

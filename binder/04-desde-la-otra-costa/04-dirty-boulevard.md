@@ -102,7 +102,3 @@ Mr. Marquez, being broadly credited as the godfather of _an entire goddamn genre
 So: what he did here, with this title, has one layer of denotative meaning, and a second one that would mean something like "A memoir of my worst fucking tragedies", except literally, something like "Memories of my most bitch sadnesses".
 
 :::
-
-:::commentary{title="Versions"}
-
-:::

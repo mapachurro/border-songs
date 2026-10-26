@@ -195,7 +195,3 @@ So: Getting the translation of this _right_, in addition to Emmy Lou's difficult
 *Carta / Chart
 
 :::
-
-:::commentary{title="Versions"}
-
-:::

@@ -77,7 +77,3 @@ La ciudad de New Orleans se parece a Barranquilla, so it would only make sense t
 :::notes{title="Translator's notes"}
 
 :::
-
-:::commentary{title="Versions"}
-
-:::
