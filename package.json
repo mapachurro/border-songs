@@ -1,6 +1,6 @@
 {
   "name": "border-songs",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "print:image": "docker build -t border-songs-latex -f docker/latex/Dockerfile .",
     "build:print": "node scripts/build-print.js",
+    "build:print:refresh": "node scripts/build-songbook.js && docker run --rm -v \"$PWD:/work\" border-songs-latex --interaction=nonstopmode --halt-on-error --output-directory=dist-print dist-print/songbook.tex",
     "build:all": "npm run build && npm run build:print",
     "clean-slate": "bash ./clean-slate.sh",
     "docs:sync": "node scripts/update-readme-tracklist.js && doctoc README.md",
