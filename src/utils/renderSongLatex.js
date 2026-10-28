@@ -1,84 +1,17 @@
-import { unified } from "unified";
-import remarkParse from "remark-parse";
+import {
+  escapeLatex,
+  renderMarkdownLatex,
+} from "./renderMarkdownLatex.js";
 
-const markdownParser = unified().use(remarkParse);
-
-function escapeLatex(text) {
-  return text
-    .replace(/\\/g, "\\textbackslash{}")
-    .replace(/([&%$#_{}])/g, "\\$1")
-    .replace(/~/g, "\\textasciitilde{}")
-    .replace(/\^/g, "\\textasciicircum{}");
-}
-
-function renderInline(node) {
-  switch (node.type) {
-    case "text":
-      return escapeLatex(node.value);
-
-    case "strong":
-      return `\\textbf{${node.children.map(renderInline).join("")}}`;
-
-    case "emphasis":
-      return `\\textit{${node.children.map(renderInline).join("")}}`;
-
-    case "inlineCode":
-      return `\\texttt{${escapeLatex(node.value)}}`;
-
-    case "break":
-      return "\\\\";
-
-    default:
-      if (node.children) {
-        return node.children.map(renderInline).join("");
-      }
-
-      return "";
-  }
-}
-
-function renderBlock(node) {
-  switch (node.type) {
-    case "paragraph":
-      return node.children.map(renderInline).join("");
-
-    case "blockquote": {
-      const content = node.children
-        .map(renderBlock)
-        .filter(Boolean)
-        .join("\\\\\n");
-
-      return `\\begin{quote}
-${content}
-\\end{quote}`;
-    }
-
-    // Preserve comments in Markdown, but don't typeset them yet.
-    case "html":
-      return "";
-
-    default:
-      if (node.children) {
-        return node.children.map(renderBlock).filter(Boolean).join("\\\\\n");
-      }
-
-      return "";
-  }
-}
-
-function renderMarkdown(markdown) {
-  const tree = markdownParser.parse(markdown);
-
-  return tree.children.map(renderBlock).filter(Boolean).join("\n\n\\par\n\n");
-}
+import { renderPhotoPageStart } from "./renderPhotoPageLatex.js";
 
 export function renderPair(pair) {
   return `\\stanza{
-${renderMarkdown(pair.source ?? "")}
+${renderMarkdownLatex(pair.source ?? "")}
 }
 &
 \\stanza{
-${renderMarkdown(pair.target ?? "")}
+${renderMarkdownLatex(pair.target ?? "")}
 }
 \\\\`;
 }
@@ -120,7 +53,7 @@ function renderDocumentBlock(block) {
       return renderConcordance(block);
 
     case "markdown":
-      return renderMarkdown(block.content);
+      return renderMarkdownLatex(block.content);
 
     case "analysis":
     case "commentary":
@@ -135,50 +68,13 @@ function renderDocumentBlock(block) {
   }
 }
 
-function renderBackground(song) {
-  if (!song.background) {
-    return "";
-  }
-
-  const imagePath = `public/${song.background}`;
-
-  return `\\AddToShipoutPictureBG*{
-    \\AtPageUpperLeft{
-      \\raisebox{-\\height}{
-        \\makebox[\\paperwidth][c]{
-          \\includegraphics[
-  width=\\paperwidth
-]{${imagePath}}
-        }
-      }
-    }
-  }`;
-}
-
-function renderCard(song) {
-  if (!song.background) {
-    return "";
-  }
-
-  return `\\AddToShipoutPictureBG*{
-  \\AtPageLowerLeft{
-    \\hspace*{0.07\\paperwidth}
-    \\color{white}
-    \\rule{0.86\\paperwidth}{0.62\\paperheight}
-  }
-}`;
-}
-
 export function renderSongLatex(song) {
   const content = song.blocks
     .map(renderDocumentBlock)
     .filter(Boolean)
     .join("\n\n");
 
-  return `${renderBackground(song)}
-${renderCard(song)}
-
-${song.background ? "\\vspace*{0.30\\paperheight}" : ""}
+  return `${renderPhotoPageStart(song)}
 
 \\section*{${escapeLatex(song.title)}}
 

@@ -4,6 +4,7 @@ import * as yaml from "js-yaml";
 
 import { parseDocument } from "../src/utils/parseDocument.js";
 import { renderSongLatex } from "../src/utils/renderSongLatex.js";
+import { renderStandaloneLatex } from "../src/utils/renderStandaloneLatex.js";
 
 const binderDir = "binder";
 const outputDir = "dist-print";
@@ -80,12 +81,63 @@ if (blocks[0]?.type !== "concordance") {
 const songs = songPaths.map(loadSong);
 
 // -----------------------------------------------------------------------------
+// Load standalone back matter
+// -----------------------------------------------------------------------------
+
+function loadStandalonePage(inputPath) {
+  const markdown = fs.readFileSync(inputPath, "utf8");
+
+  const frontmatterMatch = markdown.match(
+    /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/,
+  );
+
+  if (!frontmatterMatch) {
+    throw new Error(
+      `Missing or invalid frontmatter: ${inputPath}`,
+    );
+  }
+
+  const metadata = yaml.load(frontmatterMatch[1]) ?? {};
+  const body = frontmatterMatch[2];
+
+  // The first level-one heading supplies the standalone page title.
+  const headingMatch = body.match(/^# (.+)$/m);
+
+  if (!headingMatch) {
+    throw new Error(
+      `Missing page title heading: ${inputPath}`,
+    );
+  }
+
+  const title = headingMatch[1].trim();
+
+  // Remove the title heading so it isn't rendered twice.
+  const content = body.replace(/^# .+$(?:\r?\n)?/m, "").trim();
+
+  return {
+    title,
+    background: metadata.background ?? null,
+    body: content,
+  };
+}
+
+const worksCited = loadStandalonePage(
+  path.join(binderDir, "works-cited.md"),
+);
+
+const furtherReading = loadStandalonePage(
+  path.join(binderDir, "further-reading.md"),
+);
+
+// -----------------------------------------------------------------------------
 // Render songbook
 // -----------------------------------------------------------------------------
 
-const renderedSongs = songs
-  .map(renderSongLatex)
-  .join("\n\n\\clearpage\n\n");
+const renderedDocument = [
+  ...songs.map(renderSongLatex),
+  renderStandaloneLatex(worksCited),
+  renderStandaloneLatex(furtherReading),
+].join("\n\n\\clearpage\n\n");
 
 const tex = `\\documentclass[11pt,letterpaper]{article}
 
@@ -105,7 +157,7 @@ const tex = `\\documentclass[11pt,letterpaper]{article}
 
 \\begin{document}
 
-${renderedSongs}
+${renderedDocument}
 
 \\end{document}
 `;
