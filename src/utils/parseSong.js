@@ -40,10 +40,10 @@ export function parseSong(body) {
     throw new Error("Song must begin with Source followed by Target");
   }
 
-const { source, target } = parseConcordance(
-  sections[0].markdown,
-  sections[1].markdown,
-);
+  const { source, target } = parseConcordance(
+    sections[0].markdown,
+    sections[1].markdown,
+  );
 
   const remainder =
     sections.length > 2 ? body.slice(sections[2].start).trim() : "";

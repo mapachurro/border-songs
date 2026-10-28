@@ -1,6 +1,6 @@
 const sectionTypes = {
   commentary: "commentary",
-  "analysis": "commentary",
+  analysis: "commentary",
   notes: "notes",
   "translator's notes": "notes",
   gonzo: "gonzo",

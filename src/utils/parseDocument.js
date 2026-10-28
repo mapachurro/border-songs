@@ -64,40 +64,32 @@ function extractMarkdown(markdown, nodes) {
 function parseConcordanceNode(node, markdown) {
   const headings = node.children
     .map((child, index) => ({ child, index }))
-    .filter(
-      ({ child }) =>
-        child.type === "heading" &&
-        child.depth === 2
-    );
+    .filter(({ child }) => child.type === "heading" && child.depth === 2);
 
   if (
     headings.length !== 2 ||
     headingText(headings[0].child) !== "source" ||
     headingText(headings[1].child) !== "target"
   ) {
-    throw new Error(
-      "Concordance must contain ## Source followed by ## Target"
-    );
+    throw new Error("Concordance must contain ## Source followed by ## Target");
   }
 
   const sourceNodes = node.children.slice(
     headings[0].index + 1,
-    headings[1].index
+    headings[1].index,
   );
 
-  const targetNodes = node.children.slice(
-    headings[1].index + 1
-  );
+  const targetNodes = node.children.slice(headings[1].index + 1);
 
   return {
-  type: "concordance",
-  sourceTitle: node.attributes?.source ?? "Source",
-  targetTitle: node.attributes?.target ?? "Target",
-  ...parseConcordance(
-    extractMarkdown(markdown, sourceNodes),
-    extractMarkdown(markdown, targetNodes),
-  ),
-};
+    type: "concordance",
+    sourceTitle: node.attributes?.source ?? "Source",
+    targetTitle: node.attributes?.target ?? "Target",
+    ...parseConcordance(
+      extractMarkdown(markdown, sourceNodes),
+      extractMarkdown(markdown, targetNodes),
+    ),
+  };
 }
 
 /** @returns {(MarkdownBlock | ConcordanceBlock)[]} */
@@ -122,10 +114,7 @@ function parseBlocks(nodes, markdown) {
   }
 
   for (const node of nodes) {
-    if (
-      node.type === "containerDirective" &&
-      node.name === "concordance"
-    ) {
+    if (node.type === "containerDirective" && node.name === "concordance") {
       flushProse();
       blocks.push(parseConcordanceNode(node, markdown));
     } else {
@@ -156,7 +145,7 @@ export function parseDocument(markdown) {
       continue;
     }
 
-        if (editorialTypes.has(node.name)) {
+    if (editorialTypes.has(node.name)) {
       document.push({
         type: node.name,
         title:
@@ -165,6 +154,6 @@ export function parseDocument(markdown) {
         blocks: parseBlocks(node.children, markdown),
       });
     }
-}
+  }
   return document;
 }
