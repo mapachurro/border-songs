@@ -1,11 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import YouTubeEmbed from "../../components/YouTubeEmbed.astro";
-import Concordance from "../../components/Concordance.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { parseSong } from "../../utils/parseSong.js";
-import { renderMarkdown } from "../../utils/renderMarkdown.js";
-import { siteUrl } from "../../utils/siteUrl.js";
+import DocumentContent from "../../components/DocumentContent.astro";
+import { parseDocument } from "../../utils/parseDocument.js";
 
 export async function getStaticPaths() {
   const songs = await getCollection("songs");
@@ -26,22 +24,20 @@ export async function getStaticPaths() {
 }
 
 const { song } = Astro.props;
-const { source, target, remainder } = parseSong(song.body ?? "");
+const body = song.body ?? "";
 
-const hasTranslation = target.length > 0;
-const pairs = await Promise.all(
-  source.map(async (sourceStanza: string, index: number) => ({
-    source: await renderMarkdown(sourceStanza),
-    target: hasTranslation ? await renderMarkdown(target[index]) : null,
-  })),
-);
+const documentBlocks = parseDocument(body);
 
-const remainderHtml = await renderMarkdown(remainder);
+if (documentBlocks[0]?.type !== "concordance") {
+  throw new Error(`Missing principal concordance: ${song.id}`);
+}
+
+const mainConcordance = documentBlocks[0];
+const editorialBlocks = documentBlocks.slice(1);
+
 const sectionId = song.id.split("/")[0];
 
-const backgroundUrl = song.data.background
-  ? siteUrl(song.data.background)
-  : null;
+import PhotoPageLayout from "../../components/PhotoPageLayout.astro";
 ---
 
 <BaseLayout
@@ -49,34 +45,30 @@ const backgroundUrl = song.data.background
   currentSection={sectionId}
   currentTitle={song.data.title}
 >
-  <div
-    class="song-page"
-    style={
-      backgroundUrl ? `--song-background: url("${backgroundUrl}")` : undefined
-    }
-  >
-    <div class="container py-5">
-      <div class="card mx-auto" style="max-width: 800px;">
-        <div class="card-body">
-          {song.data.title && <h1>{song.data.title}</h1>}
+  <PhotoPageLayout background={song.data.background}>
+    <!-- Song / concordance card -->
+    <article class="card song-main-card">
+      <div class="card-body">
+        {song.data.title && <h1>{song.data.title}</h1>}
 
-          {song.data.authority && (
-            <p>
-              <strong>{song.data.authority}</strong>
-            </p>
-          )}
+        {song.data.authority && (
+          <p>
+            <strong>{song.data.authority}</strong>
+          </p>
+        )}
 
-          {song.data.videoSource && (
-            <YouTubeEmbed
-              url={song.data.videoSource}
-              title={`${song.data.title} video`}
-            />
-          )}
-          <Concordance pairs={pairs} />
+        {song.data.videoSource && (
+          <YouTubeEmbed
+            url={song.data.videoSource}
+            title={`${song.data.title} video`}
+          />
+        )}
 
-          <div class="song-content" set:html={remainderHtml} />
-        </div>
+        <DocumentContent blocks={[mainConcordance]} />
       </div>
-    </div>
-  </div>
+    </article>
+
+    <!-- Independent editorial cards -->
+    <DocumentContent blocks={editorialBlocks} />
+  </PhotoPageLayout>
 </BaseLayout>

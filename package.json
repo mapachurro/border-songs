@@ -1,6 +1,6 @@
 {
   "name": "border-songs",
-  "version": "0.5.3",
+  "version": "0.5.5",
   "description": "Static frontend generator for mapachurro's Border Songs project.",
   "type": "module",
   "scripts": {
@@ -12,7 +12,11 @@
     "deploy": "npm run build && gh-pages -d dist",
     "print:image": "docker build -t border-songs-latex -f docker/latex/Dockerfile .",
     "build:print": "node scripts/build-print.js",
-    "build:all": "npm run build && npm run build:print"
+    "build:print:refresh": "node scripts/build-songbook.js && docker run --rm -v \"$PWD:/work\" border-songs-latex --interaction=nonstopmode --halt-on-error --output-directory=dist-print dist-print/songbook.tex",
+    "build:all": "npm run build && npm run build:print",
+    "clean-slate": "bash ./clean-slate.sh",
+    "docs:sync": "node scripts/update-readme-tracklist.js && doctoc README.md",
+    "report": "node scripts/report-status.js"
   },
   "repository": {
     "type": "git",
@@ -37,7 +41,6 @@
     "@astrojs/check": "^0.9.10",
     "astro": "^7.3.3",
     "doctoc": "^2.2.1",
-    "gh-pages": "^6.3.0",
     "prettier": "^3.9.8",
     "prettier-plugin-astro": "^1.0.1",
     "typescript": "^6.0.3"
@@ -45,8 +48,12 @@
   "dependencies": {
     "js-yaml": "^5.4.2",
     "rehype-stringify": "^10.0.1",
+    "remark-breaks": "^4.0.0",
+    "remark-directive": "^4.0.0",
+    "remark-gfm": "^4.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
+    "remark-stringify": "^11.0.0",
     "unified": "^11.0.5"
   }
 }

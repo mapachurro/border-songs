@@ -2,9 +2,12 @@
 title: Leaving Las Vegas
 authority: Sheryl Crow
 videoSource: https://youtu.be/Xkc-en0_LGY
+background: "images/backgrounds/the-valley-beyond.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Life springs eternal  
 On a gaudy neon street  
@@ -12,15 +15,15 @@ Not that I care at all
 
 I spent the best part of my losing streak  
 In an Army Jeep  
-For what I can't recall  
+For what I can't recall
 
 Oh, I'm bangin' on my TV set  
 And I check the odds  
-And I, and I place my bet  
+And I, and I place my bet
 
 I pour a drink  
 And I pull the blinds  
-I wonder what I'll find  
+I wonder what I'll find
 
 I'm leaving Las Vegas  
 Lights so bright  
@@ -66,7 +69,7 @@ And the things you have to do, oh
 Leaving Las Vegas  
 Lights so bright  
 Palm sweat  
-Blackjack on a Saturday night  
+Blackjack on a Saturday night
 
 Leaving Las Vegas  
 I'm leaving for good  
@@ -79,7 +82,7 @@ Blackjack on a Saturday night
 
 I'm leaving Las Vegas  
 I'm leaving for good  
-I'm leaving for good  
+I'm leaving for good
 
 Oh, I'm leaving Las Vegas  
 Lights so bright  
@@ -89,30 +92,30 @@ Leaving Las Vegas
 And I won't be back  
 No, no  
 No, I won't be back  
-Not this time  
+Not this time
 
-# Target:
+## Target
 
 La vida siempre brota  
 En una calle colorida de neon  
-Ya, que me da igual  
+Ya, que me da igual
 
 Pasé la mayor parte de mi racha perdedora  
 En un jeep militar  
-Para qué, no quiero recordarme  
+Para qué, no quiero recordarme
 
 Ay, ando pegandole al televisor  
 Reviso las probabilidades  
-Y yo, hago mi apuesta  
+Y yo, hago mi apuesta
 
 Me echo un trago  
 Y cierro las persianas  
-Qué será lo que encuentro  
+Qué será lo que encuentro
 
 Adiós a Las Vegas  
 Luces tan brillantes  
 Palmas sudadas  
-Blackjack una noche de sábado  
+Blackjack una noche de sábado
 
 Adiós a Las Vegas  
 Me voy para siempre, para siempre  
@@ -165,19 +168,21 @@ Blackjack una noche de sábado
 
 Me voy da Las Vegas  
 Me voy para siempre  
-Me voy para siempre  
+Me voy para siempre
 
 Ay, adiós a Las Vegas  
 Luces tan brillantes  
-Una noche de sábado  
+Una noche de sábado
 
 Adiós a Las Vegas  
 Y no vuelvo más  
 No, no  
 No, ya no vuelvo más  
-Esta vez no  
+Esta vez no
 
-# Commentary:
+:::
+
+:::analysis
 
 Let's be real. This song was always the point / counterpoint that Hotel California was looking for.
 
@@ -194,17 +199,9 @@ Please note: _all of these things are defined by, or denominated in, money._ If 
 Boiling it down, though:
 On the other: Despite what we may have been taught, and what may _also_ be true, American society is founded on, and depends on, the
 
-# Notes:
+:::
 
-## Translation
-
-The initial version of this will be one rendered on Aug 17, 2026.
-
-However, I had previously rendered a translation of this, while under significant mental health strain and physical illness duress, while standing on a street in Buenos Aires in late November 2025.
-
-Unsurprisingly, the notebook in which I wrote that translation later was badly water damaged; surprisingly, due to leaking weatherstripping in an aging modified VW Beetle.
-
-However, I believe some of that translation survives. I will compare my 2026 rendition with whatever is left of the 2025 rendition; any modifications will be noted, For Science.
+:::notes{title="Translator's notes"}
 
 ### hope springs eternal
 
@@ -306,43 +303,53 @@ complicar, complicado
 
 Is it a fucking line, in Spanish, though? Fuck. That's what this whole book is about. Fuck. Well, fuck.
 
-# Versions:
+:::
 
-v1, Part 1: November 17 or 18, 2025; Buenos Aires, Argentina
+:::gonzo{title="Intralinear subtext"}
 
-E[illegible] de neon
+The initial version (above) of this will be one rendered on Aug 17, 2026.
+
+However, I had previously rendered a translation of this, while under significant mental health strain and physical illness duress, while standing on a street in Buenos Aires in late November 2025.
+
+Unsurprisingly, the notebook in which I wrote that translation later was badly water damaged; surprisingly, due to leaking weatherstripping in an aging modified VW Beetle.
+
+However, I believe some of that translation survives. I will compare my 2026 rendition with whatever is left of the 2025 rendition; any modifications will be noted, For Science.
+
+## v1, Part 1: November 17 or 18, 2025; Buenos Aires, Argentina
+
+E`[illegible]` de neon
 Aunque no me importa nada / aunque me da igual
 Pase lo principal de mi racha perdedora
 En un Jeep army / del ejército
 Para qué ni me acuerdo
 Ahora ando (dando cachetadas) al televisor
-<!-- I'm not entirely sure why I put parentheses here. I think my intention was to highlight a questionable term choice. -->
+_`I'm not entirely sure why I put parentheses here. I think my intention was to highlight a questionable term choice.`_
 
 Y reviso las _probabilidades_
-<!-- And now I appear to be putting questionable terms in asterisks. Which is preferable for digital format tbh. -->
+_`And now I appear to be putting questionable terms in asterisks. I think I may have been hand-writing (with a fountain pen) Markdown syntax.`_
 
 Y registro mi apuesta
 Me echo una copa y les
 les cierro a las persianas
-<!-- I like what I did here: adding the `les` onto the end of the first line in order to echo the way Crow delivers the line in English: `and I / I pull the blinds` -->
+_`I like what I did here: adding the` **-les** `onto the end of the first line in order to echo the way Crow delivers the line in English: 'and I / I pull the blinds'`_
 
 Me pregunto qué vaya a encontrar
 Parto / me voy de / te dejo Las Vegas
 Luces / la luz es tan brillante
 Palmas sudadas, black jack
-<!-- sic -->
+_`sic`_
 
 Una noche de sábado
 Te dejo Las Vegas
-<!--  There is a break in the translation at this point. See note below. -->
+_`There is a break in the translation at this point. See note below.`_
 
-v1, Part 2: November 28th, 2025; Cleveland, OH.
+## v1, Part 2: November 28th, 2025; Cleveland, OH.
 
-<!--The translation continues, in a different, this time indelible, black ink, twelve pages later. There are a few legible dates in the intervening pages, including an entry dated November 28th, 2025. This is headed in blue ball point ink; the first page and a half of the entry is in pencil, and then it switches to a thick black ballpoint ink. A subsequent entry, December 5th, 2025, is written in water-soluble fountain pen ink, and little more than the date is legible. It's two pages later that we find the second half of the translation, also written in the same thick black ballpoint ink. For some reason, I remember looking for a page in this notebook that wasn't a fully blank, two-page fold, but rather already had something on the facing page. I think I was trying to leave larger spans of open pages for longer entries. And because of that, I chose to write the second half of the translation on the left hand page, facing a diagram I had made of the dimensions of the underside of a Singer Model 15 sewing machine. This would lead me to conclude that the second half of this translation, such as it is, was written on November 28th, 2025, or at the very least, between that date and December 5th, by which point I had found my fountain pen again. I hesitate to say more in this forum, but: the lapse of time between the first and second halves of this translation comprises one of the most severe life changes and mental health events of my adult life. I suspect that I came back to this translation in an attempt to cling to something familiar: the act of translation.  -->
+_`The translation continues, in a different, this time indelible, black ink, twelve pages later. There are a few legible dates in the intervening pages, including an entry dated November 28th, 2025. This is headed in blue ball point ink; the first page and a half of the entry is in pencil, and then it switches to a thick black ballpoint ink. A subsequent entry, December 5th, 2025, is written in water-soluble fountain pen ink, and little more than the date is legible. It's two pages later that we find the second half of the translation, also written in the same thick black ballpoint ink. For some reason, I remember looking for a page in this notebook that wasn't a fully blank, two-page fold, but rather already had something on the facing page. I think I was trying to leave larger spans of open pages for longer entries. And because of that, I chose to write the second half of the translation on the left hand page, facing a diagram I had made of the dimensions of the underside of a Singer Model 15 sewing machine. This would lead me to conclude that the second half of this translation, such as it is, was written on November 28th, 2025, or at the very least, between that date and December 5th, by which point I had found my fountain pen again. I hesitate to say more in this forum, but: the lapse of time between the first and second halves of this translation comprises one of the most severe life changes and mental health events of my adult life. I suspect that I came back to this translation in an attempt to cling to something familiar: the act of translation.`_
 
 Antes era que iba a Barstow por una noche
 Me encontraba cualquier camionero autopistero
-<!-- I put an asterisk at the end of this line, and at the bottom of the page: `cross roads`. Clearly I was struggling with this one then, too. -->
+_`I put an asterisk at the end of this line, and at the bottom of the page: 'cross roads'. Clearly I was struggling with this one then, too.`_
 
 Para que me demostrara su valor
 Pero hoy en día es como que
@@ -351,5 +358,13 @@ Así es que hoy de Las Vegas me voy
 (coro)
 Aquí parada en medio del desierto
 Esperando a que llegue mi embarcadero
-<!-- Double asterisk here, and at the bottom of the page: `"my ship to come in"` -->
-<!-- The translation ends here. It's possible that I saw the next line, `no joker, no jack, no king`, became overwhelmed, and gave up. -->
+_`Double asterisk here, and at the bottom of the page: "my ship to come in"`_
+_`The translation ends here. It's possible that I saw the next line, "no joker, no jack, no king", became overwhelmed, and gave up.`_
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+- Something about human trafficking?
+
+:::

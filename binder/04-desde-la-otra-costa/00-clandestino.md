@@ -5,16 +5,20 @@ videoSource: "https://www.youtube.com/watch?v=7AzimrAgWbA"
 background: "images/backgrounds/vista-del-conde-don-julian.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Solo, voy con mi pena  
-Sola, va mi condena  
+Sola, va mi condena
+<!-- Solaba mi condena? -->
+
 Correr es mi destino  
 Para burlar la ley
 
 Perdido en el corazón  
 De la grande Babylon  
-Me dicen: El Clandestino  
+Me dicen El Clandestino  
 Por no llevar papel
 
 Pa' una ciudad del norte  
@@ -34,8 +38,8 @@ Por no llevar papel
 
 Perdido en el corazón  
 De la grande Babylon  
-Me dicen: El Clandestino  
-Yo soy el quiebra ley
+Me dicen El Clandestino  
+Yo soy el quebraley
 
 Mano Negra, clandestino (clandestino)  
 Peruano, clandestino (clandestino)  
@@ -57,10 +61,28 @@ Nigeriano, clandestino (clandestino)
 Boliviano, clandestino (clandestino)  
 Mano Negra, ilegal
 
-# Target:
+## Target
 
-# Commentary:
+:::
 
-# Notes:
+:::analysis
 
-# Versions:
+:::
+
+:::notes{title="Translator's notes"}
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+Asylum clock - work authorization
+
+Comparative asylum law - Proceso de arraigo social
+
+:::
+
+:::photo{title="Photo credits"}
+
+2011-2012, Oliver Renwick. The port of Ceuta and the Rock of Gibraltar to the north.
+
+:::

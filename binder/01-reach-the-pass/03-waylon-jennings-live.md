@@ -2,9 +2,12 @@
 title: "Waylon Jennings Live!"
 authority: "John Darnielle; The Mountain Goats"
 videoSource: "https://www.youtube.com/watch?v=9o3WZK4QDA4"
+background: "images/backgrounds/bar-raval.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Drunk at the Meskwaki casino  
 Right where God intended me to be  
@@ -36,7 +39,7 @@ Full of passports
 And international money orders  
 For just in case I make it cross the border
 
-# Target:
+## Target
 
 Ando ebrio en el casino Meskwaki  
 Justo donde Dios me mandó a parar  
@@ -68,8 +71,29 @@ Lleno de pasaportes
 y giros postales internacionales  
 Para por si acaso logro a pasar la frontera
 
-# Commentary:
+:::
 
-# Notes:
+:::analysis
 
-# Versions:
+:::
+
+:::notes{title="Translator's notes"}
+
+:::
+
+:::commentary{title="Versions"}
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+- Checkpoints: Corpus Christi?
+- What's that damn rule about how far into the US you have to be before you're in the US?
+
+:::
+
+:::photo{title="Photo credits"}
+
+2022, Oliver Renwick. A very gay bar on a very rowdy street, early days post-COVID lockdown in the Raval, Barcelona.
+
+:::

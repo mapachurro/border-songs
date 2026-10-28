@@ -1,10 +1,12 @@
 ---
 title: "Crossing the bar"
 authority: "Alfred, Lord Tennyson"
-background: "images/backgrounds/erie-bar.jpg"
+background: "images/backgrounds/rabat-bar.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Sunset and evening star,  
 And one clear call for me!  
@@ -26,7 +28,7 @@ The flood may bear me far,
 I hope to see my Pilot face to face  
 When I have crost the bar.
 
-# Target:
+## Target
 
 Ocaso y estrella tardía,  
 Y un son claro para mí!  
@@ -48,7 +50,13 @@ El diluvio me llevará lejos,
 Espero verle a mi Piloto cara a cara  
 Una vez que cruce yo la barra.
 
-# Commentary:
+:::
+
+:::analysis
+
+:::
+
+:::notes{title="Translator's notes"}
 
 ## Connotations
 
@@ -63,6 +71,12 @@ for tho -
 bourne - This is differance. We've got bourn (https://www.etymonline.com/word/bourn), which is a stream or river, and bourne (second definition), which has an alternate etymology (!) and refers to a _limit_. Going with `orilla` for the time being.
 the flood - Biblical echoes without explicit reference, matching with `diluvio`
 
-# Notes:
+:::
 
-# Versions:
+:::commentary{title="Versions"}
+
+:::
+
+:::photo{title="Photo credits"}
+
+:::

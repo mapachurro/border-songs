@@ -1,0 +1,110 @@
+---
+import Concordance from "./Concordance.astro";
+import { renderMarkdown } from "../utils/renderMarkdown.js";
+
+interface MarkdownBlock {
+  type: "markdown";
+  content: string;
+}
+
+interface ConcordanceBlock {
+  type: "concordance";
+  source: string[];
+  target: string[];
+  sourceTitle?: string;
+  targetTitle?: string;
+}
+
+interface EditorialBlock {
+  type:
+    "analysis" | "commentary" | "notes" | "gonzo" | "findings" | "photo";
+  title: string;
+  blocks: (MarkdownBlock | ConcordanceBlock)[];
+}
+
+type DocumentBlock = MarkdownBlock | ConcordanceBlock | EditorialBlock;
+
+interface Props {
+  blocks: DocumentBlock[];
+}
+
+const { blocks } = Astro.props;
+
+async function prepareBlock(block: MarkdownBlock | ConcordanceBlock) {
+  if (block.type === "markdown") {
+    return {
+      type: "markdown" as const,
+      html: await renderMarkdown(block.content),
+    };
+  }
+
+  return {
+    type: "concordance" as const,
+    sourceTitle: block.sourceTitle ?? "Source",
+    targetTitle: block.targetTitle ?? "Target",
+    pairs: await Promise.all(
+      block.source.map(async (source, index) => ({
+        source: await renderMarkdown(source),
+        target:
+          block.target[index] !== undefined
+            ? await renderMarkdown(block.target[index])
+            : null,
+      })),
+    ),
+  };
+}
+
+const preparedBlocks = await Promise.all(
+  blocks.map(async (block) => {
+    if (block.type === "concordance" || block.type === "markdown") {
+      return prepareBlock(block);
+    }
+
+    return {
+      type: "editorial" as const,
+      sectionType: block.type === "analysis" ? "commentary" : block.type,
+      title: block.title,
+      blocks: await Promise.all(block.blocks.map(prepareBlock)),
+    };
+  }),
+);
+---
+
+{preparedBlocks.map((block) => {
+  if (block.type === "concordance") {
+    return (
+      <Concordance
+        pairs={block.pairs}
+        sourceTitle={block.sourceTitle}
+        targetTitle={block.targetTitle}
+      />
+    );
+  }
+
+  if (block.type === "markdown") {
+    return <div class="document-prose" set:html={block.html} />;
+  }
+
+  return (
+    <section
+      class={`text-section text-section--${block.sectionType}`}
+      aria-label={block.title}
+    >
+      <div class="text-section__label">{block.title}</div>
+
+      <div class="text-section__body">
+        {block.blocks.map((child) =>
+          child.type === "concordance" ? (
+            <Concordance
+              pairs={child.pairs}
+              sourceTitle={child.sourceTitle}
+              targetTitle={child.targetTitle}
+            />
+          ) : (
+            <div class="document-prose" set:html={child.html} />
+          ),
+        )}
+      </div>
+    </section>
+  );
+})}

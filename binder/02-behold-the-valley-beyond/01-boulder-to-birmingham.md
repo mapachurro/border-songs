@@ -2,9 +2,12 @@
 title: "Boulder to Birmingham"
 authority: "Bill Danoff, Emmylou Harris"
 videoSource: "https://www.youtube.com/watch?v=JjLx7ESHRcA"
+background: "images/backgrounds/desfile.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 I don't want to hear a love song  
 I got on this airplane just to fly  
@@ -40,7 +43,7 @@ I would walk all the way from Boulder to Birmingham
 If I thought I could see, I could see your face  
 If I thought I could see, I could see your face
 
-# Target:
+## Target
 
 No quiero canciones al amor  
 Subí a este avión solo para volar  
@@ -76,8 +79,18 @@ Andaba todo el camino desde Boulder a Birmingham
 Si creía que pudiese ver, pudiese ver tu cara  
 Si creía que pudiese ver, pudiese ver tu cara
 
-# Commentary:
+:::
 
-# Notes:
+:::analysis
 
-# Versions:
+:::
+
+:::notes{title="Translator's notes"}
+
+This was among the first half-dozen songs I translated for this project. I did it in a single shot. By the time I was done, I was shaking with emotion and tears. I committed the text and closed my laptop.
+
+:::
+
+:::commentary{title="Versions"}
+
+:::

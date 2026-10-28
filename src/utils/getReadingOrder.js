@@ -40,5 +40,15 @@ export function getReadingOrder(sections, songs) {
     }
   }
 
+  pages.push(
+    {
+      title: "Works Cited",
+      href: siteUrl("works-cited/"),
+    },
+    {
+      title: "Bibliography / Further Reading",
+      href: siteUrl("further-reading/"),
+    },
+  );
   return pages;
 }

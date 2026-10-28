@@ -2,9 +2,12 @@
 title: "Just a Season"
 authority: "Roger McGuinn, Jacques Levy"
 videoSource: "https://www.youtube.com/watch?v=7CekMoTerEM"
+background: "images/backgrounds/tren-castillo.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 If all my days was hills to climb and circles without reason  
 If all I was was passing time, my life was just a season
@@ -32,10 +35,22 @@ It really wasn't hard to be a star
 If all my days was hills to climb and circles without reason  
 If all I was was passing time my life was just a season
 
-# Target:
+## Target
 
-# Commentary:
+:::
 
-# Notes:
+:::analysis
 
-# Versions:
+In case the `border` isn't immediately clear: This is a song of experience. `climbing hills` = crossing borders. Overcoming obstacles. Looking back at _all the places you've left behind_ on the train, all the people you've left behind, the _life_ you've left behind; all the `re`+`lat`+ionships you broke, and coming to some sort of terms with it.
+
+:::
+
+:::notes{title="Translator's notes"}
+
+:::
+
+:::photo{title="Photo credits"}
+
+2015, Oliver Renwick. On a train, Milan - Martigny.
+
+:::

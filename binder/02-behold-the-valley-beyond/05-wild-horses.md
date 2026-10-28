@@ -2,9 +2,12 @@
 title: "Wild Horses"
 authority: "Gram Parsons, Keith Richards, Mick Jagger; The Rolling Stones"
 videoSource: "https://www.youtube.com/watch?v=nV5ncVn15y0"
+background: "images/backgrounds/twister.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 Childhood living  
 is easy to do  
@@ -53,10 +56,18 @@ couldn't drag me away
 Wild, wild horses  
 we'll ride them some day
 
-# Target:
+## Target
 
-# Commentary:
+:::
 
-# Notes:
+:::analysis
 
-# Versions:
+:::
+
+:::notes{title="Translator's notes"}
+
+:::
+
+:::commentary{title="Versions"}
+
+:::

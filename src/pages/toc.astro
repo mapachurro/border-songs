@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import PhotoPageLayout from "../components/PhotoPageLayout.astro";
 import { siteUrl } from "../utils/siteUrl.js";
 
 const sections = (await getCollection("sections")).sort(
@@ -19,43 +20,43 @@ function trackNumber(songId: string) {
   const filename = songId.split("/").pop();
   return filename?.match(/^(\d+)/)?.[1] ?? "";
 }
+
+const background = "images/backgrounds/a-tokio.jpg";
 ---
 
 <BaseLayout title="Table of Contents">
-  <div class="container py-5">
-    <div class="row justify-content-center">
-      <div class="card mx-auto" style="max-width: 800px;">
-        <div class="card-body">
-          <h1 class="text-center mb-4">Table of Contents</h1>
+  <PhotoPageLayout background={background}>
+    <article class="book-card book-card--toc">
+      <h1 class="text-center mb-4">Table of Contents</h1>
 
-          {sections.map((section) => {
-            const sectionId = section.id.split("/")[0];
-            const sectionSongs = songsForSection(sectionId);
+      <div class="toc-sections">
+        {sections.map((section) => {
+          const sectionId = section.id.split("/")[0];
+          const sectionSongs = songsForSection(sectionId);
 
-            return (
-              <details>
-                <summary>
-                  <strong>
-                    <a href={siteUrl(`${sectionId}/`)}>{section.data.title}</a>
-                  </strong>
-                </summary>
+          return (
+            <details>
+              <summary>
+                <strong>
+                  <a href={siteUrl(`${sectionId}/`)}>{section.data.title}</a>
+                </strong>
+              </summary>
 
-                <div class="mt-3">
-                  {sectionSongs.map((song) => (
-                    <p>
-                      <a href={siteUrl(`${song.id}/`)}>
-                        {trackNumber(song.id)} - {song.data.title}
-                      </a>
+              <div class="mt-3">
+                {sectionSongs.map((song) => (
+                  <p>
+                    <a href={siteUrl(`${song.id}/`)}>
+                      {trackNumber(song.id)} - {song.data.title}
+                    </a>
 
-                      {song.data.authority && <> - {song.data.authority}</>}
-                    </p>
-                  ))}
-                </div>
-              </details>
-            );
-          })}
-        </div>
+                    {song.data.authority && <> - {song.data.authority}</>}
+                  </p>
+                ))}
+              </div>
+            </details>
+          );
+        })}
       </div>
-    </div>
-  </div>
+    </article>
+  </PhotoPageLayout>
 </BaseLayout>

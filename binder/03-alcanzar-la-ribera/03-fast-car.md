@@ -2,9 +2,12 @@
 title: "Fast Car"
 authority: "Tracy Chapman"
 videoSource: "https://www.youtube.com/watch?v=AIOAlaACuv4"
+background: "images/backgrounds/cle-port.jpg"
 ---
 
-# Source
+:::concordance
+
+## Source
 
 You got a fast car  
 I want a ticket to anywhere  
@@ -82,7 +85,7 @@ Is it fast enough so you can fly away?
 You gotta make a decision  
 Leave tonight or live and die this way
 
-# Target
+## Target
 
 Tú tienes un carro recio  
 Yo quiero un boleto a donde sea  
@@ -160,7 +163,22 @@ Tú tienes un carro recio
 Tienes que tomarte la decisión  
 Vete esta noche o vives y mueres así
 
-# Commentary
+:::
+
+:::analysis
+
+`TODO`
+
+- Rabat
+- Borderlands
+- Catalunya
+- Cleveland
+
+`TODO`: Actual `versions` section, but it has to be directly addressed in the analysis.
+
+:::
+
+:::notes{title="Translator's notes"}
 
 At a certain point in this translation, I stopped thinking about it -- because this translation has been living rent-free in my head for _years_. I knew the words in Spanish before having to think about it, once I got to the chorus.
 
@@ -213,3 +231,15 @@ las colonias, cabrón.
 - the border issue
 - the change of the last chorus: 'you' is elided / dropped
 - is the subject implicit? I don't think it is; I think he explicitly states subject in earlier instances of the key phrase
+
+:::
+
+:::findings{title="Findings of fact and conclusions of law"}
+
+:::
+
+:::photo{title="Photo credits"}
+
+Oliver Renwick, 2016-2026. A view literally across _that_ border and into _those_ suburbs.
+
+:::

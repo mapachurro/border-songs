@@ -2,9 +2,12 @@
 title: "Mama dame cien pesetas"
 authority: "Raffaella Carra"
 videoSource: "https://www.youtube.com/watch?v=OwNRZlQ1cKc"
+background: "images/backgrounds/barsa-port.jpg"
 ---
 
-# Source
+:::concordance
+
+## Source
 
 Este pueblo no tiene ni esperanzas ni ambición  
 Por aquí nunca pasan la alegría ni el amor  
@@ -47,10 +50,24 @@ Pero no sé si un día volveré
 
 (coro se repite)
 
-# Target
+## Target
 
-# Commentary
+:::
 
-# Notes
+:::analysis
 
-# Versions
+This is fascist bread and circus propaganda pop music, to be clear.
+
+:::
+
+:::notes{title="Translator's notes"}
+
+Note that the [Wikipedia article](<https://en.wikipedia.org/wiki/Raffaella_Carr%C3%A0_(1981_album)>) mentions alternate, localized versions: **Mama dame 100 pesitos** in LatAm, perhaps 100 lire in... Portugal? Did they use lire in Portugal? wtf
+
+:::
+
+:::commentary{title="Versions"}
+
+Perhaps address all the versions that Carra herself made.
+
+:::

@@ -5,7 +5,9 @@ videoSource: "https://www.youtube.com/watch?v=dRbb4KwpwbU"
 background: "images/backgrounds/ris-orangis-wall.jpg"
 ---
 
-# Source:
+:::concordance
+
+## Source
 
 I can still remember  
 Every song you played  
@@ -85,7 +87,7 @@ I'll fly away
 I'll fly away  
 Oh, oh
 
-# Target:
+## Target
 
 Todavía recuerdo  
 Cada canción que tú tocaste  
@@ -165,9 +167,13 @@ De aqui vuelo
 De aqui vuelo  
 De aqui vuelo
 
-# Commentary:
+:::
 
-# Notes:
+:::analysis
+
+:::
+
+:::notes{title="Translator's notes"}
 
 This piece is heavily intertextual in several dimensions.
 
@@ -188,4 +194,4 @@ So: Getting the translation of this _right_, in addition to Emmy Lou's difficult
 
 *Carta / Chart
 
-# Versions:
+:::
