@@ -79,6 +79,9 @@ And they all led me straight back home to you
 
 
 :::notes{title="Translator's notes"}
+
+This may be the single most difficult piece to translate in this entire book.
+
 ## Terminology
 
 ### scratch my itch
@@ -131,4 +134,10 @@ Road sign on I-10 west: `Desert Cities`
 
 ### led ... straight back home
 This is a phrasal verb. English is capable of creating directional verb actions with embedded noun information that, I don't know if it's *unique* to English, but it is *uniquely English*, so to speak. Good opportunity to dive into that.
+:::
+
+:::photo{title="Photo"}
+
+Oliver Renwick, 2016-2026. I-71N, somewhere around Sunbury, OH. IIRC.
+
 :::
