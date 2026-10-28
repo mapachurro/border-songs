@@ -72,7 +72,16 @@ It's literally the story of a geographical cure. If Side 1 is the songs of optim
 
 ...and rolls back
 
-This is the story of `the ocean that fills your veins and each time leaves the high tide mark higher and higher` (that's trainspotting, for the record)
+This is the story of `the ocean that fills your veins and each time leaves the high tide mark higher and higher`
+
+```
+Ah'm just lettin it wash all over me, or wash through me ... clean me oot fae the inside.
+This internal sea. The problem is that this beautiful ocean carries with it loads ay
+poisonous flotsam and jetsam . . . that poison is diluted by the sea, but once the ocean rolls out, it
+leaves the shite behind, inside ma body. It takes as well as gives, it washes away ma endorphins, ma
+pain resistance centres; they take a long time tae come back. 
+```
+-Trainspotting, Irvine Welsh
 
 It's the story of the cost of crossing the line
 
