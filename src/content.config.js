@@ -5,13 +5,7 @@ import { z } from "astro/zod";
 const songs = defineCollection({
   loader: glob({
     base: "./binder",
-    pattern: [
-      "**/*.md",
-      "!**/introduction.md",
-      "!**/track-list*.md",
-      "!introduction.md",
-      "!title-page.md",
-    ],
+    pattern: "[0-9][0-9]-*/[0-9][0-9]-*.md",
   }),
   schema: z.object({
     title: z.string().optional(),

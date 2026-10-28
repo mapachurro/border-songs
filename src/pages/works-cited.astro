@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PhotoPageLayout from "../components/PhotoPageLayout.astro";
+import { frontmatter, rawContent } from "../../binder/works-cited.md";
+
+import { parseTextSections } from "../utils/parseTextSections.js";
+import { renderMarkdown } from "../utils/renderMarkdown.js";
+
+const background = frontmatter?.background ?? null;
+
+const textSections = await Promise.all(
+  parseTextSections(rawContent()).map(async (section) => ({
+    ...section,
+    html: await renderMarkdown(section.body),
+  })),
+);
+---
+
+<BaseLayout title="Works Cited">
+  <PhotoPageLayout background={background}>
+    {textSections.map((section) => (
+      <section
+        class={`text-section text-section--${section.type}`}
+        aria-label={section.title}
+      >
+        <div class="text-section__label">{section.title}</div>
+        <div class="text-section__body" set:html={section.html} />
+      </section>
+    ))}
+  </PhotoPageLayout>
+</BaseLayout>
