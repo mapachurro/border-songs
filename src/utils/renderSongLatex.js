@@ -69,10 +69,7 @@ ${content}
 function renderMarkdown(markdown) {
   const tree = markdownParser.parse(markdown);
 
-  return tree.children
-    .map(renderBlock)
-    .filter(Boolean)
-    .join("\n\n\\par\n\n");
+  return tree.children.map(renderBlock).filter(Boolean).join("\n\n\\par\n\n");
 }
 
 export function renderPair(pair) {
