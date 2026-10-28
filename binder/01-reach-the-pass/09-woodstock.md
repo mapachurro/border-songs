@@ -5,6 +5,8 @@ videoSource: "https://youtu.be/4lx86B6a3kc"
 background: ""
 ---
 
+:::concordance
+
 ## Source
 
 I came upon a child of God
@@ -50,6 +52,8 @@ And we've got to get ourselves
 back to the garden
 
 ## Target
+
+:::
 
 :::analysis
 
