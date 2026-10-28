@@ -15,3 +15,6 @@ https://www.scribd.com/document/862179885/Ubc-2020-May-Danner-Alexis-pdf
 ### Irvine Welsh - High Society - Simon Reynolds
 
 https://www.enotes.com/topics/irvine-welsh/criticism/criticism/simon-reynolds-review-date-summer-1996
+
+### Sandinista! - Micajah Henley
+- pdf in /sources/private
