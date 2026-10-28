@@ -54,6 +54,30 @@ Una vez que cruce yo la barra.
 
 :::analysis
 
+It's about crossing a line that can't be uncrossed.
+
+`Ten long years in a straight line / They fall like water / Yes I guess I fucked up again`
+
+(...)
+
+`I won't try to shake away this disease`
+
+(...)
+
+`Swim out past the breakers / Watch the world die`
+
+Pennsylvania > California
+
+It's literally the story of a geographical cure. If Side 1 is the songs of optimism, and Side 2 is about what happens when the wave finally breaks...
+
+...and rolls back
+
+This is the story of `the ocean that fills your veins and each time leaves the high tide mark higher and higher` (that's trainspotting, for the record)
+
+It's the story of the cost of crossing the line
+
+`I woke up in the street crawling with my strawberry burns`
+
 :::
 
 :::notes{title="Translator's notes"}
