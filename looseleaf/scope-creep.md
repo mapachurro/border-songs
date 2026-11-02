@@ -76,3 +76,5 @@ These are songs about risk; about gambling; about failure and **rags-to-riches d
 - Friend of the Devil - Robert Hunter
 - Half Light II (No Celebration) - The Arcade Fire
   - Lemme explain: `Now that San Francisco's gone / I guess I'll just pack it in / ... / When we watched the markets crash / The promises we made were torn / ... / Some people say / We've already lost / But they're afraid to pay the cost / For all we've lost / ...`
+- Arguably, Jack Straw (?)
+- there's one other from Europe 72 that I keep trying to remember and can't

@@ -62,7 +62,7 @@ maybe a thing about country conditions reports, how they do not reflect the real
 
 Ixchiguan. Poppy fields.
 
-### Side 3: You came in, and it's a problem.
+### Side 3: You came in, and that's a problem.
 
 #### Malaguena salerosa
 Probably 212a6Ci, fraud or material misrepresentation (fraudulent K-1 visa)
