@@ -78,3 +78,5 @@ These are songs about risk; about gambling; about failure and **rags-to-riches d
   - Lemme explain: `Now that San Francisco's gone / I guess I'll just pack it in / ... / When we watched the markets crash / The promises we made were torn / ... / Some people say / We've already lost / But they're afraid to pay the cost / For all we've lost / ...`
 - Arguably, Jack Straw (?)
 - there's one other from Europe 72 that I keep trying to remember and can't
+- Don't Stop Believing, by Journey:
+  - `Some will win / some will lose / some were born to sing the blues / But the movie never ends, it goes on and on and on and on...`
