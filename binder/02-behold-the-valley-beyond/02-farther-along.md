@@ -42,6 +42,12 @@ Counterargument, October 2026: This is a song of the limit... of our knowledge. 
 
 Therefore -- it should be on Side 1, not Side 2?
 
+Counterargument:
+
+This song is about *after* things have happened. It's about how we've seen good things happen to bad people, and we're confused by it.
+
+This song is fucking problematic.
+
 :::
 
 :::notes{title="Translator's notes"}
