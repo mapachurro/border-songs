@@ -107,12 +107,10 @@ Viva, viva Las Vegas
 
 :::analysis
 
+Probably should address it sooner rather than later: The Casino State
+
 :::
 
 :::notes{title="Translator's notes"}
-
-:::
-
-:::commentary{title="Versions"}
 
 :::
